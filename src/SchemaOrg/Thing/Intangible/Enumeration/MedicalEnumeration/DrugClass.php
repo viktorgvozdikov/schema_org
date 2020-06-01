@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\Enumeration\MedicalEnumeration;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\MedicalEnumeration\TDrugClass;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MedicalEnumeration\TDrugClass;
 
 class DrugClass extends Thing{
 	use TDrugClass;

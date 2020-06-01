@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\CreativeWork;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TCourse;
+use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TCourse;
 
 class Course extends Thing{
 	use TCourse;

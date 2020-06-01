@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Action\AssessAction\ReactAction;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Action\AssessAction\ReactAction\TDisagreeAction;
+use ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction\ReactAction\TDisagreeAction;
 
 class DisagreeAction extends Thing{
 	use TDisagreeAction;

@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\CreativeWork\WebPageElement;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\WebPageElement\TTable;
+use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\WebPageElement\TTable;
 
 class Table extends Thing{
 	use TTable;

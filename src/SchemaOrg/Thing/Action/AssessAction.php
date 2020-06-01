@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Action;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Action\TAssessAction;
+use ModuleBZ\SchemaOrg\Traits\Thing\Action\TAssessAction;
 
 class AssessAction extends Thing{
 	use TAssessAction;

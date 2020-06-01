@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\TMedicalEntity;
+use ModuleBZ\SchemaOrg\Traits\Thing\TMedicalEntity;
 
 class MedicalEntity extends Thing{
 	use TMedicalEntity;

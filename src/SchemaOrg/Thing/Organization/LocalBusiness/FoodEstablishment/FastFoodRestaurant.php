@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\FoodEstablishment\TFastFoodRestaurant;
+use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\FoodEstablishment\TFastFoodRestaurant;
 
 class FastFoodRestaurant extends Thing{
 	use TFastFoodRestaurant;

@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\CreativeWork\Review;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\Review\TRecommendation;
+use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Review\TRecommendation;
 
 class Recommendation extends Thing{
 	use TRecommendation;

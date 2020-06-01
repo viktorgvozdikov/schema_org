@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TGrant;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TGrant;
 
 class Grant extends Thing{
 	use TGrant;

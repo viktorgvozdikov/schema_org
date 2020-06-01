@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Action;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Action\TUpdateAction;
+use ModuleBZ\SchemaOrg\Traits\Thing\Action\TUpdateAction;
 
 class UpdateAction extends Thing{
 	use TUpdateAction;

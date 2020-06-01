@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\StructuredValue;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TQuantitativeValue;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\StructuredValue\TQuantitativeValue;
 
 class QuantitativeValue extends Thing{
 	use TQuantitativeValue;

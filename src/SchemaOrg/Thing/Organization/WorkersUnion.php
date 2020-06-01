@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Organization;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Organization\TWorkersUnion;
+use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TWorkersUnion;
 
 class WorkersUnion extends Thing{
 	use TWorkersUnion;

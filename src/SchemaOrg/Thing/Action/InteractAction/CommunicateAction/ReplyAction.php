@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Action\InteractAction\CommunicateAction\TReplyAction;
+use ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction\CommunicateAction\TReplyAction;
 
 class ReplyAction extends Thing{
 	use TReplyAction;

@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\StructuredValue;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TOwnershipInfo;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\StructuredValue\TOwnershipInfo;
 
 class OwnershipInfo extends Thing{
 	use TOwnershipInfo;

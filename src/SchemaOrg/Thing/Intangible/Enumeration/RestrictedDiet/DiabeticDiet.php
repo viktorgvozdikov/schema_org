@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\Enumeration\RestrictedDiet;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\RestrictedDiet\TDiabeticDiet;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\RestrictedDiet\TDiabeticDiet;
 
 class DiabeticDiet extends Thing{
 	use TDiabeticDiet;

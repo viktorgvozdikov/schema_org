@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
+use ModuleBZ\SchemaOrg\Traits\Thing\TIntangible;
 
 class Intangible extends Thing{
 	use TIntangible;

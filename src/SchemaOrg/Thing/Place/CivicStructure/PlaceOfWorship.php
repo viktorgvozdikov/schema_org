@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Place\CivicStructure;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Place\CivicStructure\TPlaceOfWorship;
+use ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure\TPlaceOfWorship;
 
 class PlaceOfWorship extends Thing{
 	use TPlaceOfWorship;

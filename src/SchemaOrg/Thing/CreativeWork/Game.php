@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\CreativeWork;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TGame;
+use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TGame;
 
 class Game extends Thing{
 	use TGame;

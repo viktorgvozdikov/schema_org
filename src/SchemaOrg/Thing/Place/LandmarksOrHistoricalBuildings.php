@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Place;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Place\TLandmarksOrHistoricalBuildings;
+use ModuleBZ\SchemaOrg\Traits\Thing\Place\TLandmarksOrHistoricalBuildings;
 
 class LandmarksOrHistoricalBuildings extends Thing{
 	use TLandmarksOrHistoricalBuildings;

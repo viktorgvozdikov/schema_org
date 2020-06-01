@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\Enumeration\GameServerStatus;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\GameServerStatus\TOnline;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\GameServerStatus\TOnline;
 
 class Online extends Thing{
 	use TOnline;

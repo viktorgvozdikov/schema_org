@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\Enumeration\ContactPointOption;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\ContactPointOption\TTollFree;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\ContactPointOption\TTollFree;
 
 class TollFree extends Thing{
 	use TTollFree;

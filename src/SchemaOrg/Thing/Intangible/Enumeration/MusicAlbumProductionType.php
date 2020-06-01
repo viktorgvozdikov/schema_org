@@ -3,7 +3,7 @@
 namespace ModuleBZ\SchemaOrg\Thing\Intangible\Enumeration;
 
 use ModuleBZ\SchemaOrg\Thing;
-use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicAlbumProductionType;
+use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMusicAlbumProductionType;
 
 class MusicAlbumProductionType extends Thing{
 	use TMusicAlbumProductionType;
