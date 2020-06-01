@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TWebPage;
 trait TCheckoutPage{
 	use TWebPage;
 
-	protected $type = 'CheckoutPage';
 }

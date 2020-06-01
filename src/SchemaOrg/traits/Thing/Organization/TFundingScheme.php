@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TOrganization;
 trait TFundingScheme{
 	use TOrganization;
 
-	protected $type = 'FundingScheme';
 }

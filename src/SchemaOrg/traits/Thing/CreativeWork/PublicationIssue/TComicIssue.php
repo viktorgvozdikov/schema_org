@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TPublicationIssue;
 trait TComicIssue{
 	use TPublicationIssue;
 
-	protected $type = 'ComicIssue';
 }

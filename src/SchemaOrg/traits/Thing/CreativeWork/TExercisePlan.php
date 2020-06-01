@@ -9,5 +9,4 @@ trait TExercisePlan{
 	use TCreativeWork;
 	use TPhysicalActivity;
 
-	protected $type = 'ExercisePlan';
 }

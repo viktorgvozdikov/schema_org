@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TDayOfWeek;
 trait TMonday{
 	use TDayOfWeek;
 
-	protected $type = 'Monday';
 }

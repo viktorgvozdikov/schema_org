@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TPermit{
 	use TIntangible;
 
-	protected $type = 'Permit';
 }

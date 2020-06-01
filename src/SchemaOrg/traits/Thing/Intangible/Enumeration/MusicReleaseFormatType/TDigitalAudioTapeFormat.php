@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicReleaseFormatTy
 trait TDigitalAudioTapeFormat{
 	use TMusicReleaseFormatType;
 
-	protected $type = 'DigitalAudioTapeFormat';
 }

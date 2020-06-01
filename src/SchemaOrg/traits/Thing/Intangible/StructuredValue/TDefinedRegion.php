@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TDefinedRegion{
 	use TStructuredValue;
 
-	protected $type = 'DefinedRegion';
 }

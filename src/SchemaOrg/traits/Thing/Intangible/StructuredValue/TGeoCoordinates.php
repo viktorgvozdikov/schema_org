@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TGeoCoordinates{
 	use TStructuredValue;
 
-	protected $type = 'GeoCoordinates';
 }

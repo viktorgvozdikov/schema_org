@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMedicalEnumeration;
 trait TInfectiousAgentClass{
 	use TMedicalEnumeration;
 
-	protected $type = 'InfectiousAgentClass';
 }

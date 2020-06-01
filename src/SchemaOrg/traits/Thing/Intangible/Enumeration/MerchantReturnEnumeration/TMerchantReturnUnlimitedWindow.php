@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMerchantReturnEnumer
 trait TMerchantReturnUnlimitedWindow{
 	use TMerchantReturnEnumeration;
 
-	protected $type = 'MerchantReturnUnlimitedWindow';
 }

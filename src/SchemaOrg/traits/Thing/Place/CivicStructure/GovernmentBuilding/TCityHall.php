@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\CivicStructure\TGovernmentBuilding;
 trait TCityHall{
 	use TGovernmentBuilding;
 
-	protected $type = 'CityHall';
 }

@@ -9,5 +9,4 @@ trait TMedicalClinic{
 	use TMedicalBusiness;
 	use TMedicalOrganization;
 
-	protected $type = 'MedicalClinic';
 }

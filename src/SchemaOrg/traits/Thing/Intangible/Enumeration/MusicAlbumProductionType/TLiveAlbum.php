@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicAlbumProduction
 trait TLiveAlbum{
 	use TMusicAlbumProductionType;
 
-	protected $type = 'LiveAlbum';
 }

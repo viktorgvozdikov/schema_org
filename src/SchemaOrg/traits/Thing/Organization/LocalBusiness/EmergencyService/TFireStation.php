@@ -9,5 +9,4 @@ trait TFireStation{
 	use TEmergencyService;
 	use TCivicStructure;
 
-	protected $type = 'FireStation';
 }

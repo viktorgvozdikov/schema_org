@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\MedicalCondition\MedicalSignOr
 trait TVitalSign{
 	use TMedicalSign;
 
-	protected $type = 'VitalSign';
 }

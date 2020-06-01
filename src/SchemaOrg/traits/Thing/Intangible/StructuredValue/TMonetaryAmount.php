@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TMonetaryAmount{
 	use TStructuredValue;
 
-	protected $type = 'MonetaryAmount';
 }

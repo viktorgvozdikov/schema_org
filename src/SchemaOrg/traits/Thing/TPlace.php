@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\TThing;
 trait TPlace{
 	use TThing;
 
-	protected $type = 'Place';
 }

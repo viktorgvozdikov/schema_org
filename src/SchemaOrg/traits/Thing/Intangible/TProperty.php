@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TProperty{
 	use TIntangible;
 
-	protected $type = 'Property';
 }

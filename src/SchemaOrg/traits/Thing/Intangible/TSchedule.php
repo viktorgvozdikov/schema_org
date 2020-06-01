@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TSchedule{
 	use TIntangible;
 
-	protected $type = 'Schedule';
 }

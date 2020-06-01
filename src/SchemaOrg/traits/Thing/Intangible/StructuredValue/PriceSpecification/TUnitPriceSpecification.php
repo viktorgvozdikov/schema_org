@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TPriceSpecificati
 trait TUnitPriceSpecification{
 	use TPriceSpecification;
 
-	protected $type = 'UnitPriceSpecification';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TReservationStatusTyp
 trait TReservationPending{
 	use TReservationStatusType;
 
-	protected $type = 'ReservationPending';
 }

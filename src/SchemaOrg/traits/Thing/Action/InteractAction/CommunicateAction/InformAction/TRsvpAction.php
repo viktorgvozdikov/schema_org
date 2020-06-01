@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\InteractAction\CommunicateAction\TInf
 trait TRsvpAction{
 	use TInformAction;
 
-	protected $type = 'RsvpAction';
 }

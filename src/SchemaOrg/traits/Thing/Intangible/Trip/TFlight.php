@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TTrip;
 trait TFlight{
 	use TTrip;
 
-	protected $type = 'Flight';
 }

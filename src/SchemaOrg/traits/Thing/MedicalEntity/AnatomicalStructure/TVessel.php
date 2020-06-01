@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TAnatomicalStructure;
 trait TVessel{
 	use TAnatomicalStructure;
 
-	protected $type = 'Vessel';
 }

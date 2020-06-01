@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TWebPage;
 trait TFAQPage{
 	use TWebPage;
 
-	protected $type = 'FAQPage';
 }

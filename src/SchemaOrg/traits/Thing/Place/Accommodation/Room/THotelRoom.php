@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\Accommodation\TRoom;
 trait THotelRoom{
 	use TRoom;
 
-	protected $type = 'HotelRoom';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TEventStatusType;
 trait TEventRescheduled{
 	use TEventStatusType;
 
-	protected $type = 'EventRescheduled';
 }

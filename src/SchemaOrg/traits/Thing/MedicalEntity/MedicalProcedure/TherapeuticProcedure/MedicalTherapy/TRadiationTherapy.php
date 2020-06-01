@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\MedicalProcedure\TherapeuticPr
 trait TRadiationTherapy{
 	use TMedicalTherapy;
 
-	protected $type = 'RadiationTherapy';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TCreativeWorkSeries;
 trait TPodcastSeries{
 	use TCreativeWorkSeries;
 
-	protected $type = 'PodcastSeries';
 }

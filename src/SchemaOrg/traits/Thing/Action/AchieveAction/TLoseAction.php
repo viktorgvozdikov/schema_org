@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TAchieveAction;
 trait TLoseAction{
 	use TAchieveAction;
 
-	protected $type = 'LoseAction';
 }

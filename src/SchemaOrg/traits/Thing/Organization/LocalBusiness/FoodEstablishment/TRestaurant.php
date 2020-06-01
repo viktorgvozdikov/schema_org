@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TFoodEstablishmen
 trait TRestaurant{
 	use TFoodEstablishment;
 
-	protected $type = 'Restaurant';
 }

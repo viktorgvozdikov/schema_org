@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TOrderStatus;
 trait TOrderPaymentDue{
 	use TOrderStatus;
 
-	protected $type = 'OrderPaymentDue';
 }

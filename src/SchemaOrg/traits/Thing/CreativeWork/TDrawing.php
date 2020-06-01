@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TDrawing{
 	use TCreativeWork;
 
-	protected $type = 'Drawing';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TUpdateAction;
 trait TAddAction{
 	use TUpdateAction;
 
-	protected $type = 'AddAction';
 }

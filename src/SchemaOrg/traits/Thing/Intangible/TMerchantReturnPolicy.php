@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TMerchantReturnPolicy{
 	use TIntangible;
 
-	protected $type = 'MerchantReturnPolicy';
 }

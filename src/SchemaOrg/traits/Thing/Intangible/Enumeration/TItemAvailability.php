@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TItemAvailability{
 	use TEnumeration;
 
-	protected $type = 'ItemAvailability';
 }

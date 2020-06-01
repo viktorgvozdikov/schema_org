@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TQuantity{
 	use TIntangible;
 
-	protected $type = 'Quantity';
 }

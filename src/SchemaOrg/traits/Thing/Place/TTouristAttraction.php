@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TPlace;
 trait TTouristAttraction{
 	use TPlace;
 
-	protected $type = 'TouristAttraction';
 }

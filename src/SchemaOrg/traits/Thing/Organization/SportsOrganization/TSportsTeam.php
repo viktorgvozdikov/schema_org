@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TSportsOrganization;
 trait TSportsTeam{
 	use TSportsOrganization;
 
-	protected $type = 'SportsTeam';
 }

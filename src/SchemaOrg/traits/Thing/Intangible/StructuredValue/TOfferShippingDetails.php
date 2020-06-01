@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TOfferShippingDetails{
 	use TStructuredValue;
 
-	protected $type = 'OfferShippingDetails';
 }

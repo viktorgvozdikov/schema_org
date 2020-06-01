@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TAssessAction;
 trait TChooseAction{
 	use TAssessAction;
 
-	protected $type = 'ChooseAction';
 }

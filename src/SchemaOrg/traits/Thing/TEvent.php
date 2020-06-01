@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\TThing;
 trait TEvent{
 	use TThing;
 
-	protected $type = 'Event';
 }

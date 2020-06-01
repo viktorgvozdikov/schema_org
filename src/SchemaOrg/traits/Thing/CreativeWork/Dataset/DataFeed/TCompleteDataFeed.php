@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\Dataset\TDataFeed;
 trait TCompleteDataFeed{
 	use TDataFeed;
 
-	protected $type = 'CompleteDataFeed';
 }

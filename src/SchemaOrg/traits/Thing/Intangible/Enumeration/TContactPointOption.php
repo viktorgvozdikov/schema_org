@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TContactPointOption{
 	use TEnumeration;
 
-	protected $type = 'ContactPointOption';
 }

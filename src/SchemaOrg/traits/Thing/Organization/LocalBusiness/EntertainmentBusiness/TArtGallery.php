@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TEntertainmentBus
 trait TArtGallery{
 	use TEntertainmentBusiness;
 
-	protected $type = 'ArtGallery';
 }

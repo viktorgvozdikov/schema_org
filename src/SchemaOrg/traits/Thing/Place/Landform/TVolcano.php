@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TLandform;
 trait TVolcano{
 	use TLandform;
 
-	protected $type = 'Volcano';
 }

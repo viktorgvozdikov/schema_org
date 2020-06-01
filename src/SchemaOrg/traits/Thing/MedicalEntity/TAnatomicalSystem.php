@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TMedicalEntity;
 trait TAnatomicalSystem{
 	use TMedicalEntity;
 
-	protected $type = 'AnatomicalSystem';
 }

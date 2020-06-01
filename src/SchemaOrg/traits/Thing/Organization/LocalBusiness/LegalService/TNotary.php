@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TLegalService;
 trait TNotary{
 	use TLegalService;
 
-	protected $type = 'Notary';
 }

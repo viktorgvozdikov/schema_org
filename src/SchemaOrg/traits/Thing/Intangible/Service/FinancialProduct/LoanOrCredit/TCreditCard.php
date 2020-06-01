@@ -9,5 +9,4 @@ trait TCreditCard{
 	use TPaymentCard;
 	use TLoanOrCredit;
 
-	protected $type = 'CreditCard';
 }

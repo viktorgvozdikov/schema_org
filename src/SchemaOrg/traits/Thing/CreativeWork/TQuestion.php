@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TQuestion{
 	use TCreativeWork;
 
-	protected $type = 'Question';
 }

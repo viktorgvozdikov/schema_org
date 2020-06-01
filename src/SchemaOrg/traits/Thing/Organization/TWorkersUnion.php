@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TOrganization;
 trait TWorkersUnion{
 	use TOrganization;
 
-	protected $type = 'WorkersUnion';
 }

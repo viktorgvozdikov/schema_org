@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TWebPageElement;
 trait TWPFooter{
 	use TWebPageElement;
 
-	protected $type = 'WPFooter';
 }

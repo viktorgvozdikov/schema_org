@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\OrganizeAction\TPlanAction;
 trait TReserveAction{
 	use TPlanAction;
 
-	protected $type = 'ReserveAction';
 }

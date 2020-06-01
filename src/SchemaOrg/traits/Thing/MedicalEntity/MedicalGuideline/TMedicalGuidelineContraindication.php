@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TMedicalGuideline;
 trait TMedicalGuidelineContraindication{
 	use TMedicalGuideline;
 
-	protected $type = 'MedicalGuidelineContraindication';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TPaymentStatusType;
 trait TPaymentDue{
 	use TPaymentStatusType;
 
-	protected $type = 'PaymentDue';
 }

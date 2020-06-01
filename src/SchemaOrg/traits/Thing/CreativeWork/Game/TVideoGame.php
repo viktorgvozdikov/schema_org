@@ -9,5 +9,4 @@ trait TVideoGame{
 	use TGame;
 	use TSoftwareApplication;
 
-	protected $type = 'VideoGame';
 }

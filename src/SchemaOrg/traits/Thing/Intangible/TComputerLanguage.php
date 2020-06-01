@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TComputerLanguage{
 	use TIntangible;
 
-	protected $type = 'ComputerLanguage';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TOrganization;
 trait TNewsMediaOrganization{
 	use TOrganization;
 
-	protected $type = 'NewsMediaOrganization';
 }

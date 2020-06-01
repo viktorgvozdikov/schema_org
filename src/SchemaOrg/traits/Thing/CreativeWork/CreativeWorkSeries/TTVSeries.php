@@ -9,5 +9,4 @@ trait TTVSeries{
 	use TCreativeWorkSeries;
 	use TCreativeWork;
 
-	protected $type = 'TVSeries';
 }

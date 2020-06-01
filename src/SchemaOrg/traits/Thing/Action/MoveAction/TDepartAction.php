@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TMoveAction;
 trait TDepartAction{
 	use TMoveAction;
 
-	protected $type = 'DepartAction';
 }

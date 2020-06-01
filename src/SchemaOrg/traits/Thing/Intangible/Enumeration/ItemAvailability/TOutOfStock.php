@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TItemAvailability;
 trait TOutOfStock{
 	use TItemAvailability;
 
-	protected $type = 'OutOfStock';
 }

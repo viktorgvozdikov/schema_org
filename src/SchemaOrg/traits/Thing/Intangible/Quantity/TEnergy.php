@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TQuantity;
 trait TEnergy{
 	use TQuantity;
 
-	protected $type = 'Energy';
 }

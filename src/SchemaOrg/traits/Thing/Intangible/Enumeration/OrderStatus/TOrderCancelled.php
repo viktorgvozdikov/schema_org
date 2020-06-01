@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TOrderStatus;
 trait TOrderCancelled{
 	use TOrderStatus;
 
-	protected $type = 'OrderCancelled';
 }

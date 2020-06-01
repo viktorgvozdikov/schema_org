@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TReturnFeesEnumeratio
 trait TOriginalShippingFees{
 	use TReturnFeesEnumeration;
 
-	protected $type = 'OriginalShippingFees';
 }

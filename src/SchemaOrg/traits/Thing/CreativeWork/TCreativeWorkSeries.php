@@ -9,5 +9,4 @@ trait TCreativeWorkSeries{
 	use TCreativeWork;
 	use TSeries;
 
-	protected $type = 'CreativeWorkSeries';
 }

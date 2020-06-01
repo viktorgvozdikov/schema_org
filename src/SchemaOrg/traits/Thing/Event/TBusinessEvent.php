@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TEvent;
 trait TBusinessEvent{
 	use TEvent;
 
-	protected $type = 'BusinessEvent';
 }

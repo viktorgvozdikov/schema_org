@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TRole;
 trait TOrganizationRole{
 	use TRole;
 
-	protected $type = 'OrganizationRole';
 }

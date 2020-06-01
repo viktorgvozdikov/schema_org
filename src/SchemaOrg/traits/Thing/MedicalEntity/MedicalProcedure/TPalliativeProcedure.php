@@ -9,5 +9,4 @@ trait TPalliativeProcedure{
 	use TMedicalProcedure;
 	use TMedicalTherapy;
 
-	protected $type = 'PalliativeProcedure';
 }

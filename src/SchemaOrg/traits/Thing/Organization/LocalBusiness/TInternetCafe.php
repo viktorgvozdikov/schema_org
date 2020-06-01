@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TLocalBusiness;
 trait TInternetCafe{
 	use TLocalBusiness;
 
-	protected $type = 'InternetCafe';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TOpeningHoursSpecification{
 	use TStructuredValue;
 
-	protected $type = 'OpeningHoursSpecification';
 }

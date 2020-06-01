@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TLegalValueLevel;
 trait TOfficialLegalValue{
 	use TLegalValueLevel;
 
-	protected $type = 'OfficialLegalValue';
 }

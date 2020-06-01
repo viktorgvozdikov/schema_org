@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TEntertainmentBus
 trait TAdultEntertainment{
 	use TEntertainmentBusiness;
 
-	protected $type = 'AdultEntertainment';
 }

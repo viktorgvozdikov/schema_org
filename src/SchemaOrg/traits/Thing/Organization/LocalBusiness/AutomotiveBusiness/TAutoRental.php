@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TAutomotiveBusine
 trait TAutoRental{
 	use TAutomotiveBusiness;
 
-	protected $type = 'AutoRental';
 }

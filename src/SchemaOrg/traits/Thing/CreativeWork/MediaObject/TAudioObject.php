@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TMediaObject;
 trait TAudioObject{
 	use TMediaObject;
 
-	protected $type = 'AudioObject';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TPhysicalActivityCate
 trait TBalance{
 	use TPhysicalActivityCategory;
 
-	protected $type = 'Balance';
 }

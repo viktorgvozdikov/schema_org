@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TDeliveryMethod;
 trait TLockerDelivery{
 	use TDeliveryMethod;
 
-	protected $type = 'LockerDelivery';
 }

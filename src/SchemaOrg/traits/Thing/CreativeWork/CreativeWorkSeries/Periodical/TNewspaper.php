@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\CreativeWorkSeries\TPeriodical;
 trait TNewspaper{
 	use TPeriodical;
 
-	protected $type = 'Newspaper';
 }

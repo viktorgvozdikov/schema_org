@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TDemand{
 	use TIntangible;
 
-	protected $type = 'Demand';
 }

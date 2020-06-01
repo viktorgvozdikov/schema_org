@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TQuantitativeValu
 trait TMonetaryAmountDistribution{
 	use TQuantitativeValueDistribution;
 
-	protected $type = 'MonetaryAmountDistribution';
 }

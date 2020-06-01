@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TAccommodation;
 trait TSuite{
 	use TAccommodation;
 
-	protected $type = 'Suite';
 }

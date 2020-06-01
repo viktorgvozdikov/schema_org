@@ -9,5 +9,4 @@ trait TComicCoverArt{
 	use TComicStory;
 	use TCoverArt;
 
-	protected $type = 'ComicCoverArt';
 }

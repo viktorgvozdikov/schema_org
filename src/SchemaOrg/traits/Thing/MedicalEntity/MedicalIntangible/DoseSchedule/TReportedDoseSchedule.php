@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\MedicalIntangible\TDoseSchedul
 trait TReportedDoseSchedule{
 	use TDoseSchedule;
 
-	protected $type = 'ReportedDoseSchedule';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TRating;
 trait TAggregateRating{
 	use TRating;
 
-	protected $type = 'AggregateRating';
 }

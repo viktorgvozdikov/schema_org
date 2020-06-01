@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TBroadcastFrequencySpecification{
 	use TIntangible;
 
-	protected $type = 'BroadcastFrequencySpecification';
 }

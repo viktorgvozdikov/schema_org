@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TEnumeration{
 	use TIntangible;
 
-	protected $type = 'Enumeration';
 }

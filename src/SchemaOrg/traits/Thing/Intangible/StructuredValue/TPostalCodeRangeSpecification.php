@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TPostalCodeRangeSpecification{
 	use TStructuredValue;
 
-	protected $type = 'PostalCodeRangeSpecification';
 }

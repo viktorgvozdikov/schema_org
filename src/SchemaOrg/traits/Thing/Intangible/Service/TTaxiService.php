@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TService;
 trait TTaxiService{
 	use TService;
 
-	protected $type = 'TaxiService';
 }

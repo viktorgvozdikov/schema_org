@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TLodgingBusiness;
 trait THostel{
 	use TLodgingBusiness;
 
-	protected $type = 'Hostel';
 }

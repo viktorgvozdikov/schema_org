@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TRefundTypeEnumeratio
 trait TStoreCreditRefund{
 	use TRefundTypeEnumeration;
 
-	protected $type = 'StoreCreditRefund';
 }

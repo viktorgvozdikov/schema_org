@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\TThing;
 trait TAction{
 	use TThing;
 
-	protected $type = 'Action';
 }

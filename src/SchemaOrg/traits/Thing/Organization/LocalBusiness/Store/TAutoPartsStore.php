@@ -9,5 +9,4 @@ trait TAutoPartsStore{
 	use TAutomotiveBusiness;
 	use TStore;
 
-	protected $type = 'AutoPartsStore';
 }

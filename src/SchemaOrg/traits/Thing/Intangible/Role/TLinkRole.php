@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TRole;
 trait TLinkRole{
 	use TRole;
 
-	protected $type = 'LinkRole';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TDataset{
 	use TCreativeWork;
 
-	protected $type = 'Dataset';
 }

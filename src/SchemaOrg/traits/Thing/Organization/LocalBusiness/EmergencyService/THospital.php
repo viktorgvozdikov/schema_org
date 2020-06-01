@@ -11,5 +11,4 @@ trait THospital{
 	use TMedicalOrganization;
 	use TCivicStructure;
 
-	protected $type = 'Hospital';
 }

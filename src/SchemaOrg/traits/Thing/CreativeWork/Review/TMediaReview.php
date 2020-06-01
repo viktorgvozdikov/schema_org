@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TReview;
 trait TMediaReview{
 	use TReview;
 
-	protected $type = 'MediaReview';
 }

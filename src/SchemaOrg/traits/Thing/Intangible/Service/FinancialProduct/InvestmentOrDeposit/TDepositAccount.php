@@ -9,5 +9,4 @@ trait TDepositAccount{
 	use TBankAccount;
 	use TInvestmentOrDeposit;
 
-	protected $type = 'DepositAccount';
 }

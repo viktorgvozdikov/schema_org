@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TReservation;
 trait TReservationPackage{
 	use TReservation;
 
-	protected $type = 'ReservationPackage';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TRsvpResponseType{
 	use TEnumeration;
 
-	protected $type = 'RsvpResponseType';
 }

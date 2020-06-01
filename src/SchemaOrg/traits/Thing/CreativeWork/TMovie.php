@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TMovie{
 	use TCreativeWork;
 
-	protected $type = 'Movie';
 }

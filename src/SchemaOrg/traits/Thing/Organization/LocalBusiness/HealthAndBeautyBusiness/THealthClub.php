@@ -9,5 +9,4 @@ trait THealthClub{
 	use THealthAndBeautyBusiness;
 	use TSportsActivityLocation;
 
-	protected $type = 'HealthClub';
 }

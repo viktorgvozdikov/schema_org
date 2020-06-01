@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TSpecialty{
 	use TEnumeration;
 
-	protected $type = 'Specialty';
 }

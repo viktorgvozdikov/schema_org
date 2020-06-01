@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicAlbumReleaseTyp
 trait TEPRelease{
 	use TMusicAlbumReleaseType;
 
-	protected $type = 'EPRelease';
 }

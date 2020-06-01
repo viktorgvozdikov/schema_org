@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\TThing;
 trait TIntangible{
 	use TThing;
 
-	protected $type = 'Intangible';
 }

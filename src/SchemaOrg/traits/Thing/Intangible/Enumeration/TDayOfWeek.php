@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TDayOfWeek{
 	use TEnumeration;
 
-	protected $type = 'DayOfWeek';
 }

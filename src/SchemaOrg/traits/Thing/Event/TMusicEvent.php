@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TEvent;
 trait TMusicEvent{
 	use TEvent;
 
-	protected $type = 'MusicEvent';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TInvoice{
 	use TIntangible;
 
-	protected $type = 'Invoice';
 }

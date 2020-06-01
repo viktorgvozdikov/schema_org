@@ -9,5 +9,4 @@ trait TAudiobook{
 	use TBook;
 	use TAudioObject;
 
-	protected $type = 'Audiobook';
 }

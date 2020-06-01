@@ -9,5 +9,4 @@ trait TReviewNewsArticle{
 	use TNewsArticle;
 	use TCriticReview;
 
-	protected $type = 'ReviewNewsArticle';
 }

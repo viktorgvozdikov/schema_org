@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGovernmentBenefitsTy
 trait THealthCare{
 	use TGovernmentBenefitsType;
 
-	protected $type = 'HealthCare';
 }

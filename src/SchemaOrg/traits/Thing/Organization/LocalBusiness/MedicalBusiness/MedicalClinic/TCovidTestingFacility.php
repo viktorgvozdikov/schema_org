@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\MedicalBusiness\T
 trait TCovidTestingFacility{
 	use TMedicalClinic;
 
-	protected $type = 'CovidTestingFacility';
 }

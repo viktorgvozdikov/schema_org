@@ -1,5 +1,11 @@
 <?php
-
+//*
+// Показывать ли все ошибки
+error_reporting(E_ALL);
+ini_set('display_errors',true);
+/*/
+ini_set('display_errors','Off');
+/**/
 use ModuleBZ\SchemaOrg\Thing;
 
 include_once "../vendor/autoload.php";
@@ -8,7 +14,11 @@ $things = [];
 $things[] = (new \ModuleBZ\SchemaOrg\Thing())
     //->setName('Имя 1')
 ;
-$things[] = (new \ModuleBZ\SchemaOrg\Product())
+$things[] = (new \ModuleBZ\SchemaOrg\Thing\Product())
+    //->setName('Имя 2')
+;
+
+$things[] = (new ModuleBZ\SchemaOrg\Thing\Organization\LocalBusiness())
     //->setName('Имя 2')
 ;
 
@@ -33,4 +43,3 @@ foreach ($things as $thing) {
 }
 
 
-echo $thing;

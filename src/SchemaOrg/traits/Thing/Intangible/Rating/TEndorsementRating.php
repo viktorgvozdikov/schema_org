@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TRating;
 trait TEndorsementRating{
 	use TRating;
 
-	protected $type = 'EndorsementRating';
 }

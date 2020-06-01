@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TPaymentMethod{
 	use TEnumeration;
 
-	protected $type = 'PaymentMethod';
 }

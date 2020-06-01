@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TRole;
 trait TPerformanceRole{
 	use TRole;
 
-	protected $type = 'PerformanceRole';
 }

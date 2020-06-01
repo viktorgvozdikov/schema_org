@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Service\FinancialProduct\TLoanOrC
 trait TMortgageLoan{
 	use TLoanOrCredit;
 
-	protected $type = 'MortgageLoan';
 }

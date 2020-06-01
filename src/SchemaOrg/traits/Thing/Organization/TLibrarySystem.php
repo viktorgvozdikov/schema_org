@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TOrganization;
 trait TLibrarySystem{
 	use TOrganization;
 
-	protected $type = 'LibrarySystem';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TSpeakableSpecification{
 	use TIntangible;
 
-	protected $type = 'SpeakableSpecification';
 }

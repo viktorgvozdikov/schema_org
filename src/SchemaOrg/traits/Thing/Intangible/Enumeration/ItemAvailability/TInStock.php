@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TItemAvailability;
 trait TInStock{
 	use TItemAvailability;
 
-	protected $type = 'InStock';
 }

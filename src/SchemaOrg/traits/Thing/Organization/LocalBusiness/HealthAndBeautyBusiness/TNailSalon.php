@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\THealthAndBeautyB
 trait TNailSalon{
 	use THealthAndBeautyBusiness;
 
-	protected $type = 'NailSalon';
 }

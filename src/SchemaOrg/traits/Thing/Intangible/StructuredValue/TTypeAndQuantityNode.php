@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TTypeAndQuantityNode{
 	use TStructuredValue;
 
-	protected $type = 'TypeAndQuantityNode';
 }

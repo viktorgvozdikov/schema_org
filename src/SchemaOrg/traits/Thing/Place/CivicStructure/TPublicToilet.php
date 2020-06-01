@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TCivicStructure;
 trait TPublicToilet{
 	use TCivicStructure;
 
-	protected $type = 'PublicToilet';
 }

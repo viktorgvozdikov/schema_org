@@ -9,5 +9,4 @@ trait TPaymentCard{
 	use TPaymentMethod;
 	use TFinancialProduct;
 
-	protected $type = 'PaymentCard';
 }

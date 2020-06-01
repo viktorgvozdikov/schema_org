@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMerchantReturnEnumer
 trait TMerchantReturnUnspecified{
 	use TMerchantReturnEnumeration;
 
-	protected $type = 'MerchantReturnUnspecified';
 }

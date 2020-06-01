@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\Accommodation\THouse;
 trait TSingleFamilyResidence{
 	use THouse;
 
-	protected $type = 'SingleFamilyResidence';
 }

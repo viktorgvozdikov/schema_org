@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TActionStatusType;
 trait TPotentialActionStatus{
 	use TActionStatusType;
 
-	protected $type = 'PotentialActionStatus';
 }

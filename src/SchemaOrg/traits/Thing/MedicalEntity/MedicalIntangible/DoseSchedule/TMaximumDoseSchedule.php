@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\MedicalIntangible\TDoseSchedul
 trait TMaximumDoseSchedule{
 	use TDoseSchedule;
 
-	protected $type = 'MaximumDoseSchedule';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TMap{
 	use TCreativeWork;
 
-	protected $type = 'Map';
 }

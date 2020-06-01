@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TLandform;
 trait TContinent{
 	use TLandform;
 
-	protected $type = 'Continent';
 }

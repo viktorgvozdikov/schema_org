@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TOffer;
 trait TOfferForLease{
 	use TOffer;
 
-	protected $type = 'OfferForLease';
 }

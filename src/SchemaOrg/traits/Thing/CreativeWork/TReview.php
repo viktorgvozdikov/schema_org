@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TReview{
 	use TCreativeWork;
 
-	protected $type = 'Review';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TPhysicalActivityCate
 trait TAerobicActivity{
 	use TPhysicalActivityCategory;
 
-	protected $type = 'AerobicActivity';
 }

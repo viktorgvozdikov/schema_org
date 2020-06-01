@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TCDCPMDRecord{
 	use TStructuredValue;
 
-	protected $type = 'CDCPMDRecord';
 }

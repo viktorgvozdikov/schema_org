@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TBoardingPolicyType;
 trait TZoneBoardingPolicy{
 	use TBoardingPolicyType;
 
-	protected $type = 'ZoneBoardingPolicy';
 }

@@ -9,5 +9,4 @@ trait TDiet{
 	use TCreativeWork;
 	use TLifestyleModification;
 
-	protected $type = 'Diet';
 }

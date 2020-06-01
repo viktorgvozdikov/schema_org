@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TMusicPlaylist{
 	use TCreativeWork;
 
-	protected $type = 'MusicPlaylist';
 }

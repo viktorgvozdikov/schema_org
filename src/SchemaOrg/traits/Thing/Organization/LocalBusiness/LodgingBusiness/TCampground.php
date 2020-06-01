@@ -9,5 +9,4 @@ trait TCampground{
 	use TLodgingBusiness;
 	use TCivicStructure;
 
-	protected $type = 'Campground';
 }

@@ -9,5 +9,4 @@ trait TStadiumOrArena{
 	use TSportsActivityLocation;
 	use TCivicStructure;
 
-	protected $type = 'StadiumOrArena';
 }

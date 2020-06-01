@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TGovernmentOffice
 trait TPostOffice{
 	use TGovernmentOffice;
 
-	protected $type = 'PostOffice';
 }

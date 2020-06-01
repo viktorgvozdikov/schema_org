@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TRole{
 	use TIntangible;
 
-	protected $type = 'Role';
 }

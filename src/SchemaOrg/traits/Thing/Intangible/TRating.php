@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TRating{
 	use TIntangible;
 
-	protected $type = 'Rating';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMediaManipulationRat
 trait TAuthenticContent{
 	use TMediaManipulationRatingEnumeration;
 
-	protected $type = 'AuthenticContent';
 }

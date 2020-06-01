@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TVisualArtwork;
 trait TCoverArt{
 	use TVisualArtwork;
 
-	protected $type = 'CoverArt';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TLocalBusiness;
 trait THomeAndConstructionBusiness{
 	use TLocalBusiness;
 
-	protected $type = 'HomeAndConstructionBusiness';
 }

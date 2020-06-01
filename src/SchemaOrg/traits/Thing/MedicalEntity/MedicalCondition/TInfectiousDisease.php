@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TMedicalCondition;
 trait TInfectiousDisease{
 	use TMedicalCondition;
 
-	protected $type = 'InfectiousDisease';
 }

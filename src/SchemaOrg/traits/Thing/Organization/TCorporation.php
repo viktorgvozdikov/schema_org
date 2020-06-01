@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TOrganization;
 trait TCorporation{
 	use TOrganization;
 
-	protected $type = 'Corporation';
 }

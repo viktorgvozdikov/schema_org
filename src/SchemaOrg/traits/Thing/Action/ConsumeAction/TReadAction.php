@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TConsumeAction;
 trait TReadAction{
 	use TConsumeAction;
 
-	protected $type = 'ReadAction';
 }

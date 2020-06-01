@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\OrganizeAction\TAllocateAction;
 trait TAcceptAction{
 	use TAllocateAction;
 
-	protected $type = 'AcceptAction';
 }

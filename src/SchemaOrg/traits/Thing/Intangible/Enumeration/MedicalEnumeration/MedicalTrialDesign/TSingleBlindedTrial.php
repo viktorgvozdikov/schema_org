@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\MedicalEnumeration\TM
 trait TSingleBlindedTrial{
 	use TMedicalTrialDesign;
 
-	protected $type = 'SingleBlindedTrial';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TConsumeAction;
 trait TWatchAction{
 	use TConsumeAction;
 
-	protected $type = 'WatchAction';
 }

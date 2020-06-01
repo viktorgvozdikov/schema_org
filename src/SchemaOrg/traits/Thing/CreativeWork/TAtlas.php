@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TAtlas{
 	use TCreativeWork;
 
-	protected $type = 'Atlas';
 }

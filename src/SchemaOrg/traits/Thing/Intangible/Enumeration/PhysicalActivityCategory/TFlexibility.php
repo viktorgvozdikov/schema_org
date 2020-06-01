@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TPhysicalActivityCate
 trait TFlexibility{
 	use TPhysicalActivityCategory;
 
-	protected $type = 'Flexibility';
 }

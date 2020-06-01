@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TEventAttendanceModeE
 trait TOnlineEventAttendanceMode{
 	use TEventAttendanceModeEnumeration;
 
-	protected $type = 'OnlineEventAttendanceMode';
 }

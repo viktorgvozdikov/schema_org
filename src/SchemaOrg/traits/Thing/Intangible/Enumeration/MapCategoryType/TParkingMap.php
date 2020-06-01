@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMapCategoryType;
 trait TParkingMap{
 	use TMapCategoryType;
 
-	protected $type = 'ParkingMap';
 }

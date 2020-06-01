@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TTradeAction;
 trait TOrderAction{
 	use TTradeAction;
 
-	protected $type = 'OrderAction';
 }

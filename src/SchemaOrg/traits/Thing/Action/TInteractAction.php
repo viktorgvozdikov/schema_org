@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TAction;
 trait TInteractAction{
 	use TAction;
 
-	protected $type = 'InteractAction';
 }

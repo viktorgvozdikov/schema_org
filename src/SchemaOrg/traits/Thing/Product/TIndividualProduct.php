@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TProduct;
 trait TIndividualProduct{
 	use TProduct;
 
-	protected $type = 'IndividualProduct';
 }

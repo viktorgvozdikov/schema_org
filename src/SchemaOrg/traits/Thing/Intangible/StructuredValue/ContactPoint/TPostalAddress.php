@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TContactPoint;
 trait TPostalAddress{
 	use TContactPoint;
 
-	protected $type = 'PostalAddress';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\Article\TSocialMediaPosting;
 trait TDiscussionForumPosting{
 	use TSocialMediaPosting;
 
-	protected $type = 'DiscussionForumPosting';
 }

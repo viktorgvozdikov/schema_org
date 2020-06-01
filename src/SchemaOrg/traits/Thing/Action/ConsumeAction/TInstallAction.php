@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TConsumeAction;
 trait TInstallAction{
 	use TConsumeAction;
 
-	protected $type = 'InstallAction';
 }

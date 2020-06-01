@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TItemListOrderType;
 trait TItemListOrderAscending{
 	use TItemListOrderType;
 
-	protected $type = 'ItemListOrderAscending';
 }

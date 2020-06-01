@@ -9,5 +9,4 @@ trait TPhysicalExam{
 	use TMedicalEnumeration;
 	use TMedicalProcedure;
 
-	protected $type = 'PhysicalExam';
 }

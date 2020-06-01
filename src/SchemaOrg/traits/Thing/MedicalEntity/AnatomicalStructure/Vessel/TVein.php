@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\AnatomicalStructure\TVessel;
 trait TVein{
 	use TVessel;
 
-	protected $type = 'Vein';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TWarrantyScope{
 	use TEnumeration;
 
-	protected $type = 'WarrantyScope';
 }

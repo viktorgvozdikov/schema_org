@@ -3,6 +3,12 @@
 namespace ModuleBZ\SchemaOrg;
 
 class Export {
+    protected $type;
+    public function getType(){
+        if($this->type) return $this->type;
+        $class = explode("\\",get_class($this));
+        return $this->type = array_pop($class);
+    }
     public function toMicrodata():string {
         $a = get_object_vars($this);
         $data = '';
@@ -10,7 +16,7 @@ class Export {
             if($k=='type') continue;
             if($v) { $data .= $v->toMicrodata(); }
         }
-        return '<span itemscope itemtype="http://schema.org/' . $this->type . '">'.$data.'</span>';
+        return '<span itemscope itemtype="http://schema.org/' . $this->getType() . '">'.$data.'</span>';
     }
     public function toRDFa():string {
         $a = get_object_vars($this);
@@ -19,10 +25,10 @@ class Export {
             if($k=='type') continue;
             if($v) { $data .= $v->toRDFa(); }
         }
-        return '<span itemscope itemtype="http://schema.org/' . $this->type . '">'.$data.'</span>';
+        return '<span itemscope itemtype="http://schema.org/' . $this->getType() . '">'.$data.'</span>';
     }
     public function toJSON():array {
-        $res['@type'] = $this->type;
+        $res['@type'] = $this->getType();
         $a = get_object_vars($this);
         foreach ($a as $k=>$v){
             if($k=='type') continue;
@@ -42,5 +48,8 @@ class Export {
         $json['@context'] ='http://schema.org';
         $json += $this->toJSON();
         return '<script type="application/ld+json">'.json_encode($json).'</script>';
+    }
+    public function __toString() {
+        return htmlspecialchars($this->toMicrodata());
     }
 }

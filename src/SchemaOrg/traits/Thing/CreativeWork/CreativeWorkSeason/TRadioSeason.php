@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TCreativeWorkSeason;
 trait TRadioSeason{
 	use TCreativeWorkSeason;
 
-	protected $type = 'RadioSeason';
 }

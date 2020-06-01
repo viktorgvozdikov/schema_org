@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TItemList;
 trait TOfferCatalog{
 	use TItemList;
 
-	protected $type = 'OfferCatalog';
 }

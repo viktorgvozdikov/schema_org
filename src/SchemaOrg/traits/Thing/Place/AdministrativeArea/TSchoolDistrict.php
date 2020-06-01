@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TAdministrativeArea;
 trait TSchoolDistrict{
 	use TAdministrativeArea;
 
-	protected $type = 'SchoolDistrict';
 }

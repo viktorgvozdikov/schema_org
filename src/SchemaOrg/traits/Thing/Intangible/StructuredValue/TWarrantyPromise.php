@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TWarrantyPromise{
 	use TStructuredValue;
 
-	protected $type = 'WarrantyPromise';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TItemList{
 	use TIntangible;
 
-	protected $type = 'ItemList';
 }

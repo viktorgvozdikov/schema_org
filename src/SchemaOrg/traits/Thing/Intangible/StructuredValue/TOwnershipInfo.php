@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TOwnershipInfo{
 	use TStructuredValue;
 
-	protected $type = 'OwnershipInfo';
 }

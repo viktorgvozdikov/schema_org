@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TQuantitativeValue{
 	use TStructuredValue;
 
-	protected $type = 'QuantitativeValue';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TAnatomicalStructure;
 trait TJoint{
 	use TAnatomicalStructure;
 
-	protected $type = 'Joint';
 }

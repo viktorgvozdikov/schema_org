@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TJobPosting{
 	use TIntangible;
 
-	protected $type = 'JobPosting';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TEducationalOccupationalProgram{
 	use TIntangible;
 
-	protected $type = 'EducationalOccupationalProgram';
 }

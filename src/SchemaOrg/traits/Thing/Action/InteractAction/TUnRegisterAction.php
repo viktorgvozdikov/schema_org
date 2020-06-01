@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TInteractAction;
 trait TUnRegisterAction{
 	use TInteractAction;
 
-	protected $type = 'UnRegisterAction';
 }

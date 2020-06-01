@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TStore;
 trait TGroceryStore{
 	use TStore;
 
-	protected $type = 'GroceryStore';
 }

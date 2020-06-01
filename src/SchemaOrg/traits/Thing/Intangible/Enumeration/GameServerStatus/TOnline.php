@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGameServerStatus;
 trait TOnline{
 	use TGameServerStatus;
 
-	protected $type = 'Online';
 }

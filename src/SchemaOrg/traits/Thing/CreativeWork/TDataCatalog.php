@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TDataCatalog{
 	use TCreativeWork;
 
-	protected $type = 'DataCatalog';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TWebPage;
 trait TRealEstateListing{
 	use TWebPage;
 
-	protected $type = 'RealEstateListing';
 }

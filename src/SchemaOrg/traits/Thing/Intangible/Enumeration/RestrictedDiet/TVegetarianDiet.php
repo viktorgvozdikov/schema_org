@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TRestrictedDiet;
 trait TVegetarianDiet{
 	use TRestrictedDiet;
 
-	protected $type = 'VegetarianDiet';
 }

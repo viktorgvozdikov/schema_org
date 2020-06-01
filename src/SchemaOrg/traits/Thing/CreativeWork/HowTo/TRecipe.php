@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\THowTo;
 trait TRecipe{
 	use THowTo;
 
-	protected $type = 'Recipe';
 }

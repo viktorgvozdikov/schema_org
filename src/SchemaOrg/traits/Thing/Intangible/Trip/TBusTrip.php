@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TTrip;
 trait TBusTrip{
 	use TTrip;
 
-	protected $type = 'BusTrip';
 }

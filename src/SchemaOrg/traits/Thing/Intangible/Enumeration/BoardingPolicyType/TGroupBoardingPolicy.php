@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TBoardingPolicyType;
 trait TGroupBoardingPolicy{
 	use TBoardingPolicyType;
 
-	protected $type = 'GroupBoardingPolicy';
 }

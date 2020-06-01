@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TInteractAction;
 trait TLeaveAction{
 	use TInteractAction;
 
-	protected $type = 'LeaveAction';
 }

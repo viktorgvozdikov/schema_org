@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGamePlayMode;
 trait TCoOp{
 	use TGamePlayMode;
 
-	protected $type = 'CoOp';
 }

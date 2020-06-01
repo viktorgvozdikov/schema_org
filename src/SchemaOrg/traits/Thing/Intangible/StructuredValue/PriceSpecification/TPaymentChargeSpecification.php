@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\StructuredValue\TPriceSpecificati
 trait TPaymentChargeSpecification{
 	use TPriceSpecification;
 
-	protected $type = 'PaymentChargeSpecification';
 }

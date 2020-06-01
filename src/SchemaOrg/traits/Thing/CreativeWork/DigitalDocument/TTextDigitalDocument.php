@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TDigitalDocument;
 trait TTextDigitalDocument{
 	use TDigitalDocument;
 
-	protected $type = 'TextDigitalDocument';
 }

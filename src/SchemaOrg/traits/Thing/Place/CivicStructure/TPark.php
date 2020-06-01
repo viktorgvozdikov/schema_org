@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TCivicStructure;
 trait TPark{
 	use TCivicStructure;
 
-	protected $type = 'Park';
 }

@@ -9,5 +9,4 @@ trait TMedicalCode{
 	use TCategoryCode;
 	use TMedicalIntangible;
 
-	protected $type = 'MedicalCode';
 }

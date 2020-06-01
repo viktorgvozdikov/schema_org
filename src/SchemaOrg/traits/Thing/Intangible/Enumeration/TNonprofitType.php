@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TNonprofitType{
 	use TEnumeration;
 
-	protected $type = 'NonprofitType';
 }

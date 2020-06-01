@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TSoftwareApplication;
 trait TMobileApplication{
 	use TSoftwareApplication;
 
-	protected $type = 'MobileApplication';
 }

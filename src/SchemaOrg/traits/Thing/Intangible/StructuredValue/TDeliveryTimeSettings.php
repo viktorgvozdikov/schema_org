@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TDeliveryTimeSettings{
 	use TStructuredValue;
 
-	protected $type = 'DeliveryTimeSettings';
 }

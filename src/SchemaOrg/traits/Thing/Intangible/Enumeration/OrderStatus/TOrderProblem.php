@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TOrderStatus;
 trait TOrderProblem{
 	use TOrderStatus;
 
-	protected $type = 'OrderProblem';
 }

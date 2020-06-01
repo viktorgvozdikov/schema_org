@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\THealthAspectEnumerat
 trait TOverviewHealthAspect{
 	use THealthAspectEnumeration;
 
-	protected $type = 'OverviewHealthAspect';
 }

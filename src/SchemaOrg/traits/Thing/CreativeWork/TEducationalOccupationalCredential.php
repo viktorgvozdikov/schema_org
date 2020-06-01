@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TEducationalOccupationalCredential{
 	use TCreativeWork;
 
-	protected $type = 'EducationalOccupationalCredential';
 }

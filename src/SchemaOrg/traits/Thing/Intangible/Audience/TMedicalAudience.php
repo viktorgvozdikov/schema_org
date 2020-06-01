@@ -11,5 +11,4 @@ trait TMedicalAudience{
 	use TPeopleAudience;
 	use TMedicalEnumeration;
 
-	protected $type = 'MedicalAudience';
 }

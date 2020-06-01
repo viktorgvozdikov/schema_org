@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGovernmentBenefitsTy
 trait TParentalSupport{
 	use TGovernmentBenefitsType;
 
-	protected $type = 'ParentalSupport';
 }

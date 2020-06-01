@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\THealthAspectEnumerat
 trait TSelfCareHealthAspect{
 	use THealthAspectEnumeration;
 
-	protected $type = 'SelfCareHealthAspect';
 }

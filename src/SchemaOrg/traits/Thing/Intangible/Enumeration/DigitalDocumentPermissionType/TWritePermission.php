@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TDigitalDocumentPermi
 trait TWritePermission{
 	use TDigitalDocumentPermissionType;
 
-	protected $type = 'WritePermission';
 }

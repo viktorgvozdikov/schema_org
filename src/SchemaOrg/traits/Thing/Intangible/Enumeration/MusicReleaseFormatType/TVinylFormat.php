@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicReleaseFormatTy
 trait TVinylFormat{
 	use TMusicReleaseFormatType;
 
-	protected $type = 'VinylFormat';
 }

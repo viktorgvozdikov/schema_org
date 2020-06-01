@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TCreateAction;
 trait TFilmAction{
 	use TCreateAction;
 
-	protected $type = 'FilmAction';
 }

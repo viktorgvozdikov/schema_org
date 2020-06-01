@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEnumeration;
 trait TDeliveryMethod{
 	use TEnumeration;
 
-	protected $type = 'DeliveryMethod';
 }

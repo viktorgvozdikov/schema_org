@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TAudience;
 trait TEducationalAudience{
 	use TAudience;
 
-	protected $type = 'EducationalAudience';
 }

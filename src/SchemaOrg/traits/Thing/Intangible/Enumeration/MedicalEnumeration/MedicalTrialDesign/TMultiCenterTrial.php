@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\MedicalEnumeration\TM
 trait TMultiCenterTrial{
 	use TMedicalTrialDesign;
 
-	protected $type = 'MultiCenterTrial';
 }

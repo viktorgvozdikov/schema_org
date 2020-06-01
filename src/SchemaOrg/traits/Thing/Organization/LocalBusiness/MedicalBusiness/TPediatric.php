@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TMedicalBusiness;
 trait TPediatric{
 	use TMedicalBusiness;
 
-	protected $type = 'Pediatric';
 }

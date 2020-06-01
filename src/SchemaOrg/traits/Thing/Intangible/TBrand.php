@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TBrand{
 	use TIntangible;
 
-	protected $type = 'Brand';
 }

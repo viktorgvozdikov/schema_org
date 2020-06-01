@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TTransferAction;
 trait TSendAction{
 	use TTransferAction;
 
-	protected $type = 'SendAction';
 }

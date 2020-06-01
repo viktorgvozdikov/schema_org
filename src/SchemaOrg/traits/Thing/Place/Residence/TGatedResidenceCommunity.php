@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TResidence;
 trait TGatedResidenceCommunity{
 	use TResidence;
 
-	protected $type = 'GatedResidenceCommunity';
 }

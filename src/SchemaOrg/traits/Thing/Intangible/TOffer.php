@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TOffer{
 	use TIntangible;
 
-	protected $type = 'Offer';
 }

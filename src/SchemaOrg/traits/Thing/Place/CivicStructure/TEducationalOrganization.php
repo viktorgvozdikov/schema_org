@@ -9,5 +9,4 @@ trait TEducationalOrganization{
 	use TOrganization;
 	use TCivicStructure;
 
-	protected $type = 'EducationalOrganization';
 }

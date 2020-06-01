@@ -9,5 +9,4 @@ trait TPatient{
 	use TMedicalAudience;
 	use TPerson;
 
-	protected $type = 'Patient';
 }

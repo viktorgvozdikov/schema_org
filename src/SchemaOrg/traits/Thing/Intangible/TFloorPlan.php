@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TFloorPlan{
 	use TIntangible;
 
-	protected $type = 'FloorPlan';
 }

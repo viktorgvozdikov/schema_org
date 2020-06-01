@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TActionAccessSpecification{
 	use TIntangible;
 
-	protected $type = 'ActionAccessSpecification';
 }

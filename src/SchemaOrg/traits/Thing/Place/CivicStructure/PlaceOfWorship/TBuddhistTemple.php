@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\CivicStructure\TPlaceOfWorship;
 trait TBuddhistTemple{
 	use TPlaceOfWorship;
 
-	protected $type = 'BuddhistTemple';
 }

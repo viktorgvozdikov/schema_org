@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TOrganizeAction;
 trait TBookmarkAction{
 	use TOrganizeAction;
 
-	protected $type = 'BookmarkAction';
 }

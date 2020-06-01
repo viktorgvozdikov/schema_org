@@ -9,5 +9,4 @@ trait TLocalBusiness{
 	use TOrganization;
 	use TPlace;
 
-	protected $type = 'LocalBusiness';
 }

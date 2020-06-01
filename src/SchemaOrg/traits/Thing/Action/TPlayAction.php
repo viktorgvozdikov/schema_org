@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TAction;
 trait TPlayAction{
 	use TAction;
 
-	protected $type = 'PlayAction';
 }

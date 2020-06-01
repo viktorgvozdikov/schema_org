@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TTransferAction;
 trait TMoneyTransfer{
 	use TTransferAction;
 
-	protected $type = 'MoneyTransfer';
 }

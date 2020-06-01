@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TLocalBusiness;
 trait TSelfStorage{
 	use TLocalBusiness;
 
-	protected $type = 'SelfStorage';
 }

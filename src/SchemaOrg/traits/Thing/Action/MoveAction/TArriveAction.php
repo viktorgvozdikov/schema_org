@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TMoveAction;
 trait TArriveAction{
 	use TMoveAction;
 
-	protected $type = 'ArriveAction';
 }

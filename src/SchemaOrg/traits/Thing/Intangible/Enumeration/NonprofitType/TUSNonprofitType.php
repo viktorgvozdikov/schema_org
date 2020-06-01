@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TNonprofitType;
 trait TUSNonprofitType{
 	use TNonprofitType;
 
-	protected $type = 'USNonprofitType';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TAnatomicalStructure;
 trait TBrainStructure{
 	use TAnatomicalStructure;
 
-	protected $type = 'BrainStructure';
 }

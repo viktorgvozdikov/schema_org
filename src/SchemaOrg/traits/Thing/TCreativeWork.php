@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\TThing;
 trait TCreativeWork{
 	use TThing;
 
-	protected $type = 'CreativeWork';
 }

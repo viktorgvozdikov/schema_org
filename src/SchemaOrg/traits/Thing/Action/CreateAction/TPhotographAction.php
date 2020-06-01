@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TCreateAction;
 trait TPhotographAction{
 	use TCreateAction;
 
-	protected $type = 'PhotographAction';
 }

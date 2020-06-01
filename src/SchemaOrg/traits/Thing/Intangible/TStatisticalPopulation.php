@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TStatisticalPopulation{
 	use TIntangible;
 
-	protected $type = 'StatisticalPopulation';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TBroadcastChannel;
 trait TTelevisionChannel{
 	use TBroadcastChannel;
 
-	protected $type = 'TelevisionChannel';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TCreativeWorkSeason{
 	use TCreativeWork;
 
-	protected $type = 'CreativeWorkSeason';
 }

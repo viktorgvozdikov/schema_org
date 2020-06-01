@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMusicAlbumProduction
 trait TDJMixAlbum{
 	use TMusicAlbumProductionType;
 
-	protected $type = 'DJMixAlbum';
 }

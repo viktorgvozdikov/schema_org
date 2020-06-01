@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TCreateAction;
 trait TCookAction{
 	use TCreateAction;
 
-	protected $type = 'CookAction';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TOrderStatus;
 trait TOrderPickupAvailable{
 	use TOrderStatus;
 
-	protected $type = 'OrderPickupAvailable';
 }

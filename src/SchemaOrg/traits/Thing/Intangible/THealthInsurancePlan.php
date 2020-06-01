@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait THealthInsurancePlan{
 	use TIntangible;
 
-	protected $type = 'HealthInsurancePlan';
 }

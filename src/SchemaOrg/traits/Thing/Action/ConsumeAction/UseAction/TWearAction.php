@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\ConsumeAction\TUseAction;
 trait TWearAction{
 	use TUseAction;
 
-	protected $type = 'WearAction';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TAction;
 trait TAchieveAction{
 	use TAction;
 
-	protected $type = 'AchieveAction';
 }

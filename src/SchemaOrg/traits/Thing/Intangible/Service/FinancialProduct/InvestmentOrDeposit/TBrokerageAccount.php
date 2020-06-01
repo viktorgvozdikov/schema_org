@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Service\FinancialProduct\TInvestm
 trait TBrokerageAccount{
 	use TInvestmentOrDeposit;
 
-	protected $type = 'BrokerageAccount';
 }

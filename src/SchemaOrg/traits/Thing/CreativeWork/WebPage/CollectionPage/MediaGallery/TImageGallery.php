@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\WebPage\CollectionPage\TMediaGa
 trait TImageGallery{
 	use TMediaGallery;
 
-	protected $type = 'ImageGallery';
 }

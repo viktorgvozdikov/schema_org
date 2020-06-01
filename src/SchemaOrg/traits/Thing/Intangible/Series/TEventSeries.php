@@ -9,5 +9,4 @@ trait TEventSeries{
 	use TEvent;
 	use TSeries;
 
-	protected $type = 'EventSeries';
 }

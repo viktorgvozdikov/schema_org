@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TService{
 	use TIntangible;
 
-	protected $type = 'Service';
 }

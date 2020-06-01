@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TArticle{
 	use TCreativeWork;
 
-	protected $type = 'Article';
 }

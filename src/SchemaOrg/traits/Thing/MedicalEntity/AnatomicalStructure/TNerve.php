@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\MedicalEntity\TAnatomicalStructure;
 trait TNerve{
 	use TAnatomicalStructure;
 
-	protected $type = 'Nerve';
 }

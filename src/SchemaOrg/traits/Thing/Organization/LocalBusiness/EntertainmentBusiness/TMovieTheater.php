@@ -9,5 +9,4 @@ trait TMovieTheater{
 	use TEntertainmentBusiness;
 	use TCivicStructure;
 
-	protected $type = 'MovieTheater';
 }

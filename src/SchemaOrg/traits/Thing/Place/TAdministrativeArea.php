@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TPlace;
 trait TAdministrativeArea{
 	use TPlace;
 
-	protected $type = 'AdministrativeArea';
 }

@@ -11,5 +11,4 @@ trait THowToSection{
 	use TItemList;
 	use TListItem;
 
-	protected $type = 'HowToSection';
 }

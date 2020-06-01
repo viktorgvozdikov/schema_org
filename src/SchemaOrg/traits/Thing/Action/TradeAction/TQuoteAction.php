@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TTradeAction;
 trait TQuoteAction{
 	use TTradeAction;
 
-	protected $type = 'QuoteAction';
 }

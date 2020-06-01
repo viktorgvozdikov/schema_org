@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TWebPage;
 trait TItemPage{
 	use TWebPage;
 
-	protected $type = 'ItemPage';
 }

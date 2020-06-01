@@ -9,5 +9,4 @@ trait TMedicalSpecialty{
 	use TMedicalEnumeration;
 	use TSpecialty;
 
-	protected $type = 'MedicalSpecialty';
 }

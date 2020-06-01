@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TEntertainmentBus
 trait TCasino{
 	use TEntertainmentBusiness;
 
-	protected $type = 'Casino';
 }

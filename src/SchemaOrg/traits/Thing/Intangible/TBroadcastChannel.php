@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TBroadcastChannel{
 	use TIntangible;
 
-	protected $type = 'BroadcastChannel';
 }

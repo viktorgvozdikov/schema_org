@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGenderType;
 trait TFemale{
 	use TGenderType;
 
-	protected $type = 'Female';
 }

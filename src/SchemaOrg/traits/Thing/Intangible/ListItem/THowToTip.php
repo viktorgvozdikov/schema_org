@@ -9,5 +9,4 @@ trait THowToTip{
 	use TCreativeWork;
 	use TListItem;
 
-	protected $type = 'HowToTip';
 }

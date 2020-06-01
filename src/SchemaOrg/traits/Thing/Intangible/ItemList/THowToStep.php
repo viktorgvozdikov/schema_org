@@ -11,5 +11,4 @@ trait THowToStep{
 	use TItemList;
 	use TListItem;
 
-	protected $type = 'HowToStep';
 }

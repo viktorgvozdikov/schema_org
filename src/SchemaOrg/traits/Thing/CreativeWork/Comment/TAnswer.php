@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TComment;
 trait TAnswer{
 	use TComment;
 
-	protected $type = 'Answer';
 }

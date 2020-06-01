@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TInteractAction;
 trait TJoinAction{
 	use TInteractAction;
 
-	protected $type = 'JoinAction';
 }

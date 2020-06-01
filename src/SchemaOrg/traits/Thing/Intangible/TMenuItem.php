@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TMenuItem{
 	use TIntangible;
 
-	protected $type = 'MenuItem';
 }

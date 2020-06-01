@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\MedicalEnumeration\TM
 trait TPlaceboControlledTrial{
 	use TMedicalTrialDesign;
 
-	protected $type = 'PlaceboControlledTrial';
 }

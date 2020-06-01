@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TMedicalEnumeration;
 trait TMedicalStudyStatus{
 	use TMedicalEnumeration;
 
-	protected $type = 'MedicalStudyStatus';
 }

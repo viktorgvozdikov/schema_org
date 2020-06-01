@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TStructuredValue{
 	use TIntangible;
 
-	protected $type = 'StructuredValue';
 }

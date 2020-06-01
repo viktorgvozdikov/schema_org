@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TLandform;
 trait TBodyOfWater{
 	use TLandform;
 
-	protected $type = 'BodyOfWater';
 }

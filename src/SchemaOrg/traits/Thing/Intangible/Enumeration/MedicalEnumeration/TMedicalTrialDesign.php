@@ -9,5 +9,4 @@ trait TMedicalTrialDesign{
 	use TMedicalEnumeration;
 	use TEnumeration;
 
-	protected $type = 'MedicalTrialDesign';
 }

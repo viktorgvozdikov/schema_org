@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TMusicRecording{
 	use TCreativeWork;
 
-	protected $type = 'MusicRecording';
 }

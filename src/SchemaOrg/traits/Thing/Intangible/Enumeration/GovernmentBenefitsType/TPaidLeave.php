@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TGovernmentBenefitsTy
 trait TPaidLeave{
 	use TGovernmentBenefitsType;
 
-	protected $type = 'PaidLeave';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Event\TPublicationEvent;
 trait TOnDemandEvent{
 	use TPublicationEvent;
 
-	protected $type = 'OnDemandEvent';
 }

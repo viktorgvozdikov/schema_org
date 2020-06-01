@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TEducationalOccupationalProgram;
 trait TWorkBasedProgram{
 	use TEducationalOccupationalProgram;
 
-	protected $type = 'WorkBasedProgram';
 }

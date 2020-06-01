@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TDigitalDocument;
 trait TNoteDigitalDocument{
 	use TDigitalDocument;
 
-	protected $type = 'NoteDigitalDocument';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\THomeAndConstruct
 trait TGeneralContractor{
 	use THomeAndConstructionBusiness;
 
-	protected $type = 'GeneralContractor';
 }

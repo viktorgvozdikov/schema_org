@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TQualitativeValue;
 trait TCarUsageType{
 	use TQualitativeValue;
 
-	protected $type = 'CarUsageType';
 }

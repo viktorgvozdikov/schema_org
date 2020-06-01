@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TMenu{
 	use TCreativeWork;
 
-	protected $type = 'Menu';
 }

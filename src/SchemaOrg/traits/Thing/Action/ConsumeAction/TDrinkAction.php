@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Action\TConsumeAction;
 trait TDrinkAction{
 	use TConsumeAction;
 
-	protected $type = 'DrinkAction';
 }

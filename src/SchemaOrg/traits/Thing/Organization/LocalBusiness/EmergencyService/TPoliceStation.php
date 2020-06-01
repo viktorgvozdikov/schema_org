@@ -9,5 +9,4 @@ trait TPoliceStation{
 	use TEmergencyService;
 	use TCivicStructure;
 
-	protected $type = 'PoliceStation';
 }

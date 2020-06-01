@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TFinancialService
 trait TAccountingService{
 	use TFinancialService;
 
-	protected $type = 'AccountingService';
 }

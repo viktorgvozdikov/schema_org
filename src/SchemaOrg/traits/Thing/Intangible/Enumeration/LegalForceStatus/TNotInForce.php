@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TLegalForceStatus;
 trait TNotInForce{
 	use TLegalForceStatus;
 
-	protected $type = 'NotInForce';
 }

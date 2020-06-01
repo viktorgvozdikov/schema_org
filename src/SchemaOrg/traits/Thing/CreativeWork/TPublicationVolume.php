@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TPublicationVolume{
 	use TCreativeWork;
 
-	protected $type = 'PublicationVolume';
 }

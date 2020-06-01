@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\CreativeWork\TEpisode;
 trait TRadioEpisode{
 	use TEpisode;
 
-	protected $type = 'RadioEpisode';
 }

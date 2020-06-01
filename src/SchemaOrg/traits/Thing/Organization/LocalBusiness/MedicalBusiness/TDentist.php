@@ -11,5 +11,4 @@ trait TDentist{
 	use TMedicalBusiness;
 	use TMedicalOrganization;
 
-	protected $type = 'Dentist';
 }

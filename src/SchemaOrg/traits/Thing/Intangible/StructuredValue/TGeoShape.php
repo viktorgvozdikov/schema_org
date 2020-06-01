@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TStructuredValue;
 trait TGeoShape{
 	use TStructuredValue;
 
-	protected $type = 'GeoShape';
 }

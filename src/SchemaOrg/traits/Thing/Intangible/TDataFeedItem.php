@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TDataFeedItem{
 	use TIntangible;
 
-	protected $type = 'DataFeedItem';
 }

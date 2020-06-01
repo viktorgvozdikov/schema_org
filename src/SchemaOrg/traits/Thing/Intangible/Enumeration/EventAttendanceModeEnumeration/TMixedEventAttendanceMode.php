@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TEventAttendanceModeE
 trait TMixedEventAttendanceMode{
 	use TEventAttendanceModeEnumeration;
 
-	protected $type = 'MixedEventAttendanceMode';
 }

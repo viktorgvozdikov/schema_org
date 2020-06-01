@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TStore;
 trait TMusicStore{
 	use TStore;
 
-	protected $type = 'MusicStore';
 }

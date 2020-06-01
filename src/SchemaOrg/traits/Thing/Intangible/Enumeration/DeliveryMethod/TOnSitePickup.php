@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\Enumeration\TDeliveryMethod;
 trait TOnSitePickup{
 	use TDeliveryMethod;
 
-	protected $type = 'OnSitePickup';
 }

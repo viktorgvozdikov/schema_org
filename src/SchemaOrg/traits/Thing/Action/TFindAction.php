@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TAction;
 trait TFindAction{
 	use TAction;
 
-	protected $type = 'FindAction';
 }

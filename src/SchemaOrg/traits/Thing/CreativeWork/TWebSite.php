@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TCreativeWork;
 trait TWebSite{
 	use TCreativeWork;
 
-	protected $type = 'WebSite';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TEducationalOrganization;
 trait TMiddleSchool{
 	use TEducationalOrganization;
 
-	protected $type = 'MiddleSchool';
 }

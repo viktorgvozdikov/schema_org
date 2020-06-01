@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TCivicStructure;
 trait TPlaceOfWorship{
 	use TCivicStructure;
 
-	protected $type = 'PlaceOfWorship';
 }

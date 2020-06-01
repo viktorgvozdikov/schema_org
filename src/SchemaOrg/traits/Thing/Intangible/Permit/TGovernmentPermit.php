@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TPermit;
 trait TGovernmentPermit{
 	use TPermit;
 
-	protected $type = 'GovernmentPermit';
 }

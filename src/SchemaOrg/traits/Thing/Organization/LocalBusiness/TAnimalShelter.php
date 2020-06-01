@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TLocalBusiness;
 trait TAnimalShelter{
 	use TLocalBusiness;
 
-	protected $type = 'AnimalShelter';
 }

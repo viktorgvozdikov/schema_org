@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TSeries{
 	use TIntangible;
 
-	protected $type = 'Series';
 }

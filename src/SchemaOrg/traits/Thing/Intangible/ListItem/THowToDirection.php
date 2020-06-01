@@ -9,5 +9,4 @@ trait THowToDirection{
 	use TCreativeWork;
 	use TListItem;
 
-	protected $type = 'HowToDirection';
 }

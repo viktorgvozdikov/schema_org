@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\TLocalBusiness;
 trait TArchiveOrganization{
 	use TLocalBusiness;
 
-	protected $type = 'ArchiveOrganization';
 }

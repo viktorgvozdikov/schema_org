@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TService;
 trait TCableOrSatelliteService{
 	use TService;
 
-	protected $type = 'CableOrSatelliteService';
 }

@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TListItem{
 	use TIntangible;
 
-	protected $type = 'ListItem';
 }

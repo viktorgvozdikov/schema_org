@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TOrderItem{
 	use TIntangible;
 
-	protected $type = 'OrderItem';
 }

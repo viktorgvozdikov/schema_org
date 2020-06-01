@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\TIntangible;
 trait TTicket{
 	use TIntangible;
 
-	protected $type = 'Ticket';
 }

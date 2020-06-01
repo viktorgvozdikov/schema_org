@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Place\TAdministrativeArea;
 trait TCountry{
 	use TAdministrativeArea;
 
-	protected $type = 'Country';
 }

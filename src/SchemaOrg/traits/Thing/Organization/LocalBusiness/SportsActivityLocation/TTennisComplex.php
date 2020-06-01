@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Organization\LocalBusiness\TSportsActivityLo
 trait TTennisComplex{
 	use TSportsActivityLocation;
 
-	protected $type = 'TennisComplex';
 }

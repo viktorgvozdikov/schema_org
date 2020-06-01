@@ -9,5 +9,4 @@ trait TLegislationObject{
 	use TLegislation;
 	use TMediaObject;
 
-	protected $type = 'LegislationObject';
 }

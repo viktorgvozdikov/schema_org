@@ -7,5 +7,4 @@ use ModuleBZ\SchemaOrg\traits\Thing\Intangible\TReservation;
 trait TLodgingReservation{
 	use TReservation;
 
-	protected $type = 'LodgingReservation';
 }
