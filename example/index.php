@@ -6,10 +6,10 @@ include_once "../vendor/autoload.php";
 
 $things = [];
 $things[] = (new \ModuleBZ\SchemaOrg\Thing())
-    ->setName('Имя 1')
+    //->setName('Имя 1')
 ;
 $things[] = (new \ModuleBZ\SchemaOrg\Product())
-    ->setName('Имя 2')
+    //->setName('Имя 2')
 ;
 
 
@@ -34,5 +34,3 @@ foreach ($things as $thing) {
 
 
 echo $thing;
-
-

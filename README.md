@@ -2,4 +2,5 @@
 
 ## Примеры
 
+- [Thing](docs/Thing.md)
 - [Action](docs/Action.md) 
