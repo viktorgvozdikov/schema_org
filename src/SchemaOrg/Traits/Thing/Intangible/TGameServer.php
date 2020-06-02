@@ -2,9 +2,53 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TIntangible;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TGameServer{
-	use TIntangible;
+	 /**
+	 * Video game which is played on this server.<br> Inverse property: <a href="/gameServer">gameServer</a>.
+	 * @var String $game
+	 */
+	protected $game;
+
+	 /**
+	 * Number of players on the server.
+	 * @var String $playersOnline
+	 */
+	protected $playersOnline;
+
+	 /**
+	 * Status of a game server.
+	 * @var String $serverStatus
+	 */
+	protected $serverStatus;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setGame($x){
+		$this->game = new Text('Game',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setPlayersOnline($x){
+		$this->playersOnline = new Text('PlayersOnline',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setServerStatus($x){
+		$this->serverStatus = new Text('ServerStatus',$x);
+		return $this;
+	}
+
 
 }

@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TSportsActivityLocation;
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TCivicStructure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TStadiumOrArena{
-	use TSportsActivityLocation;
-	use TCivicStructure;
-
 }

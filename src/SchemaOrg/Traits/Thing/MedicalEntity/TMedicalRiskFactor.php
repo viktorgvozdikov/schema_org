@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TMedicalEntity;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalRiskFactor{
-	use TMedicalEntity;
+	 /**
+	 * The condition, complication, etc. influenced by this factor.
+	 * @var String $increasesRiskOf
+	 */
+	protected $increasesRiskOf;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setIncreasesRiskOf($x){
+		$this->increasesRiskOf = new Text('IncreasesRiskOf',$x);
+		return $this;
+	}
+
 
 }

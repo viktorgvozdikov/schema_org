@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\BroadcastService;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\TBroadcastService;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TRadioBroadcastService{
-	use TBroadcastService;
-
 }

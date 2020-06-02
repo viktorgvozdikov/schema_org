@@ -2,11 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\DefinedTerm\CategoryCode;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\DefinedTerm\TCategoryCode;
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalIntangible;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalCode{
-	use TCategoryCode;
-	use TMedicalIntangible;
+	 /**
+	 * The coding system, e.g. 'ICD-10'.
+	 * @var String $codingSystem
+	 */
+	protected $codingSystem;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setCodingSystem($x){
+		$this->codingSystem = new Text('CodingSystem',$x);
+		return $this;
+	}
+
 
 }

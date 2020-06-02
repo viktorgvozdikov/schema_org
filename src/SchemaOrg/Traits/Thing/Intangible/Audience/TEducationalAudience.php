@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Audience;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TAudience;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEducationalAudience{
-	use TAudience;
+	 /**
+	 * An educationalRole of an EducationalAudience.
+	 * @var String $educationalRole
+	 */
+	protected $educationalRole;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setEducationalRole($x){
+		$this->educationalRole = new Text('EducationalRole',$x);
+		return $this;
+	}
+
 
 }

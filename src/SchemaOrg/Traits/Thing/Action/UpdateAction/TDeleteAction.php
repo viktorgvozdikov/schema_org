@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\UpdateAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TUpdateAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDeleteAction{
-	use TUpdateAction;
-
 }

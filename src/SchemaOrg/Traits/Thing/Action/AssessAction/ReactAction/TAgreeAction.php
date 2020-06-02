@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction\ReactAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction\TReactAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAgreeAction{
-	use TReactAction;
-
 }

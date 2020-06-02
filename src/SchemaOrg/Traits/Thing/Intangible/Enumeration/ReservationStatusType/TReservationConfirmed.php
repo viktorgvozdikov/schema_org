@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\ReservationStatusType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TReservationStatusType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TReservationConfirmed{
-	use TReservationStatusType;
-
 }

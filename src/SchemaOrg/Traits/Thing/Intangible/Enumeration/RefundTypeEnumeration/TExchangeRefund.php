@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\RefundTypeEnumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TRefundTypeEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TExchangeRefund{
-	use TRefundTypeEnumeration;
-
 }

@@ -12,14 +12,14 @@ include_once "../vendor/autoload.php";
 
 $things = [];
 $things[] = (new \ModuleBZ\SchemaOrg\Thing())
-    //->setName('Имя 1')
+    ->setName('Имя 1')
 ;
 $things[] = (new \ModuleBZ\SchemaOrg\Thing\Product())
-    //->setName('Имя 2')
+    ->setName('Имя 2')
 ;
 
 $things[] = (new ModuleBZ\SchemaOrg\Thing\Organization\LocalBusiness())
-    //->setName('Имя 2')
+    ->setName('Имя 2')
 ;
 
 

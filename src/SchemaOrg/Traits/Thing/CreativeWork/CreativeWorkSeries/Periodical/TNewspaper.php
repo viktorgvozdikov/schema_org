@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\CreativeWorkSeries\Periodical;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\CreativeWorkSeries\TPeriodical;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TNewspaper{
-	use TPeriodical;
-
 }

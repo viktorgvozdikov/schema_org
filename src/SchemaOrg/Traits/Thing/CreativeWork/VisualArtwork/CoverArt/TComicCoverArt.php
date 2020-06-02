@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\VisualArtwork\CoverArt;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TComicStory;
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\VisualArtwork\TCoverArt;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TComicCoverArt{
-	use TComicStory;
-	use TCoverArt;
-
 }

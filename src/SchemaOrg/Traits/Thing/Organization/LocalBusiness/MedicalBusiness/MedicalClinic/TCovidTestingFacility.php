@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\MedicalBusiness\MedicalClinic;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\MedicalBusiness\TMedicalClinic;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCovidTestingFacility{
-	use TMedicalClinic;
-
 }

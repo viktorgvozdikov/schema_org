@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article\SocialMediaPosting;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article\TSocialMediaPosting;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBlogPosting{
-	use TSocialMediaPosting;
-
 }

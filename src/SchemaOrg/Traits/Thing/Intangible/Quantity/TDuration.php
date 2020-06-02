@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Quantity;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TQuantity;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDuration{
-	use TQuantity;
-
 }

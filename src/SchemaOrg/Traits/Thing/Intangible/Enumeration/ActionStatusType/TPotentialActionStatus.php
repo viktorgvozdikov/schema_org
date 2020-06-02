@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\ActionStatusType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TActionStatusType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPotentialActionStatus{
-	use TActionStatusType;
-
 }

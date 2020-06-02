@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\ConsumeAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TConsumeAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TViewAction{
-	use TConsumeAction;
-
 }

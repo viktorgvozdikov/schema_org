@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\FinancialService;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TFinancialService;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBankOrCreditUnion{
-	use TFinancialService;
-
 }

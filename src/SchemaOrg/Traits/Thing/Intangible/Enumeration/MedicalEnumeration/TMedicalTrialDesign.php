@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MedicalEnumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMedicalEnumeration;
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalTrialDesign{
-	use TMedicalEnumeration;
-	use TEnumeration;
-
 }

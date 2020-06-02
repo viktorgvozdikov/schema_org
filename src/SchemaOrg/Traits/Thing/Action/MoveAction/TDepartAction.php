@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\MoveAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TMoveAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDepartAction{
-	use TMoveAction;
-
 }

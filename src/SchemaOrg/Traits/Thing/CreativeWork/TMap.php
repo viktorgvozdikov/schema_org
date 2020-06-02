@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMap{
-	use TCreativeWork;
+	 /**
+	 * Indicates the kind of Map, from the MapCategoryType Enumeration.
+	 * @var String $mapType
+	 */
+	protected $mapType;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setMapType($x){
+		$this->mapType = new Text('MapType',$x);
+		return $this;
+	}
+
 
 }

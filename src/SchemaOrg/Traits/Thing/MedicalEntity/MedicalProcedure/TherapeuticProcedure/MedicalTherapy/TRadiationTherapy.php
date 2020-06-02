@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalProcedure\TherapeuticProcedure\MedicalTherapy;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalProcedure\TherapeuticProcedure\TMedicalTherapy;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TRadiationTherapy{
-	use TMedicalTherapy;
-
 }

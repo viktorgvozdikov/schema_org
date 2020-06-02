@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\UpdateAction\AddAction\InsertAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\UpdateAction\AddAction\TInsertAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPrependAction{
-	use TInsertAction;
-
 }

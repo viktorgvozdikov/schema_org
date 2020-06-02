@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\WebPage;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TWebPage;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TQAPage{
-	use TWebPage;
-
 }

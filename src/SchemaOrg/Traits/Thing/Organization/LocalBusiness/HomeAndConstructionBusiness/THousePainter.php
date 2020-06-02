@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\HomeAndConstructionBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\THomeAndConstructionBusiness;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THousePainter{
-	use THomeAndConstructionBusiness;
-
 }

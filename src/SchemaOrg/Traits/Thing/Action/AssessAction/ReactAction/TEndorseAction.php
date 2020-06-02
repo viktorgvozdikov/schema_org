@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction\ReactAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction\TReactAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEndorseAction{
-	use TReactAction;
+	 /**
+	 * A sub property of participant. The person/organization being supported.
+	 * @var String $endorsee
+	 */
+	protected $endorsee;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setEndorsee($x){
+		$this->endorsee = new Text('Endorsee',$x);
+		return $this;
+	}
+
 
 }

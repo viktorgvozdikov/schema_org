@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalStudy;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalStudy;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalTrial{
-	use TMedicalStudy;
+	 /**
+	 * Specifics about the trial design (enumerated).
+	 * @var String $trialDesign
+	 */
+	protected $trialDesign;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setTrialDesign($x){
+		$this->trialDesign = new Text('TrialDesign',$x);
+		return $this;
+	}
+
 
 }

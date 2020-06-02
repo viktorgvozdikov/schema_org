@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Episode;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TEpisode;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPodcastEpisode{
-	use TEpisode;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure\GovernmentBuilding;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure\TGovernmentBuilding;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCityHall{
-	use TGovernmentBuilding;
-
 }

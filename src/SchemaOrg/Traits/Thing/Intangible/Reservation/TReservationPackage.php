@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Reservation;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TReservation;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TReservationPackage{
-	use TReservation;
+	 /**
+	 * The individual reservations included in the package. Typically a repeated property.
+	 * @var String $subReservation
+	 */
+	protected $subReservation;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setSubReservation($x){
+		$this->subReservation = new Text('SubReservation',$x);
+		return $this;
+	}
+
 
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TMedicalEntity;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TLifestyleModification{
-	use TMedicalEntity;
-
 }

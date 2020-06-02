@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalCondition;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalCondition;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalSignOrSymptom{
-	use TMedicalCondition;
-
 }

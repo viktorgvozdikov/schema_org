@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\GovernmentOffice;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TGovernmentOffice;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPostOffice{
-	use TGovernmentOffice;
-
 }

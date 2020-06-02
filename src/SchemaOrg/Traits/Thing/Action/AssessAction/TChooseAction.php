@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\AssessAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TAssessAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TChooseAction{
-	use TAssessAction;
+	 /**
+	 * A sub property of object. The options subject to this action. Supersedes <a href="/option">option</a>.
+	 * @var String $actionOption
+	 */
+	protected $actionOption;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setActionOption($x){
+		$this->actionOption = new Text('ActionOption',$x);
+		return $this;
+	}
+
 
 }

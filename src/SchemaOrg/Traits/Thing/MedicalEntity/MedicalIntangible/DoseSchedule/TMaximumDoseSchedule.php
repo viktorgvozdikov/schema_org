@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalIntangible\DoseSchedule;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalIntangible\TDoseSchedule;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMaximumDoseSchedule{
-	use TDoseSchedule;
-
 }

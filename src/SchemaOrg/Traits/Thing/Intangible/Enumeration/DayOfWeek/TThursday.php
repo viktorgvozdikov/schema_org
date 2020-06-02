@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\DayOfWeek;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TDayOfWeek;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TThursday{
-	use TDayOfWeek;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalProcedure;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalProcedure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSurgicalProcedure{
-	use TMedicalProcedure;
-
 }

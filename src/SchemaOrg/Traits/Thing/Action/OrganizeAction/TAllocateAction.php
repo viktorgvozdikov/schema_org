@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\OrganizeAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TOrganizeAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAllocateAction{
-	use TOrganizeAction;
-
 }

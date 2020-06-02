@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\PaymentStatusType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TPaymentStatusType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPaymentComplete{
-	use TPaymentStatusType;
-
 }

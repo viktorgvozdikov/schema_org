@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\FinancialProduct;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\TFinancialProduct;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPaymentService{
-	use TFinancialProduct;
-
 }

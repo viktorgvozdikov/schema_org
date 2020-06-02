@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\PerformingGroup;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TPerformingGroup;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDanceGroup{
-	use TPerformingGroup;
-
 }

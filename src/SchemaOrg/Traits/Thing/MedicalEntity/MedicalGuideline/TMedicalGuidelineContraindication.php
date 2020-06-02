@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalGuideline;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalGuideline;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalGuidelineContraindication{
-	use TMedicalGuideline;
-
 }

@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\PlayAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TPlayAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPerformAction{
-	use TPlayAction;
+	 /**
+	 * A sub property of location. The entertainment business where the action occurred.
+	 * @var String $entertainmentBusiness
+	 */
+	protected $entertainmentBusiness;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setEntertainmentBusiness($x){
+		$this->entertainmentBusiness = new Text('EntertainmentBusiness',$x);
+		return $this;
+	}
+
 
 }

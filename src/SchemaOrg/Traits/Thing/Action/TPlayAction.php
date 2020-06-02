@@ -2,9 +2,38 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPlayAction{
-	use TAction;
+	 /**
+	 * An intended audience, i.e. a group for whom something was created. Supersedes <a href="/serviceAudience">serviceAudience</a>.
+	 * @var String $audience
+	 */
+	protected $audience;
+
+	 /**
+	 * Upcoming or past event associated with this place, organization, or action. Supersedes <a href="/events">events</a>.
+	 * @var String $event
+	 */
+	protected $event;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setAudience($x){
+		$this->audience = new Text('Audience',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setEvent($x){
+		$this->event = new Text('Event',$x);
+		return $this;
+	}
+
 
 }

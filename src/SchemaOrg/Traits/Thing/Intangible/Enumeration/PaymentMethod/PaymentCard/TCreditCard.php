@@ -2,11 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\PaymentMethod\PaymentCard;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\PaymentMethod\TPaymentCard;
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\FinancialProduct\TLoanOrCredit;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCreditCard{
-	use TPaymentCard;
-	use TLoanOrCredit;
+	 /**
+	 * The minimum payment is the lowest amount of money that one is required to pay on a credit card statement each month.
+	 * @var String $monthlyMinimumRepaymentAmount
+	 */
+	protected $monthlyMinimumRepaymentAmount;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setMonthlyMinimumRepaymentAmount($x){
+		$this->monthlyMinimumRepaymentAmount = new Text('MonthlyMinimumRepaymentAmount',$x);
+		return $this;
+	}
+
 
 }

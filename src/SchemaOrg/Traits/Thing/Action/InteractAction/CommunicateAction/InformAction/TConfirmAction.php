@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction\CommunicateAction\InformAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction\CommunicateAction\TInformAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TConfirmAction{
-	use TInformAction;
-
 }

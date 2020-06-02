@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MerchantReturnEnumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMerchantReturnEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMerchantReturnUnspecified{
-	use TMerchantReturnEnumeration;
-
 }

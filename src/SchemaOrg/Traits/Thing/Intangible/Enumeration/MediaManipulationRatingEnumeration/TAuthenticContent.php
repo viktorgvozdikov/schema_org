@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MediaManipulationRatingEnumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMediaManipulationRatingEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAuthenticContent{
-	use TMediaManipulationRatingEnumeration;
-
 }

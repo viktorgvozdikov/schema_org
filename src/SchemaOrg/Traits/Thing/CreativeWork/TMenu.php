@@ -2,9 +2,38 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMenu{
-	use TCreativeWork;
+	 /**
+	 * A food or drink item contained in a menu or menu section.
+	 * @var String $hasMenuItem
+	 */
+	protected $hasMenuItem;
+
+	 /**
+	 * A subgrouping of the menu (by dishes, course, serving time period, etc.).
+	 * @var String $hasMenuSection
+	 */
+	protected $hasMenuSection;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setHasMenuItem($x){
+		$this->hasMenuItem = new Text('HasMenuItem',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setHasMenuSection($x){
+		$this->hasMenuSection = new Text('HasMenuSection',$x);
+		return $this;
+	}
+
 
 }

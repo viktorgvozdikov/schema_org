@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\THealthAndBeautyBusiness;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THairSalon{
-	use THealthAndBeautyBusiness;
-
 }

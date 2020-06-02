@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TOrganization;
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TCivicStructure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEducationalOrganization{
-	use TOrganization;
-	use TCivicStructure;
-
 }

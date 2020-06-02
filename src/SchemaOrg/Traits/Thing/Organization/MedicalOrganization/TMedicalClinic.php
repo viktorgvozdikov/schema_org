@@ -2,11 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\MedicalOrganization;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TMedicalBusiness;
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TMedicalOrganization;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalClinic{
-	use TMedicalBusiness;
-	use TMedicalOrganization;
+	 /**
+	 * A medical service available from this provider.
+	 * @var String $availableService
+	 */
+	protected $availableService;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setAvailableService($x){
+		$this->availableService = new Text('AvailableService',$x);
+		return $this;
+	}
+
 
 }

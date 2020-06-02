@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Review;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TReview;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TUserReview{
-	use TReview;
-
 }

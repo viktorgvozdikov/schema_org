@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalTest;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalTest;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TImagingTest{
-	use TMedicalTest;
+	 /**
+	 * Imaging technique used.
+	 * @var String $imagingTechnique
+	 */
+	protected $imagingTechnique;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setImagingTechnique($x){
+		$this->imagingTechnique = new Text('ImagingTechnique',$x);
+		return $this;
+	}
+
 
 }

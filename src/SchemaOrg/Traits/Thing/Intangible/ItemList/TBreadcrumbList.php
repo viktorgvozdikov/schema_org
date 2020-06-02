@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\ItemList;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TItemList;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBreadcrumbList{
-	use TItemList;
-
 }

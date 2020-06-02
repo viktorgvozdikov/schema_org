@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\THealthAndBeautyBusiness;
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TSportsActivityLocation;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THealthClub{
-	use THealthAndBeautyBusiness;
-	use TSportsActivityLocation;
-
 }

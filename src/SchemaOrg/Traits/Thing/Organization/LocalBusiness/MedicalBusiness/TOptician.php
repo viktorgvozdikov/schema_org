@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\MedicalBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TMedicalBusiness;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOptician{
-	use TMedicalBusiness;
-
 }

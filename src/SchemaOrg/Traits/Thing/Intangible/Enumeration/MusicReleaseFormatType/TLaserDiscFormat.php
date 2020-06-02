@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MusicReleaseFormatType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMusicReleaseFormatType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TLaserDiscFormat{
-	use TMusicReleaseFormatType;
-
 }

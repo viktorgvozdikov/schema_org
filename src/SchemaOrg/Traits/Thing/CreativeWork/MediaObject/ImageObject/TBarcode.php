@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\MediaObject\ImageObject;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\MediaObject\TImageObject;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBarcode{
-	use TImageObject;
-
 }

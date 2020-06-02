@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\FoodEstablishment;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TFoodEstablishment;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TFastFoodRestaurant{
-	use TFoodEstablishment;
-
 }

@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Series;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TEvent;
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TSeries;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEventSeries{
-	use TEvent;
-	use TSeries;
-
 }

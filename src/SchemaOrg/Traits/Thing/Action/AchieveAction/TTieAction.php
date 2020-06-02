@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\AchieveAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TAchieveAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TTieAction{
-	use TAchieveAction;
-
 }

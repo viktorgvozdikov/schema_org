@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\ConsumeAction\UseAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\ConsumeAction\TUseAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TWearAction{
-	use TUseAction;
-
 }

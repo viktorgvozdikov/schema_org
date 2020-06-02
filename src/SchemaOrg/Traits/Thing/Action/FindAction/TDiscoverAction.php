@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\FindAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TFindAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDiscoverAction{
-	use TFindAction;
-
 }

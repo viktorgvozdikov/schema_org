@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\DeliveryMethod;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TDeliveryMethod;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOnSitePickup{
-	use TDeliveryMethod;
-
 }

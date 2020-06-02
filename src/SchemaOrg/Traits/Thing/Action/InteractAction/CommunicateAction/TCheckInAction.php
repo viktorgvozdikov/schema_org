@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction\CommunicateAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction\TCommunicateAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCheckInAction{
-	use TCommunicateAction;
-
 }

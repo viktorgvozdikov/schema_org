@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Event\PublicationEvent;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Event\TPublicationEvent;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOnDemandEvent{
-	use TPublicationEvent;
-
 }

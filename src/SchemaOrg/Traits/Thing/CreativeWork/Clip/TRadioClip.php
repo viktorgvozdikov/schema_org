@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Clip;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TClip;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TRadioClip{
-	use TClip;
-
 }

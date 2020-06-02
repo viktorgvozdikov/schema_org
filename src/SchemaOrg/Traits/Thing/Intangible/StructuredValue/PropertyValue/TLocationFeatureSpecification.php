@@ -2,9 +2,53 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\StructuredValue\PropertyValue;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\StructuredValue\TPropertyValue;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TLocationFeatureSpecification{
-	use TPropertyValue;
+	 /**
+	 * The hours during which this service or contact is available.
+	 * @var String $hoursAvailable
+	 */
+	protected $hoursAvailable;
+
+	 /**
+	 * The date when the item becomes valid.
+	 * @var String $validFrom
+	 */
+	protected $validFrom;
+
+	 /**
+	 * The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours.
+	 * @var String $validThrough
+	 */
+	protected $validThrough;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setHoursAvailable($x){
+		$this->hoursAvailable = new Text('HoursAvailable',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setValidFrom($x){
+		$this->validFrom = new Text('ValidFrom',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setValidThrough($x){
+		$this->validThrough = new Text('ValidThrough',$x);
+		return $this;
+	}
+
 
 }

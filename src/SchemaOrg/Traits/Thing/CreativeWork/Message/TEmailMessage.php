@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Message;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TMessage;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEmailMessage{
-	use TMessage;
-
 }

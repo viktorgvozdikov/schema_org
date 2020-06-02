@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TIntangible;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TQuantity{
-	use TIntangible;
-
 }

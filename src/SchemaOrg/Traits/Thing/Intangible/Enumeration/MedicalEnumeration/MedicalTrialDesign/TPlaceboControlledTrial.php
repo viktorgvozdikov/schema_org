@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MedicalEnumeration\MedicalTrialDesign;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MedicalEnumeration\TMedicalTrialDesign;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPlaceboControlledTrial{
-	use TMedicalTrialDesign;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\MusicAlbumReleaseType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMusicAlbumReleaseType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBroadcastRelease{
-	use TMusicAlbumReleaseType;
-
 }

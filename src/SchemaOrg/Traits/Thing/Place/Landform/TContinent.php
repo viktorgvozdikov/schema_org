@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\Landform;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TLandform;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TContinent{
-	use TLandform;
-
 }

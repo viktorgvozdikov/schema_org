@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\DigitalDocumentPermissionType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TDigitalDocumentPermissionType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TWritePermission{
-	use TDigitalDocumentPermissionType;
-
 }

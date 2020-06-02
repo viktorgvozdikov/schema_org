@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\BookFormatType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TBookFormatType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THardcover{
-	use TBookFormatType;
-
 }

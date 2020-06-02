@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDigitalDocumentPermissionType{
-	use TEnumeration;
-
 }

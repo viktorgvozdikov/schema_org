@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\EventStatusType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TEventStatusType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEventCancelled{
-	use TEventStatusType;
-
 }

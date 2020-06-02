@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\ItemAvailability;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TItemAvailability;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSoldOut{
-	use TItemAvailability;
-
 }

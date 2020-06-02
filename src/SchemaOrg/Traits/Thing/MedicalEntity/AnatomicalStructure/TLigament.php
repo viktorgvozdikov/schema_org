@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\AnatomicalStructure;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TAnatomicalStructure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TLigament{
-	use TAnatomicalStructure;
-
 }

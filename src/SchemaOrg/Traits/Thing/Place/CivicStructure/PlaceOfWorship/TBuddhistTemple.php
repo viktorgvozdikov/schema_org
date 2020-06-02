@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure\PlaceOfWorship;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\CivicStructure\TPlaceOfWorship;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBuddhistTemple{
-	use TPlaceOfWorship;
-
 }

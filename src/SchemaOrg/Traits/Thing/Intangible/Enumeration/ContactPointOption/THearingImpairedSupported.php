@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\ContactPointOption;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TContactPointOption;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THearingImpairedSupported{
-	use TContactPointOption;
-
 }

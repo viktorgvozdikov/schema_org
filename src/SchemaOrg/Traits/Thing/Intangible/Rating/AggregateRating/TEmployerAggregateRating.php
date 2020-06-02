@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Rating\AggregateRating;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Rating\TAggregateRating;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEmployerAggregateRating{
-	use TAggregateRating;
-
 }

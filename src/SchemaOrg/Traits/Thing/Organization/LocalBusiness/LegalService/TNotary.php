@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\LegalService;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TLegalService;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TNotary{
-	use TLegalService;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\OrganizeAction\PlanAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\OrganizeAction\TPlanAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCancelAction{
-	use TPlanAction;
-
 }

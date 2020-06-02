@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Offer;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TOffer;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOfferForPurchase{
-	use TOffer;
-
 }

@@ -2,9 +2,38 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\DefinedTerm;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TDefinedTerm;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCategoryCode{
-	use TDefinedTerm;
+	 /**
+	 * A short textual code that uniquely identifies the value.
+	 * @var String $codeValue
+	 */
+	protected $codeValue;
+
+	 /**
+	 * A <a class="localLink" href="/CategoryCodeSet">CategoryCodeSet</a> that contains this category code.
+	 * @var String $inCodeSet
+	 */
+	protected $inCodeSet;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setCodeValue($x){
+		$this->codeValue = new Text('CodeValue',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setInCodeSet($x){
+		$this->inCodeSet = new Text('InCodeSet',$x);
+		return $this;
+	}
+
 
 }

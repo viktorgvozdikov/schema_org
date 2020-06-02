@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Product;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TProduct;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSomeProducts{
-	use TProduct;
+	 /**
+	 * The current approximate inventory level for the item or items.
+	 * @var String $inventoryLevel
+	 */
+	protected $inventoryLevel;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setInventoryLevel($x){
+		$this->inventoryLevel = new Text('InventoryLevel',$x);
+		return $this;
+	}
+
 
 }

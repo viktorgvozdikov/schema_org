@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\MediaObject;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TMediaObject;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMusicVideoObject{
-	use TMediaObject;
-
 }

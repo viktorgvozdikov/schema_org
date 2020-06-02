@@ -2,9 +2,45 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDataCatalog{
-	use TCreativeWork;
+	 /**
+	 * A dataset contained in this catalog.<br> Inverse property: <a href="/includedInDataCatalog">includedInDataCatalog</a>.
+	 * @var String $dataset
+	 */
+	protected $dataset;
+
+	 /**
+	 * A technique or technology used in a <a class="localLink" href="/Dataset">Dataset</a> (or <a class="localLink" href="/DataDownload">DataDownload</a>, <a class="localLink" href="/DataCatalog">DataCatalog</a>),
+	 * corresponding to the method used for measuring the corresponding variable(s) (described using <a class="localLink" href="/variableMeasured">variableMeasured</a>). This is oriented towards scientific and scholarly dataset publication but may have broader applicability; it is not intended as a full representation of measurement, but rather as a high level summary for dataset discovery.<br><br>
+	 * 
+	 * For example, if <a class="localLink" href="/variableMeasured">variableMeasured</a> is: molecule concentration, <a class="localLink" href="/measurementTechnique">measurementTechnique</a> could be: "mass spectrometry" or "nmr spectroscopy" or "colorimetry" or "immunofluorescence".<br><br>
+	 * 
+	 * If the <a class="localLink" href="/variableMeasured">variableMeasured</a> is "depression rating", the <a class="localLink" href="/measurementTechnique">measurementTechnique</a> could be "Zung Scale" or "HAM-D" or "Beck Depression Inventory".<br><br>
+	 * 
+	 * If there are several <a class="localLink" href="/variableMeasured">variableMeasured</a> properties recorded for some given data object, use a <a class="localLink" href="/PropertyValue">PropertyValue</a> for each <a class="localLink" href="/variableMeasured">variableMeasured</a> and attach the corresponding <a class="localLink" href="/measurementTechnique">measurementTechnique</a>.
+	 * @var String $measurementTechnique
+	 */
+	protected $measurementTechnique;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setDataset($x){
+		$this->dataset = new Text('Dataset',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setMeasurementTechnique($x){
+		$this->measurementTechnique = new Text('MeasurementTechnique',$x);
+		return $this;
+	}
+
 
 }

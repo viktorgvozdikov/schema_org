@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalRiskEstimator;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalRiskEstimator;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMedicalRiskCalculator{
-	use TMedicalRiskEstimator;
-
 }

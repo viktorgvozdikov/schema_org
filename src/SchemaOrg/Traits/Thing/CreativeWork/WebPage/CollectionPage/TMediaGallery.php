@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\WebPage\CollectionPage;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\WebPage\TCollectionPage;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMediaGallery{
-	use TCollectionPage;
-
 }

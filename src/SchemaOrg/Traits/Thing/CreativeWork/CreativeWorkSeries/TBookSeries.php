@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\CreativeWorkSeries;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TCreativeWorkSeries;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBookSeries{
-	use TCreativeWorkSeries;
-
 }

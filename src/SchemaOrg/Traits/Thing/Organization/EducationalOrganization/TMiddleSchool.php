@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\EducationalOrganization;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TEducationalOrganization;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TMiddleSchool{
-	use TEducationalOrganization;
-
 }

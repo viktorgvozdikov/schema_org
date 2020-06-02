@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\ControlAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TControlAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSuspendAction{
-	use TControlAction;
-
 }

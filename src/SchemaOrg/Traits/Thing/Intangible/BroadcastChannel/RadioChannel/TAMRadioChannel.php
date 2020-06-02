@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\BroadcastChannel\RadioChannel;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\BroadcastChannel\TRadioChannel;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAMRadioChannel{
-	use TRadioChannel;
-
 }

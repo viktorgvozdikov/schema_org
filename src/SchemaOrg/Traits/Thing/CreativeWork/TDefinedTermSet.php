@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDefinedTermSet{
-	use TCreativeWork;
+	 /**
+	 * A Defined Term contained in this term set.
+	 * @var String $hasDefinedTerm
+	 */
+	protected $hasDefinedTerm;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setHasDefinedTerm($x){
+		$this->hasDefinedTerm = new Text('HasDefinedTerm',$x);
+		return $this;
+	}
+
 
 }

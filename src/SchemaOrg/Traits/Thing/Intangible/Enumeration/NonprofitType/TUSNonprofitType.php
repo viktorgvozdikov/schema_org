@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\NonprofitType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TNonprofitType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TUSNonprofitType{
-	use TNonprofitType;
-
 }

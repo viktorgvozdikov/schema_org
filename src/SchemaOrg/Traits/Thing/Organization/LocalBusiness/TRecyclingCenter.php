@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TLocalBusiness;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TRecyclingCenter{
-	use TLocalBusiness;
-
 }

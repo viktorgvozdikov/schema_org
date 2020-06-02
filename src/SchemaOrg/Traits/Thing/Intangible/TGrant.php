@@ -2,9 +2,38 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TIntangible;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TGrant{
-	use TIntangible;
+	 /**
+	 * Indicates an item funded or sponsored through a <a class="localLink" href="/Grant">Grant</a>.
+	 * @var String $fundedItem
+	 */
+	protected $fundedItem;
+
+	 /**
+	 * A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.
+	 * @var String $sponsor
+	 */
+	protected $sponsor;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setFundedItem($x){
+		$this->fundedItem = new Text('FundedItem',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setSponsor($x){
+		$this->sponsor = new Text('Sponsor',$x);
+		return $this;
+	}
+
 
 }

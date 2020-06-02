@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\ListItem;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TListItem;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THowToTip{
-	use TCreativeWork;
-	use TListItem;
-
 }

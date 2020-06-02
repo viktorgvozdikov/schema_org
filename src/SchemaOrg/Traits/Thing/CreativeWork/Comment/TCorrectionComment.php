@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Comment;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TComment;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCorrectionComment{
-	use TComment;
-
 }

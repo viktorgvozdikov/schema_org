@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Rating;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TRating;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEndorsementRating{
-	use TRating;
-
 }

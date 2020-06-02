@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\AchieveAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TAchieveAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TWinAction{
-	use TAchieveAction;
+	 /**
+	 * A sub property of participant. The loser of the action.
+	 * @var String $loser
+	 */
+	protected $loser;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setLoser($x){
+		$this->loser = new Text('Loser',$x);
+		return $this;
+	}
+
 
 }

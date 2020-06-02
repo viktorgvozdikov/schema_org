@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing;
 
-use ModuleBZ\SchemaOrg\Traits\TThing;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TIntangible{
-	use TThing;
-
 }

@@ -2,9 +2,53 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Rating;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TRating;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAggregateRating{
-	use TRating;
+	 /**
+	 * The item that is being reviewed/rated.
+	 * @var String $itemReviewed
+	 */
+	protected $itemReviewed;
+
+	 /**
+	 * The count of total number of ratings.
+	 * @var String $ratingCount
+	 */
+	protected $ratingCount;
+
+	 /**
+	 * The count of total number of reviews.
+	 * @var String $reviewCount
+	 */
+	protected $reviewCount;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setItemReviewed($x){
+		$this->itemReviewed = new Text('ItemReviewed',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setRatingCount($x){
+		$this->ratingCount = new Text('RatingCount',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setReviewCount($x){
+		$this->reviewCount = new Text('ReviewCount',$x);
+		return $this;
+	}
+
 
 }

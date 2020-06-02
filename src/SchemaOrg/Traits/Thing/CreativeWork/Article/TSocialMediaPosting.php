@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TArticle;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSocialMediaPosting{
-	use TArticle;
+	 /**
+	 * A CreativeWork such as an image, video, or audio clip shared as part of this posting.
+	 * @var String $sharedContent
+	 */
+	protected $sharedContent;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setSharedContent($x){
+		$this->sharedContent = new Text('SharedContent',$x);
+		return $this;
+	}
+
 
 }

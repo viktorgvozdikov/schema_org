@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\PhysicalActivityCategory;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TPhysicalActivityCategory;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOccupationalActivity{
-	use TPhysicalActivityCategory;
-
 }

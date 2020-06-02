@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TService;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TTaxiService{
-	use TService;
-
 }

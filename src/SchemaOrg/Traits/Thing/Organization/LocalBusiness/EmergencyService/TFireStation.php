@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\EmergencyService;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TEmergencyService;
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TCivicStructure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TFireStation{
-	use TEmergencyService;
-	use TCivicStructure;
-
 }

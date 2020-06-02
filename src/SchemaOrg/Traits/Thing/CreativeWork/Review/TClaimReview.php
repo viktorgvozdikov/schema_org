@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Review;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TReview;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TClaimReview{
-	use TReview;
+	 /**
+	 * A short summary of the specific claims reviewed in a ClaimReview.
+	 * @var String $claimReviewed
+	 */
+	protected $claimReviewed;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setClaimReviewed($x){
+		$this->claimReviewed = new Text('ClaimReviewed',$x);
+		return $this;
+	}
+
 
 }

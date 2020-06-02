@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\VisualArtwork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TVisualArtwork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCoverArt{
-	use TVisualArtwork;
-
 }

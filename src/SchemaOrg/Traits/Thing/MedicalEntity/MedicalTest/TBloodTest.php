@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalTest;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalTest;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBloodTest{
-	use TMedicalTest;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\CreativeWorkSeason;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TCreativeWorkSeason;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TRadioSeason{
-	use TCreativeWorkSeason;
-
 }

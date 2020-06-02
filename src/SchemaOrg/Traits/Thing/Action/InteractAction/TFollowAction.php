@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Action\InteractAction;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Action\TInteractAction;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TFollowAction{
-	use TInteractAction;
+	 /**
+	 * A sub property of object. The person or organization being followed.
+	 * @var String $followee
+	 */
+	protected $followee;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setFollowee($x){
+		$this->followee = new Text('Followee',$x);
+		return $this;
+	}
+
 
 }

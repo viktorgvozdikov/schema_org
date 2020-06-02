@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\Accommodation;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TAccommodation;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCampingPitch{
-	use TAccommodation;
-
 }

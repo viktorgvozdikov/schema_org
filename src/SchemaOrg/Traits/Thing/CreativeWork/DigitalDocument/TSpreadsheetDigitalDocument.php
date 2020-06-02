@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\DigitalDocument;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TDigitalDocument;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSpreadsheetDigitalDocument{
-	use TDigitalDocument;
-
 }

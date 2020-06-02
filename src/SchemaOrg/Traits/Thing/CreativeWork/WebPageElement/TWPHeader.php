@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\WebPageElement;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TWebPageElement;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TWPHeader{
-	use TWebPageElement;
-
 }

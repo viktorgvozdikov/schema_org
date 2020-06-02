@@ -2,9 +2,83 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TMedicalEntity;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAnatomicalSystem{
-	use TMedicalEntity;
+	 /**
+	 * If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system.
+	 * @var String $associatedPathophysiology
+	 */
+	protected $associatedPathophysiology;
+
+	 /**
+	 * Specifying something physically contained by something else. Typically used here for the underlying anatomical structures, such as organs, that comprise the anatomical system.
+	 * @var String $comprisedOf
+	 */
+	protected $comprisedOf;
+
+	 /**
+	 * A medical condition associated with this anatomy.
+	 * @var String $relatedCondition
+	 */
+	protected $relatedCondition;
+
+	 /**
+	 * Related anatomical structure(s) that are not part of the system but relate or connect to it, such as vascular bundles associated with an organ system.
+	 * @var String $relatedStructure
+	 */
+	protected $relatedStructure;
+
+	 /**
+	 * A medical therapy related to this anatomy.
+	 * @var String $relatedTherapy
+	 */
+	protected $relatedTherapy;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setAssociatedPathophysiology($x){
+		$this->associatedPathophysiology = new Text('AssociatedPathophysiology',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setComprisedOf($x){
+		$this->comprisedOf = new Text('ComprisedOf',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setRelatedCondition($x){
+		$this->relatedCondition = new Text('RelatedCondition',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setRelatedStructure($x){
+		$this->relatedStructure = new Text('RelatedStructure',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setRelatedTherapy($x){
+		$this->relatedTherapy = new Text('RelatedTherapy',$x);
+		return $this;
+	}
+
 
 }

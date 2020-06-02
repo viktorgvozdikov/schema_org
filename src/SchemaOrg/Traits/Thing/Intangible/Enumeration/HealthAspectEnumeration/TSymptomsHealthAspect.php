@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\HealthAspectEnumeration;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\THealthAspectEnumeration;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSymptomsHealthAspect{
-	use THealthAspectEnumeration;
-
 }

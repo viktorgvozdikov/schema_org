@@ -2,11 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\MedicalProcedure;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TMedicalEnumeration;
-use ModuleBZ\SchemaOrg\Traits\Thing\MedicalEntity\TMedicalProcedure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TPhysicalExam{
-	use TMedicalEnumeration;
-	use TMedicalProcedure;
-
 }

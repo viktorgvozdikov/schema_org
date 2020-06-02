@@ -2,9 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TGuide{
-	use TCreativeWork;
+	 /**
+	 * This Review or Rating is relevant to this part or facet of the itemReviewed.
+	 * @var String $reviewAspect
+	 */
+	protected $reviewAspect;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setReviewAspect($x){
+		$this->reviewAspect = new Text('ReviewAspect',$x);
+		return $this;
+	}
+
 
 }

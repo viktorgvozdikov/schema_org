@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Reservation;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\TReservation;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TEventReservation{
-	use TReservation;
-
 }

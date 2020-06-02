@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\OfferItemCondition;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TOfferItemCondition;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDamagedCondition{
-	use TOfferItemCondition;
-
 }

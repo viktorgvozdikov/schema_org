@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\BoardingPolicyType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TBoardingPolicyType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TGroupBoardingPolicy{
-	use TBoardingPolicyType;
-
 }

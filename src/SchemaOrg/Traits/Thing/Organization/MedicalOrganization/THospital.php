@@ -2,13 +2,38 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\MedicalOrganization;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TEmergencyService;
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TMedicalOrganization;
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TCivicStructure;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait THospital{
-	use TEmergencyService;
-	use TMedicalOrganization;
-	use TCivicStructure;
+	 /**
+	 * A medical service available from this provider.
+	 * @var String $availableService
+	 */
+	protected $availableService;
+
+	 /**
+	 * Indicates data describing a hospital, e.g. a CDC <a class="localLink" href="/CDCPMDRecord">CDCPMDRecord</a> or as some kind of <a class="localLink" href="/Dataset">Dataset</a>.
+	 * @var String $healthcareReportingData
+	 */
+	protected $healthcareReportingData;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setAvailableService($x){
+		$this->availableService = new Text('AvailableService',$x);
+		return $this;
+	}
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setHealthcareReportingData($x){
+		$this->healthcareReportingData = new Text('HealthcareReportingData',$x);
+		return $this;
+	}
+
 
 }

@@ -2,13 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TLocalBusiness;
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\LocalBusiness\TMedicalBusiness;
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TMedicalOrganization;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDentist{
-	use TLocalBusiness;
-	use TMedicalBusiness;
-	use TMedicalOrganization;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\FinancialProduct\InvestmentOrDeposit;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Service\FinancialProduct\TInvestmentOrDeposit;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TBrokerageAccount{
-	use TInvestmentOrDeposit;
-
 }

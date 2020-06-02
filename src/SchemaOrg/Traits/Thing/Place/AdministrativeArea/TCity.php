@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Place\AdministrativeArea;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Place\TAdministrativeArea;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TCity{
-	use TAdministrativeArea;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\TOrganization;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TLibrarySystem{
-	use TOrganization;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\OrderStatus;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TOrderStatus;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOrderPaymentDue{
-	use TOrderStatus;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\Project;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TProject;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TResearchProject{
-	use TProject;
-
 }

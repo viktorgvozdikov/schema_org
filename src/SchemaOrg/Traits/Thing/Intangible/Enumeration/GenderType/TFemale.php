@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\GenderType;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TGenderType;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TFemale{
-	use TGenderType;
-
 }

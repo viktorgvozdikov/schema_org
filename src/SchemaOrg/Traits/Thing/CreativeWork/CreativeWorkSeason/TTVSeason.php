@@ -2,11 +2,23 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\CreativeWorkSeason;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TCreativeWorkSeason;
-use ModuleBZ\SchemaOrg\Traits\Thing\TCreativeWork;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TTVSeason{
-	use TCreativeWorkSeason;
-	use TCreativeWork;
+	 /**
+	 * The country of the principal offices of the production company or individual responsible for the movie or program.
+	 * @var String $countryOfOrigin
+	 */
+	protected $countryOfOrigin;
+
+
+	/**
+	 * @param $x
+	 * @return $this
+	 */
+	public function setCountryOfOrigin($x){
+		$this->countryOfOrigin = new Text('CountryOfOrigin',$x);
+		return $this;
+	}
+
 
 }

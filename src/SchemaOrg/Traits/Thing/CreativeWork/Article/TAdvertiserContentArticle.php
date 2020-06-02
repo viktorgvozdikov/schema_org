@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\TArticle;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TAdvertiserContentArticle{
-	use TArticle;
-
 }

@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\QualitativeValue;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TQualitativeValue;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TSteeringPositionValue{
-	use TQualitativeValue;
-
 }

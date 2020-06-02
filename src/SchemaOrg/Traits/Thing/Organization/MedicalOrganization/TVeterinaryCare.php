@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Organization\MedicalOrganization;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Organization\TMedicalOrganization;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TVeterinaryCare{
-	use TMedicalOrganization;
-
 }

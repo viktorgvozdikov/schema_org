@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article\NewsArticle;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\CreativeWork\Article\TNewsArticle;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TOpinionNewsArticle{
-	use TNewsArticle;
-
 }

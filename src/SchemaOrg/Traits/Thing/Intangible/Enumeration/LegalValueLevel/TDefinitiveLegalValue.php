@@ -2,9 +2,6 @@
 
 namespace ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\LegalValueLevel;
 
-use ModuleBZ\SchemaOrg\Traits\Thing\Intangible\Enumeration\TLegalValueLevel;
-
+use ModuleBZ\SchemaOrg\DataType\Text;
 trait TDefinitiveLegalValue{
-	use TLegalValueLevel;
-
 }
