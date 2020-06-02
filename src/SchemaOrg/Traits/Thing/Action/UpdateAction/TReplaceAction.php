@@ -22,7 +22,7 @@ trait TReplaceAction{
 	 * @return $this
 	 */
 	public function setReplacee($x){
-		$this->replacee = new Text('Replacee',$x);
+		$this->replacee = new Text('replacee',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TReplaceAction{
 	 * @return $this
 	 */
 	public function setReplacer($x){
-		$this->replacer = new Text('Replacer',$x);
+		$this->replacer = new Text('replacer',$x);
 		return $this;
 	}
 

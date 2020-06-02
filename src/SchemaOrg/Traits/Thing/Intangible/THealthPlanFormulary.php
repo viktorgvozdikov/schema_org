@@ -28,7 +28,7 @@ trait THealthPlanFormulary{
 	 * @return $this
 	 */
 	public function setHealthPlanCostSharing($x){
-		$this->healthPlanCostSharing = new Text('HealthPlanCostSharing',$x);
+		$this->healthPlanCostSharing = new Text('healthPlanCostSharing',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait THealthPlanFormulary{
 	 * @return $this
 	 */
 	public function setHealthPlanDrugTier($x){
-		$this->healthPlanDrugTier = new Text('HealthPlanDrugTier',$x);
+		$this->healthPlanDrugTier = new Text('healthPlanDrugTier',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait THealthPlanFormulary{
 	 * @return $this
 	 */
 	public function setOffersPrescriptionByMail($x){
-		$this->offersPrescriptionByMail = new Text('OffersPrescriptionByMail',$x);
+		$this->offersPrescriptionByMail = new Text('offersPrescriptionByMail',$x);
 		return $this;
 	}
 

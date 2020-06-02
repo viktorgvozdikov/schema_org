@@ -70,7 +70,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoContains($x){
-		$this->geoContains = new Text('GeoContains',$x);
+		$this->geoContains = new Text('geoContains',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoCoveredBy($x){
-		$this->geoCoveredBy = new Text('GeoCoveredBy',$x);
+		$this->geoCoveredBy = new Text('geoCoveredBy',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoCovers($x){
-		$this->geoCovers = new Text('GeoCovers',$x);
+		$this->geoCovers = new Text('geoCovers',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoCrosses($x){
-		$this->geoCrosses = new Text('GeoCrosses',$x);
+		$this->geoCrosses = new Text('geoCrosses',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoDisjoint($x){
-		$this->geoDisjoint = new Text('GeoDisjoint',$x);
+		$this->geoDisjoint = new Text('geoDisjoint',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoEquals($x){
-		$this->geoEquals = new Text('GeoEquals',$x);
+		$this->geoEquals = new Text('geoEquals',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoIntersects($x){
-		$this->geoIntersects = new Text('GeoIntersects',$x);
+		$this->geoIntersects = new Text('geoIntersects',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoOverlaps($x){
-		$this->geoOverlaps = new Text('GeoOverlaps',$x);
+		$this->geoOverlaps = new Text('geoOverlaps',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoTouches($x){
-		$this->geoTouches = new Text('GeoTouches',$x);
+		$this->geoTouches = new Text('geoTouches',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TGeospatialGeometry{
 	 * @return $this
 	 */
 	public function setGeoWithin($x){
-		$this->geoWithin = new Text('GeoWithin',$x);
+		$this->geoWithin = new Text('geoWithin',$x);
 		return $this;
 	}
 

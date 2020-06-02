@@ -22,7 +22,7 @@ trait TArtery{
 	 * @return $this
 	 */
 	public function setArterialBranch($x){
-		$this->arterialBranch = new Text('ArterialBranch',$x);
+		$this->arterialBranch = new Text('arterialBranch',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TArtery{
 	 * @return $this
 	 */
 	public function setSupplyTo($x){
-		$this->supplyTo = new Text('SupplyTo',$x);
+		$this->supplyTo = new Text('supplyTo',$x);
 		return $this;
 	}
 

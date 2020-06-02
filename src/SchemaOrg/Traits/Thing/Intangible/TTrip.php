@@ -52,7 +52,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setArrivalTime($x){
-		$this->arrivalTime = new Text('ArrivalTime',$x);
+		$this->arrivalTime = new Text('arrivalTime',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setDepartureTime($x){
-		$this->departureTime = new Text('DepartureTime',$x);
+		$this->departureTime = new Text('departureTime',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setItinerary($x){
-		$this->itinerary = new Text('Itinerary',$x);
+		$this->itinerary = new Text('itinerary',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setPartOfTrip($x){
-		$this->partOfTrip = new Text('PartOfTrip',$x);
+		$this->partOfTrip = new Text('partOfTrip',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TTrip{
 	 * @return $this
 	 */
 	public function setSubTrip($x){
-		$this->subTrip = new Text('SubTrip',$x);
+		$this->subTrip = new Text('subTrip',$x);
 		return $this;
 	}
 

@@ -136,7 +136,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setAreaServed($x){
-		$this->areaServed = new Text('AreaServed',$x);
+		$this->areaServed = new Text('areaServed',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setAvailableChannel($x){
-		$this->availableChannel = new Text('AvailableChannel',$x);
+		$this->availableChannel = new Text('availableChannel',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setAward($x){
-		$this->award = new Text('Award',$x);
+		$this->award = new Text('award',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setBrand($x){
-		$this->brand = new Text('Brand',$x);
+		$this->brand = new Text('brand',$x);
 		return $this;
 	}
 
@@ -190,7 +190,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setBroker($x){
-		$this->broker = new Text('Broker',$x);
+		$this->broker = new Text('broker',$x);
 		return $this;
 	}
 
@@ -199,7 +199,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -208,7 +208,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setHasOfferCatalog($x){
-		$this->hasOfferCatalog = new Text('HasOfferCatalog',$x);
+		$this->hasOfferCatalog = new Text('hasOfferCatalog',$x);
 		return $this;
 	}
 
@@ -217,7 +217,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setHoursAvailable($x){
-		$this->hoursAvailable = new Text('HoursAvailable',$x);
+		$this->hoursAvailable = new Text('hoursAvailable',$x);
 		return $this;
 	}
 
@@ -226,7 +226,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setIsRelatedTo($x){
-		$this->isRelatedTo = new Text('IsRelatedTo',$x);
+		$this->isRelatedTo = new Text('isRelatedTo',$x);
 		return $this;
 	}
 
@@ -235,7 +235,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setIsSimilarTo($x){
-		$this->isSimilarTo = new Text('IsSimilarTo',$x);
+		$this->isSimilarTo = new Text('isSimilarTo',$x);
 		return $this;
 	}
 
@@ -244,7 +244,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setLogo($x){
-		$this->logo = new Text('Logo',$x);
+		$this->logo = new Text('logo',$x);
 		return $this;
 	}
 
@@ -253,7 +253,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -262,7 +262,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -271,7 +271,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setProviderMobility($x){
-		$this->providerMobility = new Text('ProviderMobility',$x);
+		$this->providerMobility = new Text('providerMobility',$x);
 		return $this;
 	}
 
@@ -280,7 +280,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -289,7 +289,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setServiceOutput($x){
-		$this->serviceOutput = new Text('ServiceOutput',$x);
+		$this->serviceOutput = new Text('serviceOutput',$x);
 		return $this;
 	}
 
@@ -298,7 +298,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setServiceType($x){
-		$this->serviceType = new Text('ServiceType',$x);
+		$this->serviceType = new Text('serviceType',$x);
 		return $this;
 	}
 
@@ -307,7 +307,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setSlogan($x){
-		$this->slogan = new Text('Slogan',$x);
+		$this->slogan = new Text('slogan',$x);
 		return $this;
 	}
 
@@ -316,7 +316,7 @@ trait TService{
 	 * @return $this
 	 */
 	public function setTermsOfService($x){
-		$this->termsOfService = new Text('TermsOfService',$x);
+		$this->termsOfService = new Text('termsOfService',$x);
 		return $this;
 	}
 

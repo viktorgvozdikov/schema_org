@@ -58,7 +58,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setAfterMedia($x){
-		$this->afterMedia = new Text('AfterMedia',$x);
+		$this->afterMedia = new Text('afterMedia',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setBeforeMedia($x){
-		$this->beforeMedia = new Text('BeforeMedia',$x);
+		$this->beforeMedia = new Text('beforeMedia',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setDuringMedia($x){
-		$this->duringMedia = new Text('DuringMedia',$x);
+		$this->duringMedia = new Text('duringMedia',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setPerformTime($x){
-		$this->performTime = new Text('PerformTime',$x);
+		$this->performTime = new Text('performTime',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setPrepTime($x){
-		$this->prepTime = new Text('PrepTime',$x);
+		$this->prepTime = new Text('prepTime',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setSupply($x){
-		$this->supply = new Text('Supply',$x);
+		$this->supply = new Text('supply',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setTool($x){
-		$this->tool = new Text('Tool',$x);
+		$this->tool = new Text('tool',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait THowToDirection{
 	 * @return $this
 	 */
 	public function setTotalTime($x){
-		$this->totalTime = new Text('TotalTime',$x);
+		$this->totalTime = new Text('totalTime',$x);
 		return $this;
 	}
 

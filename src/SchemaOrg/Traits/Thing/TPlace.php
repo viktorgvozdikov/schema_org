@@ -244,7 +244,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setAdditionalProperty($x){
-		$this->additionalProperty = new Text('AdditionalProperty',$x);
+		$this->additionalProperty = new Text('additionalProperty',$x);
 		return $this;
 	}
 
@@ -253,7 +253,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setAddress($x){
-		$this->address = new Text('Address',$x);
+		$this->address = new Text('address',$x);
 		return $this;
 	}
 
@@ -262,7 +262,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -271,7 +271,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setAmenityFeature($x){
-		$this->amenityFeature = new Text('AmenityFeature',$x);
+		$this->amenityFeature = new Text('amenityFeature',$x);
 		return $this;
 	}
 
@@ -280,7 +280,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setBranchCode($x){
-		$this->branchCode = new Text('BranchCode',$x);
+		$this->branchCode = new Text('branchCode',$x);
 		return $this;
 	}
 
@@ -289,7 +289,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setContainedInPlace($x){
-		$this->containedInPlace = new Text('ContainedInPlace',$x);
+		$this->containedInPlace = new Text('containedInPlace',$x);
 		return $this;
 	}
 
@@ -298,7 +298,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setContainsPlace($x){
-		$this->containsPlace = new Text('ContainsPlace',$x);
+		$this->containsPlace = new Text('containsPlace',$x);
 		return $this;
 	}
 
@@ -307,7 +307,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setEvent($x){
-		$this->event = new Text('Event',$x);
+		$this->event = new Text('event',$x);
 		return $this;
 	}
 
@@ -316,7 +316,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setFaxNumber($x){
-		$this->faxNumber = new Text('FaxNumber',$x);
+		$this->faxNumber = new Text('faxNumber',$x);
 		return $this;
 	}
 
@@ -325,7 +325,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeo($x){
-		$this->geo = new Text('Geo',$x);
+		$this->geo = new Text('geo',$x);
 		return $this;
 	}
 
@@ -334,7 +334,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoContains($x){
-		$this->geoContains = new Text('GeoContains',$x);
+		$this->geoContains = new Text('geoContains',$x);
 		return $this;
 	}
 
@@ -343,7 +343,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoCoveredBy($x){
-		$this->geoCoveredBy = new Text('GeoCoveredBy',$x);
+		$this->geoCoveredBy = new Text('geoCoveredBy',$x);
 		return $this;
 	}
 
@@ -352,7 +352,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoCovers($x){
-		$this->geoCovers = new Text('GeoCovers',$x);
+		$this->geoCovers = new Text('geoCovers',$x);
 		return $this;
 	}
 
@@ -361,7 +361,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoCrosses($x){
-		$this->geoCrosses = new Text('GeoCrosses',$x);
+		$this->geoCrosses = new Text('geoCrosses',$x);
 		return $this;
 	}
 
@@ -370,7 +370,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoDisjoint($x){
-		$this->geoDisjoint = new Text('GeoDisjoint',$x);
+		$this->geoDisjoint = new Text('geoDisjoint',$x);
 		return $this;
 	}
 
@@ -379,7 +379,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoEquals($x){
-		$this->geoEquals = new Text('GeoEquals',$x);
+		$this->geoEquals = new Text('geoEquals',$x);
 		return $this;
 	}
 
@@ -388,7 +388,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoIntersects($x){
-		$this->geoIntersects = new Text('GeoIntersects',$x);
+		$this->geoIntersects = new Text('geoIntersects',$x);
 		return $this;
 	}
 
@@ -397,7 +397,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoOverlaps($x){
-		$this->geoOverlaps = new Text('GeoOverlaps',$x);
+		$this->geoOverlaps = new Text('geoOverlaps',$x);
 		return $this;
 	}
 
@@ -406,7 +406,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoTouches($x){
-		$this->geoTouches = new Text('GeoTouches',$x);
+		$this->geoTouches = new Text('geoTouches',$x);
 		return $this;
 	}
 
@@ -415,7 +415,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGeoWithin($x){
-		$this->geoWithin = new Text('GeoWithin',$x);
+		$this->geoWithin = new Text('geoWithin',$x);
 		return $this;
 	}
 
@@ -424,7 +424,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setGlobalLocationNumber($x){
-		$this->globalLocationNumber = new Text('GlobalLocationNumber',$x);
+		$this->globalLocationNumber = new Text('globalLocationNumber',$x);
 		return $this;
 	}
 
@@ -433,7 +433,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setHasDriveThroughService($x){
-		$this->hasDriveThroughService = new Text('HasDriveThroughService',$x);
+		$this->hasDriveThroughService = new Text('hasDriveThroughService',$x);
 		return $this;
 	}
 
@@ -442,7 +442,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setHasMap($x){
-		$this->hasMap = new Text('HasMap',$x);
+		$this->hasMap = new Text('hasMap',$x);
 		return $this;
 	}
 
@@ -451,7 +451,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setIsAccessibleForFree($x){
-		$this->isAccessibleForFree = new Text('IsAccessibleForFree',$x);
+		$this->isAccessibleForFree = new Text('isAccessibleForFree',$x);
 		return $this;
 	}
 
@@ -460,7 +460,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setIsicV4($x){
-		$this->isicV4 = new Text('IsicV4',$x);
+		$this->isicV4 = new Text('isicV4',$x);
 		return $this;
 	}
 
@@ -469,7 +469,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setLatitude($x){
-		$this->latitude = new Text('Latitude',$x);
+		$this->latitude = new Text('latitude',$x);
 		return $this;
 	}
 
@@ -478,7 +478,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setLogo($x){
-		$this->logo = new Text('Logo',$x);
+		$this->logo = new Text('logo',$x);
 		return $this;
 	}
 
@@ -487,7 +487,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setLongitude($x){
-		$this->longitude = new Text('Longitude',$x);
+		$this->longitude = new Text('longitude',$x);
 		return $this;
 	}
 
@@ -496,7 +496,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setMaximumAttendeeCapacity($x){
-		$this->maximumAttendeeCapacity = new Text('MaximumAttendeeCapacity',$x);
+		$this->maximumAttendeeCapacity = new Text('maximumAttendeeCapacity',$x);
 		return $this;
 	}
 
@@ -505,7 +505,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setOpeningHoursSpecification($x){
-		$this->openingHoursSpecification = new Text('OpeningHoursSpecification',$x);
+		$this->openingHoursSpecification = new Text('openingHoursSpecification',$x);
 		return $this;
 	}
 
@@ -514,7 +514,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setPhoto($x){
-		$this->photo = new Text('Photo',$x);
+		$this->photo = new Text('photo',$x);
 		return $this;
 	}
 
@@ -523,7 +523,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setPublicAccess($x){
-		$this->publicAccess = new Text('PublicAccess',$x);
+		$this->publicAccess = new Text('publicAccess',$x);
 		return $this;
 	}
 
@@ -532,7 +532,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -541,7 +541,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setSlogan($x){
-		$this->slogan = new Text('Slogan',$x);
+		$this->slogan = new Text('slogan',$x);
 		return $this;
 	}
 
@@ -550,7 +550,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setSmokingAllowed($x){
-		$this->smokingAllowed = new Text('SmokingAllowed',$x);
+		$this->smokingAllowed = new Text('smokingAllowed',$x);
 		return $this;
 	}
 
@@ -559,7 +559,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setSpecialOpeningHoursSpecification($x){
-		$this->specialOpeningHoursSpecification = new Text('SpecialOpeningHoursSpecification',$x);
+		$this->specialOpeningHoursSpecification = new Text('specialOpeningHoursSpecification',$x);
 		return $this;
 	}
 
@@ -568,7 +568,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setTelephone($x){
-		$this->telephone = new Text('Telephone',$x);
+		$this->telephone = new Text('telephone',$x);
 		return $this;
 	}
 
@@ -577,7 +577,7 @@ trait TPlace{
 	 * @return $this
 	 */
 	public function setTourBookingPage($x){
-		$this->tourBookingPage = new Text('TourBookingPage',$x);
+		$this->tourBookingPage = new Text('tourBookingPage',$x);
 		return $this;
 	}
 

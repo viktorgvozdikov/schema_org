@@ -34,7 +34,7 @@ trait TDeliveryEvent{
 	 * @return $this
 	 */
 	public function setAccessCode($x){
-		$this->accessCode = new Text('AccessCode',$x);
+		$this->accessCode = new Text('accessCode',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TDeliveryEvent{
 	 * @return $this
 	 */
 	public function setAvailableFrom($x){
-		$this->availableFrom = new Text('AvailableFrom',$x);
+		$this->availableFrom = new Text('availableFrom',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TDeliveryEvent{
 	 * @return $this
 	 */
 	public function setAvailableThrough($x){
-		$this->availableThrough = new Text('AvailableThrough',$x);
+		$this->availableThrough = new Text('availableThrough',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TDeliveryEvent{
 	 * @return $this
 	 */
 	public function setHasDeliveryMethod($x){
-		$this->hasDeliveryMethod = new Text('HasDeliveryMethod',$x);
+		$this->hasDeliveryMethod = new Text('hasDeliveryMethod',$x);
 		return $this;
 	}
 

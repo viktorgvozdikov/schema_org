@@ -65,7 +65,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setAreaServed($x){
-		$this->areaServed = new Text('AreaServed',$x);
+		$this->areaServed = new Text('areaServed',$x);
 		return $this;
 	}
 
@@ -74,7 +74,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setAvailableLanguage($x){
-		$this->availableLanguage = new Text('AvailableLanguage',$x);
+		$this->availableLanguage = new Text('availableLanguage',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setContactOption($x){
-		$this->contactOption = new Text('ContactOption',$x);
+		$this->contactOption = new Text('contactOption',$x);
 		return $this;
 	}
 
@@ -92,7 +92,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setContactType($x){
-		$this->contactType = new Text('ContactType',$x);
+		$this->contactType = new Text('contactType',$x);
 		return $this;
 	}
 
@@ -101,7 +101,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setEmail($x){
-		$this->email = new Text('Email',$x);
+		$this->email = new Text('email',$x);
 		return $this;
 	}
 
@@ -110,7 +110,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setFaxNumber($x){
-		$this->faxNumber = new Text('FaxNumber',$x);
+		$this->faxNumber = new Text('faxNumber',$x);
 		return $this;
 	}
 
@@ -119,7 +119,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setHoursAvailable($x){
-		$this->hoursAvailable = new Text('HoursAvailable',$x);
+		$this->hoursAvailable = new Text('hoursAvailable',$x);
 		return $this;
 	}
 
@@ -128,7 +128,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setProductSupported($x){
-		$this->productSupported = new Text('ProductSupported',$x);
+		$this->productSupported = new Text('productSupported',$x);
 		return $this;
 	}
 
@@ -137,7 +137,7 @@ trait TContactPoint{
 	 * @return $this
 	 */
 	public function setTelephone($x){
-		$this->telephone = new Text('Telephone',$x);
+		$this->telephone = new Text('telephone',$x);
 		return $this;
 	}
 

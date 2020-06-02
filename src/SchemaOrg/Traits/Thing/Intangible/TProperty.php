@@ -34,7 +34,7 @@ trait TProperty{
 	 * @return $this
 	 */
 	public function setDomainIncludes($x){
-		$this->domainIncludes = new Text('DomainIncludes',$x);
+		$this->domainIncludes = new Text('domainIncludes',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TProperty{
 	 * @return $this
 	 */
 	public function setInverseOf($x){
-		$this->inverseOf = new Text('InverseOf',$x);
+		$this->inverseOf = new Text('inverseOf',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TProperty{
 	 * @return $this
 	 */
 	public function setRangeIncludes($x){
-		$this->rangeIncludes = new Text('RangeIncludes',$x);
+		$this->rangeIncludes = new Text('rangeIncludes',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TProperty{
 	 * @return $this
 	 */
 	public function setSupersededBy($x){
-		$this->supersededBy = new Text('SupersededBy',$x);
+		$this->supersededBy = new Text('supersededBy',$x);
 		return $this;
 	}
 

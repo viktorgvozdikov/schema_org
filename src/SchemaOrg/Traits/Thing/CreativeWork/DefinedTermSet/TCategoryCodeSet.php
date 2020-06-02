@@ -16,7 +16,7 @@ trait TCategoryCodeSet{
 	 * @return $this
 	 */
 	public function setHasCategoryCode($x){
-		$this->hasCategoryCode = new Text('HasCategoryCode',$x);
+		$this->hasCategoryCode = new Text('hasCategoryCode',$x);
 		return $this;
 	}
 

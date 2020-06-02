@@ -34,7 +34,7 @@ trait TSeat{
 	 * @return $this
 	 */
 	public function setSeatNumber($x){
-		$this->seatNumber = new Text('SeatNumber',$x);
+		$this->seatNumber = new Text('seatNumber',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TSeat{
 	 * @return $this
 	 */
 	public function setSeatRow($x){
-		$this->seatRow = new Text('SeatRow',$x);
+		$this->seatRow = new Text('seatRow',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TSeat{
 	 * @return $this
 	 */
 	public function setSeatSection($x){
-		$this->seatSection = new Text('SeatSection',$x);
+		$this->seatSection = new Text('seatSection',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TSeat{
 	 * @return $this
 	 */
 	public function setSeatingType($x){
-		$this->seatingType = new Text('SeatingType',$x);
+		$this->seatingType = new Text('seatingType',$x);
 		return $this;
 	}
 

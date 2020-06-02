@@ -22,7 +22,7 @@ trait TGrant{
 	 * @return $this
 	 */
 	public function setFundedItem($x){
-		$this->fundedItem = new Text('FundedItem',$x);
+		$this->fundedItem = new Text('fundedItem',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TGrant{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 

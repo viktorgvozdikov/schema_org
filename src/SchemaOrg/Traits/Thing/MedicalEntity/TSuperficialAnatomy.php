@@ -40,7 +40,7 @@ trait TSuperficialAnatomy{
 	 * @return $this
 	 */
 	public function setAssociatedPathophysiology($x){
-		$this->associatedPathophysiology = new Text('AssociatedPathophysiology',$x);
+		$this->associatedPathophysiology = new Text('associatedPathophysiology',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TSuperficialAnatomy{
 	 * @return $this
 	 */
 	public function setRelatedAnatomy($x){
-		$this->relatedAnatomy = new Text('RelatedAnatomy',$x);
+		$this->relatedAnatomy = new Text('relatedAnatomy',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TSuperficialAnatomy{
 	 * @return $this
 	 */
 	public function setRelatedCondition($x){
-		$this->relatedCondition = new Text('RelatedCondition',$x);
+		$this->relatedCondition = new Text('relatedCondition',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TSuperficialAnatomy{
 	 * @return $this
 	 */
 	public function setRelatedTherapy($x){
-		$this->relatedTherapy = new Text('RelatedTherapy',$x);
+		$this->relatedTherapy = new Text('relatedTherapy',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TSuperficialAnatomy{
 	 * @return $this
 	 */
 	public function setSignificance($x){
-		$this->significance = new Text('Significance',$x);
+		$this->significance = new Text('significance',$x);
 		return $this;
 	}
 

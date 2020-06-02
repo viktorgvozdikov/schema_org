@@ -22,7 +22,7 @@ trait TAudioObject{
 	 * @return $this
 	 */
 	public function setCaption($x){
-		$this->caption = new Text('Caption',$x);
+		$this->caption = new Text('caption',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TAudioObject{
 	 * @return $this
 	 */
 	public function setTranscript($x){
-		$this->transcript = new Text('Transcript',$x);
+		$this->transcript = new Text('transcript',$x);
 		return $this;
 	}
 

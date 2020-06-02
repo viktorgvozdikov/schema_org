@@ -34,7 +34,7 @@ trait TPhysicalActivity{
 	 * @return $this
 	 */
 	public function setAssociatedAnatomy($x){
-		$this->associatedAnatomy = new Text('AssociatedAnatomy',$x);
+		$this->associatedAnatomy = new Text('associatedAnatomy',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TPhysicalActivity{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TPhysicalActivity{
 	 * @return $this
 	 */
 	public function setEpidemiology($x){
-		$this->epidemiology = new Text('Epidemiology',$x);
+		$this->epidemiology = new Text('epidemiology',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TPhysicalActivity{
 	 * @return $this
 	 */
 	public function setPathophysiology($x){
-		$this->pathophysiology = new Text('Pathophysiology',$x);
+		$this->pathophysiology = new Text('pathophysiology',$x);
 		return $this;
 	}
 

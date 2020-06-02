@@ -106,7 +106,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setAssociatedAnatomy($x){
-		$this->associatedAnatomy = new Text('AssociatedAnatomy',$x);
+		$this->associatedAnatomy = new Text('associatedAnatomy',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setDifferentialDiagnosis($x){
-		$this->differentialDiagnosis = new Text('DifferentialDiagnosis',$x);
+		$this->differentialDiagnosis = new Text('differentialDiagnosis',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setDrug($x){
-		$this->drug = new Text('Drug',$x);
+		$this->drug = new Text('drug',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setEpidemiology($x){
-		$this->epidemiology = new Text('Epidemiology',$x);
+		$this->epidemiology = new Text('epidemiology',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setExpectedPrognosis($x){
-		$this->expectedPrognosis = new Text('ExpectedPrognosis',$x);
+		$this->expectedPrognosis = new Text('expectedPrognosis',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setNaturalProgression($x){
-		$this->naturalProgression = new Text('NaturalProgression',$x);
+		$this->naturalProgression = new Text('naturalProgression',$x);
 		return $this;
 	}
 
@@ -160,7 +160,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setPathophysiology($x){
-		$this->pathophysiology = new Text('Pathophysiology',$x);
+		$this->pathophysiology = new Text('pathophysiology',$x);
 		return $this;
 	}
 
@@ -169,7 +169,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setPossibleComplication($x){
-		$this->possibleComplication = new Text('PossibleComplication',$x);
+		$this->possibleComplication = new Text('possibleComplication',$x);
 		return $this;
 	}
 
@@ -178,7 +178,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setPossibleTreatment($x){
-		$this->possibleTreatment = new Text('PossibleTreatment',$x);
+		$this->possibleTreatment = new Text('possibleTreatment',$x);
 		return $this;
 	}
 
@@ -187,7 +187,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setPrimaryPrevention($x){
-		$this->primaryPrevention = new Text('PrimaryPrevention',$x);
+		$this->primaryPrevention = new Text('primaryPrevention',$x);
 		return $this;
 	}
 
@@ -196,7 +196,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setRiskFactor($x){
-		$this->riskFactor = new Text('RiskFactor',$x);
+		$this->riskFactor = new Text('riskFactor',$x);
 		return $this;
 	}
 
@@ -205,7 +205,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setSecondaryPrevention($x){
-		$this->secondaryPrevention = new Text('SecondaryPrevention',$x);
+		$this->secondaryPrevention = new Text('secondaryPrevention',$x);
 		return $this;
 	}
 
@@ -214,7 +214,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setSignOrSymptom($x){
-		$this->signOrSymptom = new Text('SignOrSymptom',$x);
+		$this->signOrSymptom = new Text('signOrSymptom',$x);
 		return $this;
 	}
 
@@ -223,7 +223,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setStage($x){
-		$this->stage = new Text('Stage',$x);
+		$this->stage = new Text('stage',$x);
 		return $this;
 	}
 
@@ -232,7 +232,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setStatus($x){
-		$this->status = new Text('Status',$x);
+		$this->status = new Text('status',$x);
 		return $this;
 	}
 
@@ -241,7 +241,7 @@ trait TMedicalCondition{
 	 * @return $this
 	 */
 	public function setTypicalTest($x){
-		$this->typicalTest = new Text('TypicalTest',$x);
+		$this->typicalTest = new Text('typicalTest',$x);
 		return $this;
 	}
 

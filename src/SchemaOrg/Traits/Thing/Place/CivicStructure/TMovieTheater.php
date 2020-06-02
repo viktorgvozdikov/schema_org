@@ -16,7 +16,7 @@ trait TMovieTheater{
 	 * @return $this
 	 */
 	public function setScreenCount($x){
-		$this->screenCount = new Text('ScreenCount',$x);
+		$this->screenCount = new Text('screenCount',$x);
 		return $this;
 	}
 

@@ -46,7 +46,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setBroadcastChannelId($x){
-		$this->broadcastChannelId = new Text('BroadcastChannelId',$x);
+		$this->broadcastChannelId = new Text('broadcastChannelId',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setBroadcastFrequency($x){
-		$this->broadcastFrequency = new Text('BroadcastFrequency',$x);
+		$this->broadcastFrequency = new Text('broadcastFrequency',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setBroadcastServiceTier($x){
-		$this->broadcastServiceTier = new Text('BroadcastServiceTier',$x);
+		$this->broadcastServiceTier = new Text('broadcastServiceTier',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setGenre($x){
-		$this->genre = new Text('Genre',$x);
+		$this->genre = new Text('genre',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setInBroadcastLineup($x){
-		$this->inBroadcastLineup = new Text('InBroadcastLineup',$x);
+		$this->inBroadcastLineup = new Text('inBroadcastLineup',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TBroadcastChannel{
 	 * @return $this
 	 */
 	public function setProvidesBroadcastService($x){
-		$this->providesBroadcastService = new Text('ProvidesBroadcastService',$x);
+		$this->providesBroadcastService = new Text('providesBroadcastService',$x);
 		return $this;
 	}
 

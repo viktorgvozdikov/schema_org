@@ -64,7 +64,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setClipNumber($x){
-		$this->clipNumber = new Text('ClipNumber',$x);
+		$this->clipNumber = new Text('clipNumber',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setEndOffset($x){
-		$this->endOffset = new Text('EndOffset',$x);
+		$this->endOffset = new Text('endOffset',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setPartOfEpisode($x){
-		$this->partOfEpisode = new Text('PartOfEpisode',$x);
+		$this->partOfEpisode = new Text('partOfEpisode',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setPartOfSeason($x){
-		$this->partOfSeason = new Text('PartOfSeason',$x);
+		$this->partOfSeason = new Text('partOfSeason',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setPartOfSeries($x){
-		$this->partOfSeries = new Text('PartOfSeries',$x);
+		$this->partOfSeries = new Text('partOfSeries',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TClip{
 	 * @return $this
 	 */
 	public function setStartOffset($x){
-		$this->startOffset = new Text('StartOffset',$x);
+		$this->startOffset = new Text('startOffset',$x);
 		return $this;
 	}
 

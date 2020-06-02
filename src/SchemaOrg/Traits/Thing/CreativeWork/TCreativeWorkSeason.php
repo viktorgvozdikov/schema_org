@@ -70,7 +70,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setEpisode($x){
-		$this->episode = new Text('Episode',$x);
+		$this->episode = new Text('episode',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setNumberOfEpisodes($x){
-		$this->numberOfEpisodes = new Text('NumberOfEpisodes',$x);
+		$this->numberOfEpisodes = new Text('numberOfEpisodes',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setPartOfSeries($x){
-		$this->partOfSeries = new Text('PartOfSeries',$x);
+		$this->partOfSeries = new Text('partOfSeries',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setSeasonNumber($x){
-		$this->seasonNumber = new Text('SeasonNumber',$x);
+		$this->seasonNumber = new Text('seasonNumber',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TCreativeWorkSeason{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

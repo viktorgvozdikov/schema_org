@@ -16,7 +16,7 @@ trait TRecommendation{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 

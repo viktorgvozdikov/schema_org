@@ -22,7 +22,7 @@ trait TWarrantyPromise{
 	 * @return $this
 	 */
 	public function setDurationOfWarranty($x){
-		$this->durationOfWarranty = new Text('DurationOfWarranty',$x);
+		$this->durationOfWarranty = new Text('durationOfWarranty',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TWarrantyPromise{
 	 * @return $this
 	 */
 	public function setWarrantyScope($x){
-		$this->warrantyScope = new Text('WarrantyScope',$x);
+		$this->warrantyScope = new Text('warrantyScope',$x);
 		return $this;
 	}
 

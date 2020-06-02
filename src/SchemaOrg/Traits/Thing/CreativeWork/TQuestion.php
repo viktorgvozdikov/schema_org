@@ -40,7 +40,7 @@ trait TQuestion{
 	 * @return $this
 	 */
 	public function setAcceptedAnswer($x){
-		$this->acceptedAnswer = new Text('AcceptedAnswer',$x);
+		$this->acceptedAnswer = new Text('acceptedAnswer',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TQuestion{
 	 * @return $this
 	 */
 	public function setAnswerCount($x){
-		$this->answerCount = new Text('AnswerCount',$x);
+		$this->answerCount = new Text('answerCount',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TQuestion{
 	 * @return $this
 	 */
 	public function setDownvoteCount($x){
-		$this->downvoteCount = new Text('DownvoteCount',$x);
+		$this->downvoteCount = new Text('downvoteCount',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TQuestion{
 	 * @return $this
 	 */
 	public function setSuggestedAnswer($x){
-		$this->suggestedAnswer = new Text('SuggestedAnswer',$x);
+		$this->suggestedAnswer = new Text('suggestedAnswer',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TQuestion{
 	 * @return $this
 	 */
 	public function setUpvoteCount($x){
-		$this->upvoteCount = new Text('UpvoteCount',$x);
+		$this->upvoteCount = new Text('upvoteCount',$x);
 		return $this;
 	}
 

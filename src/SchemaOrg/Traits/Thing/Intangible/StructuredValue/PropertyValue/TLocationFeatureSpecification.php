@@ -28,7 +28,7 @@ trait TLocationFeatureSpecification{
 	 * @return $this
 	 */
 	public function setHoursAvailable($x){
-		$this->hoursAvailable = new Text('HoursAvailable',$x);
+		$this->hoursAvailable = new Text('hoursAvailable',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TLocationFeatureSpecification{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TLocationFeatureSpecification{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait THealthTopicContent{
 	 * @return $this
 	 */
 	public function setHasHealthAspect($x){
-		$this->hasHealthAspect = new Text('HasHealthAspect',$x);
+		$this->hasHealthAspect = new Text('hasHealthAspect',$x);
 		return $this;
 	}
 

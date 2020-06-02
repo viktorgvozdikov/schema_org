@@ -60,7 +60,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setAdditionalProperty($x){
-		$this->additionalProperty = new Text('AdditionalProperty',$x);
+		$this->additionalProperty = new Text('additionalProperty',$x);
 		return $this;
 	}
 
@@ -69,7 +69,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setEqual($x){
-		$this->equal = new Text('Equal',$x);
+		$this->equal = new Text('equal',$x);
 		return $this;
 	}
 
@@ -78,7 +78,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setGreater($x){
-		$this->greater = new Text('Greater',$x);
+		$this->greater = new Text('greater',$x);
 		return $this;
 	}
 
@@ -87,7 +87,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setGreaterOrEqual($x){
-		$this->greaterOrEqual = new Text('GreaterOrEqual',$x);
+		$this->greaterOrEqual = new Text('greaterOrEqual',$x);
 		return $this;
 	}
 
@@ -96,7 +96,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setLesser($x){
-		$this->lesser = new Text('Lesser',$x);
+		$this->lesser = new Text('lesser',$x);
 		return $this;
 	}
 
@@ -105,7 +105,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setLesserOrEqual($x){
-		$this->lesserOrEqual = new Text('LesserOrEqual',$x);
+		$this->lesserOrEqual = new Text('lesserOrEqual',$x);
 		return $this;
 	}
 
@@ -114,7 +114,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setNonEqual($x){
-		$this->nonEqual = new Text('NonEqual',$x);
+		$this->nonEqual = new Text('nonEqual',$x);
 		return $this;
 	}
 
@@ -123,7 +123,7 @@ trait TQualitativeValue{
 	 * @return $this
 	 */
 	public function setValueReference($x){
-		$this->valueReference = new Text('ValueReference',$x);
+		$this->valueReference = new Text('valueReference',$x);
 		return $this;
 	}
 

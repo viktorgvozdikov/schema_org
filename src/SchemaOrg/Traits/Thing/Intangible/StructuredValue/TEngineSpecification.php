@@ -56,7 +56,7 @@ trait TEngineSpecification{
 	 * @return $this
 	 */
 	public function setEngineDisplacement($x){
-		$this->engineDisplacement = new Text('EngineDisplacement',$x);
+		$this->engineDisplacement = new Text('engineDisplacement',$x);
 		return $this;
 	}
 
@@ -65,7 +65,7 @@ trait TEngineSpecification{
 	 * @return $this
 	 */
 	public function setEnginePower($x){
-		$this->enginePower = new Text('EnginePower',$x);
+		$this->enginePower = new Text('enginePower',$x);
 		return $this;
 	}
 
@@ -74,7 +74,7 @@ trait TEngineSpecification{
 	 * @return $this
 	 */
 	public function setEngineType($x){
-		$this->engineType = new Text('EngineType',$x);
+		$this->engineType = new Text('engineType',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TEngineSpecification{
 	 * @return $this
 	 */
 	public function setFuelType($x){
-		$this->fuelType = new Text('FuelType',$x);
+		$this->fuelType = new Text('fuelType',$x);
 		return $this;
 	}
 
@@ -92,7 +92,7 @@ trait TEngineSpecification{
 	 * @return $this
 	 */
 	public function setTorque($x){
-		$this->torque = new Text('Torque',$x);
+		$this->torque = new Text('torque',$x);
 		return $this;
 	}
 

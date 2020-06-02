@@ -46,7 +46,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setCatalogNumber($x){
-		$this->catalogNumber = new Text('CatalogNumber',$x);
+		$this->catalogNumber = new Text('catalogNumber',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setCreditedTo($x){
-		$this->creditedTo = new Text('CreditedTo',$x);
+		$this->creditedTo = new Text('creditedTo',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setMusicReleaseFormat($x){
-		$this->musicReleaseFormat = new Text('MusicReleaseFormat',$x);
+		$this->musicReleaseFormat = new Text('musicReleaseFormat',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setRecordLabel($x){
-		$this->recordLabel = new Text('RecordLabel',$x);
+		$this->recordLabel = new Text('recordLabel',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMusicRelease{
 	 * @return $this
 	 */
 	public function setReleaseOf($x){
-		$this->releaseOf = new Text('ReleaseOf',$x);
+		$this->releaseOf = new Text('releaseOf',$x);
 		return $this;
 	}
 

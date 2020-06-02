@@ -22,7 +22,7 @@ trait TTouristDestination{
 	 * @return $this
 	 */
 	public function setIncludesAttraction($x){
-		$this->includesAttraction = new Text('IncludesAttraction',$x);
+		$this->includesAttraction = new Text('includesAttraction',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TTouristDestination{
 	 * @return $this
 	 */
 	public function setTouristType($x){
-		$this->touristType = new Text('TouristType',$x);
+		$this->touristType = new Text('touristType',$x);
 		return $this;
 	}
 

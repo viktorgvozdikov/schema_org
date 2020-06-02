@@ -90,7 +90,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setByDay($x){
-		$this->byDay = new Text('ByDay',$x);
+		$this->byDay = new Text('byDay',$x);
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setByMonth($x){
-		$this->byMonth = new Text('ByMonth',$x);
+		$this->byMonth = new Text('byMonth',$x);
 		return $this;
 	}
 
@@ -108,7 +108,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setByMonthDay($x){
-		$this->byMonthDay = new Text('ByMonthDay',$x);
+		$this->byMonthDay = new Text('byMonthDay',$x);
 		return $this;
 	}
 
@@ -117,7 +117,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -126,7 +126,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -135,7 +135,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setEndTime($x){
-		$this->endTime = new Text('EndTime',$x);
+		$this->endTime = new Text('endTime',$x);
 		return $this;
 	}
 
@@ -144,7 +144,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setExceptDate($x){
-		$this->exceptDate = new Text('ExceptDate',$x);
+		$this->exceptDate = new Text('exceptDate',$x);
 		return $this;
 	}
 
@@ -153,7 +153,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setRepeatCount($x){
-		$this->repeatCount = new Text('RepeatCount',$x);
+		$this->repeatCount = new Text('repeatCount',$x);
 		return $this;
 	}
 
@@ -162,7 +162,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setRepeatFrequency($x){
-		$this->repeatFrequency = new Text('RepeatFrequency',$x);
+		$this->repeatFrequency = new Text('repeatFrequency',$x);
 		return $this;
 	}
 
@@ -171,7 +171,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setScheduleTimezone($x){
-		$this->scheduleTimezone = new Text('ScheduleTimezone',$x);
+		$this->scheduleTimezone = new Text('scheduleTimezone',$x);
 		return $this;
 	}
 
@@ -180,7 +180,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 
@@ -189,7 +189,7 @@ trait TSchedule{
 	 * @return $this
 	 */
 	public function setStartTime($x){
-		$this->startTime = new Text('StartTime',$x);
+		$this->startTime = new Text('startTime',$x);
 		return $this;
 	}
 

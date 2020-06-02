@@ -64,7 +64,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setCheatCode($x){
-		$this->cheatCode = new Text('CheatCode',$x);
+		$this->cheatCode = new Text('cheatCode',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setGamePlatform($x){
-		$this->gamePlatform = new Text('GamePlatform',$x);
+		$this->gamePlatform = new Text('gamePlatform',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setGameServer($x){
-		$this->gameServer = new Text('GameServer',$x);
+		$this->gameServer = new Text('gameServer',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setGameTip($x){
-		$this->gameTip = new Text('GameTip',$x);
+		$this->gameTip = new Text('gameTip',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setPlayMode($x){
-		$this->playMode = new Text('PlayMode',$x);
+		$this->playMode = new Text('playMode',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TVideoGame{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

@@ -46,7 +46,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setInStoreReturnsOffered($x){
-		$this->inStoreReturnsOffered = new Text('InStoreReturnsOffered',$x);
+		$this->inStoreReturnsOffered = new Text('inStoreReturnsOffered',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setMerchantReturnDays($x){
-		$this->merchantReturnDays = new Text('MerchantReturnDays',$x);
+		$this->merchantReturnDays = new Text('merchantReturnDays',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setMerchantReturnLink($x){
-		$this->merchantReturnLink = new Text('MerchantReturnLink',$x);
+		$this->merchantReturnLink = new Text('merchantReturnLink',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setRefundType($x){
-		$this->refundType = new Text('RefundType',$x);
+		$this->refundType = new Text('refundType',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setReturnFees($x){
-		$this->returnFees = new Text('ReturnFees',$x);
+		$this->returnFees = new Text('returnFees',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMerchantReturnPolicy{
 	 * @return $this
 	 */
 	public function setReturnPolicyCategory($x){
-		$this->returnPolicyCategory = new Text('ReturnPolicyCategory',$x);
+		$this->returnPolicyCategory = new Text('returnPolicyCategory',$x);
 		return $this;
 	}
 

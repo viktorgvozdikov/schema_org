@@ -58,7 +58,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setAddress($x){
-		$this->address = new Text('Address',$x);
+		$this->address = new Text('address',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setAddressCountry($x){
-		$this->addressCountry = new Text('AddressCountry',$x);
+		$this->addressCountry = new Text('addressCountry',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setBox($x){
-		$this->box = new Text('Box',$x);
+		$this->box = new Text('box',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setCircle($x){
-		$this->circle = new Text('Circle',$x);
+		$this->circle = new Text('circle',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setElevation($x){
-		$this->elevation = new Text('Elevation',$x);
+		$this->elevation = new Text('elevation',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setLine($x){
-		$this->line = new Text('Line',$x);
+		$this->line = new Text('line',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setPolygon($x){
-		$this->polygon = new Text('Polygon',$x);
+		$this->polygon = new Text('polygon',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TGeoShape{
 	 * @return $this
 	 */
 	public function setPostalCode($x){
-		$this->postalCode = new Text('PostalCode',$x);
+		$this->postalCode = new Text('postalCode',$x);
 		return $this;
 	}
 

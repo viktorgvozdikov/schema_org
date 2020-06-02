@@ -91,7 +91,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setAccommodationCategory($x){
-		$this->accommodationCategory = new Text('AccommodationCategory',$x);
+		$this->accommodationCategory = new Text('accommodationCategory',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setAccommodationFloorPlan($x){
-		$this->accommodationFloorPlan = new Text('AccommodationFloorPlan',$x);
+		$this->accommodationFloorPlan = new Text('accommodationFloorPlan',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setFloorLevel($x){
-		$this->floorLevel = new Text('FloorLevel',$x);
+		$this->floorLevel = new Text('floorLevel',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setFloorSize($x){
-		$this->floorSize = new Text('FloorSize',$x);
+		$this->floorSize = new Text('floorSize',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setLeaseLength($x){
-		$this->leaseLength = new Text('LeaseLength',$x);
+		$this->leaseLength = new Text('leaseLength',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setNumberOfBathroomsTotal($x){
-		$this->numberOfBathroomsTotal = new Text('NumberOfBathroomsTotal',$x);
+		$this->numberOfBathroomsTotal = new Text('numberOfBathroomsTotal',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setNumberOfBedrooms($x){
-		$this->numberOfBedrooms = new Text('NumberOfBedrooms',$x);
+		$this->numberOfBedrooms = new Text('numberOfBedrooms',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setNumberOfFullBathrooms($x){
-		$this->numberOfFullBathrooms = new Text('NumberOfFullBathrooms',$x);
+		$this->numberOfFullBathrooms = new Text('numberOfFullBathrooms',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setNumberOfPartialBathrooms($x){
-		$this->numberOfPartialBathrooms = new Text('NumberOfPartialBathrooms',$x);
+		$this->numberOfPartialBathrooms = new Text('numberOfPartialBathrooms',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setNumberOfRooms($x){
-		$this->numberOfRooms = new Text('NumberOfRooms',$x);
+		$this->numberOfRooms = new Text('numberOfRooms',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setPermittedUsage($x){
-		$this->permittedUsage = new Text('PermittedUsage',$x);
+		$this->permittedUsage = new Text('permittedUsage',$x);
 		return $this;
 	}
 
@@ -190,7 +190,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setPetsAllowed($x){
-		$this->petsAllowed = new Text('PetsAllowed',$x);
+		$this->petsAllowed = new Text('petsAllowed',$x);
 		return $this;
 	}
 
@@ -199,7 +199,7 @@ trait TAccommodation{
 	 * @return $this
 	 */
 	public function setYearBuilt($x){
-		$this->yearBuilt = new Text('YearBuilt',$x);
+		$this->yearBuilt = new Text('yearBuilt',$x);
 		return $this;
 	}
 

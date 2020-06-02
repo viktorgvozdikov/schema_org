@@ -22,7 +22,7 @@ trait TMoveAction{
 	 * @return $this
 	 */
 	public function setFromLocation($x){
-		$this->fromLocation = new Text('FromLocation',$x);
+		$this->fromLocation = new Text('fromLocation',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMoveAction{
 	 * @return $this
 	 */
 	public function setToLocation($x){
-		$this->toLocation = new Text('ToLocation',$x);
+		$this->toLocation = new Text('toLocation',$x);
 		return $this;
 	}
 

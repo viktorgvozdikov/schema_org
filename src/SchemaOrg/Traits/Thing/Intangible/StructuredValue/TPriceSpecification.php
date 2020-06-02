@@ -74,7 +74,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setEligibleQuantity($x){
-		$this->eligibleQuantity = new Text('EligibleQuantity',$x);
+		$this->eligibleQuantity = new Text('eligibleQuantity',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setEligibleTransactionVolume($x){
-		$this->eligibleTransactionVolume = new Text('EligibleTransactionVolume',$x);
+		$this->eligibleTransactionVolume = new Text('eligibleTransactionVolume',$x);
 		return $this;
 	}
 
@@ -92,7 +92,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setMaxPrice($x){
-		$this->maxPrice = new Text('MaxPrice',$x);
+		$this->maxPrice = new Text('maxPrice',$x);
 		return $this;
 	}
 
@@ -101,7 +101,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setMinPrice($x){
-		$this->minPrice = new Text('MinPrice',$x);
+		$this->minPrice = new Text('minPrice',$x);
 		return $this;
 	}
 
@@ -110,7 +110,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setPrice($x){
-		$this->price = new Text('Price',$x);
+		$this->price = new Text('price',$x);
 		return $this;
 	}
 
@@ -119,7 +119,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setPriceCurrency($x){
-		$this->priceCurrency = new Text('PriceCurrency',$x);
+		$this->priceCurrency = new Text('priceCurrency',$x);
 		return $this;
 	}
 
@@ -128,7 +128,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -137,7 +137,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 
@@ -146,7 +146,7 @@ trait TPriceSpecification{
 	 * @return $this
 	 */
 	public function setValueAddedTaxIncluded($x){
-		$this->valueAddedTaxIncluded = new Text('ValueAddedTaxIncluded',$x);
+		$this->valueAddedTaxIncluded = new Text('valueAddedTaxIncluded',$x);
 		return $this;
 	}
 

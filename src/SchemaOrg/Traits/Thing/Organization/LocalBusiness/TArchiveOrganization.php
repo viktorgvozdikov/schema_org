@@ -16,7 +16,7 @@ trait TArchiveOrganization{
 	 * @return $this
 	 */
 	public function setArchiveHeld($x){
-		$this->archiveHeld = new Text('ArchiveHeld',$x);
+		$this->archiveHeld = new Text('archiveHeld',$x);
 		return $this;
 	}
 

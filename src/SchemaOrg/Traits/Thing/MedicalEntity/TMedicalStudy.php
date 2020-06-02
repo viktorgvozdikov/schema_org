@@ -40,7 +40,7 @@ trait TMedicalStudy{
 	 * @return $this
 	 */
 	public function setHealthCondition($x){
-		$this->healthCondition = new Text('HealthCondition',$x);
+		$this->healthCondition = new Text('healthCondition',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TMedicalStudy{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TMedicalStudy{
 	 * @return $this
 	 */
 	public function setStatus($x){
-		$this->status = new Text('Status',$x);
+		$this->status = new Text('status',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TMedicalStudy{
 	 * @return $this
 	 */
 	public function setStudyLocation($x){
-		$this->studyLocation = new Text('StudyLocation',$x);
+		$this->studyLocation = new Text('studyLocation',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TMedicalStudy{
 	 * @return $this
 	 */
 	public function setStudySubject($x){
-		$this->studySubject = new Text('StudySubject',$x);
+		$this->studySubject = new Text('studySubject',$x);
 		return $this;
 	}
 

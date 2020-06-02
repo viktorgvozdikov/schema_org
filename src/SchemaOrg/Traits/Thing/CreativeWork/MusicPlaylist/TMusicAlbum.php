@@ -34,7 +34,7 @@ trait TMusicAlbum{
 	 * @return $this
 	 */
 	public function setAlbumProductionType($x){
-		$this->albumProductionType = new Text('AlbumProductionType',$x);
+		$this->albumProductionType = new Text('albumProductionType',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TMusicAlbum{
 	 * @return $this
 	 */
 	public function setAlbumRelease($x){
-		$this->albumRelease = new Text('AlbumRelease',$x);
+		$this->albumRelease = new Text('albumRelease',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TMusicAlbum{
 	 * @return $this
 	 */
 	public function setAlbumReleaseType($x){
-		$this->albumReleaseType = new Text('AlbumReleaseType',$x);
+		$this->albumReleaseType = new Text('albumReleaseType',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TMusicAlbum{
 	 * @return $this
 	 */
 	public function setByArtist($x){
-		$this->byArtist = new Text('ByArtist',$x);
+		$this->byArtist = new Text('byArtist',$x);
 		return $this;
 	}
 

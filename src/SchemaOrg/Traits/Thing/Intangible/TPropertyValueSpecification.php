@@ -76,7 +76,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setDefaultValue($x){
-		$this->defaultValue = new Text('DefaultValue',$x);
+		$this->defaultValue = new Text('defaultValue',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setMaxValue($x){
-		$this->maxValue = new Text('MaxValue',$x);
+		$this->maxValue = new Text('maxValue',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setMinValue($x){
-		$this->minValue = new Text('MinValue',$x);
+		$this->minValue = new Text('minValue',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setMultipleValues($x){
-		$this->multipleValues = new Text('MultipleValues',$x);
+		$this->multipleValues = new Text('multipleValues',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setReadonlyValue($x){
-		$this->readonlyValue = new Text('ReadonlyValue',$x);
+		$this->readonlyValue = new Text('readonlyValue',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setStepValue($x){
-		$this->stepValue = new Text('StepValue',$x);
+		$this->stepValue = new Text('stepValue',$x);
 		return $this;
 	}
 
@@ -130,7 +130,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setValueMaxLength($x){
-		$this->valueMaxLength = new Text('ValueMaxLength',$x);
+		$this->valueMaxLength = new Text('valueMaxLength',$x);
 		return $this;
 	}
 
@@ -139,7 +139,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setValueMinLength($x){
-		$this->valueMinLength = new Text('ValueMinLength',$x);
+		$this->valueMinLength = new Text('valueMinLength',$x);
 		return $this;
 	}
 
@@ -148,7 +148,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setValueName($x){
-		$this->valueName = new Text('ValueName',$x);
+		$this->valueName = new Text('valueName',$x);
 		return $this;
 	}
 
@@ -157,7 +157,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setValuePattern($x){
-		$this->valuePattern = new Text('ValuePattern',$x);
+		$this->valuePattern = new Text('valuePattern',$x);
 		return $this;
 	}
 
@@ -166,7 +166,7 @@ trait TPropertyValueSpecification{
 	 * @return $this
 	 */
 	public function setValueRequired($x){
-		$this->valueRequired = new Text('ValueRequired',$x);
+		$this->valueRequired = new Text('valueRequired',$x);
 		return $this;
 	}
 

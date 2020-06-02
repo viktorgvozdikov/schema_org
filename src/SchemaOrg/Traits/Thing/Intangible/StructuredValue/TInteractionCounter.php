@@ -28,7 +28,7 @@ trait TInteractionCounter{
 	 * @return $this
 	 */
 	public function setInteractionService($x){
-		$this->interactionService = new Text('InteractionService',$x);
+		$this->interactionService = new Text('interactionService',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TInteractionCounter{
 	 * @return $this
 	 */
 	public function setInteractionType($x){
-		$this->interactionType = new Text('InteractionType',$x);
+		$this->interactionType = new Text('interactionType',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TInteractionCounter{
 	 * @return $this
 	 */
 	public function setUserInteractionCount($x){
-		$this->userInteractionCount = new Text('UserInteractionCount',$x);
+		$this->userInteractionCount = new Text('userInteractionCount',$x);
 		return $this;
 	}
 

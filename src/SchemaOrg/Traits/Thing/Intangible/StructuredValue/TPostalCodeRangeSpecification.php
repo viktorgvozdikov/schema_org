@@ -22,7 +22,7 @@ trait TPostalCodeRangeSpecification{
 	 * @return $this
 	 */
 	public function setPostalCodeBegin($x){
-		$this->postalCodeBegin = new Text('PostalCodeBegin',$x);
+		$this->postalCodeBegin = new Text('postalCodeBegin',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPostalCodeRangeSpecification{
 	 * @return $this
 	 */
 	public function setPostalCodeEnd($x){
-		$this->postalCodeEnd = new Text('PostalCodeEnd',$x);
+		$this->postalCodeEnd = new Text('postalCodeEnd',$x);
 		return $this;
 	}
 

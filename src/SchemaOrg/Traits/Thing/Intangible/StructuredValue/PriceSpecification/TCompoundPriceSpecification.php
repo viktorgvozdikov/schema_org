@@ -16,7 +16,7 @@ trait TCompoundPriceSpecification{
 	 * @return $this
 	 */
 	public function setPriceComponent($x){
-		$this->priceComponent = new Text('PriceComponent',$x);
+		$this->priceComponent = new Text('priceComponent',$x);
 		return $this;
 	}
 

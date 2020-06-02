@@ -52,7 +52,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setHealthCondition($x){
-		$this->healthCondition = new Text('HealthCondition',$x);
+		$this->healthCondition = new Text('healthCondition',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setRequiredGender($x){
-		$this->requiredGender = new Text('RequiredGender',$x);
+		$this->requiredGender = new Text('requiredGender',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setRequiredMaxAge($x){
-		$this->requiredMaxAge = new Text('RequiredMaxAge',$x);
+		$this->requiredMaxAge = new Text('requiredMaxAge',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setRequiredMinAge($x){
-		$this->requiredMinAge = new Text('RequiredMinAge',$x);
+		$this->requiredMinAge = new Text('requiredMinAge',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setSuggestedGender($x){
-		$this->suggestedGender = new Text('SuggestedGender',$x);
+		$this->suggestedGender = new Text('suggestedGender',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setSuggestedMaxAge($x){
-		$this->suggestedMaxAge = new Text('SuggestedMaxAge',$x);
+		$this->suggestedMaxAge = new Text('suggestedMaxAge',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TPeopleAudience{
 	 * @return $this
 	 */
 	public function setSuggestedMinAge($x){
-		$this->suggestedMinAge = new Text('SuggestedMinAge',$x);
+		$this->suggestedMinAge = new Text('suggestedMinAge',$x);
 		return $this;
 	}
 

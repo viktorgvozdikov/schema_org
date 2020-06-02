@@ -16,7 +16,7 @@ trait TBorrowAction{
 	 * @return $this
 	 */
 	public function setLender($x){
-		$this->lender = new Text('Lender',$x);
+		$this->lender = new Text('lender',$x);
 		return $this;
 	}
 

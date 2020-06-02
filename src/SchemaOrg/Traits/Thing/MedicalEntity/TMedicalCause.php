@@ -16,7 +16,7 @@ trait TMedicalCause{
 	 * @return $this
 	 */
 	public function setCauseOf($x){
-		$this->causeOf = new Text('CauseOf',$x);
+		$this->causeOf = new Text('causeOf',$x);
 		return $this;
 	}
 

@@ -28,7 +28,7 @@ trait TScreeningEvent{
 	 * @return $this
 	 */
 	public function setSubtitleLanguage($x){
-		$this->subtitleLanguage = new Text('SubtitleLanguage',$x);
+		$this->subtitleLanguage = new Text('subtitleLanguage',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TScreeningEvent{
 	 * @return $this
 	 */
 	public function setVideoFormat($x){
-		$this->videoFormat = new Text('VideoFormat',$x);
+		$this->videoFormat = new Text('videoFormat',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TScreeningEvent{
 	 * @return $this
 	 */
 	public function setWorkPresented($x){
-		$this->workPresented = new Text('WorkPresented',$x);
+		$this->workPresented = new Text('workPresented',$x);
 		return $this;
 	}
 

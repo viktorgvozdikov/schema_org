@@ -16,7 +16,7 @@ trait TSocialMediaPosting{
 	 * @return $this
 	 */
 	public function setSharedContent($x){
-		$this->sharedContent = new Text('SharedContent',$x);
+		$this->sharedContent = new Text('sharedContent',$x);
 		return $this;
 	}
 

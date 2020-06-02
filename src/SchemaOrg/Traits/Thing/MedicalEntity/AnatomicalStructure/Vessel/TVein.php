@@ -28,7 +28,7 @@ trait TVein{
 	 * @return $this
 	 */
 	public function setDrainsTo($x){
-		$this->drainsTo = new Text('DrainsTo',$x);
+		$this->drainsTo = new Text('drainsTo',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TVein{
 	 * @return $this
 	 */
 	public function setRegionDrained($x){
-		$this->regionDrained = new Text('RegionDrained',$x);
+		$this->regionDrained = new Text('regionDrained',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TVein{
 	 * @return $this
 	 */
 	public function setTributary($x){
-		$this->tributary = new Text('Tributary',$x);
+		$this->tributary = new Text('tributary',$x);
 		return $this;
 	}
 

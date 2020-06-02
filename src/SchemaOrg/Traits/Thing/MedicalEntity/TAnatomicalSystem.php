@@ -40,7 +40,7 @@ trait TAnatomicalSystem{
 	 * @return $this
 	 */
 	public function setAssociatedPathophysiology($x){
-		$this->associatedPathophysiology = new Text('AssociatedPathophysiology',$x);
+		$this->associatedPathophysiology = new Text('associatedPathophysiology',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TAnatomicalSystem{
 	 * @return $this
 	 */
 	public function setComprisedOf($x){
-		$this->comprisedOf = new Text('ComprisedOf',$x);
+		$this->comprisedOf = new Text('comprisedOf',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TAnatomicalSystem{
 	 * @return $this
 	 */
 	public function setRelatedCondition($x){
-		$this->relatedCondition = new Text('RelatedCondition',$x);
+		$this->relatedCondition = new Text('relatedCondition',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TAnatomicalSystem{
 	 * @return $this
 	 */
 	public function setRelatedStructure($x){
-		$this->relatedStructure = new Text('RelatedStructure',$x);
+		$this->relatedStructure = new Text('relatedStructure',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TAnatomicalSystem{
 	 * @return $this
 	 */
 	public function setRelatedTherapy($x){
-		$this->relatedTherapy = new Text('RelatedTherapy',$x);
+		$this->relatedTherapy = new Text('relatedTherapy',$x);
 		return $this;
 	}
 

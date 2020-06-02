@@ -16,7 +16,7 @@ trait TMediaReview{
 	 * @return $this
 	 */
 	public function setMediaAuthenticityCategory($x){
-		$this->mediaAuthenticityCategory = new Text('MediaAuthenticityCategory',$x);
+		$this->mediaAuthenticityCategory = new Text('mediaAuthenticityCategory',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TClaim{
 	 * @return $this
 	 */
 	public function setAppearance($x){
-		$this->appearance = new Text('Appearance',$x);
+		$this->appearance = new Text('appearance',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TClaim{
 	 * @return $this
 	 */
 	public function setFirstAppearance($x){
-		$this->firstAppearance = new Text('FirstAppearance',$x);
+		$this->firstAppearance = new Text('firstAppearance',$x);
 		return $this;
 	}
 

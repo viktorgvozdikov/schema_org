@@ -46,7 +46,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setByArtist($x){
-		$this->byArtist = new Text('ByArtist',$x);
+		$this->byArtist = new Text('byArtist',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setInAlbum($x){
-		$this->inAlbum = new Text('InAlbum',$x);
+		$this->inAlbum = new Text('inAlbum',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setInPlaylist($x){
-		$this->inPlaylist = new Text('InPlaylist',$x);
+		$this->inPlaylist = new Text('inPlaylist',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setIsrcCode($x){
-		$this->isrcCode = new Text('IsrcCode',$x);
+		$this->isrcCode = new Text('isrcCode',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMusicRecording{
 	 * @return $this
 	 */
 	public function setRecordingOf($x){
-		$this->recordingOf = new Text('RecordingOf',$x);
+		$this->recordingOf = new Text('recordingOf',$x);
 		return $this;
 	}
 

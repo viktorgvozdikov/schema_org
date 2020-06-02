@@ -16,7 +16,7 @@ trait TClaimReview{
 	 * @return $this
 	 */
 	public function setClaimReviewed($x){
-		$this->claimReviewed = new Text('ClaimReviewed',$x);
+		$this->claimReviewed = new Text('claimReviewed',$x);
 		return $this;
 	}
 

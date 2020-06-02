@@ -46,7 +46,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setApplicableLocation($x){
-		$this->applicableLocation = new Text('ApplicableLocation',$x);
+		$this->applicableLocation = new Text('applicableLocation',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setCostCategory($x){
-		$this->costCategory = new Text('CostCategory',$x);
+		$this->costCategory = new Text('costCategory',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setCostCurrency($x){
-		$this->costCurrency = new Text('CostCurrency',$x);
+		$this->costCurrency = new Text('costCurrency',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setCostOrigin($x){
-		$this->costOrigin = new Text('CostOrigin',$x);
+		$this->costOrigin = new Text('costOrigin',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setCostPerUnit($x){
-		$this->costPerUnit = new Text('CostPerUnit',$x);
+		$this->costPerUnit = new Text('costPerUnit',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TDrugCost{
 	 * @return $this
 	 */
 	public function setDrugUnit($x){
-		$this->drugUnit = new Text('DrugUnit',$x);
+		$this->drugUnit = new Text('drugUnit',$x);
 		return $this;
 	}
 

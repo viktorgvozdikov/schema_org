@@ -16,7 +16,7 @@ trait TEducationalAudience{
 	 * @return $this
 	 */
 	public function setEducationalRole($x){
-		$this->educationalRole = new Text('EducationalRole',$x);
+		$this->educationalRole = new Text('educationalRole',$x);
 		return $this;
 	}
 

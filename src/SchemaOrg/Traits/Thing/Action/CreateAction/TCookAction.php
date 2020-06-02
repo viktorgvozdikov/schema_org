@@ -28,7 +28,7 @@ trait TCookAction{
 	 * @return $this
 	 */
 	public function setFoodEstablishment($x){
-		$this->foodEstablishment = new Text('FoodEstablishment',$x);
+		$this->foodEstablishment = new Text('foodEstablishment',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TCookAction{
 	 * @return $this
 	 */
 	public function setFoodEvent($x){
-		$this->foodEvent = new Text('FoodEvent',$x);
+		$this->foodEvent = new Text('foodEvent',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TCookAction{
 	 * @return $this
 	 */
 	public function setRecipe($x){
-		$this->recipe = new Text('Recipe',$x);
+		$this->recipe = new Text('recipe',$x);
 		return $this;
 	}
 

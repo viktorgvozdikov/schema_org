@@ -40,7 +40,7 @@ trait TEducationalOccupationalCredential{
 	 * @return $this
 	 */
 	public function setCompetencyRequired($x){
-		$this->competencyRequired = new Text('CompetencyRequired',$x);
+		$this->competencyRequired = new Text('competencyRequired',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TEducationalOccupationalCredential{
 	 * @return $this
 	 */
 	public function setCredentialCategory($x){
-		$this->credentialCategory = new Text('CredentialCategory',$x);
+		$this->credentialCategory = new Text('credentialCategory',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TEducationalOccupationalCredential{
 	 * @return $this
 	 */
 	public function setRecognizedBy($x){
-		$this->recognizedBy = new Text('RecognizedBy',$x);
+		$this->recognizedBy = new Text('recognizedBy',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TEducationalOccupationalCredential{
 	 * @return $this
 	 */
 	public function setValidFor($x){
-		$this->validFor = new Text('ValidFor',$x);
+		$this->validFor = new Text('validFor',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TEducationalOccupationalCredential{
 	 * @return $this
 	 */
 	public function setValidIn($x){
-		$this->validIn = new Text('ValidIn',$x);
+		$this->validIn = new Text('validIn',$x);
 		return $this;
 	}
 

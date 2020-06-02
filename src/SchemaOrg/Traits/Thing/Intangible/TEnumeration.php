@@ -16,7 +16,7 @@ trait TEnumeration{
 	 * @return $this
 	 */
 	public function setSupersededBy($x){
-		$this->supersededBy = new Text('SupersededBy',$x);
+		$this->supersededBy = new Text('supersededBy',$x);
 		return $this;
 	}
 

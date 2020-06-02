@@ -28,7 +28,7 @@ trait TAggregateRating{
 	 * @return $this
 	 */
 	public function setItemReviewed($x){
-		$this->itemReviewed = new Text('ItemReviewed',$x);
+		$this->itemReviewed = new Text('itemReviewed',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TAggregateRating{
 	 * @return $this
 	 */
 	public function setRatingCount($x){
-		$this->ratingCount = new Text('RatingCount',$x);
+		$this->ratingCount = new Text('ratingCount',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TAggregateRating{
 	 * @return $this
 	 */
 	public function setReviewCount($x){
-		$this->reviewCount = new Text('ReviewCount',$x);
+		$this->reviewCount = new Text('reviewCount',$x);
 		return $this;
 	}
 

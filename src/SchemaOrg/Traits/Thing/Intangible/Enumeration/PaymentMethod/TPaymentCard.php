@@ -28,7 +28,7 @@ trait TPaymentCard{
 	 * @return $this
 	 */
 	public function setCashBack($x){
-		$this->cashBack = new Text('CashBack',$x);
+		$this->cashBack = new Text('cashBack',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TPaymentCard{
 	 * @return $this
 	 */
 	public function setContactlessPayment($x){
-		$this->contactlessPayment = new Text('ContactlessPayment',$x);
+		$this->contactlessPayment = new Text('contactlessPayment',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TPaymentCard{
 	 * @return $this
 	 */
 	public function setFloorLimit($x){
-		$this->floorLimit = new Text('FloorLimit',$x);
+		$this->floorLimit = new Text('floorLimit',$x);
 		return $this;
 	}
 

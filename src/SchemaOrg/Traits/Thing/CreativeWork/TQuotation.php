@@ -16,7 +16,7 @@ trait TQuotation{
 	 * @return $this
 	 */
 	public function setSpokenByCharacter($x){
-		$this->spokenByCharacter = new Text('SpokenByCharacter',$x);
+		$this->spokenByCharacter = new Text('spokenByCharacter',$x);
 		return $this;
 	}
 

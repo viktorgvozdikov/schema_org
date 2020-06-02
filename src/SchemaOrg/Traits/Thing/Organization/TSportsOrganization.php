@@ -16,7 +16,7 @@ trait TSportsOrganization{
 	 * @return $this
 	 */
 	public function setSport($x){
-		$this->sport = new Text('Sport',$x);
+		$this->sport = new Text('sport',$x);
 		return $this;
 	}
 

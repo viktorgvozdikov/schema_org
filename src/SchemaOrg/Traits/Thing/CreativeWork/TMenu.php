@@ -22,7 +22,7 @@ trait TMenu{
 	 * @return $this
 	 */
 	public function setHasMenuItem($x){
-		$this->hasMenuItem = new Text('HasMenuItem',$x);
+		$this->hasMenuItem = new Text('hasMenuItem',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMenu{
 	 * @return $this
 	 */
 	public function setHasMenuSection($x){
-		$this->hasMenuSection = new Text('HasMenuSection',$x);
+		$this->hasMenuSection = new Text('hasMenuSection',$x);
 		return $this;
 	}
 

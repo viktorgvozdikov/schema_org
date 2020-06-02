@@ -28,7 +28,7 @@ trait TBankAccount{
 	 * @return $this
 	 */
 	public function setAccountMinimumInflow($x){
-		$this->accountMinimumInflow = new Text('AccountMinimumInflow',$x);
+		$this->accountMinimumInflow = new Text('accountMinimumInflow',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TBankAccount{
 	 * @return $this
 	 */
 	public function setAccountOverdraftLimit($x){
-		$this->accountOverdraftLimit = new Text('AccountOverdraftLimit',$x);
+		$this->accountOverdraftLimit = new Text('accountOverdraftLimit',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TBankAccount{
 	 * @return $this
 	 */
 	public function setBankAccountType($x){
-		$this->bankAccountType = new Text('BankAccountType',$x);
+		$this->bankAccountType = new Text('bankAccountType',$x);
 		return $this;
 	}
 

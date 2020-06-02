@@ -34,7 +34,7 @@ trait TDoseSchedule{
 	 * @return $this
 	 */
 	public function setDoseUnit($x){
-		$this->doseUnit = new Text('DoseUnit',$x);
+		$this->doseUnit = new Text('doseUnit',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TDoseSchedule{
 	 * @return $this
 	 */
 	public function setDoseValue($x){
-		$this->doseValue = new Text('DoseValue',$x);
+		$this->doseValue = new Text('doseValue',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TDoseSchedule{
 	 * @return $this
 	 */
 	public function setFrequency($x){
-		$this->frequency = new Text('Frequency',$x);
+		$this->frequency = new Text('frequency',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TDoseSchedule{
 	 * @return $this
 	 */
 	public function setTargetPopulation($x){
-		$this->targetPopulation = new Text('TargetPopulation',$x);
+		$this->targetPopulation = new Text('targetPopulation',$x);
 		return $this;
 	}
 

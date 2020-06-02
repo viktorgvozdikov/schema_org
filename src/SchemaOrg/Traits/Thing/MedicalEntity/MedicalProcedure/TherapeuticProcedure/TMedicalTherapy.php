@@ -28,7 +28,7 @@ trait TMedicalTherapy{
 	 * @return $this
 	 */
 	public function setContraindication($x){
-		$this->contraindication = new Text('Contraindication',$x);
+		$this->contraindication = new Text('contraindication',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TMedicalTherapy{
 	 * @return $this
 	 */
 	public function setDuplicateTherapy($x){
-		$this->duplicateTherapy = new Text('DuplicateTherapy',$x);
+		$this->duplicateTherapy = new Text('duplicateTherapy',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TMedicalTherapy{
 	 * @return $this
 	 */
 	public function setSeriousAdverseOutcome($x){
-		$this->seriousAdverseOutcome = new Text('SeriousAdverseOutcome',$x);
+		$this->seriousAdverseOutcome = new Text('seriousAdverseOutcome',$x);
 		return $this;
 	}
 

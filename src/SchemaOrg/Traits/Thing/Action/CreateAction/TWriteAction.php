@@ -16,7 +16,7 @@ trait TWriteAction{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 

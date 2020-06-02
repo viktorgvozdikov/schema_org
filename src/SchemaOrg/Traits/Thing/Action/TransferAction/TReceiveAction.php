@@ -22,7 +22,7 @@ trait TReceiveAction{
 	 * @return $this
 	 */
 	public function setDeliveryMethod($x){
-		$this->deliveryMethod = new Text('DeliveryMethod',$x);
+		$this->deliveryMethod = new Text('deliveryMethod',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TReceiveAction{
 	 * @return $this
 	 */
 	public function setSender($x){
-		$this->sender = new Text('Sender',$x);
+		$this->sender = new Text('sender',$x);
 		return $this;
 	}
 

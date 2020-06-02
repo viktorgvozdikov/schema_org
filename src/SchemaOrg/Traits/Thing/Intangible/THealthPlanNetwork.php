@@ -28,7 +28,7 @@ trait THealthPlanNetwork{
 	 * @return $this
 	 */
 	public function setHealthPlanCostSharing($x){
-		$this->healthPlanCostSharing = new Text('HealthPlanCostSharing',$x);
+		$this->healthPlanCostSharing = new Text('healthPlanCostSharing',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait THealthPlanNetwork{
 	 * @return $this
 	 */
 	public function setHealthPlanNetworkId($x){
-		$this->healthPlanNetworkId = new Text('HealthPlanNetworkId',$x);
+		$this->healthPlanNetworkId = new Text('healthPlanNetworkId',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait THealthPlanNetwork{
 	 * @return $this
 	 */
 	public function setHealthPlanNetworkTier($x){
-		$this->healthPlanNetworkTier = new Text('HealthPlanNetworkTier',$x);
+		$this->healthPlanNetworkTier = new Text('healthPlanNetworkTier',$x);
 		return $this;
 	}
 

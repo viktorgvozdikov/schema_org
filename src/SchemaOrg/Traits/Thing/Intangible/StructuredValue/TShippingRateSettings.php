@@ -46,7 +46,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setDoesNotShip($x){
-		$this->doesNotShip = new Text('DoesNotShip',$x);
+		$this->doesNotShip = new Text('doesNotShip',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setFreeShippingThreshold($x){
-		$this->freeShippingThreshold = new Text('FreeShippingThreshold',$x);
+		$this->freeShippingThreshold = new Text('freeShippingThreshold',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setIsUnlabelledFallback($x){
-		$this->isUnlabelledFallback = new Text('IsUnlabelledFallback',$x);
+		$this->isUnlabelledFallback = new Text('isUnlabelledFallback',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setShippingDestination($x){
-		$this->shippingDestination = new Text('ShippingDestination',$x);
+		$this->shippingDestination = new Text('shippingDestination',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setShippingLabel($x){
-		$this->shippingLabel = new Text('ShippingLabel',$x);
+		$this->shippingLabel = new Text('shippingLabel',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TShippingRateSettings{
 	 * @return $this
 	 */
 	public function setShippingRate($x){
-		$this->shippingRate = new Text('ShippingRate',$x);
+		$this->shippingRate = new Text('shippingRate',$x);
 		return $this;
 	}
 

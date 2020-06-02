@@ -150,7 +150,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setApplicationDeadline($x){
-		$this->applicationDeadline = new Text('ApplicationDeadline',$x);
+		$this->applicationDeadline = new Text('applicationDeadline',$x);
 		return $this;
 	}
 
@@ -159,7 +159,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setApplicationStartDate($x){
-		$this->applicationStartDate = new Text('ApplicationStartDate',$x);
+		$this->applicationStartDate = new Text('applicationStartDate',$x);
 		return $this;
 	}
 
@@ -168,7 +168,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setDayOfWeek($x){
-		$this->dayOfWeek = new Text('DayOfWeek',$x);
+		$this->dayOfWeek = new Text('dayOfWeek',$x);
 		return $this;
 	}
 
@@ -177,7 +177,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setEducationalCredentialAwarded($x){
-		$this->educationalCredentialAwarded = new Text('EducationalCredentialAwarded',$x);
+		$this->educationalCredentialAwarded = new Text('educationalCredentialAwarded',$x);
 		return $this;
 	}
 
@@ -186,7 +186,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setEducationalProgramMode($x){
-		$this->educationalProgramMode = new Text('EducationalProgramMode',$x);
+		$this->educationalProgramMode = new Text('educationalProgramMode',$x);
 		return $this;
 	}
 
@@ -195,7 +195,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -204,7 +204,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setFinancialAidEligible($x){
-		$this->financialAidEligible = new Text('FinancialAidEligible',$x);
+		$this->financialAidEligible = new Text('financialAidEligible',$x);
 		return $this;
 	}
 
@@ -213,7 +213,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setMaximumEnrollment($x){
-		$this->maximumEnrollment = new Text('MaximumEnrollment',$x);
+		$this->maximumEnrollment = new Text('maximumEnrollment',$x);
 		return $this;
 	}
 
@@ -222,7 +222,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setNumberOfCredits($x){
-		$this->numberOfCredits = new Text('NumberOfCredits',$x);
+		$this->numberOfCredits = new Text('numberOfCredits',$x);
 		return $this;
 	}
 
@@ -231,7 +231,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setOccupationalCategory($x){
-		$this->occupationalCategory = new Text('OccupationalCategory',$x);
+		$this->occupationalCategory = new Text('occupationalCategory',$x);
 		return $this;
 	}
 
@@ -240,7 +240,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setOccupationalCredentialAwarded($x){
-		$this->occupationalCredentialAwarded = new Text('OccupationalCredentialAwarded',$x);
+		$this->occupationalCredentialAwarded = new Text('occupationalCredentialAwarded',$x);
 		return $this;
 	}
 
@@ -249,7 +249,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -258,7 +258,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setProgramPrerequisites($x){
-		$this->programPrerequisites = new Text('ProgramPrerequisites',$x);
+		$this->programPrerequisites = new Text('programPrerequisites',$x);
 		return $this;
 	}
 
@@ -267,7 +267,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setProgramType($x){
-		$this->programType = new Text('ProgramType',$x);
+		$this->programType = new Text('programType',$x);
 		return $this;
 	}
 
@@ -276,7 +276,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -285,7 +285,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setSalaryUponCompletion($x){
-		$this->salaryUponCompletion = new Text('SalaryUponCompletion',$x);
+		$this->salaryUponCompletion = new Text('salaryUponCompletion',$x);
 		return $this;
 	}
 
@@ -294,7 +294,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 
@@ -303,7 +303,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTermDuration($x){
-		$this->termDuration = new Text('TermDuration',$x);
+		$this->termDuration = new Text('termDuration',$x);
 		return $this;
 	}
 
@@ -312,7 +312,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTermsPerYear($x){
-		$this->termsPerYear = new Text('TermsPerYear',$x);
+		$this->termsPerYear = new Text('termsPerYear',$x);
 		return $this;
 	}
 
@@ -321,7 +321,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTimeOfDay($x){
-		$this->timeOfDay = new Text('TimeOfDay',$x);
+		$this->timeOfDay = new Text('timeOfDay',$x);
 		return $this;
 	}
 
@@ -330,7 +330,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTimeToComplete($x){
-		$this->timeToComplete = new Text('TimeToComplete',$x);
+		$this->timeToComplete = new Text('timeToComplete',$x);
 		return $this;
 	}
 
@@ -339,7 +339,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTrainingSalary($x){
-		$this->trainingSalary = new Text('TrainingSalary',$x);
+		$this->trainingSalary = new Text('trainingSalary',$x);
 		return $this;
 	}
 
@@ -348,7 +348,7 @@ trait TEducationalOccupationalProgram{
 	 * @return $this
 	 */
 	public function setTypicalCreditsPerTerm($x){
-		$this->typicalCreditsPerTerm = new Text('TypicalCreditsPerTerm',$x);
+		$this->typicalCreditsPerTerm = new Text('typicalCreditsPerTerm',$x);
 		return $this;
 	}
 

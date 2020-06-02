@@ -16,7 +16,7 @@ trait TImagingTest{
 	 * @return $this
 	 */
 	public function setImagingTechnique($x){
-		$this->imagingTechnique = new Text('ImagingTechnique',$x);
+		$this->imagingTechnique = new Text('imagingTechnique',$x);
 		return $this;
 	}
 

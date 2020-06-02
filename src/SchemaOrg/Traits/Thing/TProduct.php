@@ -228,7 +228,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setAdditionalProperty($x){
-		$this->additionalProperty = new Text('AdditionalProperty',$x);
+		$this->additionalProperty = new Text('additionalProperty',$x);
 		return $this;
 	}
 
@@ -237,7 +237,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -246,7 +246,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -255,7 +255,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setAward($x){
-		$this->award = new Text('Award',$x);
+		$this->award = new Text('award',$x);
 		return $this;
 	}
 
@@ -264,7 +264,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setBrand($x){
-		$this->brand = new Text('Brand',$x);
+		$this->brand = new Text('brand',$x);
 		return $this;
 	}
 
@@ -273,7 +273,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -282,7 +282,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setColor($x){
-		$this->color = new Text('Color',$x);
+		$this->color = new Text('color',$x);
 		return $this;
 	}
 
@@ -291,7 +291,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setDepth($x){
-		$this->depth = new Text('Depth',$x);
+		$this->depth = new Text('depth',$x);
 		return $this;
 	}
 
@@ -300,7 +300,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setGtin($x){
-		$this->gtin = new Text('Gtin',$x);
+		$this->gtin = new Text('gtin',$x);
 		return $this;
 	}
 
@@ -309,7 +309,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setGtin12($x){
-		$this->gtin12 = new Text('Gtin12',$x);
+		$this->gtin12 = new Text('gtin12',$x);
 		return $this;
 	}
 
@@ -318,7 +318,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setGtin13($x){
-		$this->gtin13 = new Text('Gtin13',$x);
+		$this->gtin13 = new Text('gtin13',$x);
 		return $this;
 	}
 
@@ -327,7 +327,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setGtin14($x){
-		$this->gtin14 = new Text('Gtin14',$x);
+		$this->gtin14 = new Text('gtin14',$x);
 		return $this;
 	}
 
@@ -336,7 +336,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setGtin8($x){
-		$this->gtin8 = new Text('Gtin8',$x);
+		$this->gtin8 = new Text('gtin8',$x);
 		return $this;
 	}
 
@@ -345,7 +345,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setHasMerchantReturnPolicy($x){
-		$this->hasMerchantReturnPolicy = new Text('HasMerchantReturnPolicy',$x);
+		$this->hasMerchantReturnPolicy = new Text('hasMerchantReturnPolicy',$x);
 		return $this;
 	}
 
@@ -354,7 +354,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setHeight($x){
-		$this->height = new Text('Height',$x);
+		$this->height = new Text('height',$x);
 		return $this;
 	}
 
@@ -363,7 +363,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setIsAccessoryOrSparePartFor($x){
-		$this->isAccessoryOrSparePartFor = new Text('IsAccessoryOrSparePartFor',$x);
+		$this->isAccessoryOrSparePartFor = new Text('isAccessoryOrSparePartFor',$x);
 		return $this;
 	}
 
@@ -372,7 +372,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setIsConsumableFor($x){
-		$this->isConsumableFor = new Text('IsConsumableFor',$x);
+		$this->isConsumableFor = new Text('isConsumableFor',$x);
 		return $this;
 	}
 
@@ -381,7 +381,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setIsRelatedTo($x){
-		$this->isRelatedTo = new Text('IsRelatedTo',$x);
+		$this->isRelatedTo = new Text('isRelatedTo',$x);
 		return $this;
 	}
 
@@ -390,7 +390,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setIsSimilarTo($x){
-		$this->isSimilarTo = new Text('IsSimilarTo',$x);
+		$this->isSimilarTo = new Text('isSimilarTo',$x);
 		return $this;
 	}
 
@@ -399,7 +399,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setItemCondition($x){
-		$this->itemCondition = new Text('ItemCondition',$x);
+		$this->itemCondition = new Text('itemCondition',$x);
 		return $this;
 	}
 
@@ -408,7 +408,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setLogo($x){
-		$this->logo = new Text('Logo',$x);
+		$this->logo = new Text('logo',$x);
 		return $this;
 	}
 
@@ -417,7 +417,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setManufacturer($x){
-		$this->manufacturer = new Text('Manufacturer',$x);
+		$this->manufacturer = new Text('manufacturer',$x);
 		return $this;
 	}
 
@@ -426,7 +426,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setMaterial($x){
-		$this->material = new Text('Material',$x);
+		$this->material = new Text('material',$x);
 		return $this;
 	}
 
@@ -435,7 +435,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setModel($x){
-		$this->model = new Text('Model',$x);
+		$this->model = new Text('model',$x);
 		return $this;
 	}
 
@@ -444,7 +444,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setMpn($x){
-		$this->mpn = new Text('Mpn',$x);
+		$this->mpn = new Text('mpn',$x);
 		return $this;
 	}
 
@@ -453,7 +453,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setNsn($x){
-		$this->nsn = new Text('Nsn',$x);
+		$this->nsn = new Text('nsn',$x);
 		return $this;
 	}
 
@@ -462,7 +462,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -471,7 +471,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setProductID($x){
-		$this->productID = new Text('ProductID',$x);
+		$this->productID = new Text('productID',$x);
 		return $this;
 	}
 
@@ -480,7 +480,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setProductionDate($x){
-		$this->productionDate = new Text('ProductionDate',$x);
+		$this->productionDate = new Text('productionDate',$x);
 		return $this;
 	}
 
@@ -489,7 +489,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setPurchaseDate($x){
-		$this->purchaseDate = new Text('PurchaseDate',$x);
+		$this->purchaseDate = new Text('purchaseDate',$x);
 		return $this;
 	}
 
@@ -498,7 +498,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setReleaseDate($x){
-		$this->releaseDate = new Text('ReleaseDate',$x);
+		$this->releaseDate = new Text('releaseDate',$x);
 		return $this;
 	}
 
@@ -507,7 +507,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -516,7 +516,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setSku($x){
-		$this->sku = new Text('Sku',$x);
+		$this->sku = new Text('sku',$x);
 		return $this;
 	}
 
@@ -525,7 +525,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setSlogan($x){
-		$this->slogan = new Text('Slogan',$x);
+		$this->slogan = new Text('slogan',$x);
 		return $this;
 	}
 
@@ -534,7 +534,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setWeight($x){
-		$this->weight = new Text('Weight',$x);
+		$this->weight = new Text('weight',$x);
 		return $this;
 	}
 
@@ -543,7 +543,7 @@ trait TProduct{
 	 * @return $this
 	 */
 	public function setWidth($x){
-		$this->width = new Text('Width',$x);
+		$this->width = new Text('width',$x);
 		return $this;
 	}
 

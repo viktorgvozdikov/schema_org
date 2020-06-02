@@ -28,7 +28,7 @@ trait TSportsTeam{
 	 * @return $this
 	 */
 	public function setAthlete($x){
-		$this->athlete = new Text('Athlete',$x);
+		$this->athlete = new Text('athlete',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TSportsTeam{
 	 * @return $this
 	 */
 	public function setCoach($x){
-		$this->coach = new Text('Coach',$x);
+		$this->coach = new Text('coach',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TSportsTeam{
 	 * @return $this
 	 */
 	public function setGender($x){
-		$this->gender = new Text('Gender',$x);
+		$this->gender = new Text('gender',$x);
 		return $this;
 	}
 

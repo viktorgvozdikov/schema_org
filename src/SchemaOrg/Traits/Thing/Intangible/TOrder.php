@@ -132,7 +132,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setAcceptedOffer($x){
-		$this->acceptedOffer = new Text('AcceptedOffer',$x);
+		$this->acceptedOffer = new Text('acceptedOffer',$x);
 		return $this;
 	}
 
@@ -141,7 +141,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setBillingAddress($x){
-		$this->billingAddress = new Text('BillingAddress',$x);
+		$this->billingAddress = new Text('billingAddress',$x);
 		return $this;
 	}
 
@@ -150,7 +150,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setBroker($x){
-		$this->broker = new Text('Broker',$x);
+		$this->broker = new Text('broker',$x);
 		return $this;
 	}
 
@@ -159,7 +159,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setConfirmationNumber($x){
-		$this->confirmationNumber = new Text('ConfirmationNumber',$x);
+		$this->confirmationNumber = new Text('confirmationNumber',$x);
 		return $this;
 	}
 
@@ -168,7 +168,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setCustomer($x){
-		$this->customer = new Text('Customer',$x);
+		$this->customer = new Text('customer',$x);
 		return $this;
 	}
 
@@ -177,7 +177,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setDiscount($x){
-		$this->discount = new Text('Discount',$x);
+		$this->discount = new Text('discount',$x);
 		return $this;
 	}
 
@@ -186,7 +186,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setDiscountCode($x){
-		$this->discountCode = new Text('DiscountCode',$x);
+		$this->discountCode = new Text('discountCode',$x);
 		return $this;
 	}
 
@@ -195,7 +195,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setDiscountCurrency($x){
-		$this->discountCurrency = new Text('DiscountCurrency',$x);
+		$this->discountCurrency = new Text('discountCurrency',$x);
 		return $this;
 	}
 
@@ -204,7 +204,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setIsGift($x){
-		$this->isGift = new Text('IsGift',$x);
+		$this->isGift = new Text('isGift',$x);
 		return $this;
 	}
 
@@ -213,7 +213,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setOrderDate($x){
-		$this->orderDate = new Text('OrderDate',$x);
+		$this->orderDate = new Text('orderDate',$x);
 		return $this;
 	}
 
@@ -222,7 +222,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setOrderDelivery($x){
-		$this->orderDelivery = new Text('OrderDelivery',$x);
+		$this->orderDelivery = new Text('orderDelivery',$x);
 		return $this;
 	}
 
@@ -231,7 +231,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setOrderNumber($x){
-		$this->orderNumber = new Text('OrderNumber',$x);
+		$this->orderNumber = new Text('orderNumber',$x);
 		return $this;
 	}
 
@@ -240,7 +240,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setOrderStatus($x){
-		$this->orderStatus = new Text('OrderStatus',$x);
+		$this->orderStatus = new Text('orderStatus',$x);
 		return $this;
 	}
 
@@ -249,7 +249,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setOrderedItem($x){
-		$this->orderedItem = new Text('OrderedItem',$x);
+		$this->orderedItem = new Text('orderedItem',$x);
 		return $this;
 	}
 
@@ -258,7 +258,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setPartOfInvoice($x){
-		$this->partOfInvoice = new Text('PartOfInvoice',$x);
+		$this->partOfInvoice = new Text('partOfInvoice',$x);
 		return $this;
 	}
 
@@ -267,7 +267,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setPaymentDueDate($x){
-		$this->paymentDueDate = new Text('PaymentDueDate',$x);
+		$this->paymentDueDate = new Text('paymentDueDate',$x);
 		return $this;
 	}
 
@@ -276,7 +276,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setPaymentMethod($x){
-		$this->paymentMethod = new Text('PaymentMethod',$x);
+		$this->paymentMethod = new Text('paymentMethod',$x);
 		return $this;
 	}
 
@@ -285,7 +285,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setPaymentMethodId($x){
-		$this->paymentMethodId = new Text('PaymentMethodId',$x);
+		$this->paymentMethodId = new Text('paymentMethodId',$x);
 		return $this;
 	}
 
@@ -294,7 +294,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setPaymentUrl($x){
-		$this->paymentUrl = new Text('PaymentUrl',$x);
+		$this->paymentUrl = new Text('paymentUrl',$x);
 		return $this;
 	}
 
@@ -303,7 +303,7 @@ trait TOrder{
 	 * @return $this
 	 */
 	public function setSeller($x){
-		$this->seller = new Text('Seller',$x);
+		$this->seller = new Text('seller',$x);
 		return $this;
 	}
 

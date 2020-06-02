@@ -40,7 +40,7 @@ trait THealthPlanCostSharingSpecification{
 	 * @return $this
 	 */
 	public function setHealthPlanCoinsuranceOption($x){
-		$this->healthPlanCoinsuranceOption = new Text('HealthPlanCoinsuranceOption',$x);
+		$this->healthPlanCoinsuranceOption = new Text('healthPlanCoinsuranceOption',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait THealthPlanCostSharingSpecification{
 	 * @return $this
 	 */
 	public function setHealthPlanCoinsuranceRate($x){
-		$this->healthPlanCoinsuranceRate = new Text('HealthPlanCoinsuranceRate',$x);
+		$this->healthPlanCoinsuranceRate = new Text('healthPlanCoinsuranceRate',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait THealthPlanCostSharingSpecification{
 	 * @return $this
 	 */
 	public function setHealthPlanCopay($x){
-		$this->healthPlanCopay = new Text('HealthPlanCopay',$x);
+		$this->healthPlanCopay = new Text('healthPlanCopay',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait THealthPlanCostSharingSpecification{
 	 * @return $this
 	 */
 	public function setHealthPlanCopayOption($x){
-		$this->healthPlanCopayOption = new Text('HealthPlanCopayOption',$x);
+		$this->healthPlanCopayOption = new Text('healthPlanCopayOption',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait THealthPlanCostSharingSpecification{
 	 * @return $this
 	 */
 	public function setHealthPlanPharmacyCategory($x){
-		$this->healthPlanPharmacyCategory = new Text('HealthPlanPharmacyCategory',$x);
+		$this->healthPlanPharmacyCategory = new Text('healthPlanPharmacyCategory',$x);
 		return $this;
 	}
 

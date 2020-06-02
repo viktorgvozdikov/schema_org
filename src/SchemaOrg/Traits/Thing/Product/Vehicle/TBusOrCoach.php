@@ -30,7 +30,7 @@ trait TBusOrCoach{
 	 * @return $this
 	 */
 	public function setAcrissCode($x){
-		$this->acrissCode = new Text('AcrissCode',$x);
+		$this->acrissCode = new Text('acrissCode',$x);
 		return $this;
 	}
 
@@ -39,7 +39,7 @@ trait TBusOrCoach{
 	 * @return $this
 	 */
 	public function setRoofLoad($x){
-		$this->roofLoad = new Text('RoofLoad',$x);
+		$this->roofLoad = new Text('roofLoad',$x);
 		return $this;
 	}
 

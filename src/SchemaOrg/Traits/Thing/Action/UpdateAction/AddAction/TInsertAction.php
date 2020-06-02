@@ -16,7 +16,7 @@ trait TInsertAction{
 	 * @return $this
 	 */
 	public function setToLocation($x){
-		$this->toLocation = new Text('ToLocation',$x);
+		$this->toLocation = new Text('toLocation',$x);
 		return $this;
 	}
 

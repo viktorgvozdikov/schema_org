@@ -16,7 +16,7 @@ trait TPerformAction{
 	 * @return $this
 	 */
 	public function setEntertainmentBusiness($x){
-		$this->entertainmentBusiness = new Text('EntertainmentBusiness',$x);
+		$this->entertainmentBusiness = new Text('entertainmentBusiness',$x);
 		return $this;
 	}
 

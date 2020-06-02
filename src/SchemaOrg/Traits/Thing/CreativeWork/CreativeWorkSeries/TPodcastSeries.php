@@ -16,7 +16,7 @@ trait TPodcastSeries{
 	 * @return $this
 	 */
 	public function setWebFeed($x){
-		$this->webFeed = new Text('WebFeed',$x);
+		$this->webFeed = new Text('webFeed',$x);
 		return $this;
 	}
 

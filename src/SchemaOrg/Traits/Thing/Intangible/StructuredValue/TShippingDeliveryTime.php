@@ -35,7 +35,7 @@ trait TShippingDeliveryTime{
 	 * @return $this
 	 */
 	public function setBusinessDays($x){
-		$this->businessDays = new Text('BusinessDays',$x);
+		$this->businessDays = new Text('businessDays',$x);
 		return $this;
 	}
 
@@ -44,7 +44,7 @@ trait TShippingDeliveryTime{
 	 * @return $this
 	 */
 	public function setCutoffTime($x){
-		$this->cutoffTime = new Text('CutoffTime',$x);
+		$this->cutoffTime = new Text('cutoffTime',$x);
 		return $this;
 	}
 
@@ -53,7 +53,7 @@ trait TShippingDeliveryTime{
 	 * @return $this
 	 */
 	public function setHandlingTime($x){
-		$this->handlingTime = new Text('HandlingTime',$x);
+		$this->handlingTime = new Text('handlingTime',$x);
 		return $this;
 	}
 
@@ -62,7 +62,7 @@ trait TShippingDeliveryTime{
 	 * @return $this
 	 */
 	public function setTransitTime($x){
-		$this->transitTime = new Text('TransitTime',$x);
+		$this->transitTime = new Text('transitTime',$x);
 		return $this;
 	}
 

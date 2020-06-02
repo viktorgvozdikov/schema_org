@@ -46,7 +46,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setBodyLocation($x){
-		$this->bodyLocation = new Text('BodyLocation',$x);
+		$this->bodyLocation = new Text('bodyLocation',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setFollowup($x){
-		$this->followup = new Text('Followup',$x);
+		$this->followup = new Text('followup',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setHowPerformed($x){
-		$this->howPerformed = new Text('HowPerformed',$x);
+		$this->howPerformed = new Text('howPerformed',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setPreparation($x){
-		$this->preparation = new Text('Preparation',$x);
+		$this->preparation = new Text('preparation',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setProcedureType($x){
-		$this->procedureType = new Text('ProcedureType',$x);
+		$this->procedureType = new Text('procedureType',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMedicalProcedure{
 	 * @return $this
 	 */
 	public function setStatus($x){
-		$this->status = new Text('Status',$x);
+		$this->status = new Text('status',$x);
 		return $this;
 	}
 

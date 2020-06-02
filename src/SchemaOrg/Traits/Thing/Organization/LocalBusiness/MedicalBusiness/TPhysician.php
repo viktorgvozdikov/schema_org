@@ -22,7 +22,7 @@ trait TPhysician{
 	 * @return $this
 	 */
 	public function setAvailableService($x){
-		$this->availableService = new Text('AvailableService',$x);
+		$this->availableService = new Text('availableService',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPhysician{
 	 * @return $this
 	 */
 	public function setHospitalAffiliation($x){
-		$this->hospitalAffiliation = new Text('HospitalAffiliation',$x);
+		$this->hospitalAffiliation = new Text('hospitalAffiliation',$x);
 		return $this;
 	}
 

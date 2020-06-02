@@ -23,7 +23,7 @@ trait TDataDownload{
 	 * @return $this
 	 */
 	public function setMeasurementTechnique($x){
-		$this->measurementTechnique = new Text('MeasurementTechnique',$x);
+		$this->measurementTechnique = new Text('measurementTechnique',$x);
 		return $this;
 	}
 

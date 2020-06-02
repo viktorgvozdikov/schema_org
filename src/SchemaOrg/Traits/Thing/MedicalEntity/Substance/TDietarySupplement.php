@@ -58,7 +58,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setIsProprietary($x){
-		$this->isProprietary = new Text('IsProprietary',$x);
+		$this->isProprietary = new Text('isProprietary',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setManufacturer($x){
-		$this->manufacturer = new Text('Manufacturer',$x);
+		$this->manufacturer = new Text('manufacturer',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setMechanismOfAction($x){
-		$this->mechanismOfAction = new Text('MechanismOfAction',$x);
+		$this->mechanismOfAction = new Text('mechanismOfAction',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setNonProprietaryName($x){
-		$this->nonProprietaryName = new Text('NonProprietaryName',$x);
+		$this->nonProprietaryName = new Text('nonProprietaryName',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setProprietaryName($x){
-		$this->proprietaryName = new Text('ProprietaryName',$x);
+		$this->proprietaryName = new Text('proprietaryName',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setRecommendedIntake($x){
-		$this->recommendedIntake = new Text('RecommendedIntake',$x);
+		$this->recommendedIntake = new Text('recommendedIntake',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setSafetyConsideration($x){
-		$this->safetyConsideration = new Text('SafetyConsideration',$x);
+		$this->safetyConsideration = new Text('safetyConsideration',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TDietarySupplement{
 	 * @return $this
 	 */
 	public function setTargetPopulation($x){
-		$this->targetPopulation = new Text('TargetPopulation',$x);
+		$this->targetPopulation = new Text('targetPopulation',$x);
 		return $this;
 	}
 

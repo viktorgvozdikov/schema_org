@@ -16,7 +16,7 @@ trait TMap{
 	 * @return $this
 	 */
 	public function setMapType($x){
-		$this->mapType = new Text('MapType',$x);
+		$this->mapType = new Text('mapType',$x);
 		return $this;
 	}
 

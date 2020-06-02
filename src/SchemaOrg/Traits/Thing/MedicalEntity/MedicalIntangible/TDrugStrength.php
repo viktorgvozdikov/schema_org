@@ -40,7 +40,7 @@ trait TDrugStrength{
 	 * @return $this
 	 */
 	public function setActiveIngredient($x){
-		$this->activeIngredient = new Text('ActiveIngredient',$x);
+		$this->activeIngredient = new Text('activeIngredient',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TDrugStrength{
 	 * @return $this
 	 */
 	public function setAvailableIn($x){
-		$this->availableIn = new Text('AvailableIn',$x);
+		$this->availableIn = new Text('availableIn',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TDrugStrength{
 	 * @return $this
 	 */
 	public function setMaximumIntake($x){
-		$this->maximumIntake = new Text('MaximumIntake',$x);
+		$this->maximumIntake = new Text('maximumIntake',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TDrugStrength{
 	 * @return $this
 	 */
 	public function setStrengthUnit($x){
-		$this->strengthUnit = new Text('StrengthUnit',$x);
+		$this->strengthUnit = new Text('strengthUnit',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TDrugStrength{
 	 * @return $this
 	 */
 	public function setStrengthValue($x){
-		$this->strengthValue = new Text('StrengthValue',$x);
+		$this->strengthValue = new Text('strengthValue',$x);
 		return $this;
 	}
 

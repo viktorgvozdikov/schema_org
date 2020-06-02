@@ -16,7 +16,7 @@ trait TUpdateAction{
 	 * @return $this
 	 */
 	public function setTargetCollection($x){
-		$this->targetCollection = new Text('TargetCollection',$x);
+		$this->targetCollection = new Text('targetCollection',$x);
 		return $this;
 	}
 

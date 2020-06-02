@@ -84,7 +84,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setArtEdition($x){
-		$this->artEdition = new Text('ArtEdition',$x);
+		$this->artEdition = new Text('artEdition',$x);
 		return $this;
 	}
 
@@ -93,7 +93,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setArtMedium($x){
-		$this->artMedium = new Text('ArtMedium',$x);
+		$this->artMedium = new Text('artMedium',$x);
 		return $this;
 	}
 
@@ -102,7 +102,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setArtform($x){
-		$this->artform = new Text('Artform',$x);
+		$this->artform = new Text('artform',$x);
 		return $this;
 	}
 
@@ -111,7 +111,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setArtist($x){
-		$this->artist = new Text('Artist',$x);
+		$this->artist = new Text('artist',$x);
 		return $this;
 	}
 
@@ -120,7 +120,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setArtworkSurface($x){
-		$this->artworkSurface = new Text('ArtworkSurface',$x);
+		$this->artworkSurface = new Text('artworkSurface',$x);
 		return $this;
 	}
 
@@ -129,7 +129,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setColorist($x){
-		$this->colorist = new Text('Colorist',$x);
+		$this->colorist = new Text('colorist',$x);
 		return $this;
 	}
 
@@ -138,7 +138,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setDepth($x){
-		$this->depth = new Text('Depth',$x);
+		$this->depth = new Text('depth',$x);
 		return $this;
 	}
 
@@ -147,7 +147,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setHeight($x){
-		$this->height = new Text('Height',$x);
+		$this->height = new Text('height',$x);
 		return $this;
 	}
 
@@ -156,7 +156,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setInker($x){
-		$this->inker = new Text('Inker',$x);
+		$this->inker = new Text('inker',$x);
 		return $this;
 	}
 
@@ -165,7 +165,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setLetterer($x){
-		$this->letterer = new Text('Letterer',$x);
+		$this->letterer = new Text('letterer',$x);
 		return $this;
 	}
 
@@ -174,7 +174,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setPenciler($x){
-		$this->penciler = new Text('Penciler',$x);
+		$this->penciler = new Text('penciler',$x);
 		return $this;
 	}
 
@@ -183,7 +183,7 @@ trait TVisualArtwork{
 	 * @return $this
 	 */
 	public function setWidth($x){
-		$this->width = new Text('Width',$x);
+		$this->width = new Text('width',$x);
 		return $this;
 	}
 

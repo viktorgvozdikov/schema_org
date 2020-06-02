@@ -16,7 +16,7 @@ trait TMedicalGuidelineRecommendation{
 	 * @return $this
 	 */
 	public function setRecommendationStrength($x){
-		$this->recommendationStrength = new Text('RecommendationStrength',$x);
+		$this->recommendationStrength = new Text('recommendationStrength',$x);
 		return $this;
 	}
 

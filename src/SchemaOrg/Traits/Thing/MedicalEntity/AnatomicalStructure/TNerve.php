@@ -28,7 +28,7 @@ trait TNerve{
 	 * @return $this
 	 */
 	public function setNerveMotor($x){
-		$this->nerveMotor = new Text('NerveMotor',$x);
+		$this->nerveMotor = new Text('nerveMotor',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TNerve{
 	 * @return $this
 	 */
 	public function setSensoryUnit($x){
-		$this->sensoryUnit = new Text('SensoryUnit',$x);
+		$this->sensoryUnit = new Text('sensoryUnit',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TNerve{
 	 * @return $this
 	 */
 	public function setSourcedFrom($x){
-		$this->sourcedFrom = new Text('SourcedFrom',$x);
+		$this->sourcedFrom = new Text('sourcedFrom',$x);
 		return $this;
 	}
 

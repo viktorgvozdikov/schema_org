@@ -54,7 +54,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setCurrency($x){
-		$this->currency = new Text('Currency',$x);
+		$this->currency = new Text('currency',$x);
 		return $this;
 	}
 
@@ -63,7 +63,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setMaxValue($x){
-		$this->maxValue = new Text('MaxValue',$x);
+		$this->maxValue = new Text('maxValue',$x);
 		return $this;
 	}
 
@@ -72,7 +72,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setMinValue($x){
-		$this->minValue = new Text('MinValue',$x);
+		$this->minValue = new Text('minValue',$x);
 		return $this;
 	}
 
@@ -81,7 +81,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -90,7 +90,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ trait TMonetaryAmount{
 	 * @return $this
 	 */
 	public function setValue($x){
-		$this->value = new Text('Value',$x);
+		$this->value = new Text('value',$x);
 		return $this;
 	}
 

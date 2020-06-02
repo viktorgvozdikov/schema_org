@@ -22,7 +22,7 @@ trait TMediaSubscription{
 	 * @return $this
 	 */
 	public function setAuthenticator($x){
-		$this->authenticator = new Text('Authenticator',$x);
+		$this->authenticator = new Text('authenticator',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMediaSubscription{
 	 * @return $this
 	 */
 	public function setExpectsAcceptanceOf($x){
-		$this->expectsAcceptanceOf = new Text('ExpectsAcceptanceOf',$x);
+		$this->expectsAcceptanceOf = new Text('expectsAcceptanceOf',$x);
 		return $this;
 	}
 

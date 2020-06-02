@@ -52,7 +52,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setAuthor($x){
-		$this->author = new Text('Author',$x);
+		$this->author = new Text('author',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setBestRating($x){
-		$this->bestRating = new Text('BestRating',$x);
+		$this->bestRating = new Text('bestRating',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setRatingExplanation($x){
-		$this->ratingExplanation = new Text('RatingExplanation',$x);
+		$this->ratingExplanation = new Text('ratingExplanation',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setRatingValue($x){
-		$this->ratingValue = new Text('RatingValue',$x);
+		$this->ratingValue = new Text('ratingValue',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setReviewAspect($x){
-		$this->reviewAspect = new Text('ReviewAspect',$x);
+		$this->reviewAspect = new Text('reviewAspect',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TRating{
 	 * @return $this
 	 */
 	public function setWorstRating($x){
-		$this->worstRating = new Text('WorstRating',$x);
+		$this->worstRating = new Text('worstRating',$x);
 		return $this;
 	}
 

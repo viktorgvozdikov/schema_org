@@ -28,7 +28,7 @@ trait TLiveBlogPosting{
 	 * @return $this
 	 */
 	public function setCoverageEndTime($x){
-		$this->coverageEndTime = new Text('CoverageEndTime',$x);
+		$this->coverageEndTime = new Text('coverageEndTime',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TLiveBlogPosting{
 	 * @return $this
 	 */
 	public function setCoverageStartTime($x){
-		$this->coverageStartTime = new Text('CoverageStartTime',$x);
+		$this->coverageStartTime = new Text('coverageStartTime',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TLiveBlogPosting{
 	 * @return $this
 	 */
 	public function setLiveBlogUpdate($x){
-		$this->liveBlogUpdate = new Text('LiveBlogUpdate',$x);
+		$this->liveBlogUpdate = new Text('liveBlogUpdate',$x);
 		return $this;
 	}
 

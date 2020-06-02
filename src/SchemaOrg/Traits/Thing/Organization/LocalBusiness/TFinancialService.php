@@ -16,7 +16,7 @@ trait TFinancialService{
 	 * @return $this
 	 */
 	public function setFeesAndCommissionsSpecification($x){
-		$this->feesAndCommissionsSpecification = new Text('FeesAndCommissionsSpecification',$x);
+		$this->feesAndCommissionsSpecification = new Text('feesAndCommissionsSpecification',$x);
 		return $this;
 	}
 

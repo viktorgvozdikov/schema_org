@@ -69,7 +69,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setArticleBody($x){
-		$this->articleBody = new Text('ArticleBody',$x);
+		$this->articleBody = new Text('articleBody',$x);
 		return $this;
 	}
 
@@ -78,7 +78,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setArticleSection($x){
-		$this->articleSection = new Text('ArticleSection',$x);
+		$this->articleSection = new Text('articleSection',$x);
 		return $this;
 	}
 
@@ -87,7 +87,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setBackstory($x){
-		$this->backstory = new Text('Backstory',$x);
+		$this->backstory = new Text('backstory',$x);
 		return $this;
 	}
 
@@ -96,7 +96,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setPageEnd($x){
-		$this->pageEnd = new Text('PageEnd',$x);
+		$this->pageEnd = new Text('pageEnd',$x);
 		return $this;
 	}
 
@@ -105,7 +105,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setPageStart($x){
-		$this->pageStart = new Text('PageStart',$x);
+		$this->pageStart = new Text('pageStart',$x);
 		return $this;
 	}
 
@@ -114,7 +114,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setPagination($x){
-		$this->pagination = new Text('Pagination',$x);
+		$this->pagination = new Text('pagination',$x);
 		return $this;
 	}
 
@@ -123,7 +123,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setSpeakable($x){
-		$this->speakable = new Text('Speakable',$x);
+		$this->speakable = new Text('speakable',$x);
 		return $this;
 	}
 
@@ -132,7 +132,7 @@ trait TArticle{
 	 * @return $this
 	 */
 	public function setWordCount($x){
-		$this->wordCount = new Text('WordCount',$x);
+		$this->wordCount = new Text('wordCount',$x);
 		return $this;
 	}
 

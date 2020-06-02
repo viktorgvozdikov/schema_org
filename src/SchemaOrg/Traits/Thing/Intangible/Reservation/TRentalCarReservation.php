@@ -34,7 +34,7 @@ trait TRentalCarReservation{
 	 * @return $this
 	 */
 	public function setDropoffLocation($x){
-		$this->dropoffLocation = new Text('DropoffLocation',$x);
+		$this->dropoffLocation = new Text('dropoffLocation',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TRentalCarReservation{
 	 * @return $this
 	 */
 	public function setDropoffTime($x){
-		$this->dropoffTime = new Text('DropoffTime',$x);
+		$this->dropoffTime = new Text('dropoffTime',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TRentalCarReservation{
 	 * @return $this
 	 */
 	public function setPickupLocation($x){
-		$this->pickupLocation = new Text('PickupLocation',$x);
+		$this->pickupLocation = new Text('pickupLocation',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TRentalCarReservation{
 	 * @return $this
 	 */
 	public function setPickupTime($x){
-		$this->pickupTime = new Text('PickupTime',$x);
+		$this->pickupTime = new Text('pickupTime',$x);
 		return $this;
 	}
 

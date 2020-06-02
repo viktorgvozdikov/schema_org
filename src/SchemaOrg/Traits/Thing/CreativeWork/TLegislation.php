@@ -88,7 +88,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setJurisdiction($x){
-		$this->jurisdiction = new Text('Jurisdiction',$x);
+		$this->jurisdiction = new Text('jurisdiction',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationApplies($x){
-		$this->legislationApplies = new Text('LegislationApplies',$x);
+		$this->legislationApplies = new Text('legislationApplies',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationChanges($x){
-		$this->legislationChanges = new Text('LegislationChanges',$x);
+		$this->legislationChanges = new Text('legislationChanges',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationConsolidates($x){
-		$this->legislationConsolidates = new Text('LegislationConsolidates',$x);
+		$this->legislationConsolidates = new Text('legislationConsolidates',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationDate($x){
-		$this->legislationDate = new Text('LegislationDate',$x);
+		$this->legislationDate = new Text('legislationDate',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationDateVersion($x){
-		$this->legislationDateVersion = new Text('LegislationDateVersion',$x);
+		$this->legislationDateVersion = new Text('legislationDateVersion',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationIdentifier($x){
-		$this->legislationIdentifier = new Text('LegislationIdentifier',$x);
+		$this->legislationIdentifier = new Text('legislationIdentifier',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationJurisdiction($x){
-		$this->legislationJurisdiction = new Text('LegislationJurisdiction',$x);
+		$this->legislationJurisdiction = new Text('legislationJurisdiction',$x);
 		return $this;
 	}
 
@@ -160,7 +160,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationLegalForce($x){
-		$this->legislationLegalForce = new Text('LegislationLegalForce',$x);
+		$this->legislationLegalForce = new Text('legislationLegalForce',$x);
 		return $this;
 	}
 
@@ -169,7 +169,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationPassedBy($x){
-		$this->legislationPassedBy = new Text('LegislationPassedBy',$x);
+		$this->legislationPassedBy = new Text('legislationPassedBy',$x);
 		return $this;
 	}
 
@@ -178,7 +178,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationResponsible($x){
-		$this->legislationResponsible = new Text('LegislationResponsible',$x);
+		$this->legislationResponsible = new Text('legislationResponsible',$x);
 		return $this;
 	}
 
@@ -187,7 +187,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationTransposes($x){
-		$this->legislationTransposes = new Text('LegislationTransposes',$x);
+		$this->legislationTransposes = new Text('legislationTransposes',$x);
 		return $this;
 	}
 
@@ -196,7 +196,7 @@ trait TLegislation{
 	 * @return $this
 	 */
 	public function setLegislationType($x){
-		$this->legislationType = new Text('LegislationType',$x);
+		$this->legislationType = new Text('legislationType',$x);
 		return $this;
 	}
 

@@ -52,7 +52,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setCode($x){
-		$this->code = new Text('Code',$x);
+		$this->code = new Text('code',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setGuideline($x){
-		$this->guideline = new Text('Guideline',$x);
+		$this->guideline = new Text('guideline',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setLegalStatus($x){
-		$this->legalStatus = new Text('LegalStatus',$x);
+		$this->legalStatus = new Text('legalStatus',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setMedicineSystem($x){
-		$this->medicineSystem = new Text('MedicineSystem',$x);
+		$this->medicineSystem = new Text('medicineSystem',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setRecognizingAuthority($x){
-		$this->recognizingAuthority = new Text('RecognizingAuthority',$x);
+		$this->recognizingAuthority = new Text('recognizingAuthority',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setRelevantSpecialty($x){
-		$this->relevantSpecialty = new Text('RelevantSpecialty',$x);
+		$this->relevantSpecialty = new Text('relevantSpecialty',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TMedicalEntity{
 	 * @return $this
 	 */
 	public function setStudy($x){
-		$this->study = new Text('Study',$x);
+		$this->study = new Text('study',$x);
 		return $this;
 	}
 

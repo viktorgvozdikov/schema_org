@@ -16,7 +16,7 @@ trait TFollowAction{
 	 * @return $this
 	 */
 	public function setFollowee($x){
-		$this->followee = new Text('Followee',$x);
+		$this->followee = new Text('followee',$x);
 		return $this;
 	}
 

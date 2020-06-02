@@ -16,7 +16,7 @@ trait TWinAction{
 	 * @return $this
 	 */
 	public function setLoser($x){
-		$this->loser = new Text('Loser',$x);
+		$this->loser = new Text('loser',$x);
 		return $this;
 	}
 

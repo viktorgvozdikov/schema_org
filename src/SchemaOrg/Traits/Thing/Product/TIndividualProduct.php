@@ -16,7 +16,7 @@ trait TIndividualProduct{
 	 * @return $this
 	 */
 	public function setSerialNumber($x){
-		$this->serialNumber = new Text('SerialNumber',$x);
+		$this->serialNumber = new Text('serialNumber',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TDDxElement{
 	 * @return $this
 	 */
 	public function setDiagnosis($x){
-		$this->diagnosis = new Text('Diagnosis',$x);
+		$this->diagnosis = new Text('diagnosis',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TDDxElement{
 	 * @return $this
 	 */
 	public function setDistinguishingSign($x){
-		$this->distinguishingSign = new Text('DistinguishingSign',$x);
+		$this->distinguishingSign = new Text('distinguishingSign',$x);
 		return $this;
 	}
 

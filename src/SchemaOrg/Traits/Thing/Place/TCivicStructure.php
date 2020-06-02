@@ -22,7 +22,7 @@ trait TCivicStructure{
 	 * @return $this
 	 */
 	public function setOpeningHours($x){
-		$this->openingHours = new Text('OpeningHours',$x);
+		$this->openingHours = new Text('openingHours',$x);
 		return $this;
 	}
 

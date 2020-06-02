@@ -75,7 +75,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setBreadcrumb($x){
-		$this->breadcrumb = new Text('Breadcrumb',$x);
+		$this->breadcrumb = new Text('breadcrumb',$x);
 		return $this;
 	}
 
@@ -84,7 +84,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setLastReviewed($x){
-		$this->lastReviewed = new Text('LastReviewed',$x);
+		$this->lastReviewed = new Text('lastReviewed',$x);
 		return $this;
 	}
 
@@ -93,7 +93,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setMainContentOfPage($x){
-		$this->mainContentOfPage = new Text('MainContentOfPage',$x);
+		$this->mainContentOfPage = new Text('mainContentOfPage',$x);
 		return $this;
 	}
 
@@ -102,7 +102,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setPrimaryImageOfPage($x){
-		$this->primaryImageOfPage = new Text('PrimaryImageOfPage',$x);
+		$this->primaryImageOfPage = new Text('primaryImageOfPage',$x);
 		return $this;
 	}
 
@@ -111,7 +111,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setRelatedLink($x){
-		$this->relatedLink = new Text('RelatedLink',$x);
+		$this->relatedLink = new Text('relatedLink',$x);
 		return $this;
 	}
 
@@ -120,7 +120,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setReviewedBy($x){
-		$this->reviewedBy = new Text('ReviewedBy',$x);
+		$this->reviewedBy = new Text('reviewedBy',$x);
 		return $this;
 	}
 
@@ -129,7 +129,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setSignificantLink($x){
-		$this->significantLink = new Text('SignificantLink',$x);
+		$this->significantLink = new Text('significantLink',$x);
 		return $this;
 	}
 
@@ -138,7 +138,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setSpeakable($x){
-		$this->speakable = new Text('Speakable',$x);
+		$this->speakable = new Text('speakable',$x);
 		return $this;
 	}
 
@@ -147,7 +147,7 @@ trait TWebPage{
 	 * @return $this
 	 */
 	public function setSpecialty($x){
-		$this->specialty = new Text('Specialty',$x);
+		$this->specialty = new Text('specialty',$x);
 		return $this;
 	}
 

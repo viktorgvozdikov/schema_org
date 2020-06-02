@@ -24,7 +24,7 @@ trait TSuite{
 	 * @return $this
 	 */
 	public function setBed($x){
-		$this->bed = new Text('Bed',$x);
+		$this->bed = new Text('bed',$x);
 		return $this;
 	}
 
@@ -33,7 +33,7 @@ trait TSuite{
 	 * @return $this
 	 */
 	public function setOccupancy($x){
-		$this->occupancy = new Text('Occupancy',$x);
+		$this->occupancy = new Text('occupancy',$x);
 		return $this;
 	}
 

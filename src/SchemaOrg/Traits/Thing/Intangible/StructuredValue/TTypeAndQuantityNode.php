@@ -41,7 +41,7 @@ trait TTypeAndQuantityNode{
 	 * @return $this
 	 */
 	public function setAmountOfThisGood($x){
-		$this->amountOfThisGood = new Text('AmountOfThisGood',$x);
+		$this->amountOfThisGood = new Text('amountOfThisGood',$x);
 		return $this;
 	}
 
@@ -50,7 +50,7 @@ trait TTypeAndQuantityNode{
 	 * @return $this
 	 */
 	public function setBusinessFunction($x){
-		$this->businessFunction = new Text('BusinessFunction',$x);
+		$this->businessFunction = new Text('businessFunction',$x);
 		return $this;
 	}
 
@@ -59,7 +59,7 @@ trait TTypeAndQuantityNode{
 	 * @return $this
 	 */
 	public function setTypeOfGood($x){
-		$this->typeOfGood = new Text('TypeOfGood',$x);
+		$this->typeOfGood = new Text('typeOfGood',$x);
 		return $this;
 	}
 
@@ -68,7 +68,7 @@ trait TTypeAndQuantityNode{
 	 * @return $this
 	 */
 	public function setUnitCode($x){
-		$this->unitCode = new Text('UnitCode',$x);
+		$this->unitCode = new Text('unitCode',$x);
 		return $this;
 	}
 
@@ -77,7 +77,7 @@ trait TTypeAndQuantityNode{
 	 * @return $this
 	 */
 	public function setUnitText($x){
-		$this->unitText = new Text('UnitText',$x);
+		$this->unitText = new Text('unitText',$x);
 		return $this;
 	}
 

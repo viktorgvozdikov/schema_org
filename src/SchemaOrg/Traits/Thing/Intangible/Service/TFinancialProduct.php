@@ -28,7 +28,7 @@ trait TFinancialProduct{
 	 * @return $this
 	 */
 	public function setAnnualPercentageRate($x){
-		$this->annualPercentageRate = new Text('AnnualPercentageRate',$x);
+		$this->annualPercentageRate = new Text('annualPercentageRate',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TFinancialProduct{
 	 * @return $this
 	 */
 	public function setFeesAndCommissionsSpecification($x){
-		$this->feesAndCommissionsSpecification = new Text('FeesAndCommissionsSpecification',$x);
+		$this->feesAndCommissionsSpecification = new Text('feesAndCommissionsSpecification',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TFinancialProduct{
 	 * @return $this
 	 */
 	public function setInterestRate($x){
-		$this->interestRate = new Text('InterestRate',$x);
+		$this->interestRate = new Text('interestRate',$x);
 		return $this;
 	}
 

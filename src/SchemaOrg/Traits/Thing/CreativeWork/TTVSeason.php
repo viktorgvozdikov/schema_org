@@ -16,7 +16,7 @@ trait TTVSeason{
 	 * @return $this
 	 */
 	public function setCountryOfOrigin($x){
-		$this->countryOfOrigin = new Text('CountryOfOrigin',$x);
+		$this->countryOfOrigin = new Text('countryOfOrigin',$x);
 		return $this;
 	}
 

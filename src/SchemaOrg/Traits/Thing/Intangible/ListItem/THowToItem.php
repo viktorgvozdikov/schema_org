@@ -16,7 +16,7 @@ trait THowToItem{
 	 * @return $this
 	 */
 	public function setRequiredQuantity($x){
-		$this->requiredQuantity = new Text('RequiredQuantity',$x);
+		$this->requiredQuantity = new Text('requiredQuantity',$x);
 		return $this;
 	}
 

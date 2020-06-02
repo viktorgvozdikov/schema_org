@@ -22,7 +22,7 @@ trait TConsumeAction{
 	 * @return $this
 	 */
 	public function setActionAccessibilityRequirement($x){
-		$this->actionAccessibilityRequirement = new Text('ActionAccessibilityRequirement',$x);
+		$this->actionAccessibilityRequirement = new Text('actionAccessibilityRequirement',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TConsumeAction{
 	 * @return $this
 	 */
 	public function setExpectsAcceptanceOf($x){
-		$this->expectsAcceptanceOf = new Text('ExpectsAcceptanceOf',$x);
+		$this->expectsAcceptanceOf = new Text('expectsAcceptanceOf',$x);
 		return $this;
 	}
 

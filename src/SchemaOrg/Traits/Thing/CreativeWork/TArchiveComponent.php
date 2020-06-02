@@ -23,7 +23,7 @@ trait TArchiveComponent{
 	 * @return $this
 	 */
 	public function setHoldingArchive($x){
-		$this->holdingArchive = new Text('HoldingArchive',$x);
+		$this->holdingArchive = new Text('holdingArchive',$x);
 		return $this;
 	}
 
@@ -32,7 +32,7 @@ trait TArchiveComponent{
 	 * @return $this
 	 */
 	public function setItemLocation($x){
-		$this->itemLocation = new Text('ItemLocation',$x);
+		$this->itemLocation = new Text('itemLocation',$x);
 		return $this;
 	}
 

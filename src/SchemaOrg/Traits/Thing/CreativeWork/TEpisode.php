@@ -58,7 +58,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setEpisodeNumber($x){
-		$this->episodeNumber = new Text('EpisodeNumber',$x);
+		$this->episodeNumber = new Text('episodeNumber',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setPartOfSeason($x){
-		$this->partOfSeason = new Text('PartOfSeason',$x);
+		$this->partOfSeason = new Text('partOfSeason',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setPartOfSeries($x){
-		$this->partOfSeries = new Text('PartOfSeries',$x);
+		$this->partOfSeries = new Text('partOfSeries',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TEpisode{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

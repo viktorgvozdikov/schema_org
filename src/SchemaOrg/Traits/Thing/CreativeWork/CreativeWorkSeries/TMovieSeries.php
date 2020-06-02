@@ -40,7 +40,7 @@ trait TMovieSeries{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TMovieSeries{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TMovieSeries{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TMovieSeries{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TMovieSeries{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

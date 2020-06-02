@@ -28,7 +28,7 @@ trait TInfectiousDisease{
 	 * @return $this
 	 */
 	public function setInfectiousAgent($x){
-		$this->infectiousAgent = new Text('InfectiousAgent',$x);
+		$this->infectiousAgent = new Text('infectiousAgent',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TInfectiousDisease{
 	 * @return $this
 	 */
 	public function setInfectiousAgentClass($x){
-		$this->infectiousAgentClass = new Text('InfectiousAgentClass',$x);
+		$this->infectiousAgentClass = new Text('infectiousAgentClass',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TInfectiousDisease{
 	 * @return $this
 	 */
 	public function setTransmissionMethod($x){
-		$this->transmissionMethod = new Text('TransmissionMethod',$x);
+		$this->transmissionMethod = new Text('transmissionMethod',$x);
 		return $this;
 	}
 

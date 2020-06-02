@@ -16,7 +16,7 @@ trait TWebSite{
 	 * @return $this
 	 */
 	public function setIssn($x){
-		$this->issn = new Text('Issn',$x);
+		$this->issn = new Text('issn',$x);
 		return $this;
 	}
 

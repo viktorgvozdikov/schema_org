@@ -47,7 +47,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setAddressCountry($x){
-		$this->addressCountry = new Text('AddressCountry',$x);
+		$this->addressCountry = new Text('addressCountry',$x);
 		return $this;
 	}
 
@@ -56,7 +56,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setAddressLocality($x){
-		$this->addressLocality = new Text('AddressLocality',$x);
+		$this->addressLocality = new Text('addressLocality',$x);
 		return $this;
 	}
 
@@ -65,7 +65,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setAddressRegion($x){
-		$this->addressRegion = new Text('AddressRegion',$x);
+		$this->addressRegion = new Text('addressRegion',$x);
 		return $this;
 	}
 
@@ -74,7 +74,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setPostOfficeBoxNumber($x){
-		$this->postOfficeBoxNumber = new Text('PostOfficeBoxNumber',$x);
+		$this->postOfficeBoxNumber = new Text('postOfficeBoxNumber',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setPostalCode($x){
-		$this->postalCode = new Text('PostalCode',$x);
+		$this->postalCode = new Text('postalCode',$x);
 		return $this;
 	}
 
@@ -92,7 +92,7 @@ trait TPostalAddress{
 	 * @return $this
 	 */
 	public function setStreetAddress($x){
-		$this->streetAddress = new Text('StreetAddress',$x);
+		$this->streetAddress = new Text('streetAddress',$x);
 		return $this;
 	}
 

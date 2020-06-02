@@ -64,7 +64,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setCookTime($x){
-		$this->cookTime = new Text('CookTime',$x);
+		$this->cookTime = new Text('cookTime',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setCookingMethod($x){
-		$this->cookingMethod = new Text('CookingMethod',$x);
+		$this->cookingMethod = new Text('cookingMethod',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setNutrition($x){
-		$this->nutrition = new Text('Nutrition',$x);
+		$this->nutrition = new Text('nutrition',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setRecipeCategory($x){
-		$this->recipeCategory = new Text('RecipeCategory',$x);
+		$this->recipeCategory = new Text('recipeCategory',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setRecipeCuisine($x){
-		$this->recipeCuisine = new Text('RecipeCuisine',$x);
+		$this->recipeCuisine = new Text('recipeCuisine',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setRecipeIngredient($x){
-		$this->recipeIngredient = new Text('RecipeIngredient',$x);
+		$this->recipeIngredient = new Text('recipeIngredient',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setRecipeInstructions($x){
-		$this->recipeInstructions = new Text('RecipeInstructions',$x);
+		$this->recipeInstructions = new Text('recipeInstructions',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setRecipeYield($x){
-		$this->recipeYield = new Text('RecipeYield',$x);
+		$this->recipeYield = new Text('recipeYield',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TRecipe{
 	 * @return $this
 	 */
 	public function setSuitableForDiet($x){
-		$this->suitableForDiet = new Text('SuitableForDiet',$x);
+		$this->suitableForDiet = new Text('suitableForDiet',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TMedicalObservationalStudy{
 	 * @return $this
 	 */
 	public function setStudyDesign($x){
-		$this->studyDesign = new Text('StudyDesign',$x);
+		$this->studyDesign = new Text('studyDesign',$x);
 		return $this;
 	}
 

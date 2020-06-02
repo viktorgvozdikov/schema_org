@@ -16,7 +16,7 @@ trait TDefinedTermSet{
 	 * @return $this
 	 */
 	public function setHasDefinedTerm($x){
-		$this->hasDefinedTerm = new Text('HasDefinedTerm',$x);
+		$this->hasDefinedTerm = new Text('hasDefinedTerm',$x);
 		return $this;
 	}
 

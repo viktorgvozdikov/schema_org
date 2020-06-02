@@ -82,7 +82,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setCalories($x){
-		$this->calories = new Text('Calories',$x);
+		$this->calories = new Text('calories',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setCarbohydrateContent($x){
-		$this->carbohydrateContent = new Text('CarbohydrateContent',$x);
+		$this->carbohydrateContent = new Text('carbohydrateContent',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setCholesterolContent($x){
-		$this->cholesterolContent = new Text('CholesterolContent',$x);
+		$this->cholesterolContent = new Text('cholesterolContent',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setFatContent($x){
-		$this->fatContent = new Text('FatContent',$x);
+		$this->fatContent = new Text('fatContent',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setFiberContent($x){
-		$this->fiberContent = new Text('FiberContent',$x);
+		$this->fiberContent = new Text('fiberContent',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setProteinContent($x){
-		$this->proteinContent = new Text('ProteinContent',$x);
+		$this->proteinContent = new Text('proteinContent',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setSaturatedFatContent($x){
-		$this->saturatedFatContent = new Text('SaturatedFatContent',$x);
+		$this->saturatedFatContent = new Text('saturatedFatContent',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setServingSize($x){
-		$this->servingSize = new Text('ServingSize',$x);
+		$this->servingSize = new Text('servingSize',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setSodiumContent($x){
-		$this->sodiumContent = new Text('SodiumContent',$x);
+		$this->sodiumContent = new Text('sodiumContent',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setSugarContent($x){
-		$this->sugarContent = new Text('SugarContent',$x);
+		$this->sugarContent = new Text('sugarContent',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setTransFatContent($x){
-		$this->transFatContent = new Text('TransFatContent',$x);
+		$this->transFatContent = new Text('transFatContent',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TNutritionInformation{
 	 * @return $this
 	 */
 	public function setUnsaturatedFatContent($x){
-		$this->unsaturatedFatContent = new Text('UnsaturatedFatContent',$x);
+		$this->unsaturatedFatContent = new Text('unsaturatedFatContent',$x);
 		return $this;
 	}
 

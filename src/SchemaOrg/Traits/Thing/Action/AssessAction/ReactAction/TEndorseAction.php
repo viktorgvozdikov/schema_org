@@ -16,7 +16,7 @@ trait TEndorseAction{
 	 * @return $this
 	 */
 	public function setEndorsee($x){
-		$this->endorsee = new Text('Endorsee',$x);
+		$this->endorsee = new Text('endorsee',$x);
 		return $this;
 	}
 

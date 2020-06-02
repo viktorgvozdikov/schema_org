@@ -59,7 +59,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setAvailableLanguage($x){
-		$this->availableLanguage = new Text('AvailableLanguage',$x);
+		$this->availableLanguage = new Text('availableLanguage',$x);
 		return $this;
 	}
 
@@ -68,7 +68,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setProcessingTime($x){
-		$this->processingTime = new Text('ProcessingTime',$x);
+		$this->processingTime = new Text('processingTime',$x);
 		return $this;
 	}
 
@@ -77,7 +77,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setProvidesService($x){
-		$this->providesService = new Text('ProvidesService',$x);
+		$this->providesService = new Text('providesService',$x);
 		return $this;
 	}
 
@@ -86,7 +86,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setServiceLocation($x){
-		$this->serviceLocation = new Text('ServiceLocation',$x);
+		$this->serviceLocation = new Text('serviceLocation',$x);
 		return $this;
 	}
 
@@ -95,7 +95,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setServicePhone($x){
-		$this->servicePhone = new Text('ServicePhone',$x);
+		$this->servicePhone = new Text('servicePhone',$x);
 		return $this;
 	}
 
@@ -104,7 +104,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setServicePostalAddress($x){
-		$this->servicePostalAddress = new Text('ServicePostalAddress',$x);
+		$this->servicePostalAddress = new Text('servicePostalAddress',$x);
 		return $this;
 	}
 
@@ -113,7 +113,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setServiceSmsNumber($x){
-		$this->serviceSmsNumber = new Text('ServiceSmsNumber',$x);
+		$this->serviceSmsNumber = new Text('serviceSmsNumber',$x);
 		return $this;
 	}
 
@@ -122,7 +122,7 @@ trait TServiceChannel{
 	 * @return $this
 	 */
 	public function setServiceUrl($x){
-		$this->serviceUrl = new Text('ServiceUrl',$x);
+		$this->serviceUrl = new Text('serviceUrl',$x);
 		return $this;
 	}
 

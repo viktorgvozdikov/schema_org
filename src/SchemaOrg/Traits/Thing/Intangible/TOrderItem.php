@@ -40,7 +40,7 @@ trait TOrderItem{
 	 * @return $this
 	 */
 	public function setOrderDelivery($x){
-		$this->orderDelivery = new Text('OrderDelivery',$x);
+		$this->orderDelivery = new Text('orderDelivery',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TOrderItem{
 	 * @return $this
 	 */
 	public function setOrderItemNumber($x){
-		$this->orderItemNumber = new Text('OrderItemNumber',$x);
+		$this->orderItemNumber = new Text('orderItemNumber',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TOrderItem{
 	 * @return $this
 	 */
 	public function setOrderItemStatus($x){
-		$this->orderItemStatus = new Text('OrderItemStatus',$x);
+		$this->orderItemStatus = new Text('orderItemStatus',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TOrderItem{
 	 * @return $this
 	 */
 	public function setOrderQuantity($x){
-		$this->orderQuantity = new Text('OrderQuantity',$x);
+		$this->orderQuantity = new Text('orderQuantity',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TOrderItem{
 	 * @return $this
 	 */
 	public function setOrderedItem($x){
-		$this->orderedItem = new Text('OrderedItem',$x);
+		$this->orderedItem = new Text('orderedItem',$x);
 		return $this;
 	}
 

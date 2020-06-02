@@ -38,7 +38,7 @@ trait TDeliveryChargeSpecification{
 	 * @return $this
 	 */
 	public function setAppliesToDeliveryMethod($x){
-		$this->appliesToDeliveryMethod = new Text('AppliesToDeliveryMethod',$x);
+		$this->appliesToDeliveryMethod = new Text('appliesToDeliveryMethod',$x);
 		return $this;
 	}
 
@@ -47,7 +47,7 @@ trait TDeliveryChargeSpecification{
 	 * @return $this
 	 */
 	public function setAreaServed($x){
-		$this->areaServed = new Text('AreaServed',$x);
+		$this->areaServed = new Text('areaServed',$x);
 		return $this;
 	}
 
@@ -56,7 +56,7 @@ trait TDeliveryChargeSpecification{
 	 * @return $this
 	 */
 	public function setEligibleRegion($x){
-		$this->eligibleRegion = new Text('EligibleRegion',$x);
+		$this->eligibleRegion = new Text('eligibleRegion',$x);
 		return $this;
 	}
 
@@ -65,7 +65,7 @@ trait TDeliveryChargeSpecification{
 	 * @return $this
 	 */
 	public function setIneligibleRegion($x){
-		$this->ineligibleRegion = new Text('IneligibleRegion',$x);
+		$this->ineligibleRegion = new Text('ineligibleRegion',$x);
 		return $this;
 	}
 

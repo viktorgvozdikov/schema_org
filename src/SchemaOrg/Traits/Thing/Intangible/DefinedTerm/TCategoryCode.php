@@ -22,7 +22,7 @@ trait TCategoryCode{
 	 * @return $this
 	 */
 	public function setCodeValue($x){
-		$this->codeValue = new Text('CodeValue',$x);
+		$this->codeValue = new Text('codeValue',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TCategoryCode{
 	 * @return $this
 	 */
 	public function setInCodeSet($x){
-		$this->inCodeSet = new Text('InCodeSet',$x);
+		$this->inCodeSet = new Text('inCodeSet',$x);
 		return $this;
 	}
 

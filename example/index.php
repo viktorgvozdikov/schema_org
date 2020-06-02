@@ -20,11 +20,17 @@ $things[] = (new \ModuleBZ\SchemaOrg\Thing\Product())
 
 $things[] = (new ModuleBZ\SchemaOrg\Thing\Organization\LocalBusiness())
     ->setName('Имя 2')
+    ->setDescription('Описание')
+;
+
+$things[] = (new Thing\Product\Vehicle\MotorizedBicycle())
+    ->setName('Имя 2')
+    ->setDescription('Описание')
 ;
 
 
 function getForm($code){
-    return '<form method="post" target="_blank" action="https://search.google.com/structured-data/testing-tool"><input type="submit" value="Показать разметку"><textarea name="code" style="display:none">&lt;html&gt;&lt;head&gt;'.htmlspecialchars($code).'&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</textarea></form>';
+    return '<form method="post" target="_blank" action="https://search.google.com/structured-data/testing-tool"><input type="submit" value="Показать разметку"><textarea name="code" style="display:none">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;'.htmlspecialchars($code).'&lt;/body&gt;&lt;/html&gt;</textarea></form>';
 }
 
 foreach ($things as $thing) {

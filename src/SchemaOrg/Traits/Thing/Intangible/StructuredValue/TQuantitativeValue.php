@@ -61,7 +61,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setAdditionalProperty($x){
-		$this->additionalProperty = new Text('AdditionalProperty',$x);
+		$this->additionalProperty = new Text('additionalProperty',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setMaxValue($x){
-		$this->maxValue = new Text('MaxValue',$x);
+		$this->maxValue = new Text('maxValue',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setMinValue($x){
-		$this->minValue = new Text('MinValue',$x);
+		$this->minValue = new Text('minValue',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setUnitCode($x){
-		$this->unitCode = new Text('UnitCode',$x);
+		$this->unitCode = new Text('unitCode',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setUnitText($x){
-		$this->unitText = new Text('UnitText',$x);
+		$this->unitText = new Text('unitText',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setValue($x){
-		$this->value = new Text('Value',$x);
+		$this->value = new Text('value',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TQuantitativeValue{
 	 * @return $this
 	 */
 	public function setValueReference($x){
-		$this->valueReference = new Text('ValueReference',$x);
+		$this->valueReference = new Text('valueReference',$x);
 		return $this;
 	}
 

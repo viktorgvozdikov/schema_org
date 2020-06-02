@@ -16,7 +16,7 @@ trait TSomeProducts{
 	 * @return $this
 	 */
 	public function setInventoryLevel($x){
-		$this->inventoryLevel = new Text('InventoryLevel',$x);
+		$this->inventoryLevel = new Text('inventoryLevel',$x);
 		return $this;
 	}
 

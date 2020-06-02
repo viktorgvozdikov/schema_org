@@ -22,7 +22,7 @@ trait TMedicalConditionStage{
 	 * @return $this
 	 */
 	public function setStageAsNumber($x){
-		$this->stageAsNumber = new Text('StageAsNumber',$x);
+		$this->stageAsNumber = new Text('stageAsNumber',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMedicalConditionStage{
 	 * @return $this
 	 */
 	public function setSubStageSuffix($x){
-		$this->subStageSuffix = new Text('SubStageSuffix',$x);
+		$this->subStageSuffix = new Text('subStageSuffix',$x);
 		return $this;
 	}
 

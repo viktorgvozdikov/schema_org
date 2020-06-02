@@ -90,7 +90,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setAnnouncementLocation($x){
-		$this->announcementLocation = new Text('AnnouncementLocation',$x);
+		$this->announcementLocation = new Text('announcementLocation',$x);
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -108,7 +108,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setDatePosted($x){
-		$this->datePosted = new Text('DatePosted',$x);
+		$this->datePosted = new Text('datePosted',$x);
 		return $this;
 	}
 
@@ -117,7 +117,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setDiseasePreventionInfo($x){
-		$this->diseasePreventionInfo = new Text('DiseasePreventionInfo',$x);
+		$this->diseasePreventionInfo = new Text('diseasePreventionInfo',$x);
 		return $this;
 	}
 
@@ -126,7 +126,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setDiseaseSpreadStatistics($x){
-		$this->diseaseSpreadStatistics = new Text('DiseaseSpreadStatistics',$x);
+		$this->diseaseSpreadStatistics = new Text('diseaseSpreadStatistics',$x);
 		return $this;
 	}
 
@@ -135,7 +135,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setGettingTestedInfo($x){
-		$this->gettingTestedInfo = new Text('GettingTestedInfo',$x);
+		$this->gettingTestedInfo = new Text('gettingTestedInfo',$x);
 		return $this;
 	}
 
@@ -144,7 +144,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setGovernmentBenefitsInfo($x){
-		$this->governmentBenefitsInfo = new Text('GovernmentBenefitsInfo',$x);
+		$this->governmentBenefitsInfo = new Text('governmentBenefitsInfo',$x);
 		return $this;
 	}
 
@@ -153,7 +153,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setNewsUpdatesAndGuidelines($x){
-		$this->newsUpdatesAndGuidelines = new Text('NewsUpdatesAndGuidelines',$x);
+		$this->newsUpdatesAndGuidelines = new Text('newsUpdatesAndGuidelines',$x);
 		return $this;
 	}
 
@@ -162,7 +162,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setPublicTransportClosuresInfo($x){
-		$this->publicTransportClosuresInfo = new Text('PublicTransportClosuresInfo',$x);
+		$this->publicTransportClosuresInfo = new Text('publicTransportClosuresInfo',$x);
 		return $this;
 	}
 
@@ -171,7 +171,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setQuarantineGuidelines($x){
-		$this->quarantineGuidelines = new Text('QuarantineGuidelines',$x);
+		$this->quarantineGuidelines = new Text('quarantineGuidelines',$x);
 		return $this;
 	}
 
@@ -180,7 +180,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setSchoolClosuresInfo($x){
-		$this->schoolClosuresInfo = new Text('SchoolClosuresInfo',$x);
+		$this->schoolClosuresInfo = new Text('schoolClosuresInfo',$x);
 		return $this;
 	}
 
@@ -189,7 +189,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setTravelBans($x){
-		$this->travelBans = new Text('TravelBans',$x);
+		$this->travelBans = new Text('travelBans',$x);
 		return $this;
 	}
 
@@ -198,7 +198,7 @@ trait TSpecialAnnouncement{
 	 * @return $this
 	 */
 	public function setWebFeed($x){
-		$this->webFeed = new Text('WebFeed',$x);
+		$this->webFeed = new Text('webFeed',$x);
 		return $this;
 	}
 

@@ -110,7 +110,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setAssociatedArticle($x){
-		$this->associatedArticle = new Text('AssociatedArticle',$x);
+		$this->associatedArticle = new Text('associatedArticle',$x);
 		return $this;
 	}
 
@@ -119,7 +119,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setBitrate($x){
-		$this->bitrate = new Text('Bitrate',$x);
+		$this->bitrate = new Text('bitrate',$x);
 		return $this;
 	}
 
@@ -128,7 +128,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setContentSize($x){
-		$this->contentSize = new Text('ContentSize',$x);
+		$this->contentSize = new Text('contentSize',$x);
 		return $this;
 	}
 
@@ -137,7 +137,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setContentUrl($x){
-		$this->contentUrl = new Text('ContentUrl',$x);
+		$this->contentUrl = new Text('contentUrl',$x);
 		return $this;
 	}
 
@@ -146,7 +146,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -155,7 +155,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setEmbedUrl($x){
-		$this->embedUrl = new Text('EmbedUrl',$x);
+		$this->embedUrl = new Text('embedUrl',$x);
 		return $this;
 	}
 
@@ -164,7 +164,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setEncodesCreativeWork($x){
-		$this->encodesCreativeWork = new Text('EncodesCreativeWork',$x);
+		$this->encodesCreativeWork = new Text('encodesCreativeWork',$x);
 		return $this;
 	}
 
@@ -173,7 +173,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setEndTime($x){
-		$this->endTime = new Text('EndTime',$x);
+		$this->endTime = new Text('endTime',$x);
 		return $this;
 	}
 
@@ -182,7 +182,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setHeight($x){
-		$this->height = new Text('Height',$x);
+		$this->height = new Text('height',$x);
 		return $this;
 	}
 
@@ -191,7 +191,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setPlayerType($x){
-		$this->playerType = new Text('PlayerType',$x);
+		$this->playerType = new Text('playerType',$x);
 		return $this;
 	}
 
@@ -200,7 +200,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -209,7 +209,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setRegionsAllowed($x){
-		$this->regionsAllowed = new Text('RegionsAllowed',$x);
+		$this->regionsAllowed = new Text('regionsAllowed',$x);
 		return $this;
 	}
 
@@ -218,7 +218,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setRequiresSubscription($x){
-		$this->requiresSubscription = new Text('RequiresSubscription',$x);
+		$this->requiresSubscription = new Text('requiresSubscription',$x);
 		return $this;
 	}
 
@@ -227,7 +227,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setStartTime($x){
-		$this->startTime = new Text('StartTime',$x);
+		$this->startTime = new Text('startTime',$x);
 		return $this;
 	}
 
@@ -236,7 +236,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setUploadDate($x){
-		$this->uploadDate = new Text('UploadDate',$x);
+		$this->uploadDate = new Text('uploadDate',$x);
 		return $this;
 	}
 
@@ -245,7 +245,7 @@ trait TMediaObject{
 	 * @return $this
 	 */
 	public function setWidth($x){
-		$this->width = new Text('Width',$x);
+		$this->width = new Text('width',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TRealEstateListing{
 	 * @return $this
 	 */
 	public function setDatePosted($x){
-		$this->datePosted = new Text('DatePosted',$x);
+		$this->datePosted = new Text('datePosted',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TRealEstateListing{
 	 * @return $this
 	 */
 	public function setLeaseLength($x){
-		$this->leaseLength = new Text('LeaseLength',$x);
+		$this->leaseLength = new Text('leaseLength',$x);
 		return $this;
 	}
 

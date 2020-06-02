@@ -34,7 +34,7 @@ trait TApartmentComplex{
 	 * @return $this
 	 */
 	public function setNumberOfAccommodationUnits($x){
-		$this->numberOfAccommodationUnits = new Text('NumberOfAccommodationUnits',$x);
+		$this->numberOfAccommodationUnits = new Text('numberOfAccommodationUnits',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TApartmentComplex{
 	 * @return $this
 	 */
 	public function setNumberOfAvailableAccommodationUnits($x){
-		$this->numberOfAvailableAccommodationUnits = new Text('NumberOfAvailableAccommodationUnits',$x);
+		$this->numberOfAvailableAccommodationUnits = new Text('numberOfAvailableAccommodationUnits',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TApartmentComplex{
 	 * @return $this
 	 */
 	public function setNumberOfBedrooms($x){
-		$this->numberOfBedrooms = new Text('NumberOfBedrooms',$x);
+		$this->numberOfBedrooms = new Text('numberOfBedrooms',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TApartmentComplex{
 	 * @return $this
 	 */
 	public function setPetsAllowed($x){
-		$this->petsAllowed = new Text('PetsAllowed',$x);
+		$this->petsAllowed = new Text('petsAllowed',$x);
 		return $this;
 	}
 

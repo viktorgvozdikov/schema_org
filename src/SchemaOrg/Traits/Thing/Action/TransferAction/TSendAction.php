@@ -22,7 +22,7 @@ trait TSendAction{
 	 * @return $this
 	 */
 	public function setDeliveryMethod($x){
-		$this->deliveryMethod = new Text('DeliveryMethod',$x);
+		$this->deliveryMethod = new Text('deliveryMethod',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TSendAction{
 	 * @return $this
 	 */
 	public function setRecipient($x){
-		$this->recipient = new Text('Recipient',$x);
+		$this->recipient = new Text('recipient',$x);
 		return $this;
 	}
 

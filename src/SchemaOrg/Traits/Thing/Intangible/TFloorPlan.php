@@ -78,7 +78,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setAmenityFeature($x){
-		$this->amenityFeature = new Text('AmenityFeature',$x);
+		$this->amenityFeature = new Text('amenityFeature',$x);
 		return $this;
 	}
 
@@ -87,7 +87,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setFloorSize($x){
-		$this->floorSize = new Text('FloorSize',$x);
+		$this->floorSize = new Text('floorSize',$x);
 		return $this;
 	}
 
@@ -96,7 +96,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setIsPlanForApartment($x){
-		$this->isPlanForApartment = new Text('IsPlanForApartment',$x);
+		$this->isPlanForApartment = new Text('isPlanForApartment',$x);
 		return $this;
 	}
 
@@ -105,7 +105,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfAccommodationUnits($x){
-		$this->numberOfAccommodationUnits = new Text('NumberOfAccommodationUnits',$x);
+		$this->numberOfAccommodationUnits = new Text('numberOfAccommodationUnits',$x);
 		return $this;
 	}
 
@@ -114,7 +114,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfAvailableAccommodationUnits($x){
-		$this->numberOfAvailableAccommodationUnits = new Text('NumberOfAvailableAccommodationUnits',$x);
+		$this->numberOfAvailableAccommodationUnits = new Text('numberOfAvailableAccommodationUnits',$x);
 		return $this;
 	}
 
@@ -123,7 +123,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfBathroomsTotal($x){
-		$this->numberOfBathroomsTotal = new Text('NumberOfBathroomsTotal',$x);
+		$this->numberOfBathroomsTotal = new Text('numberOfBathroomsTotal',$x);
 		return $this;
 	}
 
@@ -132,7 +132,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfBedrooms($x){
-		$this->numberOfBedrooms = new Text('NumberOfBedrooms',$x);
+		$this->numberOfBedrooms = new Text('numberOfBedrooms',$x);
 		return $this;
 	}
 
@@ -141,7 +141,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfFullBathrooms($x){
-		$this->numberOfFullBathrooms = new Text('NumberOfFullBathrooms',$x);
+		$this->numberOfFullBathrooms = new Text('numberOfFullBathrooms',$x);
 		return $this;
 	}
 
@@ -150,7 +150,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfPartialBathrooms($x){
-		$this->numberOfPartialBathrooms = new Text('NumberOfPartialBathrooms',$x);
+		$this->numberOfPartialBathrooms = new Text('numberOfPartialBathrooms',$x);
 		return $this;
 	}
 
@@ -159,7 +159,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setNumberOfRooms($x){
-		$this->numberOfRooms = new Text('NumberOfRooms',$x);
+		$this->numberOfRooms = new Text('numberOfRooms',$x);
 		return $this;
 	}
 
@@ -168,7 +168,7 @@ trait TFloorPlan{
 	 * @return $this
 	 */
 	public function setPetsAllowed($x){
-		$this->petsAllowed = new Text('PetsAllowed',$x);
+		$this->petsAllowed = new Text('petsAllowed',$x);
 		return $this;
 	}
 

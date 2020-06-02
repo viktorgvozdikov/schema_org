@@ -22,7 +22,7 @@ trait TDigitalDocumentPermission{
 	 * @return $this
 	 */
 	public function setGrantee($x){
-		$this->grantee = new Text('Grantee',$x);
+		$this->grantee = new Text('grantee',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TDigitalDocumentPermission{
 	 * @return $this
 	 */
 	public function setPermissionType($x){
-		$this->permissionType = new Text('PermissionType',$x);
+		$this->permissionType = new Text('permissionType',$x);
 		return $this;
 	}
 

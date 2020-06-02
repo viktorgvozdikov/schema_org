@@ -16,7 +16,7 @@ trait TMobileApplication{
 	 * @return $this
 	 */
 	public function setCarrierRequirements($x){
-		$this->carrierRequirements = new Text('CarrierRequirements',$x);
+		$this->carrierRequirements = new Text('carrierRequirements',$x);
 		return $this;
 	}
 

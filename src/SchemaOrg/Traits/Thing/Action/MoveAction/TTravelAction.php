@@ -16,7 +16,7 @@ trait TTravelAction{
 	 * @return $this
 	 */
 	public function setDistance($x){
-		$this->distance = new Text('Distance',$x);
+		$this->distance = new Text('distance',$x);
 		return $this;
 	}
 

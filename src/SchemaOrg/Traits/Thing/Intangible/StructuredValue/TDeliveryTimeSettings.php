@@ -28,7 +28,7 @@ trait TDeliveryTimeSettings{
 	 * @return $this
 	 */
 	public function setDeliveryTime($x){
-		$this->deliveryTime = new Text('DeliveryTime',$x);
+		$this->deliveryTime = new Text('deliveryTime',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TDeliveryTimeSettings{
 	 * @return $this
 	 */
 	public function setShippingDestination($x){
-		$this->shippingDestination = new Text('ShippingDestination',$x);
+		$this->shippingDestination = new Text('shippingDestination',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TDeliveryTimeSettings{
 	 * @return $this
 	 */
 	public function setTransitTimeLabel($x){
-		$this->transitTimeLabel = new Text('TransitTimeLabel',$x);
+		$this->transitTimeLabel = new Text('transitTimeLabel',$x);
 		return $this;
 	}
 

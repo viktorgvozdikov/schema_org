@@ -22,7 +22,7 @@ trait TBedDetails{
 	 * @return $this
 	 */
 	public function setNumberOfBeds($x){
-		$this->numberOfBeds = new Text('NumberOfBeds',$x);
+		$this->numberOfBeds = new Text('numberOfBeds',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TBedDetails{
 	 * @return $this
 	 */
 	public function setTypeOfBed($x){
-		$this->typeOfBed = new Text('TypeOfBed',$x);
+		$this->typeOfBed = new Text('typeOfBed',$x);
 		return $this;
 	}
 

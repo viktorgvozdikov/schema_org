@@ -58,7 +58,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setCaption($x){
-		$this->caption = new Text('Caption',$x);
+		$this->caption = new Text('caption',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setThumbnail($x){
-		$this->thumbnail = new Text('Thumbnail',$x);
+		$this->thumbnail = new Text('thumbnail',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setTranscript($x){
-		$this->transcript = new Text('Transcript',$x);
+		$this->transcript = new Text('transcript',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setVideoFrameSize($x){
-		$this->videoFrameSize = new Text('VideoFrameSize',$x);
+		$this->videoFrameSize = new Text('videoFrameSize',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TVideoObject{
 	 * @return $this
 	 */
 	public function setVideoQuality($x){
-		$this->videoQuality = new Text('VideoQuality',$x);
+		$this->videoQuality = new Text('videoQuality',$x);
 		return $this;
 	}
 

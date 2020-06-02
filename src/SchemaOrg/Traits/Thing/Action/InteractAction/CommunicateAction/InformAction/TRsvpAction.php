@@ -28,7 +28,7 @@ trait TRsvpAction{
 	 * @return $this
 	 */
 	public function setAdditionalNumberOfGuests($x){
-		$this->additionalNumberOfGuests = new Text('AdditionalNumberOfGuests',$x);
+		$this->additionalNumberOfGuests = new Text('additionalNumberOfGuests',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TRsvpAction{
 	 * @return $this
 	 */
 	public function setComment($x){
-		$this->comment = new Text('Comment',$x);
+		$this->comment = new Text('comment',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TRsvpAction{
 	 * @return $this
 	 */
 	public function setRsvpResponse($x){
-		$this->rsvpResponse = new Text('RsvpResponse',$x);
+		$this->rsvpResponse = new Text('rsvpResponse',$x);
 		return $this;
 	}
 

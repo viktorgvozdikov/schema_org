@@ -32,7 +32,7 @@ trait TItemList{
 	 * @return $this
 	 */
 	public function setItemListElement($x){
-		$this->itemListElement = new Text('ItemListElement',$x);
+		$this->itemListElement = new Text('itemListElement',$x);
 		return $this;
 	}
 
@@ -41,7 +41,7 @@ trait TItemList{
 	 * @return $this
 	 */
 	public function setItemListOrder($x){
-		$this->itemListOrder = new Text('ItemListOrder',$x);
+		$this->itemListOrder = new Text('itemListOrder',$x);
 		return $this;
 	}
 
@@ -50,7 +50,7 @@ trait TItemList{
 	 * @return $this
 	 */
 	public function setNumberOfItems($x){
-		$this->numberOfItems = new Text('NumberOfItems',$x);
+		$this->numberOfItems = new Text('numberOfItems',$x);
 		return $this;
 	}
 

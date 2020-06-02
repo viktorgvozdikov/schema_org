@@ -34,7 +34,7 @@ trait TSportsEvent{
 	 * @return $this
 	 */
 	public function setAwayTeam($x){
-		$this->awayTeam = new Text('AwayTeam',$x);
+		$this->awayTeam = new Text('awayTeam',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TSportsEvent{
 	 * @return $this
 	 */
 	public function setCompetitor($x){
-		$this->competitor = new Text('Competitor',$x);
+		$this->competitor = new Text('competitor',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TSportsEvent{
 	 * @return $this
 	 */
 	public function setHomeTeam($x){
-		$this->homeTeam = new Text('HomeTeam',$x);
+		$this->homeTeam = new Text('homeTeam',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TSportsEvent{
 	 * @return $this
 	 */
 	public function setSport($x){
-		$this->sport = new Text('Sport',$x);
+		$this->sport = new Text('sport',$x);
 		return $this;
 	}
 

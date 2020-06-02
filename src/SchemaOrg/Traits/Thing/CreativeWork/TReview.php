@@ -34,7 +34,7 @@ trait TReview{
 	 * @return $this
 	 */
 	public function setItemReviewed($x){
-		$this->itemReviewed = new Text('ItemReviewed',$x);
+		$this->itemReviewed = new Text('itemReviewed',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TReview{
 	 * @return $this
 	 */
 	public function setReviewAspect($x){
-		$this->reviewAspect = new Text('ReviewAspect',$x);
+		$this->reviewAspect = new Text('reviewAspect',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TReview{
 	 * @return $this
 	 */
 	public function setReviewBody($x){
-		$this->reviewBody = new Text('ReviewBody',$x);
+		$this->reviewBody = new Text('reviewBody',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TReview{
 	 * @return $this
 	 */
 	public function setReviewRating($x){
-		$this->reviewRating = new Text('ReviewRating',$x);
+		$this->reviewRating = new Text('reviewRating',$x);
 		return $this;
 	}
 

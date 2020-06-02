@@ -28,7 +28,7 @@ trait TMedicalOrganization{
 	 * @return $this
 	 */
 	public function setHealthPlanNetworkId($x){
-		$this->healthPlanNetworkId = new Text('HealthPlanNetworkId',$x);
+		$this->healthPlanNetworkId = new Text('healthPlanNetworkId',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TMedicalOrganization{
 	 * @return $this
 	 */
 	public function setIsAcceptingNewPatients($x){
-		$this->isAcceptingNewPatients = new Text('IsAcceptingNewPatients',$x);
+		$this->isAcceptingNewPatients = new Text('isAcceptingNewPatients',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TMedicalOrganization{
 	 * @return $this
 	 */
 	public function setMedicalSpecialty($x){
-		$this->medicalSpecialty = new Text('MedicalSpecialty',$x);
+		$this->medicalSpecialty = new Text('medicalSpecialty',$x);
 		return $this;
 	}
 

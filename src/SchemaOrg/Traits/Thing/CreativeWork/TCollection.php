@@ -16,7 +16,7 @@ trait TCollection{
 	 * @return $this
 	 */
 	public function setCollectionSize($x){
-		$this->collectionSize = new Text('CollectionSize',$x);
+		$this->collectionSize = new Text('collectionSize',$x);
 		return $this;
 	}
 

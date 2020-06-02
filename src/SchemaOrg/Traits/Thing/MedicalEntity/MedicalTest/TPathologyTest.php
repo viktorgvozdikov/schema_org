@@ -16,7 +16,7 @@ trait TPathologyTest{
 	 * @return $this
 	 */
 	public function setTissueSample($x){
-		$this->tissueSample = new Text('TissueSample',$x);
+		$this->tissueSample = new Text('tissueSample',$x);
 		return $this;
 	}
 

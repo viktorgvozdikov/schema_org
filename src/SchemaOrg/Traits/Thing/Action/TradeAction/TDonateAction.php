@@ -16,7 +16,7 @@ trait TDonateAction{
 	 * @return $this
 	 */
 	public function setRecipient($x){
-		$this->recipient = new Text('Recipient',$x);
+		$this->recipient = new Text('recipient',$x);
 		return $this;
 	}
 

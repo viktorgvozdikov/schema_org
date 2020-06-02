@@ -16,7 +16,7 @@ trait TOrganizationRole{
 	 * @return $this
 	 */
 	public function setNumberedPosition($x){
-		$this->numberedPosition = new Text('NumberedPosition',$x);
+		$this->numberedPosition = new Text('numberedPosition',$x);
 		return $this;
 	}
 

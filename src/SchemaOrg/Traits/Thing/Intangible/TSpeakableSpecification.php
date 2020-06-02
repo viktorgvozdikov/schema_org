@@ -22,7 +22,7 @@ trait TSpeakableSpecification{
 	 * @return $this
 	 */
 	public function setCssSelector($x){
-		$this->cssSelector = new Text('CssSelector',$x);
+		$this->cssSelector = new Text('cssSelector',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TSpeakableSpecification{
 	 * @return $this
 	 */
 	public function setXpath($x){
-		$this->xpath = new Text('Xpath',$x);
+		$this->xpath = new Text('xpath',$x);
 		return $this;
 	}
 

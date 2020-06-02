@@ -16,7 +16,7 @@ trait TWebApplication{
 	 * @return $this
 	 */
 	public function setBrowserRequirements($x){
-		$this->browserRequirements = new Text('BrowserRequirements',$x);
+		$this->browserRequirements = new Text('browserRequirements',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TCreditCard{
 	 * @return $this
 	 */
 	public function setMonthlyMinimumRepaymentAmount($x){
-		$this->monthlyMinimumRepaymentAmount = new Text('MonthlyMinimumRepaymentAmount',$x);
+		$this->monthlyMinimumRepaymentAmount = new Text('monthlyMinimumRepaymentAmount',$x);
 		return $this;
 	}
 

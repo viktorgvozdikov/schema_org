@@ -16,7 +16,7 @@ trait TMedicalRiskScore{
 	 * @return $this
 	 */
 	public function setAlgorithm($x){
-		$this->algorithm = new Text('Algorithm',$x);
+		$this->algorithm = new Text('algorithm',$x);
 		return $this;
 	}
 

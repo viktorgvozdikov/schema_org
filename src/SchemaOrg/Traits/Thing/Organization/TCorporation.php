@@ -16,7 +16,7 @@ trait TCorporation{
 	 * @return $this
 	 */
 	public function setTickerSymbol($x){
-		$this->tickerSymbol = new Text('TickerSymbol',$x);
+		$this->tickerSymbol = new Text('tickerSymbol',$x);
 		return $this;
 	}
 

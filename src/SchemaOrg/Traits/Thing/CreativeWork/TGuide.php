@@ -16,7 +16,7 @@ trait TGuide{
 	 * @return $this
 	 */
 	public function setReviewAspect($x){
-		$this->reviewAspect = new Text('ReviewAspect',$x);
+		$this->reviewAspect = new Text('reviewAspect',$x);
 		return $this;
 	}
 

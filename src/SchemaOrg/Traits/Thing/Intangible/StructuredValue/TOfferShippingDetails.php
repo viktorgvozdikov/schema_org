@@ -52,7 +52,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setDeliveryTime($x){
-		$this->deliveryTime = new Text('DeliveryTime',$x);
+		$this->deliveryTime = new Text('deliveryTime',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setDoesNotShip($x){
-		$this->doesNotShip = new Text('DoesNotShip',$x);
+		$this->doesNotShip = new Text('doesNotShip',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setShippingDestination($x){
-		$this->shippingDestination = new Text('ShippingDestination',$x);
+		$this->shippingDestination = new Text('shippingDestination',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setShippingLabel($x){
-		$this->shippingLabel = new Text('ShippingLabel',$x);
+		$this->shippingLabel = new Text('shippingLabel',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setShippingRate($x){
-		$this->shippingRate = new Text('ShippingRate',$x);
+		$this->shippingRate = new Text('shippingRate',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setShippingSettingsLink($x){
-		$this->shippingSettingsLink = new Text('ShippingSettingsLink',$x);
+		$this->shippingSettingsLink = new Text('shippingSettingsLink',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TOfferShippingDetails{
 	 * @return $this
 	 */
 	public function setTransitTimeLabel($x){
-		$this->transitTimeLabel = new Text('TransitTimeLabel',$x);
+		$this->transitTimeLabel = new Text('transitTimeLabel',$x);
 		return $this;
 	}
 

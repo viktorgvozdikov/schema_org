@@ -54,7 +54,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -63,7 +63,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setAvailableLanguage($x){
-		$this->availableLanguage = new Text('AvailableLanguage',$x);
+		$this->availableLanguage = new Text('availableLanguage',$x);
 		return $this;
 	}
 
@@ -72,7 +72,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setCheckinTime($x){
-		$this->checkinTime = new Text('CheckinTime',$x);
+		$this->checkinTime = new Text('checkinTime',$x);
 		return $this;
 	}
 
@@ -81,7 +81,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setCheckoutTime($x){
-		$this->checkoutTime = new Text('CheckoutTime',$x);
+		$this->checkoutTime = new Text('checkoutTime',$x);
 		return $this;
 	}
 
@@ -90,7 +90,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setNumberOfRooms($x){
-		$this->numberOfRooms = new Text('NumberOfRooms',$x);
+		$this->numberOfRooms = new Text('numberOfRooms',$x);
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setPetsAllowed($x){
-		$this->petsAllowed = new Text('PetsAllowed',$x);
+		$this->petsAllowed = new Text('petsAllowed',$x);
 		return $this;
 	}
 
@@ -108,7 +108,7 @@ trait TLodgingBusiness{
 	 * @return $this
 	 */
 	public function setStarRating($x){
-		$this->starRating = new Text('StarRating',$x);
+		$this->starRating = new Text('starRating',$x);
 		return $this;
 	}
 

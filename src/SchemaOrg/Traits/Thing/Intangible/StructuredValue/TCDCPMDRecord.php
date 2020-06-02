@@ -112,7 +112,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdCollectionDate($x){
-		$this->cvdCollectionDate = new Text('CvdCollectionDate',$x);
+		$this->cvdCollectionDate = new Text('cvdCollectionDate',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdFacilityCounty($x){
-		$this->cvdFacilityCounty = new Text('CvdFacilityCounty',$x);
+		$this->cvdFacilityCounty = new Text('cvdFacilityCounty',$x);
 		return $this;
 	}
 
@@ -130,7 +130,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdFacilityId($x){
-		$this->cvdFacilityId = new Text('CvdFacilityId',$x);
+		$this->cvdFacilityId = new Text('cvdFacilityId',$x);
 		return $this;
 	}
 
@@ -139,7 +139,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumBeds($x){
-		$this->cvdNumBeds = new Text('CvdNumBeds',$x);
+		$this->cvdNumBeds = new Text('cvdNumBeds',$x);
 		return $this;
 	}
 
@@ -148,7 +148,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumBedsOcc($x){
-		$this->cvdNumBedsOcc = new Text('CvdNumBedsOcc',$x);
+		$this->cvdNumBedsOcc = new Text('cvdNumBedsOcc',$x);
 		return $this;
 	}
 
@@ -157,7 +157,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19Died($x){
-		$this->cvdNumC19Died = new Text('CvdNumC19Died',$x);
+		$this->cvdNumC19Died = new Text('cvdNumC19Died',$x);
 		return $this;
 	}
 
@@ -166,7 +166,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19HOPats($x){
-		$this->cvdNumC19HOPats = new Text('CvdNumC19HOPats',$x);
+		$this->cvdNumC19HOPats = new Text('cvdNumC19HOPats',$x);
 		return $this;
 	}
 
@@ -175,7 +175,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19HospPats($x){
-		$this->cvdNumC19HospPats = new Text('CvdNumC19HospPats',$x);
+		$this->cvdNumC19HospPats = new Text('cvdNumC19HospPats',$x);
 		return $this;
 	}
 
@@ -184,7 +184,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19MechVentPats($x){
-		$this->cvdNumC19MechVentPats = new Text('CvdNumC19MechVentPats',$x);
+		$this->cvdNumC19MechVentPats = new Text('cvdNumC19MechVentPats',$x);
 		return $this;
 	}
 
@@ -193,7 +193,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19OFMechVentPats($x){
-		$this->cvdNumC19OFMechVentPats = new Text('CvdNumC19OFMechVentPats',$x);
+		$this->cvdNumC19OFMechVentPats = new Text('cvdNumC19OFMechVentPats',$x);
 		return $this;
 	}
 
@@ -202,7 +202,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumC19OverflowPats($x){
-		$this->cvdNumC19OverflowPats = new Text('CvdNumC19OverflowPats',$x);
+		$this->cvdNumC19OverflowPats = new Text('cvdNumC19OverflowPats',$x);
 		return $this;
 	}
 
@@ -211,7 +211,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumICUBeds($x){
-		$this->cvdNumICUBeds = new Text('CvdNumICUBeds',$x);
+		$this->cvdNumICUBeds = new Text('cvdNumICUBeds',$x);
 		return $this;
 	}
 
@@ -220,7 +220,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumICUBedsOcc($x){
-		$this->cvdNumICUBedsOcc = new Text('CvdNumICUBedsOcc',$x);
+		$this->cvdNumICUBedsOcc = new Text('cvdNumICUBedsOcc',$x);
 		return $this;
 	}
 
@@ -229,7 +229,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumTotBeds($x){
-		$this->cvdNumTotBeds = new Text('CvdNumTotBeds',$x);
+		$this->cvdNumTotBeds = new Text('cvdNumTotBeds',$x);
 		return $this;
 	}
 
@@ -238,7 +238,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumVent($x){
-		$this->cvdNumVent = new Text('CvdNumVent',$x);
+		$this->cvdNumVent = new Text('cvdNumVent',$x);
 		return $this;
 	}
 
@@ -247,7 +247,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setCvdNumVentUse($x){
-		$this->cvdNumVentUse = new Text('CvdNumVentUse',$x);
+		$this->cvdNumVentUse = new Text('cvdNumVentUse',$x);
 		return $this;
 	}
 
@@ -256,7 +256,7 @@ trait TCDCPMDRecord{
 	 * @return $this
 	 */
 	public function setDatePosted($x){
-		$this->datePosted = new Text('DatePosted',$x);
+		$this->datePosted = new Text('datePosted',$x);
 		return $this;
 	}
 

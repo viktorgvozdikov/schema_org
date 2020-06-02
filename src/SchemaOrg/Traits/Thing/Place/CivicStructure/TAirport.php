@@ -22,7 +22,7 @@ trait TAirport{
 	 * @return $this
 	 */
 	public function setIataCode($x){
-		$this->iataCode = new Text('IataCode',$x);
+		$this->iataCode = new Text('iataCode',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TAirport{
 	 * @return $this
 	 */
 	public function setIcaoCode($x){
-		$this->icaoCode = new Text('IcaoCode',$x);
+		$this->icaoCode = new Text('icaoCode',$x);
 		return $this;
 	}
 

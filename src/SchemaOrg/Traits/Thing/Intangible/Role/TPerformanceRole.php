@@ -16,7 +16,7 @@ trait TPerformanceRole{
 	 * @return $this
 	 */
 	public function setCharacterName($x){
-		$this->characterName = new Text('CharacterName',$x);
+		$this->characterName = new Text('characterName',$x);
 		return $this;
 	}
 

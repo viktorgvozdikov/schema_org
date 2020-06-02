@@ -40,7 +40,7 @@ trait TOpeningHoursSpecification{
 	 * @return $this
 	 */
 	public function setCloses($x){
-		$this->closes = new Text('Closes',$x);
+		$this->closes = new Text('closes',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TOpeningHoursSpecification{
 	 * @return $this
 	 */
 	public function setDayOfWeek($x){
-		$this->dayOfWeek = new Text('DayOfWeek',$x);
+		$this->dayOfWeek = new Text('dayOfWeek',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TOpeningHoursSpecification{
 	 * @return $this
 	 */
 	public function setOpens($x){
-		$this->opens = new Text('Opens',$x);
+		$this->opens = new Text('opens',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TOpeningHoursSpecification{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TOpeningHoursSpecification{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 

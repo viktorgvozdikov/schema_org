@@ -82,7 +82,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setAdditionalType($x){
-		$this->additionalType = new Text('AdditionalType',$x);
+		$this->additionalType = new Text('additionalType',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setAlternateName($x){
-		$this->alternateName = new Text('AlternateName',$x);
+		$this->alternateName = new Text('alternateName',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setDescription($x){
-		$this->description = new Text('Description',$x);
+		$this->description = new Text('description',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setDisambiguatingDescription($x){
-		$this->disambiguatingDescription = new Text('DisambiguatingDescription',$x);
+		$this->disambiguatingDescription = new Text('disambiguatingDescription',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setIdentifier($x){
-		$this->identifier = new Text('Identifier',$x);
+		$this->identifier = new Text('identifier',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setImage($x){
-		$this->image = new Text('Image',$x);
+		$this->image = new Text('image',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setMainEntityOfPage($x){
-		$this->mainEntityOfPage = new Text('MainEntityOfPage',$x);
+		$this->mainEntityOfPage = new Text('mainEntityOfPage',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setName($x){
-		$this->name = new Text('Name',$x);
+		$this->name = new Text('name',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setPotentialAction($x){
-		$this->potentialAction = new Text('PotentialAction',$x);
+		$this->potentialAction = new Text('potentialAction',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setSameAs($x){
-		$this->sameAs = new Text('SameAs',$x);
+		$this->sameAs = new Text('sameAs',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setSubjectOf($x){
-		$this->subjectOf = new Text('SubjectOf',$x);
+		$this->subjectOf = new Text('subjectOf',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TThing{
 	 * @return $this
 	 */
 	public function setUrl($x){
-		$this->url = new Text('Url',$x);
+		$this->url = new Text('url',$x);
 		return $this;
 	}
 

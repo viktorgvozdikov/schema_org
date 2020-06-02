@@ -29,7 +29,7 @@ trait TDataCatalog{
 	 * @return $this
 	 */
 	public function setDataset($x){
-		$this->dataset = new Text('Dataset',$x);
+		$this->dataset = new Text('dataset',$x);
 		return $this;
 	}
 
@@ -38,7 +38,7 @@ trait TDataCatalog{
 	 * @return $this
 	 */
 	public function setMeasurementTechnique($x){
-		$this->measurementTechnique = new Text('MeasurementTechnique',$x);
+		$this->measurementTechnique = new Text('measurementTechnique',$x);
 		return $this;
 	}
 

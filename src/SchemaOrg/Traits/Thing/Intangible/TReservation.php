@@ -90,7 +90,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setBookingTime($x){
-		$this->bookingTime = new Text('BookingTime',$x);
+		$this->bookingTime = new Text('bookingTime',$x);
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setBroker($x){
-		$this->broker = new Text('Broker',$x);
+		$this->broker = new Text('broker',$x);
 		return $this;
 	}
 
@@ -108,7 +108,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setModifiedTime($x){
-		$this->modifiedTime = new Text('ModifiedTime',$x);
+		$this->modifiedTime = new Text('modifiedTime',$x);
 		return $this;
 	}
 
@@ -117,7 +117,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setPriceCurrency($x){
-		$this->priceCurrency = new Text('PriceCurrency',$x);
+		$this->priceCurrency = new Text('priceCurrency',$x);
 		return $this;
 	}
 
@@ -126,7 +126,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setProgramMembershipUsed($x){
-		$this->programMembershipUsed = new Text('ProgramMembershipUsed',$x);
+		$this->programMembershipUsed = new Text('programMembershipUsed',$x);
 		return $this;
 	}
 
@@ -135,7 +135,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -144,7 +144,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setReservationFor($x){
-		$this->reservationFor = new Text('ReservationFor',$x);
+		$this->reservationFor = new Text('reservationFor',$x);
 		return $this;
 	}
 
@@ -153,7 +153,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setReservationId($x){
-		$this->reservationId = new Text('ReservationId',$x);
+		$this->reservationId = new Text('reservationId',$x);
 		return $this;
 	}
 
@@ -162,7 +162,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setReservationStatus($x){
-		$this->reservationStatus = new Text('ReservationStatus',$x);
+		$this->reservationStatus = new Text('reservationStatus',$x);
 		return $this;
 	}
 
@@ -171,7 +171,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setReservedTicket($x){
-		$this->reservedTicket = new Text('ReservedTicket',$x);
+		$this->reservedTicket = new Text('reservedTicket',$x);
 		return $this;
 	}
 
@@ -180,7 +180,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setTotalPrice($x){
-		$this->totalPrice = new Text('TotalPrice',$x);
+		$this->totalPrice = new Text('totalPrice',$x);
 		return $this;
 	}
 
@@ -189,7 +189,7 @@ trait TReservation{
 	 * @return $this
 	 */
 	public function setUnderName($x){
-		$this->underName = new Text('UnderName',$x);
+		$this->underName = new Text('underName',$x);
 		return $this;
 	}
 

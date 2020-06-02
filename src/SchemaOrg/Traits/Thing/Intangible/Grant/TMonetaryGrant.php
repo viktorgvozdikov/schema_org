@@ -22,7 +22,7 @@ trait TMonetaryGrant{
 	 * @return $this
 	 */
 	public function setAmount($x){
-		$this->amount = new Text('Amount',$x);
+		$this->amount = new Text('amount',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMonetaryGrant{
 	 * @return $this
 	 */
 	public function setFunder($x){
-		$this->funder = new Text('Funder',$x);
+		$this->funder = new Text('funder',$x);
 		return $this;
 	}
 

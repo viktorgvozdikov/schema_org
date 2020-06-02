@@ -16,7 +16,7 @@ trait TDataFeed{
 	 * @return $this
 	 */
 	public function setDataFeedElement($x){
-		$this->dataFeedElement = new Text('DataFeedElement',$x);
+		$this->dataFeedElement = new Text('dataFeedElement',$x);
 		return $this;
 	}
 

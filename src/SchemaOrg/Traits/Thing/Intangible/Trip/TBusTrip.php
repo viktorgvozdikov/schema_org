@@ -34,7 +34,7 @@ trait TBusTrip{
 	 * @return $this
 	 */
 	public function setArrivalBusStop($x){
-		$this->arrivalBusStop = new Text('ArrivalBusStop',$x);
+		$this->arrivalBusStop = new Text('arrivalBusStop',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TBusTrip{
 	 * @return $this
 	 */
 	public function setBusName($x){
-		$this->busName = new Text('BusName',$x);
+		$this->busName = new Text('busName',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TBusTrip{
 	 * @return $this
 	 */
 	public function setBusNumber($x){
-		$this->busNumber = new Text('BusNumber',$x);
+		$this->busNumber = new Text('busNumber',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TBusTrip{
 	 * @return $this
 	 */
 	public function setDepartureBusStop($x){
-		$this->departureBusStop = new Text('DepartureBusStop',$x);
+		$this->departureBusStop = new Text('departureBusStop',$x);
 		return $this;
 	}
 

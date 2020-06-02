@@ -40,7 +40,7 @@ trait TSoftwareSourceCode{
 	 * @return $this
 	 */
 	public function setCodeRepository($x){
-		$this->codeRepository = new Text('CodeRepository',$x);
+		$this->codeRepository = new Text('codeRepository',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TSoftwareSourceCode{
 	 * @return $this
 	 */
 	public function setCodeSampleType($x){
-		$this->codeSampleType = new Text('CodeSampleType',$x);
+		$this->codeSampleType = new Text('codeSampleType',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TSoftwareSourceCode{
 	 * @return $this
 	 */
 	public function setProgrammingLanguage($x){
-		$this->programmingLanguage = new Text('ProgrammingLanguage',$x);
+		$this->programmingLanguage = new Text('programmingLanguage',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TSoftwareSourceCode{
 	 * @return $this
 	 */
 	public function setRuntimePlatform($x){
-		$this->runtimePlatform = new Text('RuntimePlatform',$x);
+		$this->runtimePlatform = new Text('runtimePlatform',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TSoftwareSourceCode{
 	 * @return $this
 	 */
 	public function setTargetProduct($x){
-		$this->targetProduct = new Text('TargetProduct',$x);
+		$this->targetProduct = new Text('targetProduct',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TAirline{
 	 * @return $this
 	 */
 	public function setBoardingPolicy($x){
-		$this->boardingPolicy = new Text('BoardingPolicy',$x);
+		$this->boardingPolicy = new Text('boardingPolicy',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TAirline{
 	 * @return $this
 	 */
 	public function setIataCode($x){
-		$this->iataCode = new Text('IataCode',$x);
+		$this->iataCode = new Text('iataCode',$x);
 		return $this;
 	}
 

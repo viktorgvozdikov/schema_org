@@ -17,7 +17,7 @@ trait TApartment{
 	 * @return $this
 	 */
 	public function setOccupancy($x){
-		$this->occupancy = new Text('Occupancy',$x);
+		$this->occupancy = new Text('occupancy',$x);
 		return $this;
 	}
 

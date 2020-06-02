@@ -52,7 +52,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setIssuedBy($x){
-		$this->issuedBy = new Text('IssuedBy',$x);
+		$this->issuedBy = new Text('issuedBy',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setIssuedThrough($x){
-		$this->issuedThrough = new Text('IssuedThrough',$x);
+		$this->issuedThrough = new Text('issuedThrough',$x);
 		return $this;
 	}
 
@@ -70,7 +70,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setPermitAudience($x){
-		$this->permitAudience = new Text('PermitAudience',$x);
+		$this->permitAudience = new Text('permitAudience',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setValidFor($x){
-		$this->validFor = new Text('ValidFor',$x);
+		$this->validFor = new Text('validFor',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setValidIn($x){
-		$this->validIn = new Text('ValidIn',$x);
+		$this->validIn = new Text('validIn',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TPermit{
 	 * @return $this
 	 */
 	public function setValidUntil($x){
-		$this->validUntil = new Text('ValidUntil',$x);
+		$this->validUntil = new Text('validUntil',$x);
 		return $this;
 	}
 

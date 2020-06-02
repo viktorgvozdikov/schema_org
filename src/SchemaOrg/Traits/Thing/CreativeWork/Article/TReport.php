@@ -16,7 +16,7 @@ trait TReport{
 	 * @return $this
 	 */
 	public function setReportNumber($x){
-		$this->reportNumber = new Text('ReportNumber',$x);
+		$this->reportNumber = new Text('reportNumber',$x);
 		return $this;
 	}
 

@@ -34,7 +34,7 @@ trait TMenuItem{
 	 * @return $this
 	 */
 	public function setMenuAddOn($x){
-		$this->menuAddOn = new Text('MenuAddOn',$x);
+		$this->menuAddOn = new Text('menuAddOn',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TMenuItem{
 	 * @return $this
 	 */
 	public function setNutrition($x){
-		$this->nutrition = new Text('Nutrition',$x);
+		$this->nutrition = new Text('nutrition',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TMenuItem{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TMenuItem{
 	 * @return $this
 	 */
 	public function setSuitableForDiet($x){
-		$this->suitableForDiet = new Text('SuitableForDiet',$x);
+		$this->suitableForDiet = new Text('suitableForDiet',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TRentAction{
 	 * @return $this
 	 */
 	public function setLandlord($x){
-		$this->landlord = new Text('Landlord',$x);
+		$this->landlord = new Text('landlord',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TRentAction{
 	 * @return $this
 	 */
 	public function setRealEstateAgent($x){
-		$this->realEstateAgent = new Text('RealEstateAgent',$x);
+		$this->realEstateAgent = new Text('realEstateAgent',$x);
 		return $this;
 	}
 

@@ -28,7 +28,7 @@ trait TChapter{
 	 * @return $this
 	 */
 	public function setPageEnd($x){
-		$this->pageEnd = new Text('PageEnd',$x);
+		$this->pageEnd = new Text('pageEnd',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TChapter{
 	 * @return $this
 	 */
 	public function setPageStart($x){
-		$this->pageStart = new Text('PageStart',$x);
+		$this->pageStart = new Text('pageStart',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TChapter{
 	 * @return $this
 	 */
 	public function setPagination($x){
-		$this->pagination = new Text('Pagination',$x);
+		$this->pagination = new Text('pagination',$x);
 		return $this;
 	}
 

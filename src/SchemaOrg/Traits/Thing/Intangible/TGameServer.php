@@ -28,7 +28,7 @@ trait TGameServer{
 	 * @return $this
 	 */
 	public function setGame($x){
-		$this->game = new Text('Game',$x);
+		$this->game = new Text('game',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TGameServer{
 	 * @return $this
 	 */
 	public function setPlayersOnline($x){
-		$this->playersOnline = new Text('PlayersOnline',$x);
+		$this->playersOnline = new Text('playersOnline',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TGameServer{
 	 * @return $this
 	 */
 	public function setServerStatus($x){
-		$this->serverStatus = new Text('ServerStatus',$x);
+		$this->serverStatus = new Text('serverStatus',$x);
 		return $this;
 	}
 

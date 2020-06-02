@@ -44,7 +44,7 @@ trait TNewsArticle{
 	 * @return $this
 	 */
 	public function setDateline($x){
-		$this->dateline = new Text('Dateline',$x);
+		$this->dateline = new Text('dateline',$x);
 		return $this;
 	}
 
@@ -53,7 +53,7 @@ trait TNewsArticle{
 	 * @return $this
 	 */
 	public function setPrintColumn($x){
-		$this->printColumn = new Text('PrintColumn',$x);
+		$this->printColumn = new Text('printColumn',$x);
 		return $this;
 	}
 
@@ -62,7 +62,7 @@ trait TNewsArticle{
 	 * @return $this
 	 */
 	public function setPrintEdition($x){
-		$this->printEdition = new Text('PrintEdition',$x);
+		$this->printEdition = new Text('printEdition',$x);
 		return $this;
 	}
 
@@ -71,7 +71,7 @@ trait TNewsArticle{
 	 * @return $this
 	 */
 	public function setPrintPage($x){
-		$this->printPage = new Text('PrintPage',$x);
+		$this->printPage = new Text('printPage',$x);
 		return $this;
 	}
 
@@ -80,7 +80,7 @@ trait TNewsArticle{
 	 * @return $this
 	 */
 	public function setPrintSection($x){
-		$this->printSection = new Text('PrintSection',$x);
+		$this->printSection = new Text('printSection',$x);
 		return $this;
 	}
 

@@ -38,7 +38,7 @@ trait TTradeAction{
 	 * @return $this
 	 */
 	public function setPrice($x){
-		$this->price = new Text('Price',$x);
+		$this->price = new Text('price',$x);
 		return $this;
 	}
 
@@ -47,7 +47,7 @@ trait TTradeAction{
 	 * @return $this
 	 */
 	public function setPriceCurrency($x){
-		$this->priceCurrency = new Text('PriceCurrency',$x);
+		$this->priceCurrency = new Text('priceCurrency',$x);
 		return $this;
 	}
 
@@ -56,7 +56,7 @@ trait TTradeAction{
 	 * @return $this
 	 */
 	public function setPriceSpecification($x){
-		$this->priceSpecification = new Text('PriceSpecification',$x);
+		$this->priceSpecification = new Text('priceSpecification',$x);
 		return $this;
 	}
 

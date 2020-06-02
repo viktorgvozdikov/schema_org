@@ -22,7 +22,7 @@ trait TMortgageLoan{
 	 * @return $this
 	 */
 	public function setDomiciledMortgage($x){
-		$this->domiciledMortgage = new Text('DomiciledMortgage',$x);
+		$this->domiciledMortgage = new Text('domiciledMortgage',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMortgageLoan{
 	 * @return $this
 	 */
 	public function setLoanMortgageMandateAmount($x){
-		$this->loanMortgageMandateAmount = new Text('LoanMortgageMandateAmount',$x);
+		$this->loanMortgageMandateAmount = new Text('loanMortgageMandateAmount',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TThesis{
 	 * @return $this
 	 */
 	public function setInSupportOf($x){
-		$this->inSupportOf = new Text('InSupportOf',$x);
+		$this->inSupportOf = new Text('inSupportOf',$x);
 		return $this;
 	}
 

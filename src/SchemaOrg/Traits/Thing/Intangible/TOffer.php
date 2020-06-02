@@ -282,7 +282,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAcceptedPaymentMethod($x){
-		$this->acceptedPaymentMethod = new Text('AcceptedPaymentMethod',$x);
+		$this->acceptedPaymentMethod = new Text('acceptedPaymentMethod',$x);
 		return $this;
 	}
 
@@ -291,7 +291,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAddOn($x){
-		$this->addOn = new Text('AddOn',$x);
+		$this->addOn = new Text('addOn',$x);
 		return $this;
 	}
 
@@ -300,7 +300,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAdvanceBookingRequirement($x){
-		$this->advanceBookingRequirement = new Text('AdvanceBookingRequirement',$x);
+		$this->advanceBookingRequirement = new Text('advanceBookingRequirement',$x);
 		return $this;
 	}
 
@@ -309,7 +309,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -318,7 +318,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAreaServed($x){
-		$this->areaServed = new Text('AreaServed',$x);
+		$this->areaServed = new Text('areaServed',$x);
 		return $this;
 	}
 
@@ -327,7 +327,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAvailability($x){
-		$this->availability = new Text('Availability',$x);
+		$this->availability = new Text('availability',$x);
 		return $this;
 	}
 
@@ -336,7 +336,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAvailabilityEnds($x){
-		$this->availabilityEnds = new Text('AvailabilityEnds',$x);
+		$this->availabilityEnds = new Text('availabilityEnds',$x);
 		return $this;
 	}
 
@@ -345,7 +345,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAvailabilityStarts($x){
-		$this->availabilityStarts = new Text('AvailabilityStarts',$x);
+		$this->availabilityStarts = new Text('availabilityStarts',$x);
 		return $this;
 	}
 
@@ -354,7 +354,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAvailableAtOrFrom($x){
-		$this->availableAtOrFrom = new Text('AvailableAtOrFrom',$x);
+		$this->availableAtOrFrom = new Text('availableAtOrFrom',$x);
 		return $this;
 	}
 
@@ -363,7 +363,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setAvailableDeliveryMethod($x){
-		$this->availableDeliveryMethod = new Text('AvailableDeliveryMethod',$x);
+		$this->availableDeliveryMethod = new Text('availableDeliveryMethod',$x);
 		return $this;
 	}
 
@@ -372,7 +372,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setBusinessFunction($x){
-		$this->businessFunction = new Text('BusinessFunction',$x);
+		$this->businessFunction = new Text('businessFunction',$x);
 		return $this;
 	}
 
@@ -381,7 +381,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -390,7 +390,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setDeliveryLeadTime($x){
-		$this->deliveryLeadTime = new Text('DeliveryLeadTime',$x);
+		$this->deliveryLeadTime = new Text('deliveryLeadTime',$x);
 		return $this;
 	}
 
@@ -399,7 +399,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setEligibleCustomerType($x){
-		$this->eligibleCustomerType = new Text('EligibleCustomerType',$x);
+		$this->eligibleCustomerType = new Text('eligibleCustomerType',$x);
 		return $this;
 	}
 
@@ -408,7 +408,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setEligibleDuration($x){
-		$this->eligibleDuration = new Text('EligibleDuration',$x);
+		$this->eligibleDuration = new Text('eligibleDuration',$x);
 		return $this;
 	}
 
@@ -417,7 +417,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setEligibleQuantity($x){
-		$this->eligibleQuantity = new Text('EligibleQuantity',$x);
+		$this->eligibleQuantity = new Text('eligibleQuantity',$x);
 		return $this;
 	}
 
@@ -426,7 +426,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setEligibleRegion($x){
-		$this->eligibleRegion = new Text('EligibleRegion',$x);
+		$this->eligibleRegion = new Text('eligibleRegion',$x);
 		return $this;
 	}
 
@@ -435,7 +435,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setEligibleTransactionVolume($x){
-		$this->eligibleTransactionVolume = new Text('EligibleTransactionVolume',$x);
+		$this->eligibleTransactionVolume = new Text('eligibleTransactionVolume',$x);
 		return $this;
 	}
 
@@ -444,7 +444,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setGtin($x){
-		$this->gtin = new Text('Gtin',$x);
+		$this->gtin = new Text('gtin',$x);
 		return $this;
 	}
 
@@ -453,7 +453,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setGtin12($x){
-		$this->gtin12 = new Text('Gtin12',$x);
+		$this->gtin12 = new Text('gtin12',$x);
 		return $this;
 	}
 
@@ -462,7 +462,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setGtin13($x){
-		$this->gtin13 = new Text('Gtin13',$x);
+		$this->gtin13 = new Text('gtin13',$x);
 		return $this;
 	}
 
@@ -471,7 +471,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setGtin14($x){
-		$this->gtin14 = new Text('Gtin14',$x);
+		$this->gtin14 = new Text('gtin14',$x);
 		return $this;
 	}
 
@@ -480,7 +480,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setGtin8($x){
-		$this->gtin8 = new Text('Gtin8',$x);
+		$this->gtin8 = new Text('gtin8',$x);
 		return $this;
 	}
 
@@ -489,7 +489,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setIncludesObject($x){
-		$this->includesObject = new Text('IncludesObject',$x);
+		$this->includesObject = new Text('includesObject',$x);
 		return $this;
 	}
 
@@ -498,7 +498,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setIneligibleRegion($x){
-		$this->ineligibleRegion = new Text('IneligibleRegion',$x);
+		$this->ineligibleRegion = new Text('ineligibleRegion',$x);
 		return $this;
 	}
 
@@ -507,7 +507,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setInventoryLevel($x){
-		$this->inventoryLevel = new Text('InventoryLevel',$x);
+		$this->inventoryLevel = new Text('inventoryLevel',$x);
 		return $this;
 	}
 
@@ -516,7 +516,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setItemCondition($x){
-		$this->itemCondition = new Text('ItemCondition',$x);
+		$this->itemCondition = new Text('itemCondition',$x);
 		return $this;
 	}
 
@@ -525,7 +525,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setItemOffered($x){
-		$this->itemOffered = new Text('ItemOffered',$x);
+		$this->itemOffered = new Text('itemOffered',$x);
 		return $this;
 	}
 
@@ -534,7 +534,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setLeaseLength($x){
-		$this->leaseLength = new Text('LeaseLength',$x);
+		$this->leaseLength = new Text('leaseLength',$x);
 		return $this;
 	}
 
@@ -543,7 +543,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setMpn($x){
-		$this->mpn = new Text('Mpn',$x);
+		$this->mpn = new Text('mpn',$x);
 		return $this;
 	}
 
@@ -552,7 +552,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setOfferedBy($x){
-		$this->offeredBy = new Text('OfferedBy',$x);
+		$this->offeredBy = new Text('offeredBy',$x);
 		return $this;
 	}
 
@@ -561,7 +561,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setPrice($x){
-		$this->price = new Text('Price',$x);
+		$this->price = new Text('price',$x);
 		return $this;
 	}
 
@@ -570,7 +570,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setPriceCurrency($x){
-		$this->priceCurrency = new Text('PriceCurrency',$x);
+		$this->priceCurrency = new Text('priceCurrency',$x);
 		return $this;
 	}
 
@@ -579,7 +579,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setPriceSpecification($x){
-		$this->priceSpecification = new Text('PriceSpecification',$x);
+		$this->priceSpecification = new Text('priceSpecification',$x);
 		return $this;
 	}
 
@@ -588,7 +588,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setPriceValidUntil($x){
-		$this->priceValidUntil = new Text('PriceValidUntil',$x);
+		$this->priceValidUntil = new Text('priceValidUntil',$x);
 		return $this;
 	}
 
@@ -597,7 +597,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -606,7 +606,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setSeller($x){
-		$this->seller = new Text('Seller',$x);
+		$this->seller = new Text('seller',$x);
 		return $this;
 	}
 
@@ -615,7 +615,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setSerialNumber($x){
-		$this->serialNumber = new Text('SerialNumber',$x);
+		$this->serialNumber = new Text('serialNumber',$x);
 		return $this;
 	}
 
@@ -624,7 +624,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setShippingDetails($x){
-		$this->shippingDetails = new Text('ShippingDetails',$x);
+		$this->shippingDetails = new Text('shippingDetails',$x);
 		return $this;
 	}
 
@@ -633,7 +633,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setSku($x){
-		$this->sku = new Text('Sku',$x);
+		$this->sku = new Text('sku',$x);
 		return $this;
 	}
 
@@ -642,7 +642,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setValidFrom($x){
-		$this->validFrom = new Text('ValidFrom',$x);
+		$this->validFrom = new Text('validFrom',$x);
 		return $this;
 	}
 
@@ -651,7 +651,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 
@@ -660,7 +660,7 @@ trait TOffer{
 	 * @return $this
 	 */
 	public function setWarranty($x){
-		$this->warranty = new Text('Warranty',$x);
+		$this->warranty = new Text('warranty',$x);
 		return $this;
 	}
 

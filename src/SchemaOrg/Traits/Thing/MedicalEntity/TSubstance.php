@@ -22,7 +22,7 @@ trait TSubstance{
 	 * @return $this
 	 */
 	public function setActiveIngredient($x){
-		$this->activeIngredient = new Text('ActiveIngredient',$x);
+		$this->activeIngredient = new Text('activeIngredient',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TSubstance{
 	 * @return $this
 	 */
 	public function setMaximumIntake($x){
-		$this->maximumIntake = new Text('MaximumIntake',$x);
+		$this->maximumIntake = new Text('maximumIntake',$x);
 		return $this;
 	}
 

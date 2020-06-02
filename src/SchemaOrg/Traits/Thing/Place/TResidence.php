@@ -16,7 +16,7 @@ trait TResidence{
 	 * @return $this
 	 */
 	public function setAccommodationFloorPlan($x){
-		$this->accommodationFloorPlan = new Text('AccommodationFloorPlan',$x);
+		$this->accommodationFloorPlan = new Text('accommodationFloorPlan',$x);
 		return $this;
 	}
 

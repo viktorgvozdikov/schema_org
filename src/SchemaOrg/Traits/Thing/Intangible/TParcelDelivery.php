@@ -76,7 +76,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setDeliveryAddress($x){
-		$this->deliveryAddress = new Text('DeliveryAddress',$x);
+		$this->deliveryAddress = new Text('deliveryAddress',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setDeliveryStatus($x){
-		$this->deliveryStatus = new Text('DeliveryStatus',$x);
+		$this->deliveryStatus = new Text('deliveryStatus',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setExpectedArrivalFrom($x){
-		$this->expectedArrivalFrom = new Text('ExpectedArrivalFrom',$x);
+		$this->expectedArrivalFrom = new Text('expectedArrivalFrom',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setExpectedArrivalUntil($x){
-		$this->expectedArrivalUntil = new Text('ExpectedArrivalUntil',$x);
+		$this->expectedArrivalUntil = new Text('expectedArrivalUntil',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setHasDeliveryMethod($x){
-		$this->hasDeliveryMethod = new Text('HasDeliveryMethod',$x);
+		$this->hasDeliveryMethod = new Text('hasDeliveryMethod',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setItemShipped($x){
-		$this->itemShipped = new Text('ItemShipped',$x);
+		$this->itemShipped = new Text('itemShipped',$x);
 		return $this;
 	}
 
@@ -130,7 +130,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setOriginAddress($x){
-		$this->originAddress = new Text('OriginAddress',$x);
+		$this->originAddress = new Text('originAddress',$x);
 		return $this;
 	}
 
@@ -139,7 +139,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setPartOfOrder($x){
-		$this->partOfOrder = new Text('PartOfOrder',$x);
+		$this->partOfOrder = new Text('partOfOrder',$x);
 		return $this;
 	}
 
@@ -148,7 +148,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -157,7 +157,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setTrackingNumber($x){
-		$this->trackingNumber = new Text('TrackingNumber',$x);
+		$this->trackingNumber = new Text('trackingNumber',$x);
 		return $this;
 	}
 
@@ -166,7 +166,7 @@ trait TParcelDelivery{
 	 * @return $this
 	 */
 	public function setTrackingUrl($x){
-		$this->trackingUrl = new Text('TrackingUrl',$x);
+		$this->trackingUrl = new Text('trackingUrl',$x);
 		return $this;
 	}
 

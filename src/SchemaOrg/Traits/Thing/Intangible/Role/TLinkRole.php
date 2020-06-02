@@ -22,7 +22,7 @@ trait TLinkRole{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TLinkRole{
 	 * @return $this
 	 */
 	public function setLinkRelationship($x){
-		$this->linkRelationship = new Text('LinkRelationship',$x);
+		$this->linkRelationship = new Text('linkRelationship',$x);
 		return $this;
 	}
 

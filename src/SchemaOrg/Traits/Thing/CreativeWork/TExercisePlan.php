@@ -58,7 +58,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setActivityDuration($x){
-		$this->activityDuration = new Text('ActivityDuration',$x);
+		$this->activityDuration = new Text('activityDuration',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setActivityFrequency($x){
-		$this->activityFrequency = new Text('ActivityFrequency',$x);
+		$this->activityFrequency = new Text('activityFrequency',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setAdditionalVariable($x){
-		$this->additionalVariable = new Text('AdditionalVariable',$x);
+		$this->additionalVariable = new Text('additionalVariable',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setExerciseType($x){
-		$this->exerciseType = new Text('ExerciseType',$x);
+		$this->exerciseType = new Text('exerciseType',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setIntensity($x){
-		$this->intensity = new Text('Intensity',$x);
+		$this->intensity = new Text('intensity',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setRepetitions($x){
-		$this->repetitions = new Text('Repetitions',$x);
+		$this->repetitions = new Text('repetitions',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setRestPeriods($x){
-		$this->restPeriods = new Text('RestPeriods',$x);
+		$this->restPeriods = new Text('restPeriods',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TExercisePlan{
 	 * @return $this
 	 */
 	public function setWorkload($x){
-		$this->workload = new Text('Workload',$x);
+		$this->workload = new Text('workload',$x);
 		return $this;
 	}
 

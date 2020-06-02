@@ -16,7 +16,7 @@ trait TMedicalCode{
 	 * @return $this
 	 */
 	public function setCodingSystem($x){
-		$this->codingSystem = new Text('CodingSystem',$x);
+		$this->codingSystem = new Text('codingSystem',$x);
 		return $this;
 	}
 

@@ -100,7 +100,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setAccountId($x){
-		$this->accountId = new Text('AccountId',$x);
+		$this->accountId = new Text('accountId',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setBillingPeriod($x){
-		$this->billingPeriod = new Text('BillingPeriod',$x);
+		$this->billingPeriod = new Text('billingPeriod',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setBroker($x){
-		$this->broker = new Text('Broker',$x);
+		$this->broker = new Text('broker',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setConfirmationNumber($x){
-		$this->confirmationNumber = new Text('ConfirmationNumber',$x);
+		$this->confirmationNumber = new Text('confirmationNumber',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setCustomer($x){
-		$this->customer = new Text('Customer',$x);
+		$this->customer = new Text('customer',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setMinimumPaymentDue($x){
-		$this->minimumPaymentDue = new Text('MinimumPaymentDue',$x);
+		$this->minimumPaymentDue = new Text('minimumPaymentDue',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setPaymentDueDate($x){
-		$this->paymentDueDate = new Text('PaymentDueDate',$x);
+		$this->paymentDueDate = new Text('paymentDueDate',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setPaymentMethod($x){
-		$this->paymentMethod = new Text('PaymentMethod',$x);
+		$this->paymentMethod = new Text('paymentMethod',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setPaymentMethodId($x){
-		$this->paymentMethodId = new Text('PaymentMethodId',$x);
+		$this->paymentMethodId = new Text('paymentMethodId',$x);
 		return $this;
 	}
 
@@ -190,7 +190,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setPaymentStatus($x){
-		$this->paymentStatus = new Text('PaymentStatus',$x);
+		$this->paymentStatus = new Text('paymentStatus',$x);
 		return $this;
 	}
 
@@ -199,7 +199,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -208,7 +208,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setReferencesOrder($x){
-		$this->referencesOrder = new Text('ReferencesOrder',$x);
+		$this->referencesOrder = new Text('referencesOrder',$x);
 		return $this;
 	}
 
@@ -217,7 +217,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setScheduledPaymentDate($x){
-		$this->scheduledPaymentDate = new Text('ScheduledPaymentDate',$x);
+		$this->scheduledPaymentDate = new Text('scheduledPaymentDate',$x);
 		return $this;
 	}
 
@@ -226,7 +226,7 @@ trait TInvoice{
 	 * @return $this
 	 */
 	public function setTotalPaymentDue($x){
-		$this->totalPaymentDue = new Text('TotalPaymentDue',$x);
+		$this->totalPaymentDue = new Text('totalPaymentDue',$x);
 		return $this;
 	}
 

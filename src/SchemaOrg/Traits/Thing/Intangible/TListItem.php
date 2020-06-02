@@ -34,7 +34,7 @@ trait TListItem{
 	 * @return $this
 	 */
 	public function setItem($x){
-		$this->item = new Text('Item',$x);
+		$this->item = new Text('item',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TListItem{
 	 * @return $this
 	 */
 	public function setNextItem($x){
-		$this->nextItem = new Text('NextItem',$x);
+		$this->nextItem = new Text('nextItem',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TListItem{
 	 * @return $this
 	 */
 	public function setPosition($x){
-		$this->position = new Text('Position',$x);
+		$this->position = new Text('position',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TListItem{
 	 * @return $this
 	 */
 	public function setPreviousItem($x){
-		$this->previousItem = new Text('PreviousItem',$x);
+		$this->previousItem = new Text('previousItem',$x);
 		return $this;
 	}
 

@@ -28,7 +28,7 @@ trait TCommunicateAction{
 	 * @return $this
 	 */
 	public function setAbout($x){
-		$this->about = new Text('About',$x);
+		$this->about = new Text('about',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TCommunicateAction{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TCommunicateAction{
 	 * @return $this
 	 */
 	public function setRecipient($x){
-		$this->recipient = new Text('Recipient',$x);
+		$this->recipient = new Text('recipient',$x);
 		return $this;
 	}
 

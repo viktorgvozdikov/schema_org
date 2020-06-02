@@ -16,7 +16,7 @@ trait TWebAPI{
 	 * @return $this
 	 */
 	public function setDocumentation($x){
-		$this->documentation = new Text('Documentation',$x);
+		$this->documentation = new Text('documentation',$x);
 		return $this;
 	}
 

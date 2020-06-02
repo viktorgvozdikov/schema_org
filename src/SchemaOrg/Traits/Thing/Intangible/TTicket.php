@@ -66,7 +66,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setDateIssued($x){
-		$this->dateIssued = new Text('DateIssued',$x);
+		$this->dateIssued = new Text('dateIssued',$x);
 		return $this;
 	}
 
@@ -75,7 +75,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setIssuedBy($x){
-		$this->issuedBy = new Text('IssuedBy',$x);
+		$this->issuedBy = new Text('issuedBy',$x);
 		return $this;
 	}
 
@@ -84,7 +84,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setPriceCurrency($x){
-		$this->priceCurrency = new Text('PriceCurrency',$x);
+		$this->priceCurrency = new Text('priceCurrency',$x);
 		return $this;
 	}
 
@@ -93,7 +93,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setTicketNumber($x){
-		$this->ticketNumber = new Text('TicketNumber',$x);
+		$this->ticketNumber = new Text('ticketNumber',$x);
 		return $this;
 	}
 
@@ -102,7 +102,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setTicketToken($x){
-		$this->ticketToken = new Text('TicketToken',$x);
+		$this->ticketToken = new Text('ticketToken',$x);
 		return $this;
 	}
 
@@ -111,7 +111,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setTicketedSeat($x){
-		$this->ticketedSeat = new Text('TicketedSeat',$x);
+		$this->ticketedSeat = new Text('ticketedSeat',$x);
 		return $this;
 	}
 
@@ -120,7 +120,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setTotalPrice($x){
-		$this->totalPrice = new Text('TotalPrice',$x);
+		$this->totalPrice = new Text('totalPrice',$x);
 		return $this;
 	}
 
@@ -129,7 +129,7 @@ trait TTicket{
 	 * @return $this
 	 */
 	public function setUnderName($x){
-		$this->underName = new Text('UnderName',$x);
+		$this->underName = new Text('underName',$x);
 		return $this;
 	}
 

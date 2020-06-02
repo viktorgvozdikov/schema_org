@@ -46,7 +46,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setAbridged($x){
-		$this->abridged = new Text('Abridged',$x);
+		$this->abridged = new Text('abridged',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setBookEdition($x){
-		$this->bookEdition = new Text('BookEdition',$x);
+		$this->bookEdition = new Text('bookEdition',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setBookFormat($x){
-		$this->bookFormat = new Text('BookFormat',$x);
+		$this->bookFormat = new Text('bookFormat',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setIllustrator($x){
-		$this->illustrator = new Text('Illustrator',$x);
+		$this->illustrator = new Text('illustrator',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setIsbn($x){
-		$this->isbn = new Text('Isbn',$x);
+		$this->isbn = new Text('isbn',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TBook{
 	 * @return $this
 	 */
 	public function setNumberOfPages($x){
-		$this->numberOfPages = new Text('NumberOfPages',$x);
+		$this->numberOfPages = new Text('numberOfPages',$x);
 		return $this;
 	}
 

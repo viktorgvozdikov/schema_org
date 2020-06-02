@@ -16,7 +16,7 @@ trait THowToSupply{
 	 * @return $this
 	 */
 	public function setEstimatedCost($x){
-		$this->estimatedCost = new Text('EstimatedCost',$x);
+		$this->estimatedCost = new Text('estimatedCost',$x);
 		return $this;
 	}
 

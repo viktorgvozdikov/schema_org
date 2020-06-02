@@ -16,7 +16,7 @@ trait TMedicalTestPanel{
 	 * @return $this
 	 */
 	public function setSubTest($x){
-		$this->subTest = new Text('SubTest',$x);
+		$this->subTest = new Text('subTest',$x);
 		return $this;
 	}
 

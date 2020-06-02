@@ -22,7 +22,7 @@ trait TGovernmentService{
 	 * @return $this
 	 */
 	public function setJurisdiction($x){
-		$this->jurisdiction = new Text('Jurisdiction',$x);
+		$this->jurisdiction = new Text('jurisdiction',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TGovernmentService{
 	 * @return $this
 	 */
 	public function setServiceOperator($x){
-		$this->serviceOperator = new Text('ServiceOperator',$x);
+		$this->serviceOperator = new Text('serviceOperator',$x);
 		return $this;
 	}
 

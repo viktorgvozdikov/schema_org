@@ -80,7 +80,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setActionStatus($x){
-		$this->actionStatus = new Text('ActionStatus',$x);
+		$this->actionStatus = new Text('actionStatus',$x);
 		return $this;
 	}
 
@@ -89,7 +89,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setAgent($x){
-		$this->agent = new Text('Agent',$x);
+		$this->agent = new Text('agent',$x);
 		return $this;
 	}
 
@@ -98,7 +98,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setEndTime($x){
-		$this->endTime = new Text('EndTime',$x);
+		$this->endTime = new Text('endTime',$x);
 		return $this;
 	}
 
@@ -107,7 +107,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setError($x){
-		$this->error = new Text('Error',$x);
+		$this->error = new Text('error',$x);
 		return $this;
 	}
 
@@ -116,7 +116,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setInstrument($x){
-		$this->instrument = new Text('Instrument',$x);
+		$this->instrument = new Text('instrument',$x);
 		return $this;
 	}
 
@@ -125,7 +125,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setLocation($x){
-		$this->location = new Text('Location',$x);
+		$this->location = new Text('location',$x);
 		return $this;
 	}
 
@@ -134,7 +134,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setObject($x){
-		$this->object = new Text('Object',$x);
+		$this->object = new Text('object',$x);
 		return $this;
 	}
 
@@ -143,7 +143,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setParticipant($x){
-		$this->participant = new Text('Participant',$x);
+		$this->participant = new Text('participant',$x);
 		return $this;
 	}
 
@@ -152,7 +152,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setResult($x){
-		$this->result = new Text('Result',$x);
+		$this->result = new Text('result',$x);
 		return $this;
 	}
 
@@ -161,7 +161,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setStartTime($x){
-		$this->startTime = new Text('StartTime',$x);
+		$this->startTime = new Text('startTime',$x);
 		return $this;
 	}
 
@@ -170,7 +170,7 @@ trait TAction{
 	 * @return $this
 	 */
 	public function setTarget($x){
-		$this->target = new Text('Target',$x);
+		$this->target = new Text('target',$x);
 		return $this;
 	}
 

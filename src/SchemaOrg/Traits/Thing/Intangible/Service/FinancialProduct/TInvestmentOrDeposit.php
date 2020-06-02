@@ -16,7 +16,7 @@ trait TInvestmentOrDeposit{
 	 * @return $this
 	 */
 	public function setAmount($x){
-		$this->amount = new Text('Amount',$x);
+		$this->amount = new Text('amount',$x);
 		return $this;
 	}
 

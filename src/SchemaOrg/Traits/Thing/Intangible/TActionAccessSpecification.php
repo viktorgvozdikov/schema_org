@@ -56,7 +56,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setAvailabilityEnds($x){
-		$this->availabilityEnds = new Text('AvailabilityEnds',$x);
+		$this->availabilityEnds = new Text('availabilityEnds',$x);
 		return $this;
 	}
 
@@ -65,7 +65,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setAvailabilityStarts($x){
-		$this->availabilityStarts = new Text('AvailabilityStarts',$x);
+		$this->availabilityStarts = new Text('availabilityStarts',$x);
 		return $this;
 	}
 
@@ -74,7 +74,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setCategory($x){
-		$this->category = new Text('Category',$x);
+		$this->category = new Text('category',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setEligibleRegion($x){
-		$this->eligibleRegion = new Text('EligibleRegion',$x);
+		$this->eligibleRegion = new Text('eligibleRegion',$x);
 		return $this;
 	}
 
@@ -92,7 +92,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setExpectsAcceptanceOf($x){
-		$this->expectsAcceptanceOf = new Text('ExpectsAcceptanceOf',$x);
+		$this->expectsAcceptanceOf = new Text('expectsAcceptanceOf',$x);
 		return $this;
 	}
 
@@ -101,7 +101,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setIneligibleRegion($x){
-		$this->ineligibleRegion = new Text('IneligibleRegion',$x);
+		$this->ineligibleRegion = new Text('ineligibleRegion',$x);
 		return $this;
 	}
 
@@ -110,7 +110,7 @@ trait TActionAccessSpecification{
 	 * @return $this
 	 */
 	public function setRequiresSubscription($x){
-		$this->requiresSubscription = new Text('RequiresSubscription',$x);
+		$this->requiresSubscription = new Text('requiresSubscription',$x);
 		return $this;
 	}
 

@@ -34,7 +34,7 @@ trait TAPIReference{
 	 * @return $this
 	 */
 	public function setAssemblyVersion($x){
-		$this->assemblyVersion = new Text('AssemblyVersion',$x);
+		$this->assemblyVersion = new Text('assemblyVersion',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TAPIReference{
 	 * @return $this
 	 */
 	public function setExecutableLibraryName($x){
-		$this->executableLibraryName = new Text('ExecutableLibraryName',$x);
+		$this->executableLibraryName = new Text('executableLibraryName',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TAPIReference{
 	 * @return $this
 	 */
 	public function setProgrammingModel($x){
-		$this->programmingModel = new Text('ProgrammingModel',$x);
+		$this->programmingModel = new Text('programmingModel',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TAPIReference{
 	 * @return $this
 	 */
 	public function setTargetPlatform($x){
-		$this->targetPlatform = new Text('TargetPlatform',$x);
+		$this->targetPlatform = new Text('targetPlatform',$x);
 		return $this;
 	}
 

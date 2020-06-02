@@ -22,7 +22,7 @@ trait TPlayAction{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPlayAction{
 	 * @return $this
 	 */
 	public function setEvent($x){
-		$this->event = new Text('Event',$x);
+		$this->event = new Text('event',$x);
 		return $this;
 	}
 

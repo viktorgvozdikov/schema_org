@@ -16,7 +16,7 @@ trait TDrugLegalStatus{
 	 * @return $this
 	 */
 	public function setApplicableLocation($x){
-		$this->applicableLocation = new Text('ApplicableLocation',$x);
+		$this->applicableLocation = new Text('applicableLocation',$x);
 		return $this;
 	}
 

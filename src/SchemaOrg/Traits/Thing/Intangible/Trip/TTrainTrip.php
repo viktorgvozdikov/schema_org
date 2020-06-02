@@ -46,7 +46,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setArrivalPlatform($x){
-		$this->arrivalPlatform = new Text('ArrivalPlatform',$x);
+		$this->arrivalPlatform = new Text('arrivalPlatform',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setArrivalStation($x){
-		$this->arrivalStation = new Text('ArrivalStation',$x);
+		$this->arrivalStation = new Text('arrivalStation',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setDeparturePlatform($x){
-		$this->departurePlatform = new Text('DeparturePlatform',$x);
+		$this->departurePlatform = new Text('departurePlatform',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setDepartureStation($x){
-		$this->departureStation = new Text('DepartureStation',$x);
+		$this->departureStation = new Text('departureStation',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setTrainName($x){
-		$this->trainName = new Text('TrainName',$x);
+		$this->trainName = new Text('trainName',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TTrainTrip{
 	 * @return $this
 	 */
 	public function setTrainNumber($x){
-		$this->trainNumber = new Text('TrainNumber',$x);
+		$this->trainNumber = new Text('trainNumber',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TPlanAction{
 	 * @return $this
 	 */
 	public function setScheduledTime($x){
-		$this->scheduledTime = new Text('ScheduledTime',$x);
+		$this->scheduledTime = new Text('scheduledTime',$x);
 		return $this;
 	}
 

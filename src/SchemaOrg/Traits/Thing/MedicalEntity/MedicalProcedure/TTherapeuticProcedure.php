@@ -28,7 +28,7 @@ trait TTherapeuticProcedure{
 	 * @return $this
 	 */
 	public function setAdverseOutcome($x){
-		$this->adverseOutcome = new Text('AdverseOutcome',$x);
+		$this->adverseOutcome = new Text('adverseOutcome',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TTherapeuticProcedure{
 	 * @return $this
 	 */
 	public function setDoseSchedule($x){
-		$this->doseSchedule = new Text('DoseSchedule',$x);
+		$this->doseSchedule = new Text('doseSchedule',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TTherapeuticProcedure{
 	 * @return $this
 	 */
 	public function setDrug($x){
-		$this->drug = new Text('Drug',$x);
+		$this->drug = new Text('drug',$x);
 		return $this;
 	}
 

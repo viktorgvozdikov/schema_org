@@ -40,7 +40,7 @@ trait TDiet{
 	 * @return $this
 	 */
 	public function setDietFeatures($x){
-		$this->dietFeatures = new Text('DietFeatures',$x);
+		$this->dietFeatures = new Text('dietFeatures',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TDiet{
 	 * @return $this
 	 */
 	public function setEndorsers($x){
-		$this->endorsers = new Text('Endorsers',$x);
+		$this->endorsers = new Text('endorsers',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TDiet{
 	 * @return $this
 	 */
 	public function setExpertConsiderations($x){
-		$this->expertConsiderations = new Text('ExpertConsiderations',$x);
+		$this->expertConsiderations = new Text('expertConsiderations',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TDiet{
 	 * @return $this
 	 */
 	public function setPhysiologicalBenefits($x){
-		$this->physiologicalBenefits = new Text('PhysiologicalBenefits',$x);
+		$this->physiologicalBenefits = new Text('physiologicalBenefits',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TDiet{
 	 * @return $this
 	 */
 	public function setRisks($x){
-		$this->risks = new Text('Risks',$x);
+		$this->risks = new Text('risks',$x);
 		return $this;
 	}
 

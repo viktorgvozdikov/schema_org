@@ -40,7 +40,7 @@ trait TAlignmentObject{
 	 * @return $this
 	 */
 	public function setAlignmentType($x){
-		$this->alignmentType = new Text('AlignmentType',$x);
+		$this->alignmentType = new Text('alignmentType',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TAlignmentObject{
 	 * @return $this
 	 */
 	public function setEducationalFramework($x){
-		$this->educationalFramework = new Text('EducationalFramework',$x);
+		$this->educationalFramework = new Text('educationalFramework',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TAlignmentObject{
 	 * @return $this
 	 */
 	public function setTargetDescription($x){
-		$this->targetDescription = new Text('TargetDescription',$x);
+		$this->targetDescription = new Text('targetDescription',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TAlignmentObject{
 	 * @return $this
 	 */
 	public function setTargetName($x){
-		$this->targetName = new Text('TargetName',$x);
+		$this->targetName = new Text('targetName',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TAlignmentObject{
 	 * @return $this
 	 */
 	public function setTargetUrl($x){
-		$this->targetUrl = new Text('TargetUrl',$x);
+		$this->targetUrl = new Text('targetUrl',$x);
 		return $this;
 	}
 

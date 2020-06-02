@@ -22,7 +22,7 @@ trait TPublicationEvent{
 	 * @return $this
 	 */
 	public function setPublishedBy($x){
-		$this->publishedBy = new Text('PublishedBy',$x);
+		$this->publishedBy = new Text('publishedBy',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPublicationEvent{
 	 * @return $this
 	 */
 	public function setPublishedOn($x){
-		$this->publishedOn = new Text('PublishedOn',$x);
+		$this->publishedOn = new Text('publishedOn',$x);
 		return $this;
 	}
 

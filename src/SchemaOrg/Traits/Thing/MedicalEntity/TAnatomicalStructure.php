@@ -58,7 +58,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setAssociatedPathophysiology($x){
-		$this->associatedPathophysiology = new Text('AssociatedPathophysiology',$x);
+		$this->associatedPathophysiology = new Text('associatedPathophysiology',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setBodyLocation($x){
-		$this->bodyLocation = new Text('BodyLocation',$x);
+		$this->bodyLocation = new Text('bodyLocation',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setConnectedTo($x){
-		$this->connectedTo = new Text('ConnectedTo',$x);
+		$this->connectedTo = new Text('connectedTo',$x);
 		return $this;
 	}
 
@@ -85,7 +85,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setDiagram($x){
-		$this->diagram = new Text('Diagram',$x);
+		$this->diagram = new Text('diagram',$x);
 		return $this;
 	}
 
@@ -94,7 +94,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setPartOfSystem($x){
-		$this->partOfSystem = new Text('PartOfSystem',$x);
+		$this->partOfSystem = new Text('partOfSystem',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setRelatedCondition($x){
-		$this->relatedCondition = new Text('RelatedCondition',$x);
+		$this->relatedCondition = new Text('relatedCondition',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setRelatedTherapy($x){
-		$this->relatedTherapy = new Text('RelatedTherapy',$x);
+		$this->relatedTherapy = new Text('relatedTherapy',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TAnatomicalStructure{
 	 * @return $this
 	 */
 	public function setSubStructure($x){
-		$this->subStructure = new Text('SubStructure',$x);
+		$this->subStructure = new Text('subStructure',$x);
 		return $this;
 	}
 

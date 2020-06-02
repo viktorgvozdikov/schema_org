@@ -26,7 +26,7 @@ class Text {
         return '<meta itemprop="'.$this->name.'" content="'.$this->text.'"/>';
     }
     public function toRDFa():string {
-        return '<meta property="name" content="'.$this->text.'"/>';
+        return '<meta property="'.$this->name.'" content="'.$this->text.'"/>';
     }
 
 }

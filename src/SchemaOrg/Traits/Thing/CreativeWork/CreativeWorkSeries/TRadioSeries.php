@@ -64,7 +64,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setContainsSeason($x){
-		$this->containsSeason = new Text('ContainsSeason',$x);
+		$this->containsSeason = new Text('containsSeason',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setEpisode($x){
-		$this->episode = new Text('Episode',$x);
+		$this->episode = new Text('episode',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setNumberOfEpisodes($x){
-		$this->numberOfEpisodes = new Text('NumberOfEpisodes',$x);
+		$this->numberOfEpisodes = new Text('numberOfEpisodes',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setNumberOfSeasons($x){
-		$this->numberOfSeasons = new Text('NumberOfSeasons',$x);
+		$this->numberOfSeasons = new Text('numberOfSeasons',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TRadioSeries{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

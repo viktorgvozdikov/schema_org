@@ -302,7 +302,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setAccelerationTime($x){
-		$this->accelerationTime = new Text('AccelerationTime',$x);
+		$this->accelerationTime = new Text('accelerationTime',$x);
 		return $this;
 	}
 
@@ -311,7 +311,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setBodyType($x){
-		$this->bodyType = new Text('BodyType',$x);
+		$this->bodyType = new Text('bodyType',$x);
 		return $this;
 	}
 
@@ -320,7 +320,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setCallSign($x){
-		$this->callSign = new Text('CallSign',$x);
+		$this->callSign = new Text('callSign',$x);
 		return $this;
 	}
 
@@ -329,7 +329,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setCargoVolume($x){
-		$this->cargoVolume = new Text('CargoVolume',$x);
+		$this->cargoVolume = new Text('cargoVolume',$x);
 		return $this;
 	}
 
@@ -338,7 +338,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setDateVehicleFirstRegistered($x){
-		$this->dateVehicleFirstRegistered = new Text('DateVehicleFirstRegistered',$x);
+		$this->dateVehicleFirstRegistered = new Text('dateVehicleFirstRegistered',$x);
 		return $this;
 	}
 
@@ -347,7 +347,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setDriveWheelConfiguration($x){
-		$this->driveWheelConfiguration = new Text('DriveWheelConfiguration',$x);
+		$this->driveWheelConfiguration = new Text('driveWheelConfiguration',$x);
 		return $this;
 	}
 
@@ -356,7 +356,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setEmissionsCO2($x){
-		$this->emissionsCO2 = new Text('EmissionsCO2',$x);
+		$this->emissionsCO2 = new Text('emissionsCO2',$x);
 		return $this;
 	}
 
@@ -365,7 +365,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setFuelCapacity($x){
-		$this->fuelCapacity = new Text('FuelCapacity',$x);
+		$this->fuelCapacity = new Text('fuelCapacity',$x);
 		return $this;
 	}
 
@@ -374,7 +374,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setFuelConsumption($x){
-		$this->fuelConsumption = new Text('FuelConsumption',$x);
+		$this->fuelConsumption = new Text('fuelConsumption',$x);
 		return $this;
 	}
 
@@ -383,7 +383,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setFuelEfficiency($x){
-		$this->fuelEfficiency = new Text('FuelEfficiency',$x);
+		$this->fuelEfficiency = new Text('fuelEfficiency',$x);
 		return $this;
 	}
 
@@ -392,7 +392,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setFuelType($x){
-		$this->fuelType = new Text('FuelType',$x);
+		$this->fuelType = new Text('fuelType',$x);
 		return $this;
 	}
 
@@ -401,7 +401,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setKnownVehicleDamages($x){
-		$this->knownVehicleDamages = new Text('KnownVehicleDamages',$x);
+		$this->knownVehicleDamages = new Text('knownVehicleDamages',$x);
 		return $this;
 	}
 
@@ -410,7 +410,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setMeetsEmissionStandard($x){
-		$this->meetsEmissionStandard = new Text('MeetsEmissionStandard',$x);
+		$this->meetsEmissionStandard = new Text('meetsEmissionStandard',$x);
 		return $this;
 	}
 
@@ -419,7 +419,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setMileageFromOdometer($x){
-		$this->mileageFromOdometer = new Text('MileageFromOdometer',$x);
+		$this->mileageFromOdometer = new Text('mileageFromOdometer',$x);
 		return $this;
 	}
 
@@ -428,7 +428,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setModelDate($x){
-		$this->modelDate = new Text('ModelDate',$x);
+		$this->modelDate = new Text('modelDate',$x);
 		return $this;
 	}
 
@@ -437,7 +437,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setNumberOfAirbags($x){
-		$this->numberOfAirbags = new Text('NumberOfAirbags',$x);
+		$this->numberOfAirbags = new Text('numberOfAirbags',$x);
 		return $this;
 	}
 
@@ -446,7 +446,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setNumberOfAxles($x){
-		$this->numberOfAxles = new Text('NumberOfAxles',$x);
+		$this->numberOfAxles = new Text('numberOfAxles',$x);
 		return $this;
 	}
 
@@ -455,7 +455,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setNumberOfDoors($x){
-		$this->numberOfDoors = new Text('NumberOfDoors',$x);
+		$this->numberOfDoors = new Text('numberOfDoors',$x);
 		return $this;
 	}
 
@@ -464,7 +464,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setNumberOfForwardGears($x){
-		$this->numberOfForwardGears = new Text('NumberOfForwardGears',$x);
+		$this->numberOfForwardGears = new Text('numberOfForwardGears',$x);
 		return $this;
 	}
 
@@ -473,7 +473,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setNumberOfPreviousOwners($x){
-		$this->numberOfPreviousOwners = new Text('NumberOfPreviousOwners',$x);
+		$this->numberOfPreviousOwners = new Text('numberOfPreviousOwners',$x);
 		return $this;
 	}
 
@@ -482,7 +482,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setPayload($x){
-		$this->payload = new Text('Payload',$x);
+		$this->payload = new Text('payload',$x);
 		return $this;
 	}
 
@@ -491,7 +491,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setSeatingCapacity($x){
-		$this->seatingCapacity = new Text('SeatingCapacity',$x);
+		$this->seatingCapacity = new Text('seatingCapacity',$x);
 		return $this;
 	}
 
@@ -500,7 +500,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setSpeed($x){
-		$this->speed = new Text('Speed',$x);
+		$this->speed = new Text('speed',$x);
 		return $this;
 	}
 
@@ -509,7 +509,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setSteeringPosition($x){
-		$this->steeringPosition = new Text('SteeringPosition',$x);
+		$this->steeringPosition = new Text('steeringPosition',$x);
 		return $this;
 	}
 
@@ -518,7 +518,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setTongueWeight($x){
-		$this->tongueWeight = new Text('TongueWeight',$x);
+		$this->tongueWeight = new Text('tongueWeight',$x);
 		return $this;
 	}
 
@@ -527,7 +527,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setTrailerWeight($x){
-		$this->trailerWeight = new Text('TrailerWeight',$x);
+		$this->trailerWeight = new Text('trailerWeight',$x);
 		return $this;
 	}
 
@@ -536,7 +536,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleConfiguration($x){
-		$this->vehicleConfiguration = new Text('VehicleConfiguration',$x);
+		$this->vehicleConfiguration = new Text('vehicleConfiguration',$x);
 		return $this;
 	}
 
@@ -545,7 +545,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleEngine($x){
-		$this->vehicleEngine = new Text('VehicleEngine',$x);
+		$this->vehicleEngine = new Text('vehicleEngine',$x);
 		return $this;
 	}
 
@@ -554,7 +554,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleIdentificationNumber($x){
-		$this->vehicleIdentificationNumber = new Text('VehicleIdentificationNumber',$x);
+		$this->vehicleIdentificationNumber = new Text('vehicleIdentificationNumber',$x);
 		return $this;
 	}
 
@@ -563,7 +563,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleInteriorColor($x){
-		$this->vehicleInteriorColor = new Text('VehicleInteriorColor',$x);
+		$this->vehicleInteriorColor = new Text('vehicleInteriorColor',$x);
 		return $this;
 	}
 
@@ -572,7 +572,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleInteriorType($x){
-		$this->vehicleInteriorType = new Text('VehicleInteriorType',$x);
+		$this->vehicleInteriorType = new Text('vehicleInteriorType',$x);
 		return $this;
 	}
 
@@ -581,7 +581,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleModelDate($x){
-		$this->vehicleModelDate = new Text('VehicleModelDate',$x);
+		$this->vehicleModelDate = new Text('vehicleModelDate',$x);
 		return $this;
 	}
 
@@ -590,7 +590,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleSeatingCapacity($x){
-		$this->vehicleSeatingCapacity = new Text('VehicleSeatingCapacity',$x);
+		$this->vehicleSeatingCapacity = new Text('vehicleSeatingCapacity',$x);
 		return $this;
 	}
 
@@ -599,7 +599,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleSpecialUsage($x){
-		$this->vehicleSpecialUsage = new Text('VehicleSpecialUsage',$x);
+		$this->vehicleSpecialUsage = new Text('vehicleSpecialUsage',$x);
 		return $this;
 	}
 
@@ -608,7 +608,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setVehicleTransmission($x){
-		$this->vehicleTransmission = new Text('VehicleTransmission',$x);
+		$this->vehicleTransmission = new Text('vehicleTransmission',$x);
 		return $this;
 	}
 
@@ -617,7 +617,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setWeightTotal($x){
-		$this->weightTotal = new Text('WeightTotal',$x);
+		$this->weightTotal = new Text('weightTotal',$x);
 		return $this;
 	}
 
@@ -626,7 +626,7 @@ trait TVehicle{
 	 * @return $this
 	 */
 	public function setWheelbase($x){
-		$this->wheelbase = new Text('Wheelbase',$x);
+		$this->wheelbase = new Text('wheelbase',$x);
 		return $this;
 	}
 

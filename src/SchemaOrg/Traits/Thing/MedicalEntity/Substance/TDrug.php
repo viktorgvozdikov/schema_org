@@ -172,7 +172,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setAdministrationRoute($x){
-		$this->administrationRoute = new Text('AdministrationRoute',$x);
+		$this->administrationRoute = new Text('administrationRoute',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setAlcoholWarning($x){
-		$this->alcoholWarning = new Text('AlcoholWarning',$x);
+		$this->alcoholWarning = new Text('alcoholWarning',$x);
 		return $this;
 	}
 
@@ -190,7 +190,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setAvailableStrength($x){
-		$this->availableStrength = new Text('AvailableStrength',$x);
+		$this->availableStrength = new Text('availableStrength',$x);
 		return $this;
 	}
 
@@ -199,7 +199,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setBreastfeedingWarning($x){
-		$this->breastfeedingWarning = new Text('BreastfeedingWarning',$x);
+		$this->breastfeedingWarning = new Text('breastfeedingWarning',$x);
 		return $this;
 	}
 
@@ -208,7 +208,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setClinicalPharmacology($x){
-		$this->clinicalPharmacology = new Text('ClinicalPharmacology',$x);
+		$this->clinicalPharmacology = new Text('clinicalPharmacology',$x);
 		return $this;
 	}
 
@@ -217,7 +217,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setDosageForm($x){
-		$this->dosageForm = new Text('DosageForm',$x);
+		$this->dosageForm = new Text('dosageForm',$x);
 		return $this;
 	}
 
@@ -226,7 +226,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setDoseSchedule($x){
-		$this->doseSchedule = new Text('DoseSchedule',$x);
+		$this->doseSchedule = new Text('doseSchedule',$x);
 		return $this;
 	}
 
@@ -235,7 +235,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setDrugClass($x){
-		$this->drugClass = new Text('DrugClass',$x);
+		$this->drugClass = new Text('drugClass',$x);
 		return $this;
 	}
 
@@ -244,7 +244,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setDrugUnit($x){
-		$this->drugUnit = new Text('DrugUnit',$x);
+		$this->drugUnit = new Text('drugUnit',$x);
 		return $this;
 	}
 
@@ -253,7 +253,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setFoodWarning($x){
-		$this->foodWarning = new Text('FoodWarning',$x);
+		$this->foodWarning = new Text('foodWarning',$x);
 		return $this;
 	}
 
@@ -262,7 +262,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setIncludedInHealthInsurancePlan($x){
-		$this->includedInHealthInsurancePlan = new Text('IncludedInHealthInsurancePlan',$x);
+		$this->includedInHealthInsurancePlan = new Text('includedInHealthInsurancePlan',$x);
 		return $this;
 	}
 
@@ -271,7 +271,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setInteractingDrug($x){
-		$this->interactingDrug = new Text('InteractingDrug',$x);
+		$this->interactingDrug = new Text('interactingDrug',$x);
 		return $this;
 	}
 
@@ -280,7 +280,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setIsAvailableGenerically($x){
-		$this->isAvailableGenerically = new Text('IsAvailableGenerically',$x);
+		$this->isAvailableGenerically = new Text('isAvailableGenerically',$x);
 		return $this;
 	}
 
@@ -289,7 +289,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setIsProprietary($x){
-		$this->isProprietary = new Text('IsProprietary',$x);
+		$this->isProprietary = new Text('isProprietary',$x);
 		return $this;
 	}
 
@@ -298,7 +298,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setLabelDetails($x){
-		$this->labelDetails = new Text('LabelDetails',$x);
+		$this->labelDetails = new Text('labelDetails',$x);
 		return $this;
 	}
 
@@ -307,7 +307,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setManufacturer($x){
-		$this->manufacturer = new Text('Manufacturer',$x);
+		$this->manufacturer = new Text('manufacturer',$x);
 		return $this;
 	}
 
@@ -316,7 +316,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setMechanismOfAction($x){
-		$this->mechanismOfAction = new Text('MechanismOfAction',$x);
+		$this->mechanismOfAction = new Text('mechanismOfAction',$x);
 		return $this;
 	}
 
@@ -325,7 +325,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setNonProprietaryName($x){
-		$this->nonProprietaryName = new Text('NonProprietaryName',$x);
+		$this->nonProprietaryName = new Text('nonProprietaryName',$x);
 		return $this;
 	}
 
@@ -334,7 +334,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setOverdosage($x){
-		$this->overdosage = new Text('Overdosage',$x);
+		$this->overdosage = new Text('overdosage',$x);
 		return $this;
 	}
 
@@ -343,7 +343,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setPregnancyCategory($x){
-		$this->pregnancyCategory = new Text('PregnancyCategory',$x);
+		$this->pregnancyCategory = new Text('pregnancyCategory',$x);
 		return $this;
 	}
 
@@ -352,7 +352,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setPregnancyWarning($x){
-		$this->pregnancyWarning = new Text('PregnancyWarning',$x);
+		$this->pregnancyWarning = new Text('pregnancyWarning',$x);
 		return $this;
 	}
 
@@ -361,7 +361,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setPrescribingInfo($x){
-		$this->prescribingInfo = new Text('PrescribingInfo',$x);
+		$this->prescribingInfo = new Text('prescribingInfo',$x);
 		return $this;
 	}
 
@@ -370,7 +370,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setPrescriptionStatus($x){
-		$this->prescriptionStatus = new Text('PrescriptionStatus',$x);
+		$this->prescriptionStatus = new Text('prescriptionStatus',$x);
 		return $this;
 	}
 
@@ -379,7 +379,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setProprietaryName($x){
-		$this->proprietaryName = new Text('ProprietaryName',$x);
+		$this->proprietaryName = new Text('proprietaryName',$x);
 		return $this;
 	}
 
@@ -388,7 +388,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setRelatedDrug($x){
-		$this->relatedDrug = new Text('RelatedDrug',$x);
+		$this->relatedDrug = new Text('relatedDrug',$x);
 		return $this;
 	}
 
@@ -397,7 +397,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setRxcui($x){
-		$this->rxcui = new Text('Rxcui',$x);
+		$this->rxcui = new Text('rxcui',$x);
 		return $this;
 	}
 
@@ -406,7 +406,7 @@ trait TDrug{
 	 * @return $this
 	 */
 	public function setWarning($x){
-		$this->warning = new Text('Warning',$x);
+		$this->warning = new Text('warning',$x);
 		return $this;
 	}
 

@@ -46,7 +46,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setActionApplication($x){
-		$this->actionApplication = new Text('ActionApplication',$x);
+		$this->actionApplication = new Text('actionApplication',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setActionPlatform($x){
-		$this->actionPlatform = new Text('ActionPlatform',$x);
+		$this->actionPlatform = new Text('actionPlatform',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setContentType($x){
-		$this->contentType = new Text('ContentType',$x);
+		$this->contentType = new Text('contentType',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setEncodingType($x){
-		$this->encodingType = new Text('EncodingType',$x);
+		$this->encodingType = new Text('encodingType',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setHttpMethod($x){
-		$this->httpMethod = new Text('HttpMethod',$x);
+		$this->httpMethod = new Text('httpMethod',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TEntryPoint{
 	 * @return $this
 	 */
 	public function setUrlTemplate($x){
-		$this->urlTemplate = new Text('UrlTemplate',$x);
+		$this->urlTemplate = new Text('urlTemplate',$x);
 		return $this;
 	}
 

@@ -40,7 +40,7 @@ trait TProgramMembership{
 	 * @return $this
 	 */
 	public function setHostingOrganization($x){
-		$this->hostingOrganization = new Text('HostingOrganization',$x);
+		$this->hostingOrganization = new Text('hostingOrganization',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TProgramMembership{
 	 * @return $this
 	 */
 	public function setMember($x){
-		$this->member = new Text('Member',$x);
+		$this->member = new Text('member',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TProgramMembership{
 	 * @return $this
 	 */
 	public function setMembershipNumber($x){
-		$this->membershipNumber = new Text('MembershipNumber',$x);
+		$this->membershipNumber = new Text('membershipNumber',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TProgramMembership{
 	 * @return $this
 	 */
 	public function setMembershipPointsEarned($x){
-		$this->membershipPointsEarned = new Text('MembershipPointsEarned',$x);
+		$this->membershipPointsEarned = new Text('membershipPointsEarned',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TProgramMembership{
 	 * @return $this
 	 */
 	public function setProgramName($x){
-		$this->programName = new Text('ProgramName',$x);
+		$this->programName = new Text('programName',$x);
 		return $this;
 	}
 

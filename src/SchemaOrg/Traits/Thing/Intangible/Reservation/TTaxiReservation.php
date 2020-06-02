@@ -28,7 +28,7 @@ trait TTaxiReservation{
 	 * @return $this
 	 */
 	public function setPartySize($x){
-		$this->partySize = new Text('PartySize',$x);
+		$this->partySize = new Text('partySize',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TTaxiReservation{
 	 * @return $this
 	 */
 	public function setPickupLocation($x){
-		$this->pickupLocation = new Text('PickupLocation',$x);
+		$this->pickupLocation = new Text('pickupLocation',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TTaxiReservation{
 	 * @return $this
 	 */
 	public function setPickupTime($x){
-		$this->pickupTime = new Text('PickupTime',$x);
+		$this->pickupTime = new Text('pickupTime',$x);
 		return $this;
 	}
 

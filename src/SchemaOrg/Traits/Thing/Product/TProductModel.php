@@ -28,7 +28,7 @@ trait TProductModel{
 	 * @return $this
 	 */
 	public function setIsVariantOf($x){
-		$this->isVariantOf = new Text('IsVariantOf',$x);
+		$this->isVariantOf = new Text('isVariantOf',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TProductModel{
 	 * @return $this
 	 */
 	public function setPredecessorOf($x){
-		$this->predecessorOf = new Text('PredecessorOf',$x);
+		$this->predecessorOf = new Text('predecessorOf',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TProductModel{
 	 * @return $this
 	 */
 	public function setSuccessorOf($x){
-		$this->successorOf = new Text('SuccessorOf',$x);
+		$this->successorOf = new Text('successorOf',$x);
 		return $this;
 	}
 

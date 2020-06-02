@@ -28,7 +28,7 @@ trait TJoint{
 	 * @return $this
 	 */
 	public function setBiomechnicalClass($x){
-		$this->biomechnicalClass = new Text('BiomechnicalClass',$x);
+		$this->biomechnicalClass = new Text('biomechnicalClass',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TJoint{
 	 * @return $this
 	 */
 	public function setFunctionalClass($x){
-		$this->functionalClass = new Text('FunctionalClass',$x);
+		$this->functionalClass = new Text('functionalClass',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TJoint{
 	 * @return $this
 	 */
 	public function setStructuralClass($x){
-		$this->structuralClass = new Text('StructuralClass',$x);
+		$this->structuralClass = new Text('structuralClass',$x);
 		return $this;
 	}
 

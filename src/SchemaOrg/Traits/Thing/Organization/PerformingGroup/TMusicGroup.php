@@ -28,7 +28,7 @@ trait TMusicGroup{
 	 * @return $this
 	 */
 	public function setAlbum($x){
-		$this->album = new Text('Album',$x);
+		$this->album = new Text('album',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TMusicGroup{
 	 * @return $this
 	 */
 	public function setGenre($x){
-		$this->genre = new Text('Genre',$x);
+		$this->genre = new Text('genre',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TMusicGroup{
 	 * @return $this
 	 */
 	public function setTrack($x){
-		$this->track = new Text('Track',$x);
+		$this->track = new Text('track',$x);
 		return $this;
 	}
 

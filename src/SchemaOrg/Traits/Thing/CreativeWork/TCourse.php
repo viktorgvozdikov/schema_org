@@ -46,7 +46,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setCourseCode($x){
-		$this->courseCode = new Text('CourseCode',$x);
+		$this->courseCode = new Text('courseCode',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setCoursePrerequisites($x){
-		$this->coursePrerequisites = new Text('CoursePrerequisites',$x);
+		$this->coursePrerequisites = new Text('coursePrerequisites',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setEducationalCredentialAwarded($x){
-		$this->educationalCredentialAwarded = new Text('EducationalCredentialAwarded',$x);
+		$this->educationalCredentialAwarded = new Text('educationalCredentialAwarded',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setHasCourseInstance($x){
-		$this->hasCourseInstance = new Text('HasCourseInstance',$x);
+		$this->hasCourseInstance = new Text('hasCourseInstance',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setNumberOfCredits($x){
-		$this->numberOfCredits = new Text('NumberOfCredits',$x);
+		$this->numberOfCredits = new Text('numberOfCredits',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TCourse{
 	 * @return $this
 	 */
 	public function setOccupationalCredentialAwarded($x){
-		$this->occupationalCredentialAwarded = new Text('OccupationalCredentialAwarded',$x);
+		$this->occupationalCredentialAwarded = new Text('occupationalCredentialAwarded',$x);
 		return $this;
 	}
 

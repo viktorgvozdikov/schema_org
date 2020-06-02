@@ -40,7 +40,7 @@ trait TMuscle{
 	 * @return $this
 	 */
 	public function setAntagonist($x){
-		$this->antagonist = new Text('Antagonist',$x);
+		$this->antagonist = new Text('antagonist',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TMuscle{
 	 * @return $this
 	 */
 	public function setBloodSupply($x){
-		$this->bloodSupply = new Text('BloodSupply',$x);
+		$this->bloodSupply = new Text('bloodSupply',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TMuscle{
 	 * @return $this
 	 */
 	public function setInsertion($x){
-		$this->insertion = new Text('Insertion',$x);
+		$this->insertion = new Text('insertion',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TMuscle{
 	 * @return $this
 	 */
 	public function setMuscleAction($x){
-		$this->muscleAction = new Text('MuscleAction',$x);
+		$this->muscleAction = new Text('muscleAction',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TMuscle{
 	 * @return $this
 	 */
 	public function setNerve($x){
-		$this->nerve = new Text('Nerve',$x);
+		$this->nerve = new Text('nerve',$x);
 		return $this;
 	}
 

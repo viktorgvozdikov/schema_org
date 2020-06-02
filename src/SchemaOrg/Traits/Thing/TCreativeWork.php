@@ -630,7 +630,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAbout($x){
-		$this->about = new Text('About',$x);
+		$this->about = new Text('about',$x);
 		return $this;
 	}
 
@@ -639,7 +639,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAbstract($x){
-		$this->abstract = new Text('Abstract',$x);
+		$this->abstract = new Text('abstract',$x);
 		return $this;
 	}
 
@@ -648,7 +648,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessMode($x){
-		$this->accessMode = new Text('AccessMode',$x);
+		$this->accessMode = new Text('accessMode',$x);
 		return $this;
 	}
 
@@ -657,7 +657,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessModeSufficient($x){
-		$this->accessModeSufficient = new Text('AccessModeSufficient',$x);
+		$this->accessModeSufficient = new Text('accessModeSufficient',$x);
 		return $this;
 	}
 
@@ -666,7 +666,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessibilityAPI($x){
-		$this->accessibilityAPI = new Text('AccessibilityAPI',$x);
+		$this->accessibilityAPI = new Text('accessibilityAPI',$x);
 		return $this;
 	}
 
@@ -675,7 +675,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessibilityControl($x){
-		$this->accessibilityControl = new Text('AccessibilityControl',$x);
+		$this->accessibilityControl = new Text('accessibilityControl',$x);
 		return $this;
 	}
 
@@ -684,7 +684,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessibilityFeature($x){
-		$this->accessibilityFeature = new Text('AccessibilityFeature',$x);
+		$this->accessibilityFeature = new Text('accessibilityFeature',$x);
 		return $this;
 	}
 
@@ -693,7 +693,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessibilityHazard($x){
-		$this->accessibilityHazard = new Text('AccessibilityHazard',$x);
+		$this->accessibilityHazard = new Text('accessibilityHazard',$x);
 		return $this;
 	}
 
@@ -702,7 +702,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccessibilitySummary($x){
-		$this->accessibilitySummary = new Text('AccessibilitySummary',$x);
+		$this->accessibilitySummary = new Text('accessibilitySummary',$x);
 		return $this;
 	}
 
@@ -711,7 +711,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAccountablePerson($x){
-		$this->accountablePerson = new Text('AccountablePerson',$x);
+		$this->accountablePerson = new Text('accountablePerson',$x);
 		return $this;
 	}
 
@@ -720,7 +720,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAcquireLicensePage($x){
-		$this->acquireLicensePage = new Text('AcquireLicensePage',$x);
+		$this->acquireLicensePage = new Text('acquireLicensePage',$x);
 		return $this;
 	}
 
@@ -729,7 +729,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -738,7 +738,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAlternativeHeadline($x){
-		$this->alternativeHeadline = new Text('AlternativeHeadline',$x);
+		$this->alternativeHeadline = new Text('alternativeHeadline',$x);
 		return $this;
 	}
 
@@ -747,7 +747,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAssesses($x){
-		$this->assesses = new Text('Assesses',$x);
+		$this->assesses = new Text('assesses',$x);
 		return $this;
 	}
 
@@ -756,7 +756,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAssociatedMedia($x){
-		$this->associatedMedia = new Text('AssociatedMedia',$x);
+		$this->associatedMedia = new Text('associatedMedia',$x);
 		return $this;
 	}
 
@@ -765,7 +765,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -774,7 +774,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAudio($x){
-		$this->audio = new Text('Audio',$x);
+		$this->audio = new Text('audio',$x);
 		return $this;
 	}
 
@@ -783,7 +783,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAuthor($x){
-		$this->author = new Text('Author',$x);
+		$this->author = new Text('author',$x);
 		return $this;
 	}
 
@@ -792,7 +792,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setAward($x){
-		$this->award = new Text('Award',$x);
+		$this->award = new Text('award',$x);
 		return $this;
 	}
 
@@ -801,7 +801,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCharacter($x){
-		$this->character = new Text('Character',$x);
+		$this->character = new Text('character',$x);
 		return $this;
 	}
 
@@ -810,7 +810,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCitation($x){
-		$this->citation = new Text('Citation',$x);
+		$this->citation = new Text('citation',$x);
 		return $this;
 	}
 
@@ -819,7 +819,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setComment($x){
-		$this->comment = new Text('Comment',$x);
+		$this->comment = new Text('comment',$x);
 		return $this;
 	}
 
@@ -828,7 +828,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCommentCount($x){
-		$this->commentCount = new Text('CommentCount',$x);
+		$this->commentCount = new Text('commentCount',$x);
 		return $this;
 	}
 
@@ -837,7 +837,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setConditionsOfAccess($x){
-		$this->conditionsOfAccess = new Text('ConditionsOfAccess',$x);
+		$this->conditionsOfAccess = new Text('conditionsOfAccess',$x);
 		return $this;
 	}
 
@@ -846,7 +846,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setContentLocation($x){
-		$this->contentLocation = new Text('ContentLocation',$x);
+		$this->contentLocation = new Text('contentLocation',$x);
 		return $this;
 	}
 
@@ -855,7 +855,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setContentRating($x){
-		$this->contentRating = new Text('ContentRating',$x);
+		$this->contentRating = new Text('contentRating',$x);
 		return $this;
 	}
 
@@ -864,7 +864,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setContentReferenceTime($x){
-		$this->contentReferenceTime = new Text('ContentReferenceTime',$x);
+		$this->contentReferenceTime = new Text('contentReferenceTime',$x);
 		return $this;
 	}
 
@@ -873,7 +873,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setContributor($x){
-		$this->contributor = new Text('Contributor',$x);
+		$this->contributor = new Text('contributor',$x);
 		return $this;
 	}
 
@@ -882,7 +882,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCopyrightHolder($x){
-		$this->copyrightHolder = new Text('CopyrightHolder',$x);
+		$this->copyrightHolder = new Text('copyrightHolder',$x);
 		return $this;
 	}
 
@@ -891,7 +891,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCopyrightYear($x){
-		$this->copyrightYear = new Text('CopyrightYear',$x);
+		$this->copyrightYear = new Text('copyrightYear',$x);
 		return $this;
 	}
 
@@ -900,7 +900,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCorrection($x){
-		$this->correction = new Text('Correction',$x);
+		$this->correction = new Text('correction',$x);
 		return $this;
 	}
 
@@ -909,7 +909,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCreativeWorkStatus($x){
-		$this->creativeWorkStatus = new Text('CreativeWorkStatus',$x);
+		$this->creativeWorkStatus = new Text('creativeWorkStatus',$x);
 		return $this;
 	}
 
@@ -918,7 +918,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setCreator($x){
-		$this->creator = new Text('Creator',$x);
+		$this->creator = new Text('creator',$x);
 		return $this;
 	}
 
@@ -927,7 +927,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setDateCreated($x){
-		$this->dateCreated = new Text('DateCreated',$x);
+		$this->dateCreated = new Text('dateCreated',$x);
 		return $this;
 	}
 
@@ -936,7 +936,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setDateModified($x){
-		$this->dateModified = new Text('DateModified',$x);
+		$this->dateModified = new Text('dateModified',$x);
 		return $this;
 	}
 
@@ -945,7 +945,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setDatePublished($x){
-		$this->datePublished = new Text('DatePublished',$x);
+		$this->datePublished = new Text('datePublished',$x);
 		return $this;
 	}
 
@@ -954,7 +954,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setDiscussionUrl($x){
-		$this->discussionUrl = new Text('DiscussionUrl',$x);
+		$this->discussionUrl = new Text('discussionUrl',$x);
 		return $this;
 	}
 
@@ -963,7 +963,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEditEIDR($x){
-		$this->editEIDR = new Text('EditEIDR',$x);
+		$this->editEIDR = new Text('editEIDR',$x);
 		return $this;
 	}
 
@@ -972,7 +972,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEditor($x){
-		$this->editor = new Text('Editor',$x);
+		$this->editor = new Text('editor',$x);
 		return $this;
 	}
 
@@ -981,7 +981,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEducationalAlignment($x){
-		$this->educationalAlignment = new Text('EducationalAlignment',$x);
+		$this->educationalAlignment = new Text('educationalAlignment',$x);
 		return $this;
 	}
 
@@ -990,7 +990,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEducationalLevel($x){
-		$this->educationalLevel = new Text('EducationalLevel',$x);
+		$this->educationalLevel = new Text('educationalLevel',$x);
 		return $this;
 	}
 
@@ -999,7 +999,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEducationalUse($x){
-		$this->educationalUse = new Text('EducationalUse',$x);
+		$this->educationalUse = new Text('educationalUse',$x);
 		return $this;
 	}
 
@@ -1008,7 +1008,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEncoding($x){
-		$this->encoding = new Text('Encoding',$x);
+		$this->encoding = new Text('encoding',$x);
 		return $this;
 	}
 
@@ -1017,7 +1017,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setEncodingFormat($x){
-		$this->encodingFormat = new Text('EncodingFormat',$x);
+		$this->encodingFormat = new Text('encodingFormat',$x);
 		return $this;
 	}
 
@@ -1026,7 +1026,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setExampleOfWork($x){
-		$this->exampleOfWork = new Text('ExampleOfWork',$x);
+		$this->exampleOfWork = new Text('exampleOfWork',$x);
 		return $this;
 	}
 
@@ -1035,7 +1035,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setExpires($x){
-		$this->expires = new Text('Expires',$x);
+		$this->expires = new Text('expires',$x);
 		return $this;
 	}
 
@@ -1044,7 +1044,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setFunder($x){
-		$this->funder = new Text('Funder',$x);
+		$this->funder = new Text('funder',$x);
 		return $this;
 	}
 
@@ -1053,7 +1053,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setGenre($x){
-		$this->genre = new Text('Genre',$x);
+		$this->genre = new Text('genre',$x);
 		return $this;
 	}
 
@@ -1062,7 +1062,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setHasPart($x){
-		$this->hasPart = new Text('HasPart',$x);
+		$this->hasPart = new Text('hasPart',$x);
 		return $this;
 	}
 
@@ -1071,7 +1071,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setHeadline($x){
-		$this->headline = new Text('Headline',$x);
+		$this->headline = new Text('headline',$x);
 		return $this;
 	}
 
@@ -1080,7 +1080,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 
@@ -1089,7 +1089,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setInteractionStatistic($x){
-		$this->interactionStatistic = new Text('InteractionStatistic',$x);
+		$this->interactionStatistic = new Text('interactionStatistic',$x);
 		return $this;
 	}
 
@@ -1098,7 +1098,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setInteractivityType($x){
-		$this->interactivityType = new Text('InteractivityType',$x);
+		$this->interactivityType = new Text('interactivityType',$x);
 		return $this;
 	}
 
@@ -1107,7 +1107,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setIsAccessibleForFree($x){
-		$this->isAccessibleForFree = new Text('IsAccessibleForFree',$x);
+		$this->isAccessibleForFree = new Text('isAccessibleForFree',$x);
 		return $this;
 	}
 
@@ -1116,7 +1116,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setIsBasedOn($x){
-		$this->isBasedOn = new Text('IsBasedOn',$x);
+		$this->isBasedOn = new Text('isBasedOn',$x);
 		return $this;
 	}
 
@@ -1125,7 +1125,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setIsFamilyFriendly($x){
-		$this->isFamilyFriendly = new Text('IsFamilyFriendly',$x);
+		$this->isFamilyFriendly = new Text('isFamilyFriendly',$x);
 		return $this;
 	}
 
@@ -1134,7 +1134,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setIsPartOf($x){
-		$this->isPartOf = new Text('IsPartOf',$x);
+		$this->isPartOf = new Text('isPartOf',$x);
 		return $this;
 	}
 
@@ -1143,7 +1143,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setKeywords($x){
-		$this->keywords = new Text('Keywords',$x);
+		$this->keywords = new Text('keywords',$x);
 		return $this;
 	}
 
@@ -1152,7 +1152,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setLearningResourceType($x){
-		$this->learningResourceType = new Text('LearningResourceType',$x);
+		$this->learningResourceType = new Text('learningResourceType',$x);
 		return $this;
 	}
 
@@ -1161,7 +1161,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setLicense($x){
-		$this->license = new Text('License',$x);
+		$this->license = new Text('license',$x);
 		return $this;
 	}
 
@@ -1170,7 +1170,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setLocationCreated($x){
-		$this->locationCreated = new Text('LocationCreated',$x);
+		$this->locationCreated = new Text('locationCreated',$x);
 		return $this;
 	}
 
@@ -1179,7 +1179,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setMainEntity($x){
-		$this->mainEntity = new Text('MainEntity',$x);
+		$this->mainEntity = new Text('mainEntity',$x);
 		return $this;
 	}
 
@@ -1188,7 +1188,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setMaintainer($x){
-		$this->maintainer = new Text('Maintainer',$x);
+		$this->maintainer = new Text('maintainer',$x);
 		return $this;
 	}
 
@@ -1197,7 +1197,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setMaterial($x){
-		$this->material = new Text('Material',$x);
+		$this->material = new Text('material',$x);
 		return $this;
 	}
 
@@ -1206,7 +1206,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setMaterialExtent($x){
-		$this->materialExtent = new Text('MaterialExtent',$x);
+		$this->materialExtent = new Text('materialExtent',$x);
 		return $this;
 	}
 
@@ -1215,7 +1215,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setMentions($x){
-		$this->mentions = new Text('Mentions',$x);
+		$this->mentions = new Text('mentions',$x);
 		return $this;
 	}
 
@@ -1224,7 +1224,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -1233,7 +1233,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setPosition($x){
-		$this->position = new Text('Position',$x);
+		$this->position = new Text('position',$x);
 		return $this;
 	}
 
@@ -1242,7 +1242,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setProducer($x){
-		$this->producer = new Text('Producer',$x);
+		$this->producer = new Text('producer',$x);
 		return $this;
 	}
 
@@ -1251,7 +1251,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setProvider($x){
-		$this->provider = new Text('Provider',$x);
+		$this->provider = new Text('provider',$x);
 		return $this;
 	}
 
@@ -1260,7 +1260,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setPublication($x){
-		$this->publication = new Text('Publication',$x);
+		$this->publication = new Text('publication',$x);
 		return $this;
 	}
 
@@ -1269,7 +1269,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setPublisher($x){
-		$this->publisher = new Text('Publisher',$x);
+		$this->publisher = new Text('publisher',$x);
 		return $this;
 	}
 
@@ -1278,7 +1278,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setPublisherImprint($x){
-		$this->publisherImprint = new Text('PublisherImprint',$x);
+		$this->publisherImprint = new Text('publisherImprint',$x);
 		return $this;
 	}
 
@@ -1287,7 +1287,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setPublishingPrinciples($x){
-		$this->publishingPrinciples = new Text('PublishingPrinciples',$x);
+		$this->publishingPrinciples = new Text('publishingPrinciples',$x);
 		return $this;
 	}
 
@@ -1296,7 +1296,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setRecordedAt($x){
-		$this->recordedAt = new Text('RecordedAt',$x);
+		$this->recordedAt = new Text('recordedAt',$x);
 		return $this;
 	}
 
@@ -1305,7 +1305,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setReleasedEvent($x){
-		$this->releasedEvent = new Text('ReleasedEvent',$x);
+		$this->releasedEvent = new Text('releasedEvent',$x);
 		return $this;
 	}
 
@@ -1314,7 +1314,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -1323,7 +1323,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSchemaVersion($x){
-		$this->schemaVersion = new Text('SchemaVersion',$x);
+		$this->schemaVersion = new Text('schemaVersion',$x);
 		return $this;
 	}
 
@@ -1332,7 +1332,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSdDatePublished($x){
-		$this->sdDatePublished = new Text('SdDatePublished',$x);
+		$this->sdDatePublished = new Text('sdDatePublished',$x);
 		return $this;
 	}
 
@@ -1341,7 +1341,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSdLicense($x){
-		$this->sdLicense = new Text('SdLicense',$x);
+		$this->sdLicense = new Text('sdLicense',$x);
 		return $this;
 	}
 
@@ -1350,7 +1350,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSdPublisher($x){
-		$this->sdPublisher = new Text('SdPublisher',$x);
+		$this->sdPublisher = new Text('sdPublisher',$x);
 		return $this;
 	}
 
@@ -1359,7 +1359,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSourceOrganization($x){
-		$this->sourceOrganization = new Text('SourceOrganization',$x);
+		$this->sourceOrganization = new Text('sourceOrganization',$x);
 		return $this;
 	}
 
@@ -1368,7 +1368,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSpatial($x){
-		$this->spatial = new Text('Spatial',$x);
+		$this->spatial = new Text('spatial',$x);
 		return $this;
 	}
 
@@ -1377,7 +1377,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSpatialCoverage($x){
-		$this->spatialCoverage = new Text('SpatialCoverage',$x);
+		$this->spatialCoverage = new Text('spatialCoverage',$x);
 		return $this;
 	}
 
@@ -1386,7 +1386,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 
@@ -1395,7 +1395,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTeaches($x){
-		$this->teaches = new Text('Teaches',$x);
+		$this->teaches = new Text('teaches',$x);
 		return $this;
 	}
 
@@ -1404,7 +1404,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTemporal($x){
-		$this->temporal = new Text('Temporal',$x);
+		$this->temporal = new Text('temporal',$x);
 		return $this;
 	}
 
@@ -1413,7 +1413,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTemporalCoverage($x){
-		$this->temporalCoverage = new Text('TemporalCoverage',$x);
+		$this->temporalCoverage = new Text('temporalCoverage',$x);
 		return $this;
 	}
 
@@ -1422,7 +1422,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setText($x){
-		$this->text = new Text('Text',$x);
+		$this->text = new Text('text',$x);
 		return $this;
 	}
 
@@ -1431,7 +1431,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setThumbnailUrl($x){
-		$this->thumbnailUrl = new Text('ThumbnailUrl',$x);
+		$this->thumbnailUrl = new Text('thumbnailUrl',$x);
 		return $this;
 	}
 
@@ -1440,7 +1440,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTimeRequired($x){
-		$this->timeRequired = new Text('TimeRequired',$x);
+		$this->timeRequired = new Text('timeRequired',$x);
 		return $this;
 	}
 
@@ -1449,7 +1449,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTranslationOfWork($x){
-		$this->translationOfWork = new Text('TranslationOfWork',$x);
+		$this->translationOfWork = new Text('translationOfWork',$x);
 		return $this;
 	}
 
@@ -1458,7 +1458,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTranslator($x){
-		$this->translator = new Text('Translator',$x);
+		$this->translator = new Text('translator',$x);
 		return $this;
 	}
 
@@ -1467,7 +1467,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setTypicalAgeRange($x){
-		$this->typicalAgeRange = new Text('TypicalAgeRange',$x);
+		$this->typicalAgeRange = new Text('typicalAgeRange',$x);
 		return $this;
 	}
 
@@ -1476,7 +1476,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setUsageInfo($x){
-		$this->usageInfo = new Text('UsageInfo',$x);
+		$this->usageInfo = new Text('usageInfo',$x);
 		return $this;
 	}
 
@@ -1485,7 +1485,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setVersion($x){
-		$this->version = new Text('Version',$x);
+		$this->version = new Text('version',$x);
 		return $this;
 	}
 
@@ -1494,7 +1494,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setVideo($x){
-		$this->video = new Text('Video',$x);
+		$this->video = new Text('video',$x);
 		return $this;
 	}
 
@@ -1503,7 +1503,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setWorkExample($x){
-		$this->workExample = new Text('WorkExample',$x);
+		$this->workExample = new Text('workExample',$x);
 		return $this;
 	}
 
@@ -1512,7 +1512,7 @@ trait TCreativeWork{
 	 * @return $this
 	 */
 	public function setWorkTranslation($x){
-		$this->workTranslation = new Text('WorkTranslation',$x);
+		$this->workTranslation = new Text('workTranslation',$x);
 		return $this;
 	}
 

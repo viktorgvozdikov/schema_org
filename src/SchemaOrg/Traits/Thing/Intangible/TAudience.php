@@ -22,7 +22,7 @@ trait TAudience{
 	 * @return $this
 	 */
 	public function setAudienceType($x){
-		$this->audienceType = new Text('AudienceType',$x);
+		$this->audienceType = new Text('audienceType',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TAudience{
 	 * @return $this
 	 */
 	public function setGeographicArea($x){
-		$this->geographicArea = new Text('GeographicArea',$x);
+		$this->geographicArea = new Text('geographicArea',$x);
 		return $this;
 	}
 

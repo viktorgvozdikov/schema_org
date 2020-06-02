@@ -70,7 +70,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setBroadcastAffiliateOf($x){
-		$this->broadcastAffiliateOf = new Text('BroadcastAffiliateOf',$x);
+		$this->broadcastAffiliateOf = new Text('broadcastAffiliateOf',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setBroadcastDisplayName($x){
-		$this->broadcastDisplayName = new Text('BroadcastDisplayName',$x);
+		$this->broadcastDisplayName = new Text('broadcastDisplayName',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setBroadcastFrequency($x){
-		$this->broadcastFrequency = new Text('BroadcastFrequency',$x);
+		$this->broadcastFrequency = new Text('broadcastFrequency',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setBroadcastTimezone($x){
-		$this->broadcastTimezone = new Text('BroadcastTimezone',$x);
+		$this->broadcastTimezone = new Text('broadcastTimezone',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setBroadcaster($x){
-		$this->broadcaster = new Text('Broadcaster',$x);
+		$this->broadcaster = new Text('broadcaster',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setCallSign($x){
-		$this->callSign = new Text('CallSign',$x);
+		$this->callSign = new Text('callSign',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setHasBroadcastChannel($x){
-		$this->hasBroadcastChannel = new Text('HasBroadcastChannel',$x);
+		$this->hasBroadcastChannel = new Text('hasBroadcastChannel',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setParentService($x){
-		$this->parentService = new Text('ParentService',$x);
+		$this->parentService = new Text('parentService',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TBroadcastService{
 	 * @return $this
 	 */
 	public function setVideoFormat($x){
-		$this->videoFormat = new Text('VideoFormat',$x);
+		$this->videoFormat = new Text('videoFormat',$x);
 		return $this;
 	}
 

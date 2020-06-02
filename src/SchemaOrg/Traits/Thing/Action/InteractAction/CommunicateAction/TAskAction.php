@@ -16,7 +16,7 @@ trait TAskAction{
 	 * @return $this
 	 */
 	public function setQuestion($x){
-		$this->question = new Text('Question',$x);
+		$this->question = new Text('question',$x);
 		return $this;
 	}
 

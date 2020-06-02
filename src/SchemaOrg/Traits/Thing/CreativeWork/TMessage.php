@@ -64,7 +64,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setBccRecipient($x){
-		$this->bccRecipient = new Text('BccRecipient',$x);
+		$this->bccRecipient = new Text('bccRecipient',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setCcRecipient($x){
-		$this->ccRecipient = new Text('CcRecipient',$x);
+		$this->ccRecipient = new Text('ccRecipient',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setDateRead($x){
-		$this->dateRead = new Text('DateRead',$x);
+		$this->dateRead = new Text('dateRead',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setDateReceived($x){
-		$this->dateReceived = new Text('DateReceived',$x);
+		$this->dateReceived = new Text('dateReceived',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setDateSent($x){
-		$this->dateSent = new Text('DateSent',$x);
+		$this->dateSent = new Text('dateSent',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setMessageAttachment($x){
-		$this->messageAttachment = new Text('MessageAttachment',$x);
+		$this->messageAttachment = new Text('messageAttachment',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setRecipient($x){
-		$this->recipient = new Text('Recipient',$x);
+		$this->recipient = new Text('recipient',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setSender($x){
-		$this->sender = new Text('Sender',$x);
+		$this->sender = new Text('sender',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TMessage{
 	 * @return $this
 	 */
 	public function setToRecipient($x){
-		$this->toRecipient = new Text('ToRecipient',$x);
+		$this->toRecipient = new Text('toRecipient',$x);
 		return $this;
 	}
 

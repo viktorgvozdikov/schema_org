@@ -16,7 +16,7 @@ trait TReviewAction{
 	 * @return $this
 	 */
 	public function setResultReview($x){
-		$this->resultReview = new Text('ResultReview',$x);
+		$this->resultReview = new Text('resultReview',$x);
 		return $this;
 	}
 

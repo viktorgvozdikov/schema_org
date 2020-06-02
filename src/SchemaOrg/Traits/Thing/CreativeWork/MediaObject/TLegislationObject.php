@@ -16,7 +16,7 @@ trait TLegislationObject{
 	 * @return $this
 	 */
 	public function setLegislationLegalValue($x){
-		$this->legislationLegalValue = new Text('LegislationLegalValue',$x);
+		$this->legislationLegalValue = new Text('legislationLegalValue',$x);
 		return $this;
 	}
 

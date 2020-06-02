@@ -25,7 +25,7 @@ class Export {
             if($k=='type') continue;
             if($v) { $data .= $v->toRDFa(); }
         }
-        return '<span itemscope itemtype="http://schema.org/' . $this->getType() . '">'.$data.'</span>';
+        return '<span vocab="http://schema.org/" typeof="' . $this->getType() . '">'.$data.'</span>';
     }
     public function toJSON():array {
         $res['@type'] = $this->getType();

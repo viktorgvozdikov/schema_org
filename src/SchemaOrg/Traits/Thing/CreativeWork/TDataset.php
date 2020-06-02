@@ -47,7 +47,7 @@ trait TDataset{
 	 * @return $this
 	 */
 	public function setDistribution($x){
-		$this->distribution = new Text('Distribution',$x);
+		$this->distribution = new Text('distribution',$x);
 		return $this;
 	}
 
@@ -56,7 +56,7 @@ trait TDataset{
 	 * @return $this
 	 */
 	public function setIncludedInDataCatalog($x){
-		$this->includedInDataCatalog = new Text('IncludedInDataCatalog',$x);
+		$this->includedInDataCatalog = new Text('includedInDataCatalog',$x);
 		return $this;
 	}
 
@@ -65,7 +65,7 @@ trait TDataset{
 	 * @return $this
 	 */
 	public function setIssn($x){
-		$this->issn = new Text('Issn',$x);
+		$this->issn = new Text('issn',$x);
 		return $this;
 	}
 
@@ -74,7 +74,7 @@ trait TDataset{
 	 * @return $this
 	 */
 	public function setMeasurementTechnique($x){
-		$this->measurementTechnique = new Text('MeasurementTechnique',$x);
+		$this->measurementTechnique = new Text('measurementTechnique',$x);
 		return $this;
 	}
 
@@ -83,7 +83,7 @@ trait TDataset{
 	 * @return $this
 	 */
 	public function setVariableMeasured($x){
-		$this->variableMeasured = new Text('VariableMeasured',$x);
+		$this->variableMeasured = new Text('variableMeasured',$x);
 		return $this;
 	}
 

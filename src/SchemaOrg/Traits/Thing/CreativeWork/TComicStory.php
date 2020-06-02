@@ -42,7 +42,7 @@ trait TComicStory{
 	 * @return $this
 	 */
 	public function setArtist($x){
-		$this->artist = new Text('Artist',$x);
+		$this->artist = new Text('artist',$x);
 		return $this;
 	}
 
@@ -51,7 +51,7 @@ trait TComicStory{
 	 * @return $this
 	 */
 	public function setColorist($x){
-		$this->colorist = new Text('Colorist',$x);
+		$this->colorist = new Text('colorist',$x);
 		return $this;
 	}
 
@@ -60,7 +60,7 @@ trait TComicStory{
 	 * @return $this
 	 */
 	public function setInker($x){
-		$this->inker = new Text('Inker',$x);
+		$this->inker = new Text('inker',$x);
 		return $this;
 	}
 
@@ -69,7 +69,7 @@ trait TComicStory{
 	 * @return $this
 	 */
 	public function setLetterer($x){
-		$this->letterer = new Text('Letterer',$x);
+		$this->letterer = new Text('letterer',$x);
 		return $this;
 	}
 
@@ -78,7 +78,7 @@ trait TComicStory{
 	 * @return $this
 	 */
 	public function setPenciler($x){
-		$this->penciler = new Text('Penciler',$x);
+		$this->penciler = new Text('penciler',$x);
 		return $this;
 	}
 

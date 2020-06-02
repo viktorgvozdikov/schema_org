@@ -40,7 +40,7 @@ trait TRepaymentSpecification{
 	 * @return $this
 	 */
 	public function setDownPayment($x){
-		$this->downPayment = new Text('DownPayment',$x);
+		$this->downPayment = new Text('downPayment',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TRepaymentSpecification{
 	 * @return $this
 	 */
 	public function setEarlyPrepaymentPenalty($x){
-		$this->earlyPrepaymentPenalty = new Text('EarlyPrepaymentPenalty',$x);
+		$this->earlyPrepaymentPenalty = new Text('earlyPrepaymentPenalty',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TRepaymentSpecification{
 	 * @return $this
 	 */
 	public function setLoanPaymentAmount($x){
-		$this->loanPaymentAmount = new Text('LoanPaymentAmount',$x);
+		$this->loanPaymentAmount = new Text('loanPaymentAmount',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TRepaymentSpecification{
 	 * @return $this
 	 */
 	public function setLoanPaymentFrequency($x){
-		$this->loanPaymentFrequency = new Text('LoanPaymentFrequency',$x);
+		$this->loanPaymentFrequency = new Text('loanPaymentFrequency',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TRepaymentSpecification{
 	 * @return $this
 	 */
 	public function setNumberOfLoanPayments($x){
-		$this->numberOfLoanPayments = new Text('NumberOfLoanPayments',$x);
+		$this->numberOfLoanPayments = new Text('numberOfLoanPayments',$x);
 		return $this;
 	}
 

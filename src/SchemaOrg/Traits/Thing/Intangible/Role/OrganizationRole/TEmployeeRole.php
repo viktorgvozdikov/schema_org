@@ -22,7 +22,7 @@ trait TEmployeeRole{
 	 * @return $this
 	 */
 	public function setBaseSalary($x){
-		$this->baseSalary = new Text('BaseSalary',$x);
+		$this->baseSalary = new Text('baseSalary',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TEmployeeRole{
 	 * @return $this
 	 */
 	public function setSalaryCurrency($x){
-		$this->salaryCurrency = new Text('SalaryCurrency',$x);
+		$this->salaryCurrency = new Text('salaryCurrency',$x);
 		return $this;
 	}
 

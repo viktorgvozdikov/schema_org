@@ -22,7 +22,7 @@ trait TPaymentChargeSpecification{
 	 * @return $this
 	 */
 	public function setAppliesToDeliveryMethod($x){
-		$this->appliesToDeliveryMethod = new Text('AppliesToDeliveryMethod',$x);
+		$this->appliesToDeliveryMethod = new Text('appliesToDeliveryMethod',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPaymentChargeSpecification{
 	 * @return $this
 	 */
 	public function setAppliesToPaymentMethod($x){
-		$this->appliesToPaymentMethod = new Text('AppliesToPaymentMethod',$x);
+		$this->appliesToPaymentMethod = new Text('appliesToPaymentMethod',$x);
 		return $this;
 	}
 

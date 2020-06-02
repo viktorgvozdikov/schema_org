@@ -16,7 +16,7 @@ trait TSearchAction{
 	 * @return $this
 	 */
 	public function setQuery($x){
-		$this->query = new Text('Query',$x);
+		$this->query = new Text('query',$x);
 		return $this;
 	}
 

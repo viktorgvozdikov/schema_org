@@ -16,7 +16,7 @@ trait TDiagnosticLab{
 	 * @return $this
 	 */
 	public function setAvailableTest($x){
-		$this->availableTest = new Text('AvailableTest',$x);
+		$this->availableTest = new Text('availableTest',$x);
 		return $this;
 	}
 

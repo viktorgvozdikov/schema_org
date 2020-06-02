@@ -23,7 +23,7 @@ trait TDefinedTerm{
 	 * @return $this
 	 */
 	public function setInDefinedTermSet($x){
-		$this->inDefinedTermSet = new Text('InDefinedTermSet',$x);
+		$this->inDefinedTermSet = new Text('inDefinedTermSet',$x);
 		return $this;
 	}
 
@@ -32,7 +32,7 @@ trait TDefinedTerm{
 	 * @return $this
 	 */
 	public function setTermCode($x){
-		$this->termCode = new Text('TermCode',$x);
+		$this->termCode = new Text('termCode',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TMedicalTrial{
 	 * @return $this
 	 */
 	public function setTrialDesign($x){
-		$this->trialDesign = new Text('TrialDesign',$x);
+		$this->trialDesign = new Text('trialDesign',$x);
 		return $this;
 	}
 

@@ -29,7 +29,7 @@ trait TStatisticalPopulation{
 	 * @return $this
 	 */
 	public function setConstrainingProperty($x){
-		$this->constrainingProperty = new Text('ConstrainingProperty',$x);
+		$this->constrainingProperty = new Text('constrainingProperty',$x);
 		return $this;
 	}
 
@@ -38,7 +38,7 @@ trait TStatisticalPopulation{
 	 * @return $this
 	 */
 	public function setNumConstraints($x){
-		$this->numConstraints = new Text('NumConstraints',$x);
+		$this->numConstraints = new Text('numConstraints',$x);
 		return $this;
 	}
 
@@ -47,7 +47,7 @@ trait TStatisticalPopulation{
 	 * @return $this
 	 */
 	public function setPopulationType($x){
-		$this->populationType = new Text('PopulationType',$x);
+		$this->populationType = new Text('populationType',$x);
 		return $this;
 	}
 

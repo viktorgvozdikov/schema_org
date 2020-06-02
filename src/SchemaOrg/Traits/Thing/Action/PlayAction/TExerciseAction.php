@@ -82,7 +82,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setDiet($x){
-		$this->diet = new Text('Diet',$x);
+		$this->diet = new Text('diet',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setDistance($x){
-		$this->distance = new Text('Distance',$x);
+		$this->distance = new Text('distance',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setExerciseCourse($x){
-		$this->exerciseCourse = new Text('ExerciseCourse',$x);
+		$this->exerciseCourse = new Text('exerciseCourse',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setExercisePlan($x){
-		$this->exercisePlan = new Text('ExercisePlan',$x);
+		$this->exercisePlan = new Text('exercisePlan',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setExerciseRelatedDiet($x){
-		$this->exerciseRelatedDiet = new Text('ExerciseRelatedDiet',$x);
+		$this->exerciseRelatedDiet = new Text('exerciseRelatedDiet',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setExerciseType($x){
-		$this->exerciseType = new Text('ExerciseType',$x);
+		$this->exerciseType = new Text('exerciseType',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setFromLocation($x){
-		$this->fromLocation = new Text('FromLocation',$x);
+		$this->fromLocation = new Text('fromLocation',$x);
 		return $this;
 	}
 
@@ -145,7 +145,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setOpponent($x){
-		$this->opponent = new Text('Opponent',$x);
+		$this->opponent = new Text('opponent',$x);
 		return $this;
 	}
 
@@ -154,7 +154,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setSportsActivityLocation($x){
-		$this->sportsActivityLocation = new Text('SportsActivityLocation',$x);
+		$this->sportsActivityLocation = new Text('sportsActivityLocation',$x);
 		return $this;
 	}
 
@@ -163,7 +163,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setSportsEvent($x){
-		$this->sportsEvent = new Text('SportsEvent',$x);
+		$this->sportsEvent = new Text('sportsEvent',$x);
 		return $this;
 	}
 
@@ -172,7 +172,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setSportsTeam($x){
-		$this->sportsTeam = new Text('SportsTeam',$x);
+		$this->sportsTeam = new Text('sportsTeam',$x);
 		return $this;
 	}
 
@@ -181,7 +181,7 @@ trait TExerciseAction{
 	 * @return $this
 	 */
 	public function setToLocation($x){
-		$this->toLocation = new Text('ToLocation',$x);
+		$this->toLocation = new Text('toLocation',$x);
 		return $this;
 	}
 

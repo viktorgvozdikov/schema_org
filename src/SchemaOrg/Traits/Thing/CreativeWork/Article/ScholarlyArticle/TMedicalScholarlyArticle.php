@@ -16,7 +16,7 @@ trait TMedicalScholarlyArticle{
 	 * @return $this
 	 */
 	public function setPublicationType($x){
-		$this->publicationType = new Text('PublicationType',$x);
+		$this->publicationType = new Text('publicationType',$x);
 		return $this;
 	}
 

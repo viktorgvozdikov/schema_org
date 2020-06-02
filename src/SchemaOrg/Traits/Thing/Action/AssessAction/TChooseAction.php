@@ -16,7 +16,7 @@ trait TChooseAction{
 	 * @return $this
 	 */
 	public function setActionOption($x){
-		$this->actionOption = new Text('ActionOption',$x);
+		$this->actionOption = new Text('actionOption',$x);
 		return $this;
 	}
 

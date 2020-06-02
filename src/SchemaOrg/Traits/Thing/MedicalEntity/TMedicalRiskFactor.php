@@ -16,7 +16,7 @@ trait TMedicalRiskFactor{
 	 * @return $this
 	 */
 	public function setIncreasesRiskOf($x){
-		$this->increasesRiskOf = new Text('IncreasesRiskOf',$x);
+		$this->increasesRiskOf = new Text('increasesRiskOf',$x);
 		return $this;
 	}
 

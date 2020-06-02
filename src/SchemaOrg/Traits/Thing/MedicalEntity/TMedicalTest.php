@@ -40,7 +40,7 @@ trait TMedicalTest{
 	 * @return $this
 	 */
 	public function setAffectedBy($x){
-		$this->affectedBy = new Text('AffectedBy',$x);
+		$this->affectedBy = new Text('affectedBy',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TMedicalTest{
 	 * @return $this
 	 */
 	public function setNormalRange($x){
-		$this->normalRange = new Text('NormalRange',$x);
+		$this->normalRange = new Text('normalRange',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TMedicalTest{
 	 * @return $this
 	 */
 	public function setSignDetected($x){
-		$this->signDetected = new Text('SignDetected',$x);
+		$this->signDetected = new Text('signDetected',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TMedicalTest{
 	 * @return $this
 	 */
 	public function setUsedToDiagnose($x){
-		$this->usedToDiagnose = new Text('UsedToDiagnose',$x);
+		$this->usedToDiagnose = new Text('usedToDiagnose',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TMedicalTest{
 	 * @return $this
 	 */
 	public function setUsesDevice($x){
-		$this->usesDevice = new Text('UsesDevice',$x);
+		$this->usesDevice = new Text('usesDevice',$x);
 		return $this;
 	}
 

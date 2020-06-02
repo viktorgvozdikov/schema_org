@@ -22,7 +22,7 @@ trait TBlog{
 	 * @return $this
 	 */
 	public function setBlogPost($x){
-		$this->blogPost = new Text('BlogPost',$x);
+		$this->blogPost = new Text('blogPost',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TBlog{
 	 * @return $this
 	 */
 	public function setIssn($x){
-		$this->issn = new Text('Issn',$x);
+		$this->issn = new Text('issn',$x);
 		return $this;
 	}
 

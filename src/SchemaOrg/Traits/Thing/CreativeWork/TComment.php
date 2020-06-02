@@ -28,7 +28,7 @@ trait TComment{
 	 * @return $this
 	 */
 	public function setDownvoteCount($x){
-		$this->downvoteCount = new Text('DownvoteCount',$x);
+		$this->downvoteCount = new Text('downvoteCount',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TComment{
 	 * @return $this
 	 */
 	public function setParentItem($x){
-		$this->parentItem = new Text('ParentItem',$x);
+		$this->parentItem = new Text('parentItem',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TComment{
 	 * @return $this
 	 */
 	public function setUpvoteCount($x){
-		$this->upvoteCount = new Text('UpvoteCount',$x);
+		$this->upvoteCount = new Text('upvoteCount',$x);
 		return $this;
 	}
 

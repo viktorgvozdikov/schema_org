@@ -22,7 +22,7 @@ trait TParentAudience{
 	 * @return $this
 	 */
 	public function setChildMaxAge($x){
-		$this->childMaxAge = new Text('ChildMaxAge',$x);
+		$this->childMaxAge = new Text('childMaxAge',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TParentAudience{
 	 * @return $this
 	 */
 	public function setChildMinAge($x){
-		$this->childMinAge = new Text('ChildMinAge',$x);
+		$this->childMinAge = new Text('childMinAge',$x);
 		return $this;
 	}
 

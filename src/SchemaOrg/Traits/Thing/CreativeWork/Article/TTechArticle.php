@@ -22,7 +22,7 @@ trait TTechArticle{
 	 * @return $this
 	 */
 	public function setDependencies($x){
-		$this->dependencies = new Text('Dependencies',$x);
+		$this->dependencies = new Text('dependencies',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TTechArticle{
 	 * @return $this
 	 */
 	public function setProficiencyLevel($x){
-		$this->proficiencyLevel = new Text('ProficiencyLevel',$x);
+		$this->proficiencyLevel = new Text('proficiencyLevel',$x);
 		return $this;
 	}
 

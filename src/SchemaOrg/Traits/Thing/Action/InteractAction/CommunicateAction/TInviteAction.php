@@ -16,7 +16,7 @@ trait TInviteAction{
 	 * @return $this
 	 */
 	public function setEvent($x){
-		$this->event = new Text('Event',$x);
+		$this->event = new Text('event',$x);
 		return $this;
 	}
 

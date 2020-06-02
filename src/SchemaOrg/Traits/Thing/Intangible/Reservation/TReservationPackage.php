@@ -16,7 +16,7 @@ trait TReservationPackage{
 	 * @return $this
 	 */
 	public function setSubReservation($x){
-		$this->subReservation = new Text('SubReservation',$x);
+		$this->subReservation = new Text('subReservation',$x);
 		return $this;
 	}
 

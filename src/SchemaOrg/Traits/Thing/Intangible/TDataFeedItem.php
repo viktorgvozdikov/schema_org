@@ -34,7 +34,7 @@ trait TDataFeedItem{
 	 * @return $this
 	 */
 	public function setDateCreated($x){
-		$this->dateCreated = new Text('DateCreated',$x);
+		$this->dateCreated = new Text('dateCreated',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TDataFeedItem{
 	 * @return $this
 	 */
 	public function setDateDeleted($x){
-		$this->dateDeleted = new Text('DateDeleted',$x);
+		$this->dateDeleted = new Text('dateDeleted',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TDataFeedItem{
 	 * @return $this
 	 */
 	public function setDateModified($x){
-		$this->dateModified = new Text('DateModified',$x);
+		$this->dateModified = new Text('dateModified',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TDataFeedItem{
 	 * @return $this
 	 */
 	public function setItem($x){
-		$this->item = new Text('Item',$x);
+		$this->item = new Text('item',$x);
 		return $this;
 	}
 

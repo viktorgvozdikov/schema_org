@@ -70,7 +70,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setComposer($x){
-		$this->composer = new Text('Composer',$x);
+		$this->composer = new Text('composer',$x);
 		return $this;
 	}
 
@@ -79,7 +79,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setFirstPerformance($x){
-		$this->firstPerformance = new Text('FirstPerformance',$x);
+		$this->firstPerformance = new Text('firstPerformance',$x);
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setIncludedComposition($x){
-		$this->includedComposition = new Text('IncludedComposition',$x);
+		$this->includedComposition = new Text('includedComposition',$x);
 		return $this;
 	}
 
@@ -97,7 +97,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setIswcCode($x){
-		$this->iswcCode = new Text('IswcCode',$x);
+		$this->iswcCode = new Text('iswcCode',$x);
 		return $this;
 	}
 
@@ -106,7 +106,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setLyricist($x){
-		$this->lyricist = new Text('Lyricist',$x);
+		$this->lyricist = new Text('lyricist',$x);
 		return $this;
 	}
 
@@ -115,7 +115,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setLyrics($x){
-		$this->lyrics = new Text('Lyrics',$x);
+		$this->lyrics = new Text('lyrics',$x);
 		return $this;
 	}
 
@@ -124,7 +124,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setMusicArrangement($x){
-		$this->musicArrangement = new Text('MusicArrangement',$x);
+		$this->musicArrangement = new Text('musicArrangement',$x);
 		return $this;
 	}
 
@@ -133,7 +133,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setMusicCompositionForm($x){
-		$this->musicCompositionForm = new Text('MusicCompositionForm',$x);
+		$this->musicCompositionForm = new Text('musicCompositionForm',$x);
 		return $this;
 	}
 
@@ -142,7 +142,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setMusicalKey($x){
-		$this->musicalKey = new Text('MusicalKey',$x);
+		$this->musicalKey = new Text('musicalKey',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TMusicComposition{
 	 * @return $this
 	 */
 	public function setRecordedAs($x){
-		$this->recordedAs = new Text('RecordedAs',$x);
+		$this->recordedAs = new Text('recordedAs',$x);
 		return $this;
 	}
 

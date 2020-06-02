@@ -18,7 +18,7 @@ trait TMonetaryAmountDistribution{
 	 * @return $this
 	 */
 	public function setCurrency($x){
-		$this->currency = new Text('Currency',$x);
+		$this->currency = new Text('currency',$x);
 		return $this;
 	}
 

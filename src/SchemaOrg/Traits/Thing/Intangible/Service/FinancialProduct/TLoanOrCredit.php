@@ -66,7 +66,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setAmount($x){
-		$this->amount = new Text('Amount',$x);
+		$this->amount = new Text('amount',$x);
 		return $this;
 	}
 
@@ -75,7 +75,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setCurrency($x){
-		$this->currency = new Text('Currency',$x);
+		$this->currency = new Text('currency',$x);
 		return $this;
 	}
 
@@ -84,7 +84,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setGracePeriod($x){
-		$this->gracePeriod = new Text('GracePeriod',$x);
+		$this->gracePeriod = new Text('gracePeriod',$x);
 		return $this;
 	}
 
@@ -93,7 +93,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setLoanRepaymentForm($x){
-		$this->loanRepaymentForm = new Text('LoanRepaymentForm',$x);
+		$this->loanRepaymentForm = new Text('loanRepaymentForm',$x);
 		return $this;
 	}
 
@@ -102,7 +102,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setLoanTerm($x){
-		$this->loanTerm = new Text('LoanTerm',$x);
+		$this->loanTerm = new Text('loanTerm',$x);
 		return $this;
 	}
 
@@ -111,7 +111,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setLoanType($x){
-		$this->loanType = new Text('LoanType',$x);
+		$this->loanType = new Text('loanType',$x);
 		return $this;
 	}
 
@@ -120,7 +120,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setRecourseLoan($x){
-		$this->recourseLoan = new Text('RecourseLoan',$x);
+		$this->recourseLoan = new Text('recourseLoan',$x);
 		return $this;
 	}
 
@@ -129,7 +129,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setRenegotiableLoan($x){
-		$this->renegotiableLoan = new Text('RenegotiableLoan',$x);
+		$this->renegotiableLoan = new Text('renegotiableLoan',$x);
 		return $this;
 	}
 
@@ -138,7 +138,7 @@ trait TLoanOrCredit{
 	 * @return $this
 	 */
 	public function setRequiredCollateral($x){
-		$this->requiredCollateral = new Text('RequiredCollateral',$x);
+		$this->requiredCollateral = new Text('requiredCollateral',$x);
 		return $this;
 	}
 

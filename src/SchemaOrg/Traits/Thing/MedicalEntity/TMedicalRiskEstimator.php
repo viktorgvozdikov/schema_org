@@ -22,7 +22,7 @@ trait TMedicalRiskEstimator{
 	 * @return $this
 	 */
 	public function setEstimatesRiskOf($x){
-		$this->estimatesRiskOf = new Text('EstimatesRiskOf',$x);
+		$this->estimatesRiskOf = new Text('estimatesRiskOf',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMedicalRiskEstimator{
 	 * @return $this
 	 */
 	public function setIncludedRiskFactor($x){
-		$this->includedRiskFactor = new Text('IncludedRiskFactor',$x);
+		$this->includedRiskFactor = new Text('includedRiskFactor',$x);
 		return $this;
 	}
 

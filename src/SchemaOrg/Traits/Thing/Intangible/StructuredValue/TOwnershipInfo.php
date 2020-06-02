@@ -34,7 +34,7 @@ trait TOwnershipInfo{
 	 * @return $this
 	 */
 	public function setAcquiredFrom($x){
-		$this->acquiredFrom = new Text('AcquiredFrom',$x);
+		$this->acquiredFrom = new Text('acquiredFrom',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TOwnershipInfo{
 	 * @return $this
 	 */
 	public function setOwnedFrom($x){
-		$this->ownedFrom = new Text('OwnedFrom',$x);
+		$this->ownedFrom = new Text('ownedFrom',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TOwnershipInfo{
 	 * @return $this
 	 */
 	public function setOwnedThrough($x){
-		$this->ownedThrough = new Text('OwnedThrough',$x);
+		$this->ownedThrough = new Text('ownedThrough',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TOwnershipInfo{
 	 * @return $this
 	 */
 	public function setTypeOfGood($x){
-		$this->typeOfGood = new Text('TypeOfGood',$x);
+		$this->typeOfGood = new Text('typeOfGood',$x);
 		return $this;
 	}
 

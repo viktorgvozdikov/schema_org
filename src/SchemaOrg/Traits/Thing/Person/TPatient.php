@@ -22,7 +22,7 @@ trait TPatient{
 	 * @return $this
 	 */
 	public function setDiagnosis($x){
-		$this->diagnosis = new Text('Diagnosis',$x);
+		$this->diagnosis = new Text('diagnosis',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TPatient{
 	 * @return $this
 	 */
 	public function setDrug($x){
-		$this->drug = new Text('Drug',$x);
+		$this->drug = new Text('drug',$x);
 		return $this;
 	}
 

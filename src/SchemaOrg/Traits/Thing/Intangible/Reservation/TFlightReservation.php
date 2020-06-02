@@ -34,7 +34,7 @@ trait TFlightReservation{
 	 * @return $this
 	 */
 	public function setBoardingGroup($x){
-		$this->boardingGroup = new Text('BoardingGroup',$x);
+		$this->boardingGroup = new Text('boardingGroup',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TFlightReservation{
 	 * @return $this
 	 */
 	public function setPassengerPriorityStatus($x){
-		$this->passengerPriorityStatus = new Text('PassengerPriorityStatus',$x);
+		$this->passengerPriorityStatus = new Text('passengerPriorityStatus',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TFlightReservation{
 	 * @return $this
 	 */
 	public function setPassengerSequenceNumber($x){
-		$this->passengerSequenceNumber = new Text('PassengerSequenceNumber',$x);
+		$this->passengerSequenceNumber = new Text('passengerSequenceNumber',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TFlightReservation{
 	 * @return $this
 	 */
 	public function setSecurityScreening($x){
-		$this->securityScreening = new Text('SecurityScreening',$x);
+		$this->securityScreening = new Text('securityScreening',$x);
 		return $this;
 	}
 

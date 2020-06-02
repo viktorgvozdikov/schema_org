@@ -16,7 +16,7 @@ trait TLendAction{
 	 * @return $this
 	 */
 	public function setBorrower($x){
-		$this->borrower = new Text('Borrower',$x);
+		$this->borrower = new Text('borrower',$x);
 		return $this;
 	}
 

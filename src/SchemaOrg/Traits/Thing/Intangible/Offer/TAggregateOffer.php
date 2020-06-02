@@ -46,7 +46,7 @@ trait TAggregateOffer{
 	 * @return $this
 	 */
 	public function setHighPrice($x){
-		$this->highPrice = new Text('HighPrice',$x);
+		$this->highPrice = new Text('highPrice',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TAggregateOffer{
 	 * @return $this
 	 */
 	public function setLowPrice($x){
-		$this->lowPrice = new Text('LowPrice',$x);
+		$this->lowPrice = new Text('lowPrice',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TAggregateOffer{
 	 * @return $this
 	 */
 	public function setOfferCount($x){
-		$this->offerCount = new Text('OfferCount',$x);
+		$this->offerCount = new Text('offerCount',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TAggregateOffer{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 

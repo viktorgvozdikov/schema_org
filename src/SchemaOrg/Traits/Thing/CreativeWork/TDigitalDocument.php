@@ -16,7 +16,7 @@ trait TDigitalDocument{
 	 * @return $this
 	 */
 	public function setHasDigitalDocumentPermission($x){
-		$this->hasDigitalDocumentPermission = new Text('HasDigitalDocumentPermission',$x);
+		$this->hasDigitalDocumentPermission = new Text('hasDigitalDocumentPermission',$x);
 		return $this;
 	}
 

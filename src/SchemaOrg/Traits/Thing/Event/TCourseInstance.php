@@ -28,7 +28,7 @@ trait TCourseInstance{
 	 * @return $this
 	 */
 	public function setCourseMode($x){
-		$this->courseMode = new Text('CourseMode',$x);
+		$this->courseMode = new Text('courseMode',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TCourseInstance{
 	 * @return $this
 	 */
 	public function setCourseWorkload($x){
-		$this->courseWorkload = new Text('CourseWorkload',$x);
+		$this->courseWorkload = new Text('courseWorkload',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TCourseInstance{
 	 * @return $this
 	 */
 	public function setInstructor($x){
-		$this->instructor = new Text('Instructor',$x);
+		$this->instructor = new Text('instructor',$x);
 		return $this;
 	}
 

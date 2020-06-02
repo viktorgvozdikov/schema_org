@@ -28,7 +28,7 @@ trait TEducationEvent{
 	 * @return $this
 	 */
 	public function setAssesses($x){
-		$this->assesses = new Text('Assesses',$x);
+		$this->assesses = new Text('assesses',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TEducationEvent{
 	 * @return $this
 	 */
 	public function setEducationalLevel($x){
-		$this->educationalLevel = new Text('EducationalLevel',$x);
+		$this->educationalLevel = new Text('educationalLevel',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TEducationEvent{
 	 * @return $this
 	 */
 	public function setTeaches($x){
-		$this->teaches = new Text('Teaches',$x);
+		$this->teaches = new Text('teaches',$x);
 		return $this;
 	}
 

@@ -46,7 +46,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setAdverseOutcome($x){
-		$this->adverseOutcome = new Text('AdverseOutcome',$x);
+		$this->adverseOutcome = new Text('adverseOutcome',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setContraindication($x){
-		$this->contraindication = new Text('Contraindication',$x);
+		$this->contraindication = new Text('contraindication',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setPostOp($x){
-		$this->postOp = new Text('PostOp',$x);
+		$this->postOp = new Text('postOp',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setPreOp($x){
-		$this->preOp = new Text('PreOp',$x);
+		$this->preOp = new Text('preOp',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setProcedure($x){
-		$this->procedure = new Text('Procedure',$x);
+		$this->procedure = new Text('procedure',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TMedicalDevice{
 	 * @return $this
 	 */
 	public function setSeriousAdverseOutcome($x){
-		$this->seriousAdverseOutcome = new Text('SeriousAdverseOutcome',$x);
+		$this->seriousAdverseOutcome = new Text('seriousAdverseOutcome',$x);
 		return $this;
 	}
 

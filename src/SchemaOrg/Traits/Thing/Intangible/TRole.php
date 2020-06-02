@@ -28,7 +28,7 @@ trait TRole{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TRole{
 	 * @return $this
 	 */
 	public function setRoleName($x){
-		$this->roleName = new Text('RoleName',$x);
+		$this->roleName = new Text('roleName',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TRole{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 

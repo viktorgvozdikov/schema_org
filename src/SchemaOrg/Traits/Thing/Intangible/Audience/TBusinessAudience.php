@@ -28,7 +28,7 @@ trait TBusinessAudience{
 	 * @return $this
 	 */
 	public function setNumberOfEmployees($x){
-		$this->numberOfEmployees = new Text('NumberOfEmployees',$x);
+		$this->numberOfEmployees = new Text('numberOfEmployees',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TBusinessAudience{
 	 * @return $this
 	 */
 	public function setYearlyRevenue($x){
-		$this->yearlyRevenue = new Text('YearlyRevenue',$x);
+		$this->yearlyRevenue = new Text('yearlyRevenue',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TBusinessAudience{
 	 * @return $this
 	 */
 	public function setYearsInOperation($x){
-		$this->yearsInOperation = new Text('YearsInOperation',$x);
+		$this->yearsInOperation = new Text('yearsInOperation',$x);
 		return $this;
 	}
 

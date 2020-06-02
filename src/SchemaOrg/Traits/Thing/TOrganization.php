@@ -342,7 +342,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setActionableFeedbackPolicy($x){
-		$this->actionableFeedbackPolicy = new Text('ActionableFeedbackPolicy',$x);
+		$this->actionableFeedbackPolicy = new Text('actionableFeedbackPolicy',$x);
 		return $this;
 	}
 
@@ -351,7 +351,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setAddress($x){
-		$this->address = new Text('Address',$x);
+		$this->address = new Text('address',$x);
 		return $this;
 	}
 
@@ -360,7 +360,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -369,7 +369,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setAlumni($x){
-		$this->alumni = new Text('Alumni',$x);
+		$this->alumni = new Text('alumni',$x);
 		return $this;
 	}
 
@@ -378,7 +378,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setAreaServed($x){
-		$this->areaServed = new Text('AreaServed',$x);
+		$this->areaServed = new Text('areaServed',$x);
 		return $this;
 	}
 
@@ -387,7 +387,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setAward($x){
-		$this->award = new Text('Award',$x);
+		$this->award = new Text('award',$x);
 		return $this;
 	}
 
@@ -396,7 +396,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setBrand($x){
-		$this->brand = new Text('Brand',$x);
+		$this->brand = new Text('brand',$x);
 		return $this;
 	}
 
@@ -405,7 +405,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setContactPoint($x){
-		$this->contactPoint = new Text('ContactPoint',$x);
+		$this->contactPoint = new Text('contactPoint',$x);
 		return $this;
 	}
 
@@ -414,7 +414,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setCorrectionsPolicy($x){
-		$this->correctionsPolicy = new Text('CorrectionsPolicy',$x);
+		$this->correctionsPolicy = new Text('correctionsPolicy',$x);
 		return $this;
 	}
 
@@ -423,7 +423,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setDepartment($x){
-		$this->department = new Text('Department',$x);
+		$this->department = new Text('department',$x);
 		return $this;
 	}
 
@@ -432,7 +432,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setDissolutionDate($x){
-		$this->dissolutionDate = new Text('DissolutionDate',$x);
+		$this->dissolutionDate = new Text('dissolutionDate',$x);
 		return $this;
 	}
 
@@ -441,7 +441,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setDiversityPolicy($x){
-		$this->diversityPolicy = new Text('DiversityPolicy',$x);
+		$this->diversityPolicy = new Text('diversityPolicy',$x);
 		return $this;
 	}
 
@@ -450,7 +450,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setDiversityStaffingReport($x){
-		$this->diversityStaffingReport = new Text('DiversityStaffingReport',$x);
+		$this->diversityStaffingReport = new Text('diversityStaffingReport',$x);
 		return $this;
 	}
 
@@ -459,7 +459,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setDuns($x){
-		$this->duns = new Text('Duns',$x);
+		$this->duns = new Text('duns',$x);
 		return $this;
 	}
 
@@ -468,7 +468,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setEmail($x){
-		$this->email = new Text('Email',$x);
+		$this->email = new Text('email',$x);
 		return $this;
 	}
 
@@ -477,7 +477,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setEmployee($x){
-		$this->employee = new Text('Employee',$x);
+		$this->employee = new Text('employee',$x);
 		return $this;
 	}
 
@@ -486,7 +486,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setEthicsPolicy($x){
-		$this->ethicsPolicy = new Text('EthicsPolicy',$x);
+		$this->ethicsPolicy = new Text('ethicsPolicy',$x);
 		return $this;
 	}
 
@@ -495,7 +495,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setEvent($x){
-		$this->event = new Text('Event',$x);
+		$this->event = new Text('event',$x);
 		return $this;
 	}
 
@@ -504,7 +504,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setFaxNumber($x){
-		$this->faxNumber = new Text('FaxNumber',$x);
+		$this->faxNumber = new Text('faxNumber',$x);
 		return $this;
 	}
 
@@ -513,7 +513,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setFounder($x){
-		$this->founder = new Text('Founder',$x);
+		$this->founder = new Text('founder',$x);
 		return $this;
 	}
 
@@ -522,7 +522,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setFoundingDate($x){
-		$this->foundingDate = new Text('FoundingDate',$x);
+		$this->foundingDate = new Text('foundingDate',$x);
 		return $this;
 	}
 
@@ -531,7 +531,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setFoundingLocation($x){
-		$this->foundingLocation = new Text('FoundingLocation',$x);
+		$this->foundingLocation = new Text('foundingLocation',$x);
 		return $this;
 	}
 
@@ -540,7 +540,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setFunder($x){
-		$this->funder = new Text('Funder',$x);
+		$this->funder = new Text('funder',$x);
 		return $this;
 	}
 
@@ -549,7 +549,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setGlobalLocationNumber($x){
-		$this->globalLocationNumber = new Text('GlobalLocationNumber',$x);
+		$this->globalLocationNumber = new Text('globalLocationNumber',$x);
 		return $this;
 	}
 
@@ -558,7 +558,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setHasCredential($x){
-		$this->hasCredential = new Text('HasCredential',$x);
+		$this->hasCredential = new Text('hasCredential',$x);
 		return $this;
 	}
 
@@ -567,7 +567,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setHasMerchantReturnPolicy($x){
-		$this->hasMerchantReturnPolicy = new Text('HasMerchantReturnPolicy',$x);
+		$this->hasMerchantReturnPolicy = new Text('hasMerchantReturnPolicy',$x);
 		return $this;
 	}
 
@@ -576,7 +576,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setHasOfferCatalog($x){
-		$this->hasOfferCatalog = new Text('HasOfferCatalog',$x);
+		$this->hasOfferCatalog = new Text('hasOfferCatalog',$x);
 		return $this;
 	}
 
@@ -585,7 +585,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setHasPOS($x){
-		$this->hasPOS = new Text('HasPOS',$x);
+		$this->hasPOS = new Text('hasPOS',$x);
 		return $this;
 	}
 
@@ -594,7 +594,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setInteractionStatistic($x){
-		$this->interactionStatistic = new Text('InteractionStatistic',$x);
+		$this->interactionStatistic = new Text('interactionStatistic',$x);
 		return $this;
 	}
 
@@ -603,7 +603,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setIsicV4($x){
-		$this->isicV4 = new Text('IsicV4',$x);
+		$this->isicV4 = new Text('isicV4',$x);
 		return $this;
 	}
 
@@ -612,7 +612,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setKnowsAbout($x){
-		$this->knowsAbout = new Text('KnowsAbout',$x);
+		$this->knowsAbout = new Text('knowsAbout',$x);
 		return $this;
 	}
 
@@ -621,7 +621,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setKnowsLanguage($x){
-		$this->knowsLanguage = new Text('KnowsLanguage',$x);
+		$this->knowsLanguage = new Text('knowsLanguage',$x);
 		return $this;
 	}
 
@@ -630,7 +630,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setLegalName($x){
-		$this->legalName = new Text('LegalName',$x);
+		$this->legalName = new Text('legalName',$x);
 		return $this;
 	}
 
@@ -639,7 +639,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setLeiCode($x){
-		$this->leiCode = new Text('LeiCode',$x);
+		$this->leiCode = new Text('leiCode',$x);
 		return $this;
 	}
 
@@ -648,7 +648,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setLocation($x){
-		$this->location = new Text('Location',$x);
+		$this->location = new Text('location',$x);
 		return $this;
 	}
 
@@ -657,7 +657,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setLogo($x){
-		$this->logo = new Text('Logo',$x);
+		$this->logo = new Text('logo',$x);
 		return $this;
 	}
 
@@ -666,7 +666,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setMakesOffer($x){
-		$this->makesOffer = new Text('MakesOffer',$x);
+		$this->makesOffer = new Text('makesOffer',$x);
 		return $this;
 	}
 
@@ -675,7 +675,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setMember($x){
-		$this->member = new Text('Member',$x);
+		$this->member = new Text('member',$x);
 		return $this;
 	}
 
@@ -684,7 +684,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setMemberOf($x){
-		$this->memberOf = new Text('MemberOf',$x);
+		$this->memberOf = new Text('memberOf',$x);
 		return $this;
 	}
 
@@ -693,7 +693,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setNaics($x){
-		$this->naics = new Text('Naics',$x);
+		$this->naics = new Text('naics',$x);
 		return $this;
 	}
 
@@ -702,7 +702,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setNonprofitStatus($x){
-		$this->nonprofitStatus = new Text('NonprofitStatus',$x);
+		$this->nonprofitStatus = new Text('nonprofitStatus',$x);
 		return $this;
 	}
 
@@ -711,7 +711,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setNumberOfEmployees($x){
-		$this->numberOfEmployees = new Text('NumberOfEmployees',$x);
+		$this->numberOfEmployees = new Text('numberOfEmployees',$x);
 		return $this;
 	}
 
@@ -720,7 +720,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setOwnershipFundingInfo($x){
-		$this->ownershipFundingInfo = new Text('OwnershipFundingInfo',$x);
+		$this->ownershipFundingInfo = new Text('ownershipFundingInfo',$x);
 		return $this;
 	}
 
@@ -729,7 +729,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setOwns($x){
-		$this->owns = new Text('Owns',$x);
+		$this->owns = new Text('owns',$x);
 		return $this;
 	}
 
@@ -738,7 +738,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setParentOrganization($x){
-		$this->parentOrganization = new Text('ParentOrganization',$x);
+		$this->parentOrganization = new Text('parentOrganization',$x);
 		return $this;
 	}
 
@@ -747,7 +747,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setPublishingPrinciples($x){
-		$this->publishingPrinciples = new Text('PublishingPrinciples',$x);
+		$this->publishingPrinciples = new Text('publishingPrinciples',$x);
 		return $this;
 	}
 
@@ -756,7 +756,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -765,7 +765,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setSeeks($x){
-		$this->seeks = new Text('Seeks',$x);
+		$this->seeks = new Text('seeks',$x);
 		return $this;
 	}
 
@@ -774,7 +774,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setSlogan($x){
-		$this->slogan = new Text('Slogan',$x);
+		$this->slogan = new Text('slogan',$x);
 		return $this;
 	}
 
@@ -783,7 +783,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 
@@ -792,7 +792,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setSubOrganization($x){
-		$this->subOrganization = new Text('SubOrganization',$x);
+		$this->subOrganization = new Text('subOrganization',$x);
 		return $this;
 	}
 
@@ -801,7 +801,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setTaxID($x){
-		$this->taxID = new Text('TaxID',$x);
+		$this->taxID = new Text('taxID',$x);
 		return $this;
 	}
 
@@ -810,7 +810,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setTelephone($x){
-		$this->telephone = new Text('Telephone',$x);
+		$this->telephone = new Text('telephone',$x);
 		return $this;
 	}
 
@@ -819,7 +819,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setUnnamedSourcesPolicy($x){
-		$this->unnamedSourcesPolicy = new Text('UnnamedSourcesPolicy',$x);
+		$this->unnamedSourcesPolicy = new Text('unnamedSourcesPolicy',$x);
 		return $this;
 	}
 
@@ -828,7 +828,7 @@ trait TOrganization{
 	 * @return $this
 	 */
 	public function setVatID($x){
-		$this->vatID = new Text('VatID',$x);
+		$this->vatID = new Text('vatID',$x);
 		return $this;
 	}
 

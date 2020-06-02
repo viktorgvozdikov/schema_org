@@ -16,7 +16,7 @@ trait TDrugClass{
 	 * @return $this
 	 */
 	public function setDrug($x){
-		$this->drug = new Text('Drug',$x);
+		$this->drug = new Text('drug',$x);
 		return $this;
 	}
 

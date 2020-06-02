@@ -16,7 +16,7 @@ trait TTrackAction{
 	 * @return $this
 	 */
 	public function setDeliveryMethod($x){
-		$this->deliveryMethod = new Text('DeliveryMethod',$x);
+		$this->deliveryMethod = new Text('deliveryMethod',$x);
 		return $this;
 	}
 

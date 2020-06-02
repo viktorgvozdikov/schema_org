@@ -34,7 +34,7 @@ trait TNewsMediaOrganization{
 	 * @return $this
 	 */
 	public function setMasthead($x){
-		$this->masthead = new Text('Masthead',$x);
+		$this->masthead = new Text('masthead',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TNewsMediaOrganization{
 	 * @return $this
 	 */
 	public function setMissionCoveragePrioritiesPolicy($x){
-		$this->missionCoveragePrioritiesPolicy = new Text('MissionCoveragePrioritiesPolicy',$x);
+		$this->missionCoveragePrioritiesPolicy = new Text('missionCoveragePrioritiesPolicy',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TNewsMediaOrganization{
 	 * @return $this
 	 */
 	public function setNoBylinesPolicy($x){
-		$this->noBylinesPolicy = new Text('NoBylinesPolicy',$x);
+		$this->noBylinesPolicy = new Text('noBylinesPolicy',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TNewsMediaOrganization{
 	 * @return $this
 	 */
 	public function setVerificationFactCheckingPolicy($x){
-		$this->verificationFactCheckingPolicy = new Text('VerificationFactCheckingPolicy',$x);
+		$this->verificationFactCheckingPolicy = new Text('verificationFactCheckingPolicy',$x);
 		return $this;
 	}
 

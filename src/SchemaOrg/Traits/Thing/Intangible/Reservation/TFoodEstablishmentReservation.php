@@ -32,7 +32,7 @@ trait TFoodEstablishmentReservation{
 	 * @return $this
 	 */
 	public function setEndTime($x){
-		$this->endTime = new Text('EndTime',$x);
+		$this->endTime = new Text('endTime',$x);
 		return $this;
 	}
 
@@ -41,7 +41,7 @@ trait TFoodEstablishmentReservation{
 	 * @return $this
 	 */
 	public function setPartySize($x){
-		$this->partySize = new Text('PartySize',$x);
+		$this->partySize = new Text('partySize',$x);
 		return $this;
 	}
 
@@ -50,7 +50,7 @@ trait TFoodEstablishmentReservation{
 	 * @return $this
 	 */
 	public function setStartTime($x){
-		$this->startTime = new Text('StartTime',$x);
+		$this->startTime = new Text('startTime',$x);
 		return $this;
 	}
 

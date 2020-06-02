@@ -22,7 +22,7 @@ trait TMusicPlaylist{
 	 * @return $this
 	 */
 	public function setNumTracks($x){
-		$this->numTracks = new Text('NumTracks',$x);
+		$this->numTracks = new Text('numTracks',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMusicPlaylist{
 	 * @return $this
 	 */
 	public function setTrack($x){
-		$this->track = new Text('Track',$x);
+		$this->track = new Text('track',$x);
 		return $this;
 	}
 

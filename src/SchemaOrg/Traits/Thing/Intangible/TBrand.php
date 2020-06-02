@@ -34,7 +34,7 @@ trait TBrand{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TBrand{
 	 * @return $this
 	 */
 	public function setLogo($x){
-		$this->logo = new Text('Logo',$x);
+		$this->logo = new Text('logo',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TBrand{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TBrand{
 	 * @return $this
 	 */
 	public function setSlogan($x){
-		$this->slogan = new Text('Slogan',$x);
+		$this->slogan = new Text('slogan',$x);
 		return $this;
 	}
 

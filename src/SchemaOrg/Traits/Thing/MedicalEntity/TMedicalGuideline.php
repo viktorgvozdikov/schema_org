@@ -34,7 +34,7 @@ trait TMedicalGuideline{
 	 * @return $this
 	 */
 	public function setEvidenceLevel($x){
-		$this->evidenceLevel = new Text('EvidenceLevel',$x);
+		$this->evidenceLevel = new Text('evidenceLevel',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TMedicalGuideline{
 	 * @return $this
 	 */
 	public function setEvidenceOrigin($x){
-		$this->evidenceOrigin = new Text('EvidenceOrigin',$x);
+		$this->evidenceOrigin = new Text('evidenceOrigin',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TMedicalGuideline{
 	 * @return $this
 	 */
 	public function setGuidelineDate($x){
-		$this->guidelineDate = new Text('GuidelineDate',$x);
+		$this->guidelineDate = new Text('guidelineDate',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TMedicalGuideline{
 	 * @return $this
 	 */
 	public function setGuidelineSubject($x){
-		$this->guidelineSubject = new Text('GuidelineSubject',$x);
+		$this->guidelineSubject = new Text('guidelineSubject',$x);
 		return $this;
 	}
 

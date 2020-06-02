@@ -40,7 +40,7 @@ trait TGame{
 	 * @return $this
 	 */
 	public function setCharacterAttribute($x){
-		$this->characterAttribute = new Text('CharacterAttribute',$x);
+		$this->characterAttribute = new Text('characterAttribute',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TGame{
 	 * @return $this
 	 */
 	public function setGameItem($x){
-		$this->gameItem = new Text('GameItem',$x);
+		$this->gameItem = new Text('gameItem',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TGame{
 	 * @return $this
 	 */
 	public function setGameLocation($x){
-		$this->gameLocation = new Text('GameLocation',$x);
+		$this->gameLocation = new Text('gameLocation',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TGame{
 	 * @return $this
 	 */
 	public function setNumberOfPlayers($x){
-		$this->numberOfPlayers = new Text('NumberOfPlayers',$x);
+		$this->numberOfPlayers = new Text('numberOfPlayers',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TGame{
 	 * @return $this
 	 */
 	public function setQuest($x){
-		$this->quest = new Text('Quest',$x);
+		$this->quest = new Text('quest',$x);
 		return $this;
 	}
 

@@ -16,7 +16,7 @@ trait TVoteAction{
 	 * @return $this
 	 */
 	public function setCandidate($x){
-		$this->candidate = new Text('Candidate',$x);
+		$this->candidate = new Text('candidate',$x);
 		return $this;
 	}
 

@@ -210,7 +210,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setApplicantLocationRequirements($x){
-		$this->applicantLocationRequirements = new Text('ApplicantLocationRequirements',$x);
+		$this->applicantLocationRequirements = new Text('applicantLocationRequirements',$x);
 		return $this;
 	}
 
@@ -219,7 +219,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setApplicationContact($x){
-		$this->applicationContact = new Text('ApplicationContact',$x);
+		$this->applicationContact = new Text('applicationContact',$x);
 		return $this;
 	}
 
@@ -228,7 +228,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setBaseSalary($x){
-		$this->baseSalary = new Text('BaseSalary',$x);
+		$this->baseSalary = new Text('baseSalary',$x);
 		return $this;
 	}
 
@@ -237,7 +237,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setDatePosted($x){
-		$this->datePosted = new Text('DatePosted',$x);
+		$this->datePosted = new Text('datePosted',$x);
 		return $this;
 	}
 
@@ -246,7 +246,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEducationRequirements($x){
-		$this->educationRequirements = new Text('EducationRequirements',$x);
+		$this->educationRequirements = new Text('educationRequirements',$x);
 		return $this;
 	}
 
@@ -255,7 +255,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEligibilityToWorkRequirement($x){
-		$this->eligibilityToWorkRequirement = new Text('EligibilityToWorkRequirement',$x);
+		$this->eligibilityToWorkRequirement = new Text('eligibilityToWorkRequirement',$x);
 		return $this;
 	}
 
@@ -264,7 +264,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEmployerOverview($x){
-		$this->employerOverview = new Text('EmployerOverview',$x);
+		$this->employerOverview = new Text('employerOverview',$x);
 		return $this;
 	}
 
@@ -273,7 +273,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEmploymentType($x){
-		$this->employmentType = new Text('EmploymentType',$x);
+		$this->employmentType = new Text('employmentType',$x);
 		return $this;
 	}
 
@@ -282,7 +282,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEmploymentUnit($x){
-		$this->employmentUnit = new Text('EmploymentUnit',$x);
+		$this->employmentUnit = new Text('employmentUnit',$x);
 		return $this;
 	}
 
@@ -291,7 +291,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setEstimatedSalary($x){
-		$this->estimatedSalary = new Text('EstimatedSalary',$x);
+		$this->estimatedSalary = new Text('estimatedSalary',$x);
 		return $this;
 	}
 
@@ -300,7 +300,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setExperienceRequirements($x){
-		$this->experienceRequirements = new Text('ExperienceRequirements',$x);
+		$this->experienceRequirements = new Text('experienceRequirements',$x);
 		return $this;
 	}
 
@@ -309,7 +309,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setHiringOrganization($x){
-		$this->hiringOrganization = new Text('HiringOrganization',$x);
+		$this->hiringOrganization = new Text('hiringOrganization',$x);
 		return $this;
 	}
 
@@ -318,7 +318,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setIncentiveCompensation($x){
-		$this->incentiveCompensation = new Text('IncentiveCompensation',$x);
+		$this->incentiveCompensation = new Text('incentiveCompensation',$x);
 		return $this;
 	}
 
@@ -327,7 +327,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setIndustry($x){
-		$this->industry = new Text('Industry',$x);
+		$this->industry = new Text('industry',$x);
 		return $this;
 	}
 
@@ -336,7 +336,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setJobBenefits($x){
-		$this->jobBenefits = new Text('JobBenefits',$x);
+		$this->jobBenefits = new Text('jobBenefits',$x);
 		return $this;
 	}
 
@@ -345,7 +345,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setJobImmediateStart($x){
-		$this->jobImmediateStart = new Text('JobImmediateStart',$x);
+		$this->jobImmediateStart = new Text('jobImmediateStart',$x);
 		return $this;
 	}
 
@@ -354,7 +354,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setJobLocation($x){
-		$this->jobLocation = new Text('JobLocation',$x);
+		$this->jobLocation = new Text('jobLocation',$x);
 		return $this;
 	}
 
@@ -363,7 +363,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setJobLocationType($x){
-		$this->jobLocationType = new Text('JobLocationType',$x);
+		$this->jobLocationType = new Text('jobLocationType',$x);
 		return $this;
 	}
 
@@ -372,7 +372,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setJobStartDate($x){
-		$this->jobStartDate = new Text('JobStartDate',$x);
+		$this->jobStartDate = new Text('jobStartDate',$x);
 		return $this;
 	}
 
@@ -381,7 +381,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setOccupationalCategory($x){
-		$this->occupationalCategory = new Text('OccupationalCategory',$x);
+		$this->occupationalCategory = new Text('occupationalCategory',$x);
 		return $this;
 	}
 
@@ -390,7 +390,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setPhysicalRequirement($x){
-		$this->physicalRequirement = new Text('PhysicalRequirement',$x);
+		$this->physicalRequirement = new Text('physicalRequirement',$x);
 		return $this;
 	}
 
@@ -399,7 +399,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setQualifications($x){
-		$this->qualifications = new Text('Qualifications',$x);
+		$this->qualifications = new Text('qualifications',$x);
 		return $this;
 	}
 
@@ -408,7 +408,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setRelevantOccupation($x){
-		$this->relevantOccupation = new Text('RelevantOccupation',$x);
+		$this->relevantOccupation = new Text('relevantOccupation',$x);
 		return $this;
 	}
 
@@ -417,7 +417,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setResponsibilities($x){
-		$this->responsibilities = new Text('Responsibilities',$x);
+		$this->responsibilities = new Text('responsibilities',$x);
 		return $this;
 	}
 
@@ -426,7 +426,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setSalaryCurrency($x){
-		$this->salaryCurrency = new Text('SalaryCurrency',$x);
+		$this->salaryCurrency = new Text('salaryCurrency',$x);
 		return $this;
 	}
 
@@ -435,7 +435,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setSecurityClearanceRequirement($x){
-		$this->securityClearanceRequirement = new Text('SecurityClearanceRequirement',$x);
+		$this->securityClearanceRequirement = new Text('securityClearanceRequirement',$x);
 		return $this;
 	}
 
@@ -444,7 +444,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setSensoryRequirement($x){
-		$this->sensoryRequirement = new Text('SensoryRequirement',$x);
+		$this->sensoryRequirement = new Text('sensoryRequirement',$x);
 		return $this;
 	}
 
@@ -453,7 +453,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setSkills($x){
-		$this->skills = new Text('Skills',$x);
+		$this->skills = new Text('skills',$x);
 		return $this;
 	}
 
@@ -462,7 +462,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setSpecialCommitments($x){
-		$this->specialCommitments = new Text('SpecialCommitments',$x);
+		$this->specialCommitments = new Text('specialCommitments',$x);
 		return $this;
 	}
 
@@ -471,7 +471,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setTitle($x){
-		$this->title = new Text('Title',$x);
+		$this->title = new Text('title',$x);
 		return $this;
 	}
 
@@ -480,7 +480,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setTotalJobOpenings($x){
-		$this->totalJobOpenings = new Text('TotalJobOpenings',$x);
+		$this->totalJobOpenings = new Text('totalJobOpenings',$x);
 		return $this;
 	}
 
@@ -489,7 +489,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setValidThrough($x){
-		$this->validThrough = new Text('ValidThrough',$x);
+		$this->validThrough = new Text('validThrough',$x);
 		return $this;
 	}
 
@@ -498,7 +498,7 @@ trait TJobPosting{
 	 * @return $this
 	 */
 	public function setWorkHours($x){
-		$this->workHours = new Text('WorkHours',$x);
+		$this->workHours = new Text('workHours',$x);
 		return $this;
 	}
 

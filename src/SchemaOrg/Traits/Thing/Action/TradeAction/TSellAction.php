@@ -16,7 +16,7 @@ trait TSellAction{
 	 * @return $this
 	 */
 	public function setBuyer($x){
-		$this->buyer = new Text('Buyer',$x);
+		$this->buyer = new Text('buyer',$x);
 		return $this;
 	}
 

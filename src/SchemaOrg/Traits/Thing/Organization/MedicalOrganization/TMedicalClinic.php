@@ -16,7 +16,7 @@ trait TMedicalClinic{
 	 * @return $this
 	 */
 	public function setAvailableService($x){
-		$this->availableService = new Text('AvailableService',$x);
+		$this->availableService = new Text('availableService',$x);
 		return $this;
 	}
 

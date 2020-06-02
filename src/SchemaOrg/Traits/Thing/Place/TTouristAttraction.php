@@ -23,7 +23,7 @@ trait TTouristAttraction{
 	 * @return $this
 	 */
 	public function setAvailableLanguage($x){
-		$this->availableLanguage = new Text('AvailableLanguage',$x);
+		$this->availableLanguage = new Text('availableLanguage',$x);
 		return $this;
 	}
 
@@ -32,7 +32,7 @@ trait TTouristAttraction{
 	 * @return $this
 	 */
 	public function setTouristType($x){
-		$this->touristType = new Text('TouristType',$x);
+		$this->touristType = new Text('touristType',$x);
 		return $this;
 	}
 

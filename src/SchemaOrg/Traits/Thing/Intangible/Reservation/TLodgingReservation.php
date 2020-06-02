@@ -46,7 +46,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setCheckinTime($x){
-		$this->checkinTime = new Text('CheckinTime',$x);
+		$this->checkinTime = new Text('checkinTime',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setCheckoutTime($x){
-		$this->checkoutTime = new Text('CheckoutTime',$x);
+		$this->checkoutTime = new Text('checkoutTime',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setLodgingUnitDescription($x){
-		$this->lodgingUnitDescription = new Text('LodgingUnitDescription',$x);
+		$this->lodgingUnitDescription = new Text('lodgingUnitDescription',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setLodgingUnitType($x){
-		$this->lodgingUnitType = new Text('LodgingUnitType',$x);
+		$this->lodgingUnitType = new Text('lodgingUnitType',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setNumAdults($x){
-		$this->numAdults = new Text('NumAdults',$x);
+		$this->numAdults = new Text('numAdults',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TLodgingReservation{
 	 * @return $this
 	 */
 	public function setNumChildren($x){
-		$this->numChildren = new Text('NumChildren',$x);
+		$this->numChildren = new Text('numChildren',$x);
 		return $this;
 	}
 

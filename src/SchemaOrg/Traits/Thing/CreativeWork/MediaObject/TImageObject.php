@@ -34,7 +34,7 @@ trait TImageObject{
 	 * @return $this
 	 */
 	public function setCaption($x){
-		$this->caption = new Text('Caption',$x);
+		$this->caption = new Text('caption',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TImageObject{
 	 * @return $this
 	 */
 	public function setExifData($x){
-		$this->exifData = new Text('ExifData',$x);
+		$this->exifData = new Text('exifData',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TImageObject{
 	 * @return $this
 	 */
 	public function setRepresentativeOfPage($x){
-		$this->representativeOfPage = new Text('RepresentativeOfPage',$x);
+		$this->representativeOfPage = new Text('representativeOfPage',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TImageObject{
 	 * @return $this
 	 */
 	public function setThumbnail($x){
-		$this->thumbnail = new Text('Thumbnail',$x);
+		$this->thumbnail = new Text('thumbnail',$x);
 		return $this;
 	}
 

@@ -64,7 +64,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setBenefitsSummaryUrl($x){
-		$this->benefitsSummaryUrl = new Text('BenefitsSummaryUrl',$x);
+		$this->benefitsSummaryUrl = new Text('benefitsSummaryUrl',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setContactPoint($x){
-		$this->contactPoint = new Text('ContactPoint',$x);
+		$this->contactPoint = new Text('contactPoint',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setHealthPlanDrugOption($x){
-		$this->healthPlanDrugOption = new Text('HealthPlanDrugOption',$x);
+		$this->healthPlanDrugOption = new Text('healthPlanDrugOption',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setHealthPlanDrugTier($x){
-		$this->healthPlanDrugTier = new Text('HealthPlanDrugTier',$x);
+		$this->healthPlanDrugTier = new Text('healthPlanDrugTier',$x);
 		return $this;
 	}
 
@@ -100,7 +100,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setHealthPlanId($x){
-		$this->healthPlanId = new Text('HealthPlanId',$x);
+		$this->healthPlanId = new Text('healthPlanId',$x);
 		return $this;
 	}
 
@@ -109,7 +109,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setHealthPlanMarketingUrl($x){
-		$this->healthPlanMarketingUrl = new Text('HealthPlanMarketingUrl',$x);
+		$this->healthPlanMarketingUrl = new Text('healthPlanMarketingUrl',$x);
 		return $this;
 	}
 
@@ -118,7 +118,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setIncludesHealthPlanFormulary($x){
-		$this->includesHealthPlanFormulary = new Text('IncludesHealthPlanFormulary',$x);
+		$this->includesHealthPlanFormulary = new Text('includesHealthPlanFormulary',$x);
 		return $this;
 	}
 
@@ -127,7 +127,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setIncludesHealthPlanNetwork($x){
-		$this->includesHealthPlanNetwork = new Text('IncludesHealthPlanNetwork',$x);
+		$this->includesHealthPlanNetwork = new Text('includesHealthPlanNetwork',$x);
 		return $this;
 	}
 
@@ -136,7 +136,7 @@ trait THealthInsurancePlan{
 	 * @return $this
 	 */
 	public function setUsesHealthPlanIdStandard($x){
-		$this->usesHealthPlanIdStandard = new Text('UsesHealthPlanIdStandard',$x);
+		$this->usesHealthPlanIdStandard = new Text('usesHealthPlanIdStandard',$x);
 		return $this;
 	}
 

@@ -40,7 +40,7 @@ trait TObservation{
 	 * @return $this
 	 */
 	public function setMarginOfError($x){
-		$this->marginOfError = new Text('MarginOfError',$x);
+		$this->marginOfError = new Text('marginOfError',$x);
 		return $this;
 	}
 
@@ -49,7 +49,7 @@ trait TObservation{
 	 * @return $this
 	 */
 	public function setMeasuredProperty($x){
-		$this->measuredProperty = new Text('MeasuredProperty',$x);
+		$this->measuredProperty = new Text('measuredProperty',$x);
 		return $this;
 	}
 
@@ -58,7 +58,7 @@ trait TObservation{
 	 * @return $this
 	 */
 	public function setMeasuredValue($x){
-		$this->measuredValue = new Text('MeasuredValue',$x);
+		$this->measuredValue = new Text('measuredValue',$x);
 		return $this;
 	}
 
@@ -67,7 +67,7 @@ trait TObservation{
 	 * @return $this
 	 */
 	public function setObservationDate($x){
-		$this->observationDate = new Text('ObservationDate',$x);
+		$this->observationDate = new Text('observationDate',$x);
 		return $this;
 	}
 
@@ -76,7 +76,7 @@ trait TObservation{
 	 * @return $this
 	 */
 	public function setObservedNode($x){
-		$this->observedNode = new Text('ObservedNode',$x);
+		$this->observedNode = new Text('observedNode',$x);
 		return $this;
 	}
 

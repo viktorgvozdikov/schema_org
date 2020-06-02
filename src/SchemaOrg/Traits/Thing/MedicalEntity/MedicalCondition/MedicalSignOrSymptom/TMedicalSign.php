@@ -22,7 +22,7 @@ trait TMedicalSign{
 	 * @return $this
 	 */
 	public function setIdentifyingExam($x){
-		$this->identifyingExam = new Text('IdentifyingExam',$x);
+		$this->identifyingExam = new Text('identifyingExam',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TMedicalSign{
 	 * @return $this
 	 */
 	public function setIdentifyingTest($x){
-		$this->identifyingTest = new Text('IdentifyingTest',$x);
+		$this->identifyingTest = new Text('identifyingTest',$x);
 		return $this;
 	}
 

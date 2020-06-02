@@ -46,7 +46,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setMedian($x){
-		$this->median = new Text('Median',$x);
+		$this->median = new Text('median',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setPercentile10($x){
-		$this->percentile10 = new Text('Percentile10',$x);
+		$this->percentile10 = new Text('percentile10',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setPercentile25($x){
-		$this->percentile25 = new Text('Percentile25',$x);
+		$this->percentile25 = new Text('percentile25',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setPercentile75($x){
-		$this->percentile75 = new Text('Percentile75',$x);
+		$this->percentile75 = new Text('percentile75',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TQuantitativeValueDistribution{
 	 * @return $this
 	 */
 	public function setPercentile90($x){
-		$this->percentile90 = new Text('Percentile90',$x);
+		$this->percentile90 = new Text('percentile90',$x);
 		return $this;
 	}
 

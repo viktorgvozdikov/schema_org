@@ -142,7 +142,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setApplicationCategory($x){
-		$this->applicationCategory = new Text('ApplicationCategory',$x);
+		$this->applicationCategory = new Text('applicationCategory',$x);
 		return $this;
 	}
 
@@ -151,7 +151,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setApplicationSubCategory($x){
-		$this->applicationSubCategory = new Text('ApplicationSubCategory',$x);
+		$this->applicationSubCategory = new Text('applicationSubCategory',$x);
 		return $this;
 	}
 
@@ -160,7 +160,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setApplicationSuite($x){
-		$this->applicationSuite = new Text('ApplicationSuite',$x);
+		$this->applicationSuite = new Text('applicationSuite',$x);
 		return $this;
 	}
 
@@ -169,7 +169,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setAvailableOnDevice($x){
-		$this->availableOnDevice = new Text('AvailableOnDevice',$x);
+		$this->availableOnDevice = new Text('availableOnDevice',$x);
 		return $this;
 	}
 
@@ -178,7 +178,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setCountriesNotSupported($x){
-		$this->countriesNotSupported = new Text('CountriesNotSupported',$x);
+		$this->countriesNotSupported = new Text('countriesNotSupported',$x);
 		return $this;
 	}
 
@@ -187,7 +187,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setCountriesSupported($x){
-		$this->countriesSupported = new Text('CountriesSupported',$x);
+		$this->countriesSupported = new Text('countriesSupported',$x);
 		return $this;
 	}
 
@@ -196,7 +196,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setDownloadUrl($x){
-		$this->downloadUrl = new Text('DownloadUrl',$x);
+		$this->downloadUrl = new Text('downloadUrl',$x);
 		return $this;
 	}
 
@@ -205,7 +205,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setFeatureList($x){
-		$this->featureList = new Text('FeatureList',$x);
+		$this->featureList = new Text('featureList',$x);
 		return $this;
 	}
 
@@ -214,7 +214,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setFileSize($x){
-		$this->fileSize = new Text('FileSize',$x);
+		$this->fileSize = new Text('fileSize',$x);
 		return $this;
 	}
 
@@ -223,7 +223,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setInstallUrl($x){
-		$this->installUrl = new Text('InstallUrl',$x);
+		$this->installUrl = new Text('installUrl',$x);
 		return $this;
 	}
 
@@ -232,7 +232,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setMemoryRequirements($x){
-		$this->memoryRequirements = new Text('MemoryRequirements',$x);
+		$this->memoryRequirements = new Text('memoryRequirements',$x);
 		return $this;
 	}
 
@@ -241,7 +241,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setOperatingSystem($x){
-		$this->operatingSystem = new Text('OperatingSystem',$x);
+		$this->operatingSystem = new Text('operatingSystem',$x);
 		return $this;
 	}
 
@@ -250,7 +250,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setPermissions($x){
-		$this->permissions = new Text('Permissions',$x);
+		$this->permissions = new Text('permissions',$x);
 		return $this;
 	}
 
@@ -259,7 +259,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setProcessorRequirements($x){
-		$this->processorRequirements = new Text('ProcessorRequirements',$x);
+		$this->processorRequirements = new Text('processorRequirements',$x);
 		return $this;
 	}
 
@@ -268,7 +268,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setReleaseNotes($x){
-		$this->releaseNotes = new Text('ReleaseNotes',$x);
+		$this->releaseNotes = new Text('releaseNotes',$x);
 		return $this;
 	}
 
@@ -277,7 +277,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setScreenshot($x){
-		$this->screenshot = new Text('Screenshot',$x);
+		$this->screenshot = new Text('screenshot',$x);
 		return $this;
 	}
 
@@ -286,7 +286,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setSoftwareAddOn($x){
-		$this->softwareAddOn = new Text('SoftwareAddOn',$x);
+		$this->softwareAddOn = new Text('softwareAddOn',$x);
 		return $this;
 	}
 
@@ -295,7 +295,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setSoftwareHelp($x){
-		$this->softwareHelp = new Text('SoftwareHelp',$x);
+		$this->softwareHelp = new Text('softwareHelp',$x);
 		return $this;
 	}
 
@@ -304,7 +304,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setSoftwareRequirements($x){
-		$this->softwareRequirements = new Text('SoftwareRequirements',$x);
+		$this->softwareRequirements = new Text('softwareRequirements',$x);
 		return $this;
 	}
 
@@ -313,7 +313,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setSoftwareVersion($x){
-		$this->softwareVersion = new Text('SoftwareVersion',$x);
+		$this->softwareVersion = new Text('softwareVersion',$x);
 		return $this;
 	}
 
@@ -322,7 +322,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setStorageRequirements($x){
-		$this->storageRequirements = new Text('StorageRequirements',$x);
+		$this->storageRequirements = new Text('storageRequirements',$x);
 		return $this;
 	}
 
@@ -331,7 +331,7 @@ trait TSoftwareApplication{
 	 * @return $this
 	 */
 	public function setSupportingData($x){
-		$this->supportingData = new Text('SupportingData',$x);
+		$this->supportingData = new Text('supportingData',$x);
 		return $this;
 	}
 

@@ -46,7 +46,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setAddress($x){
-		$this->address = new Text('Address',$x);
+		$this->address = new Text('address',$x);
 		return $this;
 	}
 
@@ -55,7 +55,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setAddressCountry($x){
-		$this->addressCountry = new Text('AddressCountry',$x);
+		$this->addressCountry = new Text('addressCountry',$x);
 		return $this;
 	}
 
@@ -64,7 +64,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setElevation($x){
-		$this->elevation = new Text('Elevation',$x);
+		$this->elevation = new Text('elevation',$x);
 		return $this;
 	}
 
@@ -73,7 +73,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setLatitude($x){
-		$this->latitude = new Text('Latitude',$x);
+		$this->latitude = new Text('latitude',$x);
 		return $this;
 	}
 
@@ -82,7 +82,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setLongitude($x){
-		$this->longitude = new Text('Longitude',$x);
+		$this->longitude = new Text('longitude',$x);
 		return $this;
 	}
 
@@ -91,7 +91,7 @@ trait TGeoCoordinates{
 	 * @return $this
 	 */
 	public function setPostalCode($x){
-		$this->postalCode = new Text('PostalCode',$x);
+		$this->postalCode = new Text('postalCode',$x);
 		return $this;
 	}
 

@@ -22,7 +22,7 @@ trait TGeoCircle{
 	 * @return $this
 	 */
 	public function setGeoMidpoint($x){
-		$this->geoMidpoint = new Text('GeoMidpoint',$x);
+		$this->geoMidpoint = new Text('geoMidpoint',$x);
 		return $this;
 	}
 
@@ -31,7 +31,7 @@ trait TGeoCircle{
 	 * @return $this
 	 */
 	public function setGeoRadius($x){
-		$this->geoRadius = new Text('GeoRadius',$x);
+		$this->geoRadius = new Text('geoRadius',$x);
 		return $this;
 	}
 

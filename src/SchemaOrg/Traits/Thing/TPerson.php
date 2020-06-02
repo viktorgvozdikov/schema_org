@@ -354,7 +354,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setAdditionalName($x){
-		$this->additionalName = new Text('AdditionalName',$x);
+		$this->additionalName = new Text('additionalName',$x);
 		return $this;
 	}
 
@@ -363,7 +363,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setAddress($x){
-		$this->address = new Text('Address',$x);
+		$this->address = new Text('address',$x);
 		return $this;
 	}
 
@@ -372,7 +372,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setAffiliation($x){
-		$this->affiliation = new Text('Affiliation',$x);
+		$this->affiliation = new Text('affiliation',$x);
 		return $this;
 	}
 
@@ -381,7 +381,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setAlumniOf($x){
-		$this->alumniOf = new Text('AlumniOf',$x);
+		$this->alumniOf = new Text('alumniOf',$x);
 		return $this;
 	}
 
@@ -390,7 +390,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setAward($x){
-		$this->award = new Text('Award',$x);
+		$this->award = new Text('award',$x);
 		return $this;
 	}
 
@@ -399,7 +399,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setBirthDate($x){
-		$this->birthDate = new Text('BirthDate',$x);
+		$this->birthDate = new Text('birthDate',$x);
 		return $this;
 	}
 
@@ -408,7 +408,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setBirthPlace($x){
-		$this->birthPlace = new Text('BirthPlace',$x);
+		$this->birthPlace = new Text('birthPlace',$x);
 		return $this;
 	}
 
@@ -417,7 +417,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setBrand($x){
-		$this->brand = new Text('Brand',$x);
+		$this->brand = new Text('brand',$x);
 		return $this;
 	}
 
@@ -426,7 +426,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setCallSign($x){
-		$this->callSign = new Text('CallSign',$x);
+		$this->callSign = new Text('callSign',$x);
 		return $this;
 	}
 
@@ -435,7 +435,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setChildren($x){
-		$this->children = new Text('Children',$x);
+		$this->children = new Text('children',$x);
 		return $this;
 	}
 
@@ -444,7 +444,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setColleague($x){
-		$this->colleague = new Text('Colleague',$x);
+		$this->colleague = new Text('colleague',$x);
 		return $this;
 	}
 
@@ -453,7 +453,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setContactPoint($x){
-		$this->contactPoint = new Text('ContactPoint',$x);
+		$this->contactPoint = new Text('contactPoint',$x);
 		return $this;
 	}
 
@@ -462,7 +462,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setDeathDate($x){
-		$this->deathDate = new Text('DeathDate',$x);
+		$this->deathDate = new Text('deathDate',$x);
 		return $this;
 	}
 
@@ -471,7 +471,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setDeathPlace($x){
-		$this->deathPlace = new Text('DeathPlace',$x);
+		$this->deathPlace = new Text('deathPlace',$x);
 		return $this;
 	}
 
@@ -480,7 +480,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setDuns($x){
-		$this->duns = new Text('Duns',$x);
+		$this->duns = new Text('duns',$x);
 		return $this;
 	}
 
@@ -489,7 +489,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setEmail($x){
-		$this->email = new Text('Email',$x);
+		$this->email = new Text('email',$x);
 		return $this;
 	}
 
@@ -498,7 +498,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setFamilyName($x){
-		$this->familyName = new Text('FamilyName',$x);
+		$this->familyName = new Text('familyName',$x);
 		return $this;
 	}
 
@@ -507,7 +507,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setFaxNumber($x){
-		$this->faxNumber = new Text('FaxNumber',$x);
+		$this->faxNumber = new Text('faxNumber',$x);
 		return $this;
 	}
 
@@ -516,7 +516,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setFollows($x){
-		$this->follows = new Text('Follows',$x);
+		$this->follows = new Text('follows',$x);
 		return $this;
 	}
 
@@ -525,7 +525,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setFunder($x){
-		$this->funder = new Text('Funder',$x);
+		$this->funder = new Text('funder',$x);
 		return $this;
 	}
 
@@ -534,7 +534,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setGender($x){
-		$this->gender = new Text('Gender',$x);
+		$this->gender = new Text('gender',$x);
 		return $this;
 	}
 
@@ -543,7 +543,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setGivenName($x){
-		$this->givenName = new Text('GivenName',$x);
+		$this->givenName = new Text('givenName',$x);
 		return $this;
 	}
 
@@ -552,7 +552,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setGlobalLocationNumber($x){
-		$this->globalLocationNumber = new Text('GlobalLocationNumber',$x);
+		$this->globalLocationNumber = new Text('globalLocationNumber',$x);
 		return $this;
 	}
 
@@ -561,7 +561,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHasCredential($x){
-		$this->hasCredential = new Text('HasCredential',$x);
+		$this->hasCredential = new Text('hasCredential',$x);
 		return $this;
 	}
 
@@ -570,7 +570,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHasOccupation($x){
-		$this->hasOccupation = new Text('HasOccupation',$x);
+		$this->hasOccupation = new Text('hasOccupation',$x);
 		return $this;
 	}
 
@@ -579,7 +579,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHasOfferCatalog($x){
-		$this->hasOfferCatalog = new Text('HasOfferCatalog',$x);
+		$this->hasOfferCatalog = new Text('hasOfferCatalog',$x);
 		return $this;
 	}
 
@@ -588,7 +588,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHasPOS($x){
-		$this->hasPOS = new Text('HasPOS',$x);
+		$this->hasPOS = new Text('hasPOS',$x);
 		return $this;
 	}
 
@@ -597,7 +597,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHeight($x){
-		$this->height = new Text('Height',$x);
+		$this->height = new Text('height',$x);
 		return $this;
 	}
 
@@ -606,7 +606,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHomeLocation($x){
-		$this->homeLocation = new Text('HomeLocation',$x);
+		$this->homeLocation = new Text('homeLocation',$x);
 		return $this;
 	}
 
@@ -615,7 +615,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHonorificPrefix($x){
-		$this->honorificPrefix = new Text('HonorificPrefix',$x);
+		$this->honorificPrefix = new Text('honorificPrefix',$x);
 		return $this;
 	}
 
@@ -624,7 +624,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setHonorificSuffix($x){
-		$this->honorificSuffix = new Text('HonorificSuffix',$x);
+		$this->honorificSuffix = new Text('honorificSuffix',$x);
 		return $this;
 	}
 
@@ -633,7 +633,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setInteractionStatistic($x){
-		$this->interactionStatistic = new Text('InteractionStatistic',$x);
+		$this->interactionStatistic = new Text('interactionStatistic',$x);
 		return $this;
 	}
 
@@ -642,7 +642,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setIsicV4($x){
-		$this->isicV4 = new Text('IsicV4',$x);
+		$this->isicV4 = new Text('isicV4',$x);
 		return $this;
 	}
 
@@ -651,7 +651,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setJobTitle($x){
-		$this->jobTitle = new Text('JobTitle',$x);
+		$this->jobTitle = new Text('jobTitle',$x);
 		return $this;
 	}
 
@@ -660,7 +660,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setKnows($x){
-		$this->knows = new Text('Knows',$x);
+		$this->knows = new Text('knows',$x);
 		return $this;
 	}
 
@@ -669,7 +669,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setKnowsAbout($x){
-		$this->knowsAbout = new Text('KnowsAbout',$x);
+		$this->knowsAbout = new Text('knowsAbout',$x);
 		return $this;
 	}
 
@@ -678,7 +678,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setKnowsLanguage($x){
-		$this->knowsLanguage = new Text('KnowsLanguage',$x);
+		$this->knowsLanguage = new Text('knowsLanguage',$x);
 		return $this;
 	}
 
@@ -687,7 +687,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setMakesOffer($x){
-		$this->makesOffer = new Text('MakesOffer',$x);
+		$this->makesOffer = new Text('makesOffer',$x);
 		return $this;
 	}
 
@@ -696,7 +696,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setMemberOf($x){
-		$this->memberOf = new Text('MemberOf',$x);
+		$this->memberOf = new Text('memberOf',$x);
 		return $this;
 	}
 
@@ -705,7 +705,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setNaics($x){
-		$this->naics = new Text('Naics',$x);
+		$this->naics = new Text('naics',$x);
 		return $this;
 	}
 
@@ -714,7 +714,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setNationality($x){
-		$this->nationality = new Text('Nationality',$x);
+		$this->nationality = new Text('nationality',$x);
 		return $this;
 	}
 
@@ -723,7 +723,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setNetWorth($x){
-		$this->netWorth = new Text('NetWorth',$x);
+		$this->netWorth = new Text('netWorth',$x);
 		return $this;
 	}
 
@@ -732,7 +732,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setOwns($x){
-		$this->owns = new Text('Owns',$x);
+		$this->owns = new Text('owns',$x);
 		return $this;
 	}
 
@@ -741,7 +741,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setParent($x){
-		$this->parent = new Text('Parent',$x);
+		$this->parent = new Text('parent',$x);
 		return $this;
 	}
 
@@ -750,7 +750,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setPerformerIn($x){
-		$this->performerIn = new Text('PerformerIn',$x);
+		$this->performerIn = new Text('performerIn',$x);
 		return $this;
 	}
 
@@ -759,7 +759,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setPublishingPrinciples($x){
-		$this->publishingPrinciples = new Text('PublishingPrinciples',$x);
+		$this->publishingPrinciples = new Text('publishingPrinciples',$x);
 		return $this;
 	}
 
@@ -768,7 +768,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setRelatedTo($x){
-		$this->relatedTo = new Text('RelatedTo',$x);
+		$this->relatedTo = new Text('relatedTo',$x);
 		return $this;
 	}
 
@@ -777,7 +777,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setSeeks($x){
-		$this->seeks = new Text('Seeks',$x);
+		$this->seeks = new Text('seeks',$x);
 		return $this;
 	}
 
@@ -786,7 +786,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setSibling($x){
-		$this->sibling = new Text('Sibling',$x);
+		$this->sibling = new Text('sibling',$x);
 		return $this;
 	}
 
@@ -795,7 +795,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 
@@ -804,7 +804,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setSpouse($x){
-		$this->spouse = new Text('Spouse',$x);
+		$this->spouse = new Text('spouse',$x);
 		return $this;
 	}
 
@@ -813,7 +813,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setTaxID($x){
-		$this->taxID = new Text('TaxID',$x);
+		$this->taxID = new Text('taxID',$x);
 		return $this;
 	}
 
@@ -822,7 +822,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setTelephone($x){
-		$this->telephone = new Text('Telephone',$x);
+		$this->telephone = new Text('telephone',$x);
 		return $this;
 	}
 
@@ -831,7 +831,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setVatID($x){
-		$this->vatID = new Text('VatID',$x);
+		$this->vatID = new Text('vatID',$x);
 		return $this;
 	}
 
@@ -840,7 +840,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setWeight($x){
-		$this->weight = new Text('Weight',$x);
+		$this->weight = new Text('weight',$x);
 		return $this;
 	}
 
@@ -849,7 +849,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setWorkLocation($x){
-		$this->workLocation = new Text('WorkLocation',$x);
+		$this->workLocation = new Text('workLocation',$x);
 		return $this;
 	}
 
@@ -858,7 +858,7 @@ trait TPerson{
 	 * @return $this
 	 */
 	public function setWorksFor($x){
-		$this->worksFor = new Text('WorksFor',$x);
+		$this->worksFor = new Text('worksFor',$x);
 		return $this;
 	}
 

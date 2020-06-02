@@ -232,7 +232,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setAbout($x){
-		$this->about = new Text('About',$x);
+		$this->about = new Text('about',$x);
 		return $this;
 	}
 
@@ -241,7 +241,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -250,7 +250,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setAggregateRating($x){
-		$this->aggregateRating = new Text('AggregateRating',$x);
+		$this->aggregateRating = new Text('aggregateRating',$x);
 		return $this;
 	}
 
@@ -259,7 +259,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setAttendee($x){
-		$this->attendee = new Text('Attendee',$x);
+		$this->attendee = new Text('attendee',$x);
 		return $this;
 	}
 
@@ -268,7 +268,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setAudience($x){
-		$this->audience = new Text('Audience',$x);
+		$this->audience = new Text('audience',$x);
 		return $this;
 	}
 
@@ -277,7 +277,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setComposer($x){
-		$this->composer = new Text('Composer',$x);
+		$this->composer = new Text('composer',$x);
 		return $this;
 	}
 
@@ -286,7 +286,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setContributor($x){
-		$this->contributor = new Text('Contributor',$x);
+		$this->contributor = new Text('contributor',$x);
 		return $this;
 	}
 
@@ -295,7 +295,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -304,7 +304,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setDoorTime($x){
-		$this->doorTime = new Text('DoorTime',$x);
+		$this->doorTime = new Text('doorTime',$x);
 		return $this;
 	}
 
@@ -313,7 +313,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setDuration($x){
-		$this->duration = new Text('Duration',$x);
+		$this->duration = new Text('duration',$x);
 		return $this;
 	}
 
@@ -322,7 +322,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -331,7 +331,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setEventAttendanceMode($x){
-		$this->eventAttendanceMode = new Text('EventAttendanceMode',$x);
+		$this->eventAttendanceMode = new Text('eventAttendanceMode',$x);
 		return $this;
 	}
 
@@ -340,7 +340,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setEventSchedule($x){
-		$this->eventSchedule = new Text('EventSchedule',$x);
+		$this->eventSchedule = new Text('eventSchedule',$x);
 		return $this;
 	}
 
@@ -349,7 +349,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setEventStatus($x){
-		$this->eventStatus = new Text('EventStatus',$x);
+		$this->eventStatus = new Text('eventStatus',$x);
 		return $this;
 	}
 
@@ -358,7 +358,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setFunder($x){
-		$this->funder = new Text('Funder',$x);
+		$this->funder = new Text('funder',$x);
 		return $this;
 	}
 
@@ -367,7 +367,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setInLanguage($x){
-		$this->inLanguage = new Text('InLanguage',$x);
+		$this->inLanguage = new Text('inLanguage',$x);
 		return $this;
 	}
 
@@ -376,7 +376,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setIsAccessibleForFree($x){
-		$this->isAccessibleForFree = new Text('IsAccessibleForFree',$x);
+		$this->isAccessibleForFree = new Text('isAccessibleForFree',$x);
 		return $this;
 	}
 
@@ -385,7 +385,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setLocation($x){
-		$this->location = new Text('Location',$x);
+		$this->location = new Text('location',$x);
 		return $this;
 	}
 
@@ -394,7 +394,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setMaximumAttendeeCapacity($x){
-		$this->maximumAttendeeCapacity = new Text('MaximumAttendeeCapacity',$x);
+		$this->maximumAttendeeCapacity = new Text('maximumAttendeeCapacity',$x);
 		return $this;
 	}
 
@@ -403,7 +403,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setMaximumPhysicalAttendeeCapacity($x){
-		$this->maximumPhysicalAttendeeCapacity = new Text('MaximumPhysicalAttendeeCapacity',$x);
+		$this->maximumPhysicalAttendeeCapacity = new Text('maximumPhysicalAttendeeCapacity',$x);
 		return $this;
 	}
 
@@ -412,7 +412,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setMaximumVirtualAttendeeCapacity($x){
-		$this->maximumVirtualAttendeeCapacity = new Text('MaximumVirtualAttendeeCapacity',$x);
+		$this->maximumVirtualAttendeeCapacity = new Text('maximumVirtualAttendeeCapacity',$x);
 		return $this;
 	}
 
@@ -421,7 +421,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setOffers($x){
-		$this->offers = new Text('Offers',$x);
+		$this->offers = new Text('offers',$x);
 		return $this;
 	}
 
@@ -430,7 +430,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setOrganizer($x){
-		$this->organizer = new Text('Organizer',$x);
+		$this->organizer = new Text('organizer',$x);
 		return $this;
 	}
 
@@ -439,7 +439,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setPerformer($x){
-		$this->performer = new Text('Performer',$x);
+		$this->performer = new Text('performer',$x);
 		return $this;
 	}
 
@@ -448,7 +448,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setPreviousStartDate($x){
-		$this->previousStartDate = new Text('PreviousStartDate',$x);
+		$this->previousStartDate = new Text('previousStartDate',$x);
 		return $this;
 	}
 
@@ -457,7 +457,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setRecordedIn($x){
-		$this->recordedIn = new Text('RecordedIn',$x);
+		$this->recordedIn = new Text('recordedIn',$x);
 		return $this;
 	}
 
@@ -466,7 +466,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setRemainingAttendeeCapacity($x){
-		$this->remainingAttendeeCapacity = new Text('RemainingAttendeeCapacity',$x);
+		$this->remainingAttendeeCapacity = new Text('remainingAttendeeCapacity',$x);
 		return $this;
 	}
 
@@ -475,7 +475,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setReview($x){
-		$this->review = new Text('Review',$x);
+		$this->review = new Text('review',$x);
 		return $this;
 	}
 
@@ -484,7 +484,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setSponsor($x){
-		$this->sponsor = new Text('Sponsor',$x);
+		$this->sponsor = new Text('sponsor',$x);
 		return $this;
 	}
 
@@ -493,7 +493,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 
@@ -502,7 +502,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setSubEvent($x){
-		$this->subEvent = new Text('SubEvent',$x);
+		$this->subEvent = new Text('subEvent',$x);
 		return $this;
 	}
 
@@ -511,7 +511,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setSuperEvent($x){
-		$this->superEvent = new Text('SuperEvent',$x);
+		$this->superEvent = new Text('superEvent',$x);
 		return $this;
 	}
 
@@ -520,7 +520,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setTranslator($x){
-		$this->translator = new Text('Translator',$x);
+		$this->translator = new Text('translator',$x);
 		return $this;
 	}
 
@@ -529,7 +529,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setTypicalAgeRange($x){
-		$this->typicalAgeRange = new Text('TypicalAgeRange',$x);
+		$this->typicalAgeRange = new Text('typicalAgeRange',$x);
 		return $this;
 	}
 
@@ -538,7 +538,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setWorkFeatured($x){
-		$this->workFeatured = new Text('WorkFeatured',$x);
+		$this->workFeatured = new Text('workFeatured',$x);
 		return $this;
 	}
 
@@ -547,7 +547,7 @@ trait TEvent{
 	 * @return $this
 	 */
 	public function setWorkPerformed($x){
-		$this->workPerformed = new Text('WorkPerformed',$x);
+		$this->workPerformed = new Text('workPerformed',$x);
 		return $this;
 	}
 

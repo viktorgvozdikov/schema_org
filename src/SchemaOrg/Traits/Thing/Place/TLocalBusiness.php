@@ -42,7 +42,7 @@ trait TLocalBusiness{
 	 * @return $this
 	 */
 	public function setCurrenciesAccepted($x){
-		$this->currenciesAccepted = new Text('CurrenciesAccepted',$x);
+		$this->currenciesAccepted = new Text('currenciesAccepted',$x);
 		return $this;
 	}
 
@@ -51,7 +51,7 @@ trait TLocalBusiness{
 	 * @return $this
 	 */
 	public function setOpeningHours($x){
-		$this->openingHours = new Text('OpeningHours',$x);
+		$this->openingHours = new Text('openingHours',$x);
 		return $this;
 	}
 
@@ -60,7 +60,7 @@ trait TLocalBusiness{
 	 * @return $this
 	 */
 	public function setPaymentAccepted($x){
-		$this->paymentAccepted = new Text('PaymentAccepted',$x);
+		$this->paymentAccepted = new Text('paymentAccepted',$x);
 		return $this;
 	}
 
@@ -69,7 +69,7 @@ trait TLocalBusiness{
 	 * @return $this
 	 */
 	public function setPriceRange($x){
-		$this->priceRange = new Text('PriceRange',$x);
+		$this->priceRange = new Text('priceRange',$x);
 		return $this;
 	}
 

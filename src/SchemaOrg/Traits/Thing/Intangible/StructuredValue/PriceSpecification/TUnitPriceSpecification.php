@@ -41,7 +41,7 @@ trait TUnitPriceSpecification{
 	 * @return $this
 	 */
 	public function setBillingIncrement($x){
-		$this->billingIncrement = new Text('BillingIncrement',$x);
+		$this->billingIncrement = new Text('billingIncrement',$x);
 		return $this;
 	}
 
@@ -50,7 +50,7 @@ trait TUnitPriceSpecification{
 	 * @return $this
 	 */
 	public function setPriceType($x){
-		$this->priceType = new Text('PriceType',$x);
+		$this->priceType = new Text('priceType',$x);
 		return $this;
 	}
 
@@ -59,7 +59,7 @@ trait TUnitPriceSpecification{
 	 * @return $this
 	 */
 	public function setReferenceQuantity($x){
-		$this->referenceQuantity = new Text('ReferenceQuantity',$x);
+		$this->referenceQuantity = new Text('referenceQuantity',$x);
 		return $this;
 	}
 
@@ -68,7 +68,7 @@ trait TUnitPriceSpecification{
 	 * @return $this
 	 */
 	public function setUnitCode($x){
-		$this->unitCode = new Text('UnitCode',$x);
+		$this->unitCode = new Text('unitCode',$x);
 		return $this;
 	}
 
@@ -77,7 +77,7 @@ trait TUnitPriceSpecification{
 	 * @return $this
 	 */
 	public function setUnitText($x){
-		$this->unitText = new Text('UnitText',$x);
+		$this->unitText = new Text('unitText',$x);
 		return $this;
 	}
 

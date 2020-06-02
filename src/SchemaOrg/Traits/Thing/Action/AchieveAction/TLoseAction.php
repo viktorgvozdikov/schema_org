@@ -16,7 +16,7 @@ trait TLoseAction{
 	 * @return $this
 	 */
 	public function setWinner($x){
-		$this->winner = new Text('Winner',$x);
+		$this->winner = new Text('winner',$x);
 		return $this;
 	}
 

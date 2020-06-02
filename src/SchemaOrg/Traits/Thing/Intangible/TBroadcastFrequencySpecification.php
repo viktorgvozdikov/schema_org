@@ -28,7 +28,7 @@ trait TBroadcastFrequencySpecification{
 	 * @return $this
 	 */
 	public function setBroadcastFrequencyValue($x){
-		$this->broadcastFrequencyValue = new Text('BroadcastFrequencyValue',$x);
+		$this->broadcastFrequencyValue = new Text('broadcastFrequencyValue',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TBroadcastFrequencySpecification{
 	 * @return $this
 	 */
 	public function setBroadcastSignalModulation($x){
-		$this->broadcastSignalModulation = new Text('BroadcastSignalModulation',$x);
+		$this->broadcastSignalModulation = new Text('broadcastSignalModulation',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TBroadcastFrequencySpecification{
 	 * @return $this
 	 */
 	public function setBroadcastSubChannel($x){
-		$this->broadcastSubChannel = new Text('BroadcastSubChannel',$x);
+		$this->broadcastSubChannel = new Text('broadcastSubChannel',$x);
 		return $this;
 	}
 

@@ -30,7 +30,7 @@ trait TExchangeRateSpecification{
 	 * @return $this
 	 */
 	public function setCurrency($x){
-		$this->currency = new Text('Currency',$x);
+		$this->currency = new Text('currency',$x);
 		return $this;
 	}
 
@@ -39,7 +39,7 @@ trait TExchangeRateSpecification{
 	 * @return $this
 	 */
 	public function setCurrentExchangeRate($x){
-		$this->currentExchangeRate = new Text('CurrentExchangeRate',$x);
+		$this->currentExchangeRate = new Text('currentExchangeRate',$x);
 		return $this;
 	}
 
@@ -48,7 +48,7 @@ trait TExchangeRateSpecification{
 	 * @return $this
 	 */
 	public function setExchangeRateSpread($x){
-		$this->exchangeRateSpread = new Text('ExchangeRateSpread',$x);
+		$this->exchangeRateSpread = new Text('exchangeRateSpread',$x);
 		return $this;
 	}
 

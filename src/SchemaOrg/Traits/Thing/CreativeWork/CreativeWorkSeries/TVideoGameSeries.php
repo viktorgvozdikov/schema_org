@@ -112,7 +112,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setActor($x){
-		$this->actor = new Text('Actor',$x);
+		$this->actor = new Text('actor',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setCharacterAttribute($x){
-		$this->characterAttribute = new Text('CharacterAttribute',$x);
+		$this->characterAttribute = new Text('characterAttribute',$x);
 		return $this;
 	}
 
@@ -130,7 +130,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setCheatCode($x){
-		$this->cheatCode = new Text('CheatCode',$x);
+		$this->cheatCode = new Text('cheatCode',$x);
 		return $this;
 	}
 
@@ -139,7 +139,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setContainsSeason($x){
-		$this->containsSeason = new Text('ContainsSeason',$x);
+		$this->containsSeason = new Text('containsSeason',$x);
 		return $this;
 	}
 
@@ -148,7 +148,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setDirector($x){
-		$this->director = new Text('Director',$x);
+		$this->director = new Text('director',$x);
 		return $this;
 	}
 
@@ -157,7 +157,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setEpisode($x){
-		$this->episode = new Text('Episode',$x);
+		$this->episode = new Text('episode',$x);
 		return $this;
 	}
 
@@ -166,7 +166,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setGameItem($x){
-		$this->gameItem = new Text('GameItem',$x);
+		$this->gameItem = new Text('gameItem',$x);
 		return $this;
 	}
 
@@ -175,7 +175,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setGameLocation($x){
-		$this->gameLocation = new Text('GameLocation',$x);
+		$this->gameLocation = new Text('gameLocation',$x);
 		return $this;
 	}
 
@@ -184,7 +184,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setGamePlatform($x){
-		$this->gamePlatform = new Text('GamePlatform',$x);
+		$this->gamePlatform = new Text('gamePlatform',$x);
 		return $this;
 	}
 
@@ -193,7 +193,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setMusicBy($x){
-		$this->musicBy = new Text('MusicBy',$x);
+		$this->musicBy = new Text('musicBy',$x);
 		return $this;
 	}
 
@@ -202,7 +202,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setNumberOfEpisodes($x){
-		$this->numberOfEpisodes = new Text('NumberOfEpisodes',$x);
+		$this->numberOfEpisodes = new Text('numberOfEpisodes',$x);
 		return $this;
 	}
 
@@ -211,7 +211,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setNumberOfPlayers($x){
-		$this->numberOfPlayers = new Text('NumberOfPlayers',$x);
+		$this->numberOfPlayers = new Text('numberOfPlayers',$x);
 		return $this;
 	}
 
@@ -220,7 +220,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setNumberOfSeasons($x){
-		$this->numberOfSeasons = new Text('NumberOfSeasons',$x);
+		$this->numberOfSeasons = new Text('numberOfSeasons',$x);
 		return $this;
 	}
 
@@ -229,7 +229,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setPlayMode($x){
-		$this->playMode = new Text('PlayMode',$x);
+		$this->playMode = new Text('playMode',$x);
 		return $this;
 	}
 
@@ -238,7 +238,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setProductionCompany($x){
-		$this->productionCompany = new Text('ProductionCompany',$x);
+		$this->productionCompany = new Text('productionCompany',$x);
 		return $this;
 	}
 
@@ -247,7 +247,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setQuest($x){
-		$this->quest = new Text('Quest',$x);
+		$this->quest = new Text('quest',$x);
 		return $this;
 	}
 
@@ -256,7 +256,7 @@ trait TVideoGameSeries{
 	 * @return $this
 	 */
 	public function setTrailer($x){
-		$this->trailer = new Text('Trailer',$x);
+		$this->trailer = new Text('trailer',$x);
 		return $this;
 	}
 

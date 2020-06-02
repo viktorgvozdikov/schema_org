@@ -94,7 +94,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setAircraft($x){
-		$this->aircraft = new Text('Aircraft',$x);
+		$this->aircraft = new Text('aircraft',$x);
 		return $this;
 	}
 
@@ -103,7 +103,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setArrivalAirport($x){
-		$this->arrivalAirport = new Text('ArrivalAirport',$x);
+		$this->arrivalAirport = new Text('arrivalAirport',$x);
 		return $this;
 	}
 
@@ -112,7 +112,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setArrivalGate($x){
-		$this->arrivalGate = new Text('ArrivalGate',$x);
+		$this->arrivalGate = new Text('arrivalGate',$x);
 		return $this;
 	}
 
@@ -121,7 +121,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setArrivalTerminal($x){
-		$this->arrivalTerminal = new Text('ArrivalTerminal',$x);
+		$this->arrivalTerminal = new Text('arrivalTerminal',$x);
 		return $this;
 	}
 
@@ -130,7 +130,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setBoardingPolicy($x){
-		$this->boardingPolicy = new Text('BoardingPolicy',$x);
+		$this->boardingPolicy = new Text('boardingPolicy',$x);
 		return $this;
 	}
 
@@ -139,7 +139,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setDepartureAirport($x){
-		$this->departureAirport = new Text('DepartureAirport',$x);
+		$this->departureAirport = new Text('departureAirport',$x);
 		return $this;
 	}
 
@@ -148,7 +148,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setDepartureGate($x){
-		$this->departureGate = new Text('DepartureGate',$x);
+		$this->departureGate = new Text('departureGate',$x);
 		return $this;
 	}
 
@@ -157,7 +157,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setDepartureTerminal($x){
-		$this->departureTerminal = new Text('DepartureTerminal',$x);
+		$this->departureTerminal = new Text('departureTerminal',$x);
 		return $this;
 	}
 
@@ -166,7 +166,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setEstimatedFlightDuration($x){
-		$this->estimatedFlightDuration = new Text('EstimatedFlightDuration',$x);
+		$this->estimatedFlightDuration = new Text('estimatedFlightDuration',$x);
 		return $this;
 	}
 
@@ -175,7 +175,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setFlightDistance($x){
-		$this->flightDistance = new Text('FlightDistance',$x);
+		$this->flightDistance = new Text('flightDistance',$x);
 		return $this;
 	}
 
@@ -184,7 +184,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setFlightNumber($x){
-		$this->flightNumber = new Text('FlightNumber',$x);
+		$this->flightNumber = new Text('flightNumber',$x);
 		return $this;
 	}
 
@@ -193,7 +193,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setMealService($x){
-		$this->mealService = new Text('MealService',$x);
+		$this->mealService = new Text('mealService',$x);
 		return $this;
 	}
 
@@ -202,7 +202,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setSeller($x){
-		$this->seller = new Text('Seller',$x);
+		$this->seller = new Text('seller',$x);
 		return $this;
 	}
 
@@ -211,7 +211,7 @@ trait TFlight{
 	 * @return $this
 	 */
 	public function setWebCheckinTime($x){
-		$this->webCheckinTime = new Text('WebCheckinTime',$x);
+		$this->webCheckinTime = new Text('webCheckinTime',$x);
 		return $this;
 	}
 

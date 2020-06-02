@@ -16,7 +16,7 @@ trait TAudiobook{
 	 * @return $this
 	 */
 	public function setReadBy($x){
-		$this->readBy = new Text('ReadBy',$x);
+		$this->readBy = new Text('readBy',$x);
 		return $this;
 	}
 

@@ -60,7 +60,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setEducationRequirements($x){
-		$this->educationRequirements = new Text('EducationRequirements',$x);
+		$this->educationRequirements = new Text('educationRequirements',$x);
 		return $this;
 	}
 
@@ -69,7 +69,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setEstimatedSalary($x){
-		$this->estimatedSalary = new Text('EstimatedSalary',$x);
+		$this->estimatedSalary = new Text('estimatedSalary',$x);
 		return $this;
 	}
 
@@ -78,7 +78,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setExperienceRequirements($x){
-		$this->experienceRequirements = new Text('ExperienceRequirements',$x);
+		$this->experienceRequirements = new Text('experienceRequirements',$x);
 		return $this;
 	}
 
@@ -87,7 +87,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setOccupationLocation($x){
-		$this->occupationLocation = new Text('OccupationLocation',$x);
+		$this->occupationLocation = new Text('occupationLocation',$x);
 		return $this;
 	}
 
@@ -96,7 +96,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setOccupationalCategory($x){
-		$this->occupationalCategory = new Text('OccupationalCategory',$x);
+		$this->occupationalCategory = new Text('occupationalCategory',$x);
 		return $this;
 	}
 
@@ -105,7 +105,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setQualifications($x){
-		$this->qualifications = new Text('Qualifications',$x);
+		$this->qualifications = new Text('qualifications',$x);
 		return $this;
 	}
 
@@ -114,7 +114,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setResponsibilities($x){
-		$this->responsibilities = new Text('Responsibilities',$x);
+		$this->responsibilities = new Text('responsibilities',$x);
 		return $this;
 	}
 
@@ -123,7 +123,7 @@ trait TOccupation{
 	 * @return $this
 	 */
 	public function setSkills($x){
-		$this->skills = new Text('Skills',$x);
+		$this->skills = new Text('skills',$x);
 		return $this;
 	}
 

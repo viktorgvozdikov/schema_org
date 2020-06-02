@@ -34,7 +34,7 @@ trait TFoodEstablishment{
 	 * @return $this
 	 */
 	public function setAcceptsReservations($x){
-		$this->acceptsReservations = new Text('AcceptsReservations',$x);
+		$this->acceptsReservations = new Text('acceptsReservations',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TFoodEstablishment{
 	 * @return $this
 	 */
 	public function setHasMenu($x){
-		$this->hasMenu = new Text('HasMenu',$x);
+		$this->hasMenu = new Text('hasMenu',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TFoodEstablishment{
 	 * @return $this
 	 */
 	public function setServesCuisine($x){
-		$this->servesCuisine = new Text('ServesCuisine',$x);
+		$this->servesCuisine = new Text('servesCuisine',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TFoodEstablishment{
 	 * @return $this
 	 */
 	public function setStarRating($x){
-		$this->starRating = new Text('StarRating',$x);
+		$this->starRating = new Text('starRating',$x);
 		return $this;
 	}
 

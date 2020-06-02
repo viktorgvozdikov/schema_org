@@ -16,7 +16,7 @@ trait TCommentAction{
 	 * @return $this
 	 */
 	public function setResultComment($x){
-		$this->resultComment = new Text('ResultComment',$x);
+		$this->resultComment = new Text('resultComment',$x);
 		return $this;
 	}
 

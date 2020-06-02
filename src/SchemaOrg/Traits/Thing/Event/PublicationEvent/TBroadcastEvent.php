@@ -34,7 +34,7 @@ trait TBroadcastEvent{
 	 * @return $this
 	 */
 	public function setBroadcastOfEvent($x){
-		$this->broadcastOfEvent = new Text('BroadcastOfEvent',$x);
+		$this->broadcastOfEvent = new Text('broadcastOfEvent',$x);
 		return $this;
 	}
 
@@ -43,7 +43,7 @@ trait TBroadcastEvent{
 	 * @return $this
 	 */
 	public function setIsLiveBroadcast($x){
-		$this->isLiveBroadcast = new Text('IsLiveBroadcast',$x);
+		$this->isLiveBroadcast = new Text('isLiveBroadcast',$x);
 		return $this;
 	}
 
@@ -52,7 +52,7 @@ trait TBroadcastEvent{
 	 * @return $this
 	 */
 	public function setSubtitleLanguage($x){
-		$this->subtitleLanguage = new Text('SubtitleLanguage',$x);
+		$this->subtitleLanguage = new Text('subtitleLanguage',$x);
 		return $this;
 	}
 
@@ -61,7 +61,7 @@ trait TBroadcastEvent{
 	 * @return $this
 	 */
 	public function setVideoFormat($x){
-		$this->videoFormat = new Text('VideoFormat',$x);
+		$this->videoFormat = new Text('videoFormat',$x);
 		return $this;
 	}
 

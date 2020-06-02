@@ -28,7 +28,7 @@ trait TCreativeWorkSeries{
 	 * @return $this
 	 */
 	public function setEndDate($x){
-		$this->endDate = new Text('EndDate',$x);
+		$this->endDate = new Text('endDate',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TCreativeWorkSeries{
 	 * @return $this
 	 */
 	public function setIssn($x){
-		$this->issn = new Text('Issn',$x);
+		$this->issn = new Text('issn',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TCreativeWorkSeries{
 	 * @return $this
 	 */
 	public function setStartDate($x){
-		$this->startDate = new Text('StartDate',$x);
+		$this->startDate = new Text('startDate',$x);
 		return $this;
 	}
 

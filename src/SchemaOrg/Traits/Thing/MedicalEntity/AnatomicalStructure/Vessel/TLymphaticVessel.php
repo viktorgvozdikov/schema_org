@@ -28,7 +28,7 @@ trait TLymphaticVessel{
 	 * @return $this
 	 */
 	public function setOriginatesFrom($x){
-		$this->originatesFrom = new Text('OriginatesFrom',$x);
+		$this->originatesFrom = new Text('originatesFrom',$x);
 		return $this;
 	}
 
@@ -37,7 +37,7 @@ trait TLymphaticVessel{
 	 * @return $this
 	 */
 	public function setRegionDrained($x){
-		$this->regionDrained = new Text('RegionDrained',$x);
+		$this->regionDrained = new Text('regionDrained',$x);
 		return $this;
 	}
 
@@ -46,7 +46,7 @@ trait TLymphaticVessel{
 	 * @return $this
 	 */
 	public function setRunsTo($x){
-		$this->runsTo = new Text('RunsTo',$x);
+		$this->runsTo = new Text('runsTo',$x);
 		return $this;
 	}
 

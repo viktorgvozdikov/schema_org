@@ -32,7 +32,7 @@ trait TTVEpisode{
 	 * @return $this
 	 */
 	public function setCountryOfOrigin($x){
-		$this->countryOfOrigin = new Text('CountryOfOrigin',$x);
+		$this->countryOfOrigin = new Text('countryOfOrigin',$x);
 		return $this;
 	}
 
@@ -41,7 +41,7 @@ trait TTVEpisode{
 	 * @return $this
 	 */
 	public function setSubtitleLanguage($x){
-		$this->subtitleLanguage = new Text('SubtitleLanguage',$x);
+		$this->subtitleLanguage = new Text('subtitleLanguage',$x);
 		return $this;
 	}
 
@@ -50,7 +50,7 @@ trait TTVEpisode{
 	 * @return $this
 	 */
 	public function setTitleEIDR($x){
-		$this->titleEIDR = new Text('TitleEIDR',$x);
+		$this->titleEIDR = new Text('titleEIDR',$x);
 		return $this;
 	}
 
